@@ -1,0 +1,3655 @@
+{
+ "level": 30,
+ "tag": "fx-256",
+ "seconds": 60,
+ "results": [
+  {
+   "cls": "mage",
+   "path": "pyro",
+   "family": 5,
+   "weapon": "Flame Staff",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2197,
+   "attackDps": 1898,
+   "abilityDps": 300,
+   "casts": {
+    "RMB": 0,
+    "Q": 0,
+    "E": 9,
+    "R": 5
+   },
+   "resourceEnd": 91
+  },
+  {
+   "cls": "mage",
+   "path": "pyro",
+   "family": 5,
+   "weapon": "Flame Staff",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 9744,
+   "attackDps": 8333,
+   "abilityDps": 1411,
+   "casts": {
+    "RMB": 0,
+    "Q": 0,
+    "E": 9,
+    "R": 5
+   },
+   "resourceEnd": 91
+  },
+  {
+   "cls": "mage",
+   "path": "pyro",
+   "family": 5,
+   "weapon": "Flame Staff",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1562,
+   "attackDps": 621,
+   "abilityDps": 941,
+   "casts": {
+    "RMB": 35,
+    "Q": 0,
+    "E": 1,
+    "R": 1
+   },
+   "resourceEnd": 8
+  },
+  {
+   "cls": "mage",
+   "path": "pyro",
+   "family": 5,
+   "weapon": "Flame Staff",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 10568,
+   "attackDps": 2313,
+   "abilityDps": 8255,
+   "casts": {
+    "RMB": 35,
+    "Q": 0,
+    "E": 1,
+    "R": 1
+   },
+   "resourceEnd": 8
+  },
+  {
+   "cls": "mage",
+   "path": "pyro",
+   "family": 42,
+   "weapon": "Ember Beads",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2198,
+   "attackDps": 1781,
+   "abilityDps": 417,
+   "casts": {
+    "RMB": 8,
+    "Q": 0,
+    "E": 13,
+    "R": 5
+   },
+   "resourceEnd": 15
+  },
+  {
+   "cls": "mage",
+   "path": "pyro",
+   "family": 42,
+   "weapon": "Ember Beads",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 9556,
+   "attackDps": 7126,
+   "abilityDps": 2430,
+   "casts": {
+    "RMB": 8,
+    "Q": 0,
+    "E": 13,
+    "R": 5
+   },
+   "resourceEnd": 15
+  },
+  {
+   "cls": "mage",
+   "path": "pyro",
+   "family": 42,
+   "weapon": "Ember Beads",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1667,
+   "attackDps": 710,
+   "abilityDps": 958,
+   "casts": {
+    "RMB": 35,
+    "Q": 0,
+    "E": 1,
+    "R": 1
+   },
+   "resourceEnd": 5
+  },
+  {
+   "cls": "mage",
+   "path": "pyro",
+   "family": 42,
+   "weapon": "Ember Beads",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 11147,
+   "attackDps": 2838,
+   "abilityDps": 8309,
+   "casts": {
+    "RMB": 35,
+    "Q": 0,
+    "E": 1,
+    "R": 1
+   },
+   "resourceEnd": 5
+  },
+  {
+   "cls": "mage",
+   "path": "pyro",
+   "family": 43,
+   "weapon": "Sun Disc",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2218,
+   "attackDps": 1781,
+   "abilityDps": 437,
+   "casts": {
+    "RMB": 14,
+    "Q": 0,
+    "E": 12,
+    "R": 3
+   },
+   "resourceEnd": 16
+  },
+  {
+   "cls": "mage",
+   "path": "pyro",
+   "family": 43,
+   "weapon": "Sun Disc",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 8393,
+   "attackDps": 5583,
+   "abilityDps": 2811,
+   "casts": {
+    "RMB": 14,
+    "Q": 0,
+    "E": 12,
+    "R": 3
+   },
+   "resourceEnd": 16
+  },
+  {
+   "cls": "mage",
+   "path": "pyro",
+   "family": 43,
+   "weapon": "Sun Disc",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1704,
+   "attackDps": 785,
+   "abilityDps": 919,
+   "casts": {
+    "RMB": 35,
+    "Q": 0,
+    "E": 1,
+    "R": 1
+   },
+   "resourceEnd": 5
+  },
+  {
+   "cls": "mage",
+   "path": "pyro",
+   "family": 43,
+   "weapon": "Sun Disc",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 10615,
+   "attackDps": 2407,
+   "abilityDps": 8208,
+   "casts": {
+    "RMB": 35,
+    "Q": 0,
+    "E": 1,
+    "R": 1
+   },
+   "resourceEnd": 5
+  },
+  {
+   "cls": "mage",
+   "path": "pyro",
+   "family": 44,
+   "weapon": "Flame Gauntlets",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2220,
+   "attackDps": 1936,
+   "abilityDps": 284,
+   "casts": {
+    "RMB": 0,
+    "Q": 0,
+    "E": 14,
+    "R": 4
+   },
+   "resourceEnd": 100
+  },
+  {
+   "cls": "mage",
+   "path": "pyro",
+   "family": 44,
+   "weapon": "Flame Gauntlets",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 10549,
+   "attackDps": 9196,
+   "abilityDps": 1353,
+   "casts": {
+    "RMB": 0,
+    "Q": 0,
+    "E": 14,
+    "R": 4
+   },
+   "resourceEnd": 100
+  },
+  {
+   "cls": "mage",
+   "path": "pyro",
+   "family": 44,
+   "weapon": "Flame Gauntlets",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1579,
+   "attackDps": 656,
+   "abilityDps": 922,
+   "casts": {
+    "RMB": 35,
+    "Q": 0,
+    "E": 1,
+    "R": 1
+   },
+   "resourceEnd": 5
+  },
+  {
+   "cls": "mage",
+   "path": "pyro",
+   "family": 44,
+   "weapon": "Flame Gauntlets",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 10686,
+   "attackDps": 2528,
+   "abilityDps": 8158,
+   "casts": {
+    "RMB": 35,
+    "Q": 0,
+    "E": 1,
+    "R": 1
+   },
+   "resourceEnd": 5
+  },
+  {
+   "cls": "mage",
+   "path": "cryo",
+   "family": 40,
+   "weapon": "Ice Staff",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2201,
+   "attackDps": 1898,
+   "abilityDps": 304,
+   "casts": {
+    "RMB": 0,
+    "Q": 0,
+    "E": 9,
+    "R": 5
+   },
+   "resourceEnd": 91
+  },
+  {
+   "cls": "mage",
+   "path": "cryo",
+   "family": 40,
+   "weapon": "Ice Staff",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 8708,
+   "attackDps": 7013,
+   "abilityDps": 1695,
+   "casts": {
+    "RMB": 0,
+    "Q": 0,
+    "E": 9,
+    "R": 5
+   },
+   "resourceEnd": 91
+  },
+  {
+   "cls": "mage",
+   "path": "cryo",
+   "family": 40,
+   "weapon": "Ice Staff",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "save",
+   "dps": 1390,
+   "attackDps": 692,
+   "abilityDps": 698,
+   "casts": {
+    "RMB": 1,
+    "Q": 0,
+    "E": 17,
+    "R": 6
+   },
+   "resourceEnd": 10
+  },
+  {
+   "cls": "mage",
+   "path": "cryo",
+   "family": 40,
+   "weapon": "Ice Staff",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "save",
+   "dps": 6635,
+   "attackDps": 2580,
+   "abilityDps": 4055,
+   "casts": {
+    "RMB": 1,
+    "Q": 0,
+    "E": 17,
+    "R": 6
+   },
+   "resourceEnd": 10
+  },
+  {
+   "cls": "mage",
+   "path": "cryo",
+   "family": 6,
+   "weapon": "Wand",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2254,
+   "attackDps": 1943,
+   "abilityDps": 310,
+   "casts": {
+    "RMB": 7,
+    "Q": 0,
+    "E": 17,
+    "R": 3
+   },
+   "resourceEnd": 29
+  },
+  {
+   "cls": "mage",
+   "path": "cryo",
+   "family": 6,
+   "weapon": "Wand",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 7706,
+   "attackDps": 5821,
+   "abilityDps": 1885,
+   "casts": {
+    "RMB": 7,
+    "Q": 0,
+    "E": 17,
+    "R": 3
+   },
+   "resourceEnd": 29
+  },
+  {
+   "cls": "mage",
+   "path": "cryo",
+   "family": 6,
+   "weapon": "Wand",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "save",
+   "dps": 1523,
+   "attackDps": 825,
+   "abilityDps": 698,
+   "casts": {
+    "RMB": 1,
+    "Q": 0,
+    "E": 17,
+    "R": 6
+   },
+   "resourceEnd": 7
+  },
+  {
+   "cls": "mage",
+   "path": "cryo",
+   "family": 6,
+   "weapon": "Wand",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "save",
+   "dps": 4880,
+   "attackDps": 825,
+   "abilityDps": 4055,
+   "casts": {
+    "RMB": 1,
+    "Q": 0,
+    "E": 17,
+    "R": 6
+   },
+   "resourceEnd": 7
+  },
+  {
+   "cls": "mage",
+   "path": "cryo",
+   "family": 45,
+   "weapon": "Snow Globe",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2123,
+   "attackDps": 1872,
+   "abilityDps": 250,
+   "casts": {
+    "RMB": 13,
+    "Q": 0,
+    "E": 16,
+    "R": 1
+   },
+   "resourceEnd": 35
+  },
+  {
+   "cls": "mage",
+   "path": "cryo",
+   "family": 45,
+   "weapon": "Snow Globe",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 10929,
+   "attackDps": 9362,
+   "abilityDps": 1567,
+   "casts": {
+    "RMB": 13,
+    "Q": 0,
+    "E": 16,
+    "R": 1
+   },
+   "resourceEnd": 35
+  },
+  {
+   "cls": "mage",
+   "path": "cryo",
+   "family": 45,
+   "weapon": "Snow Globe",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "save",
+   "dps": 1529,
+   "attackDps": 832,
+   "abilityDps": 698,
+   "casts": {
+    "RMB": 1,
+    "Q": 0,
+    "E": 17,
+    "R": 6
+   },
+   "resourceEnd": 7
+  },
+  {
+   "cls": "mage",
+   "path": "cryo",
+   "family": 45,
+   "weapon": "Snow Globe",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "save",
+   "dps": 8214,
+   "attackDps": 4158,
+   "abilityDps": 4055,
+   "casts": {
+    "RMB": 1,
+    "Q": 0,
+    "E": 17,
+    "R": 6
+   },
+   "resourceEnd": 7
+  },
+  {
+   "cls": "mage",
+   "path": "cryo",
+   "family": 46,
+   "weapon": "Freeze Gauntlets",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2199,
+   "attackDps": 1948,
+   "abilityDps": 250,
+   "casts": {
+    "RMB": 13,
+    "Q": 0,
+    "E": 16,
+    "R": 1
+   },
+   "resourceEnd": 35
+  },
+  {
+   "cls": "mage",
+   "path": "cryo",
+   "family": 46,
+   "weapon": "Freeze Gauntlets",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 8455,
+   "attackDps": 6888,
+   "abilityDps": 1567,
+   "casts": {
+    "RMB": 13,
+    "Q": 0,
+    "E": 16,
+    "R": 1
+   },
+   "resourceEnd": 35
+  },
+  {
+   "cls": "mage",
+   "path": "cryo",
+   "family": 46,
+   "weapon": "Freeze Gauntlets",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "save",
+   "dps": 1485,
+   "attackDps": 787,
+   "abilityDps": 698,
+   "casts": {
+    "RMB": 1,
+    "Q": 0,
+    "E": 17,
+    "R": 6
+   },
+   "resourceEnd": 7
+  },
+  {
+   "cls": "mage",
+   "path": "cryo",
+   "family": 46,
+   "weapon": "Freeze Gauntlets",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "save",
+   "dps": 6417,
+   "attackDps": 2362,
+   "abilityDps": 4055,
+   "casts": {
+    "RMB": 1,
+    "Q": 0,
+    "E": 17,
+    "R": 6
+   },
+   "resourceEnd": 7
+  },
+  {
+   "cls": "mage",
+   "path": "storm",
+   "family": 41,
+   "weapon": "Storm Staff",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2233,
+   "attackDps": 1980,
+   "abilityDps": 253,
+   "casts": {
+    "RMB": 0,
+    "Q": 0,
+    "E": 5,
+    "R": 5
+   },
+   "resourceEnd": 100
+  },
+  {
+   "cls": "mage",
+   "path": "storm",
+   "family": 41,
+   "weapon": "Storm Staff",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 9901,
+   "attackDps": 8498,
+   "abilityDps": 1404,
+   "casts": {
+    "RMB": 0,
+    "Q": 0,
+    "E": 5,
+    "R": 5
+   },
+   "resourceEnd": 100
+  },
+  {
+   "cls": "mage",
+   "path": "storm",
+   "family": 41,
+   "weapon": "Storm Staff",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "save",
+   "dps": 1682,
+   "attackDps": 734,
+   "abilityDps": 948,
+   "casts": {
+    "RMB": 10,
+    "Q": 0,
+    "E": 12,
+    "R": 6
+   },
+   "resourceEnd": 10
+  },
+  {
+   "cls": "mage",
+   "path": "storm",
+   "family": 41,
+   "weapon": "Storm Staff",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 7828,
+   "attackDps": 2665,
+   "abilityDps": 5163,
+   "casts": {
+    "RMB": 19,
+    "Q": 0,
+    "E": 12,
+    "R": 1
+   },
+   "resourceEnd": 11
+  },
+  {
+   "cls": "mage",
+   "path": "storm",
+   "family": 47,
+   "weapon": "Lightning Rod",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2198,
+   "attackDps": 1760,
+   "abilityDps": 438,
+   "casts": {
+    "RMB": 5,
+    "Q": 0,
+    "E": 12,
+    "R": 6
+   },
+   "resourceEnd": 98
+  },
+  {
+   "cls": "mage",
+   "path": "storm",
+   "family": 47,
+   "weapon": "Lightning Rod",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 11099,
+   "attackDps": 8800,
+   "abilityDps": 2299,
+   "casts": {
+    "RMB": 5,
+    "Q": 0,
+    "E": 12,
+    "R": 6
+   },
+   "resourceEnd": 98
+  },
+  {
+   "cls": "mage",
+   "path": "storm",
+   "family": 47,
+   "weapon": "Lightning Rod",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1706,
+   "attackDps": 741,
+   "abilityDps": 965,
+   "casts": {
+    "RMB": 19,
+    "Q": 0,
+    "E": 12,
+    "R": 1
+   },
+   "resourceEnd": 12
+  },
+  {
+   "cls": "mage",
+   "path": "storm",
+   "family": 47,
+   "weapon": "Lightning Rod",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 7427,
+   "attackDps": 2244,
+   "abilityDps": 5183,
+   "casts": {
+    "RMB": 19,
+    "Q": 0,
+    "E": 12,
+    "R": 1
+   },
+   "resourceEnd": 12
+  },
+  {
+   "cls": "mage",
+   "path": "storm",
+   "family": 48,
+   "weapon": "Thunder Drum",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2131,
+   "attackDps": 1761,
+   "abilityDps": 370,
+   "casts": {
+    "RMB": 18,
+    "Q": 0,
+    "E": 12,
+    "R": 1
+   },
+   "resourceEnd": 24
+  },
+  {
+   "cls": "mage",
+   "path": "storm",
+   "family": 48,
+   "weapon": "Thunder Drum",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 10847,
+   "attackDps": 8804,
+   "abilityDps": 2042,
+   "casts": {
+    "RMB": 18,
+    "Q": 0,
+    "E": 12,
+    "R": 1
+   },
+   "resourceEnd": 24
+  },
+  {
+   "cls": "mage",
+   "path": "storm",
+   "family": 48,
+   "weapon": "Thunder Drum",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1700,
+   "attackDps": 727,
+   "abilityDps": 973,
+   "casts": {
+    "RMB": 19,
+    "Q": 0,
+    "E": 12,
+    "R": 1
+   },
+   "resourceEnd": 9
+  },
+  {
+   "cls": "mage",
+   "path": "storm",
+   "family": 48,
+   "weapon": "Thunder Drum",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 8845,
+   "attackDps": 3636,
+   "abilityDps": 5209,
+   "casts": {
+    "RMB": 19,
+    "Q": 0,
+    "E": 12,
+    "R": 1
+   },
+   "resourceEnd": 9
+  },
+  {
+   "cls": "mage",
+   "path": "storm",
+   "family": 49,
+   "weapon": "Tesla Scepter",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2201,
+   "attackDps": 1806,
+   "abilityDps": 395,
+   "casts": {
+    "RMB": 5,
+    "Q": 0,
+    "E": 10,
+    "R": 5
+   },
+   "resourceEnd": 100
+  },
+  {
+   "cls": "mage",
+   "path": "storm",
+   "family": 49,
+   "weapon": "Tesla Scepter",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 8720,
+   "attackDps": 6664,
+   "abilityDps": 2056,
+   "casts": {
+    "RMB": 5,
+    "Q": 0,
+    "E": 10,
+    "R": 5
+   },
+   "resourceEnd": 100
+  },
+  {
+   "cls": "mage",
+   "path": "storm",
+   "family": 49,
+   "weapon": "Tesla Scepter",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1760,
+   "attackDps": 741,
+   "abilityDps": 1019,
+   "casts": {
+    "RMB": 19,
+    "Q": 0,
+    "E": 12,
+    "R": 1
+   },
+   "resourceEnd": 9
+  },
+  {
+   "cls": "mage",
+   "path": "storm",
+   "family": 49,
+   "weapon": "Tesla Scepter",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 8128,
+   "attackDps": 2608,
+   "abilityDps": 5520,
+   "casts": {
+    "RMB": 19,
+    "Q": 0,
+    "E": 12,
+    "R": 1
+   },
+   "resourceEnd": 9
+  },
+  {
+   "cls": "mage",
+   "path": "blood",
+   "family": 50,
+   "weapon": "Blood Orb",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2271,
+   "attackDps": 1896,
+   "abilityDps": 376,
+   "casts": {
+    "RMB": 3,
+    "Q": 0,
+    "E": 20,
+    "R": 2
+   },
+   "resourceEnd": 22
+  },
+  {
+   "cls": "mage",
+   "path": "blood",
+   "family": 50,
+   "weapon": "Blood Orb",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 9059,
+   "attackDps": 7268,
+   "abilityDps": 1791,
+   "casts": {
+    "RMB": 3,
+    "Q": 0,
+    "E": 20,
+    "R": 2
+   },
+   "resourceEnd": 22
+  },
+  {
+   "cls": "mage",
+   "path": "blood",
+   "family": 50,
+   "weapon": "Blood Orb",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "save",
+   "dps": 1528,
+   "attackDps": 755,
+   "abilityDps": 774,
+   "casts": {
+    "RMB": 1,
+    "Q": 0,
+    "E": 18,
+    "R": 5
+   },
+   "resourceEnd": 11
+  },
+  {
+   "cls": "mage",
+   "path": "blood",
+   "family": 50,
+   "weapon": "Blood Orb",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "save",
+   "dps": 6554,
+   "attackDps": 2418,
+   "abilityDps": 4137,
+   "casts": {
+    "RMB": 1,
+    "Q": 0,
+    "E": 18,
+    "R": 5
+   },
+   "resourceEnd": 11
+  },
+  {
+   "cls": "mage",
+   "path": "blood",
+   "family": 51,
+   "weapon": "Sacrificial Book",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2201,
+   "attackDps": 1624,
+   "abilityDps": 577,
+   "casts": {
+    "RMB": 3,
+    "Q": 0,
+    "E": 17,
+    "R": 4
+   },
+   "resourceEnd": 11
+  },
+  {
+   "cls": "mage",
+   "path": "blood",
+   "family": 51,
+   "weapon": "Sacrificial Book",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 10852,
+   "attackDps": 8118,
+   "abilityDps": 2733,
+   "casts": {
+    "RMB": 3,
+    "Q": 0,
+    "E": 17,
+    "R": 4
+   },
+   "resourceEnd": 11
+  },
+  {
+   "cls": "mage",
+   "path": "blood",
+   "family": 51,
+   "weapon": "Sacrificial Book",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "save",
+   "dps": 1792,
+   "attackDps": 717,
+   "abilityDps": 1075,
+   "casts": {
+    "RMB": 1,
+    "Q": 0,
+    "E": 18,
+    "R": 5
+   },
+   "resourceEnd": 12
+  },
+  {
+   "cls": "mage",
+   "path": "blood",
+   "family": 51,
+   "weapon": "Sacrificial Book",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "save",
+   "dps": 8903,
+   "attackDps": 3159,
+   "abilityDps": 5744,
+   "casts": {
+    "RMB": 1,
+    "Q": 0,
+    "E": 18,
+    "R": 5
+   },
+   "resourceEnd": 12
+  },
+  {
+   "cls": "mage",
+   "path": "blood",
+   "family": 52,
+   "weapon": "Crimson Lantern",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2204,
+   "attackDps": 1823,
+   "abilityDps": 380,
+   "casts": {
+    "RMB": 3,
+    "Q": 0,
+    "E": 22,
+    "R": 1
+   },
+   "resourceEnd": 13
+  },
+  {
+   "cls": "mage",
+   "path": "blood",
+   "family": 52,
+   "weapon": "Crimson Lantern",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 9880,
+   "attackDps": 8187,
+   "abilityDps": 1693,
+   "casts": {
+    "RMB": 3,
+    "Q": 0,
+    "E": 22,
+    "R": 1
+   },
+   "resourceEnd": 13
+  },
+  {
+   "cls": "mage",
+   "path": "blood",
+   "family": 52,
+   "weapon": "Crimson Lantern",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "save",
+   "dps": 1580,
+   "attackDps": 804,
+   "abilityDps": 776,
+   "casts": {
+    "RMB": 1,
+    "Q": 0,
+    "E": 18,
+    "R": 5
+   },
+   "resourceEnd": 12
+  },
+  {
+   "cls": "mage",
+   "path": "blood",
+   "family": 52,
+   "weapon": "Crimson Lantern",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "save",
+   "dps": 7269,
+   "attackDps": 3132,
+   "abilityDps": 4137,
+   "casts": {
+    "RMB": 1,
+    "Q": 0,
+    "E": 18,
+    "R": 5
+   },
+   "resourceEnd": 12
+  },
+  {
+   "cls": "mage",
+   "path": "blood",
+   "family": 53,
+   "weapon": "Cursed Skull",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2091,
+   "attackDps": 1711,
+   "abilityDps": 380,
+   "casts": {
+    "RMB": 3,
+    "Q": 0,
+    "E": 22,
+    "R": 1
+   },
+   "resourceEnd": 13
+  },
+  {
+   "cls": "mage",
+   "path": "blood",
+   "family": 53,
+   "weapon": "Cursed Skull",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 9343,
+   "attackDps": 7650,
+   "abilityDps": 1693,
+   "casts": {
+    "RMB": 3,
+    "Q": 0,
+    "E": 22,
+    "R": 1
+   },
+   "resourceEnd": 13
+  },
+  {
+   "cls": "mage",
+   "path": "blood",
+   "family": 53,
+   "weapon": "Cursed Skull",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "save",
+   "dps": 1406,
+   "attackDps": 630,
+   "abilityDps": 776,
+   "casts": {
+    "RMB": 1,
+    "Q": 0,
+    "E": 18,
+    "R": 5
+   },
+   "resourceEnd": 12
+  },
+  {
+   "cls": "mage",
+   "path": "blood",
+   "family": 53,
+   "weapon": "Cursed Skull",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "save",
+   "dps": 6879,
+   "attackDps": 2742,
+   "abilityDps": 4137,
+   "casts": {
+    "RMB": 1,
+    "Q": 0,
+    "E": 18,
+    "R": 5
+   },
+   "resourceEnd": 12
+  },
+  {
+   "cls": "sword",
+   "path": "berserker",
+   "family": 0,
+   "weapon": "Longsword",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2266,
+   "attackDps": 1620,
+   "abilityDps": 646,
+   "casts": {
+    "RMB": 7,
+    "Q": 0,
+    "E": 7,
+    "R": 3
+   },
+   "resourceEnd": 22
+  },
+  {
+   "cls": "sword",
+   "path": "berserker",
+   "family": 0,
+   "weapon": "Longsword",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 7161,
+   "attackDps": 5063,
+   "abilityDps": 2098,
+   "casts": {
+    "RMB": 6,
+    "Q": 0,
+    "E": 7,
+    "R": 3
+   },
+   "resourceEnd": 28
+  },
+  {
+   "cls": "sword",
+   "path": "berserker",
+   "family": 0,
+   "weapon": "Longsword",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "save",
+   "dps": 1572,
+   "attackDps": 677,
+   "abilityDps": 895,
+   "casts": {
+    "RMB": 0,
+    "Q": 0,
+    "E": 9,
+    "R": 3
+   },
+   "resourceEnd": 36
+  },
+  {
+   "cls": "sword",
+   "path": "berserker",
+   "family": 0,
+   "weapon": "Longsword",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 3963,
+   "attackDps": 1131,
+   "abilityDps": 2832,
+   "casts": {
+    "RMB": 14,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 17
+  },
+  {
+   "cls": "sword",
+   "path": "berserker",
+   "family": 2,
+   "weapon": "Twin Blades",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2403,
+   "attackDps": 1904,
+   "abilityDps": 499,
+   "casts": {
+    "RMB": 3,
+    "Q": 0,
+    "E": 3,
+    "R": 3
+   },
+   "resourceEnd": 78
+  },
+  {
+   "cls": "sword",
+   "path": "berserker",
+   "family": 2,
+   "weapon": "Twin Blades",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 8718,
+   "attackDps": 7112,
+   "abilityDps": 1606,
+   "casts": {
+    "RMB": 2,
+    "Q": 0,
+    "E": 2,
+    "R": 3
+   },
+   "resourceEnd": 100
+  },
+  {
+   "cls": "sword",
+   "path": "berserker",
+   "family": 2,
+   "weapon": "Twin Blades",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "save",
+   "dps": 1625,
+   "attackDps": 730,
+   "abilityDps": 895,
+   "casts": {
+    "RMB": 0,
+    "Q": 0,
+    "E": 9,
+    "R": 3
+   },
+   "resourceEnd": 13
+  },
+  {
+   "cls": "sword",
+   "path": "berserker",
+   "family": 2,
+   "weapon": "Twin Blades",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 4273,
+   "attackDps": 1735,
+   "abilityDps": 2538,
+   "casts": {
+    "RMB": 13,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 8
+  },
+  {
+   "cls": "sword",
+   "path": "berserker",
+   "family": 3,
+   "weapon": "Throwing Axe",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2415,
+   "attackDps": 1893,
+   "abilityDps": 522,
+   "casts": {
+    "RMB": 0,
+    "Q": 0,
+    "E": 9,
+    "R": 4
+   },
+   "resourceEnd": 62
+  },
+  {
+   "cls": "sword",
+   "path": "berserker",
+   "family": 3,
+   "weapon": "Throwing Axe",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 8735,
+   "attackDps": 7089,
+   "abilityDps": 1647,
+   "casts": {
+    "RMB": 0,
+    "Q": 0,
+    "E": 9,
+    "R": 4
+   },
+   "resourceEnd": 59
+  },
+  {
+   "cls": "sword",
+   "path": "berserker",
+   "family": 3,
+   "weapon": "Throwing Axe",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1634,
+   "attackDps": 634,
+   "abilityDps": 1000,
+   "casts": {
+    "RMB": 26,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 7
+  },
+  {
+   "cls": "sword",
+   "path": "berserker",
+   "family": 3,
+   "weapon": "Throwing Axe",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 6005,
+   "attackDps": 1391,
+   "abilityDps": 4614,
+   "casts": {
+    "RMB": 24,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 3
+  },
+  {
+   "cls": "sword",
+   "path": "berserker",
+   "family": 29,
+   "weapon": "Maul",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1819,
+   "attackDps": 1357,
+   "abilityDps": 462,
+   "casts": {
+    "RMB": 6,
+    "Q": 0,
+    "E": 9,
+    "R": 2
+   },
+   "resourceEnd": 42
+  },
+  {
+   "cls": "sword",
+   "path": "berserker",
+   "family": 29,
+   "weapon": "Maul",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 9894,
+   "attackDps": 8766,
+   "abilityDps": 1128,
+   "casts": {
+    "RMB": 5,
+    "Q": 0,
+    "E": 4,
+    "R": 2
+   },
+   "resourceEnd": 15
+  },
+  {
+   "cls": "sword",
+   "path": "berserker",
+   "family": 29,
+   "weapon": "Maul",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1380,
+   "attackDps": 531,
+   "abilityDps": 849,
+   "casts": {
+    "RMB": 22,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 14
+  },
+  {
+   "cls": "sword",
+   "path": "berserker",
+   "family": 29,
+   "weapon": "Maul",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 4847,
+   "attackDps": 2962,
+   "abilityDps": 1885,
+   "casts": {
+    "RMB": 10,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 2
+  },
+  {
+   "cls": "sword",
+   "path": "vanguard",
+   "family": 1,
+   "weapon": "Greatsword",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1359,
+   "attackDps": 1100,
+   "abilityDps": 259,
+   "casts": {
+    "RMB": 1,
+    "Q": 0,
+    "E": 18,
+    "R": 0
+   },
+   "resourceEnd": 14
+  },
+  {
+   "cls": "sword",
+   "path": "vanguard",
+   "family": 1,
+   "weapon": "Greatsword",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 5614,
+   "attackDps": 4675,
+   "abilityDps": 939,
+   "casts": {
+    "RMB": 1,
+    "Q": 0,
+    "E": 18,
+    "R": 0
+   },
+   "resourceEnd": 14
+  },
+  {
+   "cls": "sword",
+   "path": "vanguard",
+   "family": 1,
+   "weapon": "Greatsword",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2004,
+   "attackDps": 472,
+   "abilityDps": 1532,
+   "casts": {
+    "RMB": 25,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 17
+  },
+  {
+   "cls": "sword",
+   "path": "vanguard",
+   "family": 1,
+   "weapon": "Greatsword",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 9296,
+   "attackDps": 1677,
+   "abilityDps": 7620,
+   "casts": {
+    "RMB": 25,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 17
+  },
+  {
+   "cls": "sword",
+   "path": "vanguard",
+   "family": 11,
+   "weapon": "Warhammer",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1349,
+   "attackDps": 1100,
+   "abilityDps": 249,
+   "casts": {
+    "RMB": 0,
+    "Q": 0,
+    "E": 19,
+    "R": 0
+   },
+   "resourceEnd": 15
+  },
+  {
+   "cls": "sword",
+   "path": "vanguard",
+   "family": 11,
+   "weapon": "Warhammer",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 5681,
+   "attackDps": 4803,
+   "abilityDps": 878,
+   "casts": {
+    "RMB": 0,
+    "Q": 0,
+    "E": 19,
+    "R": 0
+   },
+   "resourceEnd": 15
+  },
+  {
+   "cls": "sword",
+   "path": "vanguard",
+   "family": 11,
+   "weapon": "Warhammer",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1995,
+   "attackDps": 463,
+   "abilityDps": 1532,
+   "casts": {
+    "RMB": 25,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 16
+  },
+  {
+   "cls": "sword",
+   "path": "vanguard",
+   "family": 11,
+   "weapon": "Warhammer",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 9101,
+   "attackDps": 1502,
+   "abilityDps": 7599,
+   "casts": {
+    "RMB": 25,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 16
+  },
+  {
+   "cls": "sword",
+   "path": "vanguard",
+   "family": 30,
+   "weapon": "Greataxe",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1566,
+   "attackDps": 1461,
+   "abilityDps": 105,
+   "casts": {
+    "RMB": 0,
+    "Q": 0,
+    "E": 8,
+    "R": 4
+   },
+   "resourceEnd": 97
+  },
+  {
+   "cls": "sword",
+   "path": "vanguard",
+   "family": 30,
+   "weapon": "Greataxe",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 6806,
+   "attackDps": 6373,
+   "abilityDps": 432,
+   "casts": {
+    "RMB": 0,
+    "Q": 0,
+    "E": 8,
+    "R": 4
+   },
+   "resourceEnd": 97
+  },
+  {
+   "cls": "sword",
+   "path": "vanguard",
+   "family": 30,
+   "weapon": "Greataxe",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2135,
+   "attackDps": 623,
+   "abilityDps": 1512,
+   "casts": {
+    "RMB": 25,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 14
+  },
+  {
+   "cls": "sword",
+   "path": "vanguard",
+   "family": 30,
+   "weapon": "Greataxe",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 9796,
+   "attackDps": 2320,
+   "abilityDps": 7477,
+   "casts": {
+    "RMB": 25,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 14
+  },
+  {
+   "cls": "sword",
+   "path": "vanguard",
+   "family": 31,
+   "weapon": "Spear and Shield",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1532,
+   "attackDps": 1467,
+   "abilityDps": 66,
+   "casts": {
+    "RMB": 0,
+    "Q": 0,
+    "E": 5,
+    "R": 5
+   },
+   "resourceEnd": 65
+  },
+  {
+   "cls": "sword",
+   "path": "vanguard",
+   "family": 31,
+   "weapon": "Spear and Shield",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 4971,
+   "attackDps": 4748,
+   "abilityDps": 223,
+   "casts": {
+    "RMB": 0,
+    "Q": 0,
+    "E": 5,
+    "R": 5
+   },
+   "resourceEnd": 65
+  },
+  {
+   "cls": "sword",
+   "path": "vanguard",
+   "family": 31,
+   "weapon": "Spear and Shield",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1912,
+   "attackDps": 563,
+   "abilityDps": 1348,
+   "casts": {
+    "RMB": 22,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 17
+  },
+  {
+   "cls": "sword",
+   "path": "vanguard",
+   "family": 31,
+   "weapon": "Spear and Shield",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 8249,
+   "attackDps": 1528,
+   "abilityDps": 6721,
+   "casts": {
+    "RMB": 22,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 17
+  },
+  {
+   "cls": "sword",
+   "path": "spellblade",
+   "family": 32,
+   "weapon": "Runeblade",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1688,
+   "attackDps": 1291,
+   "abilityDps": 397,
+   "casts": {
+    "RMB": 4,
+    "Q": 0,
+    "E": 5,
+    "R": 4
+   },
+   "resourceEnd": 97
+  },
+  {
+   "cls": "sword",
+   "path": "spellblade",
+   "family": 32,
+   "weapon": "Runeblade",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 9000,
+   "attackDps": 6281,
+   "abilityDps": 2719,
+   "casts": {
+    "RMB": 4,
+    "Q": 0,
+    "E": 5,
+    "R": 4
+   },
+   "resourceEnd": 97
+  },
+  {
+   "cls": "sword",
+   "path": "spellblade",
+   "family": 32,
+   "weapon": "Runeblade",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2234,
+   "attackDps": 500,
+   "abilityDps": 1734,
+   "casts": {
+    "RMB": 27,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 14
+  },
+  {
+   "cls": "sword",
+   "path": "spellblade",
+   "family": 32,
+   "weapon": "Runeblade",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "save",
+   "dps": 7668,
+   "attackDps": 2168,
+   "abilityDps": 5500,
+   "casts": {
+    "RMB": 8,
+    "Q": 0,
+    "E": 4,
+    "R": 4
+   },
+   "resourceEnd": 34
+  },
+  {
+   "cls": "sword",
+   "path": "spellblade",
+   "family": 33,
+   "weapon": "Runed Gauntlets",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1998,
+   "attackDps": 1928,
+   "abilityDps": 70,
+   "casts": {
+    "RMB": 0,
+    "Q": 0,
+    "E": 1,
+    "R": 0
+   },
+   "resourceEnd": 100
+  },
+  {
+   "cls": "sword",
+   "path": "spellblade",
+   "family": 33,
+   "weapon": "Runed Gauntlets",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 10777,
+   "attackDps": 10717,
+   "abilityDps": 60,
+   "casts": {
+    "RMB": 1,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 100
+  },
+  {
+   "cls": "sword",
+   "path": "spellblade",
+   "family": 33,
+   "weapon": "Runed Gauntlets",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1818,
+   "attackDps": 778,
+   "abilityDps": 1039,
+   "casts": {
+    "RMB": 14,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 13
+  },
+  {
+   "cls": "sword",
+   "path": "spellblade",
+   "family": 33,
+   "weapon": "Runed Gauntlets",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 5936,
+   "attackDps": 3919,
+   "abilityDps": 2017,
+   "casts": {
+    "RMB": 10,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 4
+  },
+  {
+   "cls": "sword",
+   "path": "spellblade",
+   "family": 34,
+   "weapon": "Elemental Katana",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1993,
+   "attackDps": 1445,
+   "abilityDps": 548,
+   "casts": {
+    "RMB": 9,
+    "Q": 0,
+    "E": 7,
+    "R": 3
+   },
+   "resourceEnd": 23
+  },
+  {
+   "cls": "sword",
+   "path": "spellblade",
+   "family": 34,
+   "weapon": "Elemental Katana",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 9811,
+   "attackDps": 7479,
+   "abilityDps": 2332,
+   "casts": {
+    "RMB": 10,
+    "Q": 0,
+    "E": 9,
+    "R": 0
+   },
+   "resourceEnd": 22
+  },
+  {
+   "cls": "sword",
+   "path": "spellblade",
+   "family": 34,
+   "weapon": "Elemental Katana",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2293,
+   "attackDps": 610,
+   "abilityDps": 1683,
+   "casts": {
+    "RMB": 27,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 1
+  },
+  {
+   "cls": "sword",
+   "path": "spellblade",
+   "family": 34,
+   "weapon": "Elemental Katana",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "save",
+   "dps": 8584,
+   "attackDps": 3341,
+   "abilityDps": 5243,
+   "casts": {
+    "RMB": 6,
+    "Q": 0,
+    "E": 4,
+    "R": 4
+   },
+   "resourceEnd": 1
+  },
+  {
+   "cls": "sword",
+   "path": "spellblade",
+   "family": 35,
+   "weapon": "Enchanted Spear",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1713,
+   "attackDps": 1122,
+   "abilityDps": 591,
+   "casts": {
+    "RMB": 5,
+    "Q": 0,
+    "E": 8,
+    "R": 4
+   },
+   "resourceEnd": 35
+  },
+  {
+   "cls": "sword",
+   "path": "spellblade",
+   "family": 35,
+   "weapon": "Enchanted Spear",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 8396,
+   "attackDps": 5610,
+   "abilityDps": 2786,
+   "casts": {
+    "RMB": 5,
+    "Q": 0,
+    "E": 8,
+    "R": 4
+   },
+   "resourceEnd": 35
+  },
+  {
+   "cls": "sword",
+   "path": "spellblade",
+   "family": 35,
+   "weapon": "Enchanted Spear",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2123,
+   "attackDps": 441,
+   "abilityDps": 1682,
+   "casts": {
+    "RMB": 27,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 12
+  },
+  {
+   "cls": "sword",
+   "path": "spellblade",
+   "family": 35,
+   "weapon": "Enchanted Spear",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "save",
+   "dps": 7247,
+   "attackDps": 2174,
+   "abilityDps": 5073,
+   "casts": {
+    "RMB": 8,
+    "Q": 0,
+    "E": 4,
+    "R": 4
+   },
+   "resourceEnd": 33
+  },
+  {
+   "cls": "sword",
+   "path": "warlord",
+   "family": 36,
+   "weapon": "War Standard",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2137,
+   "attackDps": 1801,
+   "abilityDps": 335,
+   "casts": {
+    "RMB": 6,
+    "Q": 0,
+    "E": 8,
+    "R": 0
+   },
+   "resourceEnd": 9
+  },
+  {
+   "cls": "sword",
+   "path": "warlord",
+   "family": 36,
+   "weapon": "War Standard",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 10533,
+   "attackDps": 9007,
+   "abilityDps": 1526,
+   "casts": {
+    "RMB": 4,
+    "Q": 0,
+    "E": 9,
+    "R": 0
+   },
+   "resourceEnd": 18
+  },
+  {
+   "cls": "sword",
+   "path": "warlord",
+   "family": 36,
+   "weapon": "War Standard",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2014,
+   "attackDps": 858,
+   "abilityDps": 1156,
+   "casts": {
+    "RMB": 23,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 11
+  },
+  {
+   "cls": "sword",
+   "path": "warlord",
+   "family": 36,
+   "weapon": "War Standard",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 8330,
+   "attackDps": 4290,
+   "abilityDps": 4040,
+   "casts": {
+    "RMB": 25,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 18
+  },
+  {
+   "cls": "sword",
+   "path": "warlord",
+   "family": 37,
+   "weapon": "Great Lance",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1161,
+   "attackDps": 857,
+   "abilityDps": 304,
+   "casts": {
+    "RMB": 2,
+    "Q": 0,
+    "E": 4,
+    "R": 5
+   },
+   "resourceEnd": 49
+  },
+  {
+   "cls": "sword",
+   "path": "warlord",
+   "family": 37,
+   "weapon": "Great Lance",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 6977,
+   "attackDps": 5877,
+   "abilityDps": 1101,
+   "casts": {
+    "RMB": 1,
+    "Q": 0,
+    "E": 5,
+    "R": 5
+   },
+   "resourceEnd": 32
+  },
+  {
+   "cls": "sword",
+   "path": "warlord",
+   "family": 37,
+   "weapon": "Great Lance",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2127,
+   "attackDps": 468,
+   "abilityDps": 1659,
+   "casts": {
+    "RMB": 33,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 17
+  },
+  {
+   "cls": "sword",
+   "path": "warlord",
+   "family": 37,
+   "weapon": "Great Lance",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 8338,
+   "attackDps": 2921,
+   "abilityDps": 5416,
+   "casts": {
+    "RMB": 34,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 20
+  },
+  {
+   "cls": "sword",
+   "path": "warlord",
+   "family": 38,
+   "weapon": "Chain Axe",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1314,
+   "attackDps": 1285,
+   "abilityDps": 29,
+   "casts": {
+    "RMB": 0,
+    "Q": 0,
+    "E": 1,
+    "R": 0
+   },
+   "resourceEnd": 100
+  },
+  {
+   "cls": "sword",
+   "path": "warlord",
+   "family": 38,
+   "weapon": "Chain Axe",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 7898,
+   "attackDps": 7821,
+   "abilityDps": 77,
+   "casts": {
+    "RMB": 0,
+    "Q": 0,
+    "E": 1,
+    "R": 0
+   },
+   "resourceEnd": 100
+  },
+  {
+   "cls": "sword",
+   "path": "warlord",
+   "family": 38,
+   "weapon": "Chain Axe",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2162,
+   "attackDps": 503,
+   "abilityDps": 1659,
+   "casts": {
+    "RMB": 33,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 20
+  },
+  {
+   "cls": "sword",
+   "path": "warlord",
+   "family": 38,
+   "weapon": "Chain Axe",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 7590,
+   "attackDps": 2501,
+   "abilityDps": 5090,
+   "casts": {
+    "RMB": 32,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 14
+  },
+  {
+   "cls": "sword",
+   "path": "warlord",
+   "family": 39,
+   "weapon": "Royal Glaive",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1161,
+   "attackDps": 875,
+   "abilityDps": 287,
+   "casts": {
+    "RMB": 1,
+    "Q": 0,
+    "E": 4,
+    "R": 5
+   },
+   "resourceEnd": 73
+  },
+  {
+   "cls": "sword",
+   "path": "warlord",
+   "family": 39,
+   "weapon": "Royal Glaive",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 5268,
+   "attackDps": 4340,
+   "abilityDps": 928,
+   "casts": {
+    "RMB": 1,
+    "Q": 0,
+    "E": 4,
+    "R": 5
+   },
+   "resourceEnd": 73
+  },
+  {
+   "cls": "sword",
+   "path": "warlord",
+   "family": 39,
+   "weapon": "Royal Glaive",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2181,
+   "attackDps": 472,
+   "abilityDps": 1709,
+   "casts": {
+    "RMB": 34,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 4
+  },
+  {
+   "cls": "sword",
+   "path": "warlord",
+   "family": 39,
+   "weapon": "Royal Glaive",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 7890,
+   "attackDps": 2022,
+   "abilityDps": 5869,
+   "casts": {
+    "RMB": 37,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 14
+  },
+  {
+   "cls": "ranger",
+   "path": "archer",
+   "family": 14,
+   "weapon": "Short Bow",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1999,
+   "attackDps": 1380,
+   "abilityDps": 619,
+   "casts": {
+    "RMB": 15,
+    "Q": 11,
+    "E": 14,
+    "R": 0
+   },
+   "resourceEnd": 33
+  },
+  {
+   "cls": "ranger",
+   "path": "archer",
+   "family": 14,
+   "weapon": "Short Bow",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 7174,
+   "attackDps": 4127,
+   "abilityDps": 3047,
+   "casts": {
+    "RMB": 15,
+    "Q": 11,
+    "E": 14,
+    "R": 0
+   },
+   "resourceEnd": 33
+  },
+  {
+   "cls": "ranger",
+   "path": "archer",
+   "family": 14,
+   "weapon": "Short Bow",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2782,
+   "attackDps": 438,
+   "abilityDps": 2344,
+   "casts": {
+    "RMB": 27,
+    "Q": 102,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 1
+  },
+  {
+   "cls": "ranger",
+   "path": "archer",
+   "family": 14,
+   "weapon": "Short Bow",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 9065,
+   "attackDps": 429,
+   "abilityDps": 8636,
+   "casts": {
+    "RMB": 26,
+    "Q": 104,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 7
+  },
+  {
+   "cls": "ranger",
+   "path": "archer",
+   "family": 13,
+   "weapon": "Long Bow",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2036,
+   "attackDps": 1424,
+   "abilityDps": 612,
+   "casts": {
+    "RMB": 15,
+    "Q": 11,
+    "E": 14,
+    "R": 0
+   },
+   "resourceEnd": 35
+  },
+  {
+   "cls": "ranger",
+   "path": "archer",
+   "family": 13,
+   "weapon": "Long Bow",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 7305,
+   "attackDps": 4273,
+   "abilityDps": 3032,
+   "casts": {
+    "RMB": 15,
+    "Q": 11,
+    "E": 14,
+    "R": 0
+   },
+   "resourceEnd": 35
+  },
+  {
+   "cls": "ranger",
+   "path": "archer",
+   "family": 13,
+   "weapon": "Long Bow",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2771,
+   "attackDps": 483,
+   "abilityDps": 2289,
+   "casts": {
+    "RMB": 28,
+    "Q": 103,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 13
+  },
+  {
+   "cls": "ranger",
+   "path": "archer",
+   "family": 13,
+   "weapon": "Long Bow",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 9580,
+   "attackDps": 472,
+   "abilityDps": 9108,
+   "casts": {
+    "RMB": 28,
+    "Q": 102,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 5
+  },
+  {
+   "cls": "ranger",
+   "path": "archer",
+   "family": 16,
+   "weapon": "Crossbow",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1741,
+   "attackDps": 1116,
+   "abilityDps": 625,
+   "casts": {
+    "RMB": 15,
+    "Q": 10,
+    "E": 15,
+    "R": 0
+   },
+   "resourceEnd": 34
+  },
+  {
+   "cls": "ranger",
+   "path": "archer",
+   "family": 16,
+   "weapon": "Crossbow",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 6464,
+   "attackDps": 3349,
+   "abilityDps": 3116,
+   "casts": {
+    "RMB": 15,
+    "Q": 10,
+    "E": 15,
+    "R": 0
+   },
+   "resourceEnd": 34
+  },
+  {
+   "cls": "ranger",
+   "path": "archer",
+   "family": 16,
+   "weapon": "Crossbow",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2731,
+   "attackDps": 416,
+   "abilityDps": 2315,
+   "casts": {
+    "RMB": 30,
+    "Q": 91,
+    "E": 1,
+    "R": 0
+   },
+   "resourceEnd": 21
+  },
+  {
+   "cls": "ranger",
+   "path": "archer",
+   "family": 16,
+   "weapon": "Crossbow",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 9853,
+   "attackDps": 416,
+   "abilityDps": 9437,
+   "casts": {
+    "RMB": 30,
+    "Q": 92,
+    "E": 1,
+    "R": 0
+   },
+   "resourceEnd": 21
+  },
+  {
+   "cls": "ranger",
+   "path": "archer",
+   "family": 19,
+   "weapon": "Falconer's Glove",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1198,
+   "attackDps": 712,
+   "abilityDps": 486,
+   "casts": {
+    "RMB": 14,
+    "Q": 18,
+    "E": 8,
+    "R": 0
+   },
+   "resourceEnd": 11
+  },
+  {
+   "cls": "ranger",
+   "path": "archer",
+   "family": 19,
+   "weapon": "Falconer's Glove",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 5960,
+   "attackDps": 3522,
+   "abilityDps": 2438,
+   "casts": {
+    "RMB": 14,
+    "Q": 18,
+    "E": 8,
+    "R": 0
+   },
+   "resourceEnd": 11
+  },
+  {
+   "cls": "ranger",
+   "path": "archer",
+   "family": 19,
+   "weapon": "Falconer's Glove",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2068,
+   "attackDps": 314,
+   "abilityDps": 1754,
+   "casts": {
+    "RMB": 19,
+    "Q": 118,
+    "E": 4,
+    "R": 0
+   },
+   "resourceEnd": 4
+  },
+  {
+   "cls": "ranger",
+   "path": "archer",
+   "family": 19,
+   "weapon": "Falconer's Glove",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 8685,
+   "attackDps": 1387,
+   "abilityDps": 7298,
+   "casts": {
+    "RMB": 19,
+    "Q": 118,
+    "E": 4,
+    "R": 0
+   },
+   "resourceEnd": 4
+  },
+  {
+   "cls": "ranger",
+   "path": "ninja",
+   "family": 15,
+   "weapon": "Shuriken",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2201,
+   "attackDps": 2059,
+   "abilityDps": 142,
+   "casts": {
+    "RMB": 18,
+    "Q": 0,
+    "E": 21,
+    "R": 0
+   },
+   "resourceEnd": 17
+  },
+  {
+   "cls": "ranger",
+   "path": "ninja",
+   "family": 15,
+   "weapon": "Shuriken",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 7203,
+   "attackDps": 6667,
+   "abilityDps": 536,
+   "casts": {
+    "RMB": 18,
+    "Q": 0,
+    "E": 21,
+    "R": 0
+   },
+   "resourceEnd": 17
+  },
+  {
+   "cls": "ranger",
+   "path": "ninja",
+   "family": 15,
+   "weapon": "Shuriken",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1800,
+   "attackDps": 1181,
+   "abilityDps": 620,
+   "casts": {
+    "RMB": 81,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 6
+  },
+  {
+   "cls": "ranger",
+   "path": "ninja",
+   "family": 15,
+   "weapon": "Shuriken",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 4284,
+   "attackDps": 1187,
+   "abilityDps": 3098,
+   "casts": {
+    "RMB": 81,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 6
+  },
+  {
+   "cls": "ranger",
+   "path": "ninja",
+   "family": 17,
+   "weapon": "Kunai",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2204,
+   "attackDps": 2068,
+   "abilityDps": 136,
+   "casts": {
+    "RMB": 18,
+    "Q": 0,
+    "E": 21,
+    "R": 0
+   },
+   "resourceEnd": 14
+  },
+  {
+   "cls": "ranger",
+   "path": "ninja",
+   "family": 17,
+   "weapon": "Kunai",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 10856,
+   "attackDps": 10340,
+   "abilityDps": 516,
+   "casts": {
+    "RMB": 18,
+    "Q": 0,
+    "E": 21,
+    "R": 0
+   },
+   "resourceEnd": 14
+  },
+  {
+   "cls": "ranger",
+   "path": "ninja",
+   "family": 17,
+   "weapon": "Kunai",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "save",
+   "dps": 2112,
+   "attackDps": 1468,
+   "abilityDps": 644,
+   "casts": {
+    "RMB": 23,
+    "Q": 0,
+    "E": 23,
+    "R": 3
+   },
+   "resourceEnd": 10
+  },
+  {
+   "cls": "ranger",
+   "path": "ninja",
+   "family": 17,
+   "weapon": "Kunai",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "save",
+   "dps": 7151,
+   "attackDps": 4359,
+   "abilityDps": 2792,
+   "casts": {
+    "RMB": 23,
+    "Q": 0,
+    "E": 23,
+    "R": 3
+   },
+   "resourceEnd": 3
+  },
+  {
+   "cls": "ranger",
+   "path": "ninja",
+   "family": 22,
+   "weapon": "Daggers",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2266,
+   "attackDps": 1976,
+   "abilityDps": 291,
+   "casts": {
+    "RMB": 18,
+    "Q": 0,
+    "E": 21,
+    "R": 0
+   },
+   "resourceEnd": 16
+  },
+  {
+   "cls": "ranger",
+   "path": "ninja",
+   "family": 22,
+   "weapon": "Daggers",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 7032,
+   "attackDps": 5910,
+   "abilityDps": 1122,
+   "casts": {
+    "RMB": 18,
+    "Q": 0,
+    "E": 21,
+    "R": 0
+   },
+   "resourceEnd": 16
+  },
+  {
+   "cls": "ranger",
+   "path": "ninja",
+   "family": 22,
+   "weapon": "Daggers",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "save",
+   "dps": 2421,
+   "attackDps": 1434,
+   "abilityDps": 987,
+   "casts": {
+    "RMB": 24,
+    "Q": 0,
+    "E": 24,
+    "R": 3
+   },
+   "resourceEnd": 5
+  },
+  {
+   "cls": "ranger",
+   "path": "ninja",
+   "family": 22,
+   "weapon": "Daggers",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "save",
+   "dps": 8309,
+   "attackDps": 4249,
+   "abilityDps": 4060,
+   "casts": {
+    "RMB": 23,
+    "Q": 0,
+    "E": 24,
+    "R": 3
+   },
+   "resourceEnd": 4
+  },
+  {
+   "cls": "ranger",
+   "path": "ninja",
+   "family": 21,
+   "weapon": "Chakram",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2199,
+   "attackDps": 2146,
+   "abilityDps": 54,
+   "casts": {
+    "RMB": 2,
+    "Q": 0,
+    "E": 18,
+    "R": 0
+   },
+   "resourceEnd": 6
+  },
+  {
+   "cls": "ranger",
+   "path": "ninja",
+   "family": 21,
+   "weapon": "Chakram",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 10838,
+   "attackDps": 10645,
+   "abilityDps": 193,
+   "casts": {
+    "RMB": 2,
+    "Q": 0,
+    "E": 18,
+    "R": 0
+   },
+   "resourceEnd": 6
+  },
+  {
+   "cls": "ranger",
+   "path": "ninja",
+   "family": 21,
+   "weapon": "Chakram",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "save",
+   "dps": 1713,
+   "attackDps": 1559,
+   "abilityDps": 153,
+   "casts": {
+    "RMB": 2,
+    "Q": 0,
+    "E": 14,
+    "R": 2
+   },
+   "resourceEnd": 3
+  },
+  {
+   "cls": "ranger",
+   "path": "ninja",
+   "family": 21,
+   "weapon": "Chakram",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 7720,
+   "attackDps": 7098,
+   "abilityDps": 623,
+   "casts": {
+    "RMB": 2,
+    "Q": 0,
+    "E": 22,
+    "R": 0
+   },
+   "resourceEnd": 6
+  },
+  {
+   "cls": "ranger",
+   "path": "alchemist",
+   "family": 23,
+   "weapon": "Potion Satchel",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1962,
+   "attackDps": 1456,
+   "abilityDps": 506,
+   "casts": {
+    "RMB": 19,
+    "Q": 0,
+    "E": 15,
+    "R": 5
+   },
+   "resourceEnd": 25
+  },
+  {
+   "cls": "ranger",
+   "path": "alchemist",
+   "family": 23,
+   "weapon": "Potion Satchel",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 9809,
+   "attackDps": 7280,
+   "abilityDps": 2530,
+   "casts": {
+    "RMB": 19,
+    "Q": 0,
+    "E": 15,
+    "R": 5
+   },
+   "resourceEnd": 25
+  },
+  {
+   "cls": "ranger",
+   "path": "alchemist",
+   "family": 23,
+   "weapon": "Potion Satchel",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1989,
+   "attackDps": 584,
+   "abilityDps": 1405,
+   "casts": {
+    "RMB": 107,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 2
+  },
+  {
+   "cls": "ranger",
+   "path": "alchemist",
+   "family": 23,
+   "weapon": "Potion Satchel",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 9947,
+   "attackDps": 2919,
+   "abilityDps": 7027,
+   "casts": {
+    "RMB": 107,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 2
+  },
+  {
+   "cls": "ranger",
+   "path": "alchemist",
+   "family": 24,
+   "weapon": "Bomb Bag",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2074,
+   "attackDps": 1616,
+   "abilityDps": 458,
+   "casts": {
+    "RMB": 18,
+    "Q": 0,
+    "E": 16,
+    "R": 5
+   },
+   "resourceEnd": 38
+  },
+  {
+   "cls": "ranger",
+   "path": "alchemist",
+   "family": 24,
+   "weapon": "Bomb Bag",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 10970,
+   "attackDps": 8680,
+   "abilityDps": 2291,
+   "casts": {
+    "RMB": 18,
+    "Q": 0,
+    "E": 16,
+    "R": 5
+   },
+   "resourceEnd": 38
+  },
+  {
+   "cls": "ranger",
+   "path": "alchemist",
+   "family": 24,
+   "weapon": "Bomb Bag",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2009,
+   "attackDps": 590,
+   "abilityDps": 1419,
+   "casts": {
+    "RMB": 111,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 1
+  },
+  {
+   "cls": "ranger",
+   "path": "alchemist",
+   "family": 24,
+   "weapon": "Bomb Bag",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 10438,
+   "attackDps": 3343,
+   "abilityDps": 7095,
+   "casts": {
+    "RMB": 111,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 1
+  },
+  {
+   "cls": "ranger",
+   "path": "alchemist",
+   "family": 25,
+   "weapon": "Toxic Canister",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1953,
+   "attackDps": 1798,
+   "abilityDps": 154,
+   "casts": {
+    "RMB": 0,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 0
+  },
+  {
+   "cls": "ranger",
+   "path": "alchemist",
+   "family": 25,
+   "weapon": "Toxic Canister",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 10287,
+   "attackDps": 9518,
+   "abilityDps": 769,
+   "casts": {
+    "RMB": 0,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 0
+  },
+  {
+   "cls": "ranger",
+   "path": "alchemist",
+   "family": 25,
+   "weapon": "Toxic Canister",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1126,
+   "attackDps": 849,
+   "abilityDps": 277,
+   "casts": {
+    "RMB": 0,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 0
+  },
+  {
+   "cls": "ranger",
+   "path": "alchemist",
+   "family": 25,
+   "weapon": "Toxic Canister",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 5730,
+   "attackDps": 4357,
+   "abilityDps": 1373,
+   "casts": {
+    "RMB": 0,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 0
+  },
+  {
+   "cls": "ranger",
+   "path": "alchemist",
+   "family": 26,
+   "weapon": "Sludge Barrel",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2034,
+   "attackDps": 1716,
+   "abilityDps": 318,
+   "casts": {
+    "RMB": 32,
+    "Q": 0,
+    "E": 7,
+    "R": 0
+   },
+   "resourceEnd": 21
+  },
+  {
+   "cls": "ranger",
+   "path": "alchemist",
+   "family": 26,
+   "weapon": "Sludge Barrel",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 10168,
+   "attackDps": 8580,
+   "abilityDps": 1588,
+   "casts": {
+    "RMB": 32,
+    "Q": 0,
+    "E": 7,
+    "R": 0
+   },
+   "resourceEnd": 21
+  },
+  {
+   "cls": "ranger",
+   "path": "alchemist",
+   "family": 26,
+   "weapon": "Sludge Barrel",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1171,
+   "attackDps": 671,
+   "abilityDps": 500,
+   "casts": {
+    "RMB": 53,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 2
+  },
+  {
+   "cls": "ranger",
+   "path": "alchemist",
+   "family": 26,
+   "weapon": "Sludge Barrel",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 5855,
+   "attackDps": 3355,
+   "abilityDps": 2500,
+   "casts": {
+    "RMB": 53,
+    "Q": 0,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 2
+  },
+  {
+   "cls": "ranger",
+   "path": "gunslinger",
+   "family": 18,
+   "weapon": "Pistols",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2155,
+   "attackDps": 1535,
+   "abilityDps": 620,
+   "casts": {
+    "RMB": 27,
+    "Q": 6,
+    "E": 6,
+    "R": 0
+   },
+   "resourceEnd": 14
+  },
+  {
+   "cls": "ranger",
+   "path": "gunslinger",
+   "family": 18,
+   "weapon": "Pistols",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 6863,
+   "attackDps": 5885,
+   "abilityDps": 978,
+   "casts": {
+    "RMB": 28,
+    "Q": 7,
+    "E": 4,
+    "R": 0
+   },
+   "resourceEnd": 19
+  },
+  {
+   "cls": "ranger",
+   "path": "gunslinger",
+   "family": 18,
+   "weapon": "Pistols",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2302,
+   "attackDps": 599,
+   "abilityDps": 1703,
+   "casts": {
+    "RMB": 26,
+    "Q": 13,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 3
+  },
+  {
+   "cls": "ranger",
+   "path": "gunslinger",
+   "family": 18,
+   "weapon": "Pistols",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 6065,
+   "attackDps": 1710,
+   "abilityDps": 4355,
+   "casts": {
+    "RMB": 25,
+    "Q": 13,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 15
+  },
+  {
+   "cls": "ranger",
+   "path": "gunslinger",
+   "family": 27,
+   "weapon": "Rifle",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2000,
+   "attackDps": 1317,
+   "abilityDps": 683,
+   "casts": {
+    "RMB": 0,
+    "Q": 0,
+    "E": 39,
+    "R": 0
+   },
+   "resourceEnd": 24
+  },
+  {
+   "cls": "ranger",
+   "path": "gunslinger",
+   "family": 27,
+   "weapon": "Rifle",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 9999,
+   "attackDps": 6585,
+   "abilityDps": 3414,
+   "casts": {
+    "RMB": 0,
+    "Q": 0,
+    "E": 39,
+    "R": 0
+   },
+   "resourceEnd": 24
+  },
+  {
+   "cls": "ranger",
+   "path": "gunslinger",
+   "family": 27,
+   "weapon": "Rifle",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2747,
+   "attackDps": 523,
+   "abilityDps": 2224,
+   "casts": {
+    "RMB": 32,
+    "Q": 15,
+    "E": 4,
+    "R": 0
+   },
+   "resourceEnd": 6
+  },
+  {
+   "cls": "ranger",
+   "path": "gunslinger",
+   "family": 27,
+   "weapon": "Rifle",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 8822,
+   "attackDps": 2610,
+   "abilityDps": 6212,
+   "casts": {
+    "RMB": 32,
+    "Q": 15,
+    "E": 4,
+    "R": 0
+   },
+   "resourceEnd": 6
+  },
+  {
+   "cls": "ranger",
+   "path": "gunslinger",
+   "family": 20,
+   "weapon": "Shotgun",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2127,
+   "attackDps": 1436,
+   "abilityDps": 691,
+   "casts": {
+    "RMB": 3,
+    "Q": 0,
+    "E": 36,
+    "R": 0
+   },
+   "resourceEnd": 24
+  },
+  {
+   "cls": "ranger",
+   "path": "gunslinger",
+   "family": 20,
+   "weapon": "Shotgun",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 8588,
+   "attackDps": 5356,
+   "abilityDps": 3232,
+   "casts": {
+    "RMB": 3,
+    "Q": 0,
+    "E": 36,
+    "R": 0
+   },
+   "resourceEnd": 24
+  },
+  {
+   "cls": "ranger",
+   "path": "gunslinger",
+   "family": 20,
+   "weapon": "Shotgun",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "save",
+   "dps": 2008,
+   "attackDps": 461,
+   "abilityDps": 1548,
+   "casts": {
+    "RMB": 0,
+    "Q": 3,
+    "E": 13,
+    "R": 5
+   },
+   "resourceEnd": 8
+  },
+  {
+   "cls": "ranger",
+   "path": "gunslinger",
+   "family": 20,
+   "weapon": "Shotgun",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 5732,
+   "attackDps": 955,
+   "abilityDps": 4776,
+   "casts": {
+    "RMB": 12,
+    "Q": 18,
+    "E": 18,
+    "R": 0
+   },
+   "resourceEnd": 1
+  },
+  {
+   "cls": "ranger",
+   "path": "gunslinger",
+   "family": 28,
+   "weapon": "Flamethrower",
+   "build": "attack",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 1620,
+   "attackDps": 1240,
+   "abilityDps": 380,
+   "casts": {
+    "RMB": 26,
+    "Q": 13,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 15
+  },
+  {
+   "cls": "ranger",
+   "path": "gunslinger",
+   "family": 28,
+   "weapon": "Flamethrower",
+   "build": "attack",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 6818,
+   "attackDps": 5991,
+   "abilityDps": 827,
+   "casts": {
+    "RMB": 26,
+    "Q": 13,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 15
+  },
+  {
+   "cls": "ranger",
+   "path": "gunslinger",
+   "family": 28,
+   "weapon": "Flamethrower",
+   "build": "ability",
+   "scenario": "boss",
+   "rotation": "greedy",
+   "dps": 2150,
+   "attackDps": 560,
+   "abilityDps": 1589,
+   "casts": {
+    "RMB": 22,
+    "Q": 14,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 13
+  },
+  {
+   "cls": "ranger",
+   "path": "gunslinger",
+   "family": 28,
+   "weapon": "Flamethrower",
+   "build": "ability",
+   "scenario": "crowd",
+   "rotation": "greedy",
+   "dps": 6776,
+   "attackDps": 2241,
+   "abilityDps": 4535,
+   "casts": {
+    "RMB": 22,
+    "Q": 14,
+    "E": 0,
+    "R": 0
+   },
+   "resourceEnd": 13
+  }
+ ]
+}

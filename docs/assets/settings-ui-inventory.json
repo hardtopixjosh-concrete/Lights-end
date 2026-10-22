@@ -1,0 +1,188 @@
+{
+  "archive": "Visuals/UI/Veyrath-Settings-UI-Kit.zip",
+  "selected": [
+    {
+      "source": "Veyrath-Settings-UI-Kit/buttons/blank/amber_focus.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/buttons/blank/amber_focus.svg",
+      "bytes": 968,
+      "adaptation": "SVG aspect-ratio preservation disabled for dynamic-width live labels; source ZIP preserved."
+    },
+    {
+      "source": "Veyrath-Settings-UI-Kit/buttons/blank/amber_hover.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/buttons/blank/amber_hover.svg",
+      "bytes": 872,
+      "adaptation": "SVG aspect-ratio preservation disabled for dynamic-width live labels; source ZIP preserved."
+    },
+    {
+      "source": "Veyrath-Settings-UI-Kit/buttons/blank/amber_normal.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/buttons/blank/amber_normal.svg",
+      "bytes": 872,
+      "adaptation": "SVG aspect-ratio preservation disabled for dynamic-width live labels; source ZIP preserved."
+    },
+    {
+      "source": "Veyrath-Settings-UI-Kit/buttons/blank/amber_pressed.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/buttons/blank/amber_pressed.svg",
+      "bytes": 872,
+      "adaptation": "SVG aspect-ratio preservation disabled for dynamic-width live labels; source ZIP preserved."
+    },
+    {
+      "source": "Veyrath-Settings-UI-Kit/buttons/blank/blue_focus.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/buttons/blank/blue_focus.svg",
+      "bytes": 902,
+      "adaptation": "SVG aspect-ratio preservation disabled for dynamic-width live labels; source ZIP preserved."
+    },
+    {
+      "source": "Veyrath-Settings-UI-Kit/buttons/blank/blue_hover.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/buttons/blank/blue_hover.svg",
+      "bytes": 806,
+      "adaptation": "SVG aspect-ratio preservation disabled for dynamic-width live labels; source ZIP preserved."
+    },
+    {
+      "source": "Veyrath-Settings-UI-Kit/buttons/blank/blue_normal.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/buttons/blank/blue_normal.svg",
+      "bytes": 806,
+      "adaptation": "SVG aspect-ratio preservation disabled for dynamic-width live labels; source ZIP preserved."
+    },
+    {
+      "source": "Veyrath-Settings-UI-Kit/buttons/blank/blue_pressed.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/buttons/blank/blue_pressed.svg",
+      "bytes": 806,
+      "adaptation": "SVG aspect-ratio preservation disabled for dynamic-width live labels; source ZIP preserved."
+    },
+    {
+      "source": "Veyrath-Settings-UI-Kit/buttons/blank/danger_focus.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/buttons/blank/danger_focus.svg",
+      "bytes": 902,
+      "adaptation": "SVG aspect-ratio preservation disabled for dynamic-width live labels; source ZIP preserved."
+    },
+    {
+      "source": "Veyrath-Settings-UI-Kit/buttons/blank/danger_hover.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/buttons/blank/danger_hover.svg",
+      "bytes": 806,
+      "adaptation": "SVG aspect-ratio preservation disabled for dynamic-width live labels; source ZIP preserved."
+    },
+    {
+      "source": "Veyrath-Settings-UI-Kit/buttons/blank/danger_normal.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/buttons/blank/danger_normal.svg",
+      "bytes": 806,
+      "adaptation": "SVG aspect-ratio preservation disabled for dynamic-width live labels; source ZIP preserved."
+    },
+    {
+      "source": "Veyrath-Settings-UI-Kit/buttons/blank/danger_pressed.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/buttons/blank/danger_pressed.svg",
+      "bytes": 806,
+      "adaptation": "SVG aspect-ratio preservation disabled for dynamic-width live labels; source ZIP preserved."
+    },
+    {
+      "source": "Veyrath-Settings-UI-Kit/buttons/blank/neutral_disabled.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/buttons/blank/neutral_disabled.svg",
+      "bytes": 806,
+      "adaptation": "SVG aspect-ratio preservation disabled for dynamic-width live labels; source ZIP preserved."
+    },
+    {
+      "source": "Veyrath-Settings-UI-Kit/buttons/blank/neutral_focus.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/buttons/blank/neutral_focus.svg",
+      "bytes": 902,
+      "adaptation": "SVG aspect-ratio preservation disabled for dynamic-width live labels; source ZIP preserved."
+    },
+    {
+      "source": "Veyrath-Settings-UI-Kit/buttons/blank/neutral_hover.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/buttons/blank/neutral_hover.svg",
+      "bytes": 806,
+      "adaptation": "SVG aspect-ratio preservation disabled for dynamic-width live labels; source ZIP preserved."
+    },
+    {
+      "source": "Veyrath-Settings-UI-Kit/buttons/blank/neutral_normal.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/buttons/blank/neutral_normal.svg",
+      "bytes": 806,
+      "adaptation": "SVG aspect-ratio preservation disabled for dynamic-width live labels; source ZIP preserved."
+    },
+    {
+      "source": "Veyrath-Settings-UI-Kit/buttons/blank/neutral_pressed.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/buttons/blank/neutral_pressed.svg",
+      "bytes": 806,
+      "adaptation": "SVG aspect-ratio preservation disabled for dynamic-width live labels; source ZIP preserved."
+    },
+    {
+      "source": "Veyrath-Settings-UI-Kit/controls/checkbox/checked_disabled.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/controls/checkbox/checked_disabled.svg",
+      "bytes": 439
+    },
+    {
+      "source": "Veyrath-Settings-UI-Kit/controls/checkbox/checked_focus.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/controls/checkbox/checked_focus.svg",
+      "bytes": 538
+    },
+    {
+      "source": "Veyrath-Settings-UI-Kit/controls/checkbox/checked_hover.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/controls/checkbox/checked_hover.svg",
+      "bytes": 439
+    },
+    {
+      "source": "Veyrath-Settings-UI-Kit/controls/checkbox/checked_normal.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/controls/checkbox/checked_normal.svg",
+      "bytes": 439
+    },
+    {
+      "source": "Veyrath-Settings-UI-Kit/controls/checkbox/unchecked_disabled.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/controls/checkbox/unchecked_disabled.svg",
+      "bytes": 316
+    },
+    {
+      "source": "Veyrath-Settings-UI-Kit/controls/checkbox/unchecked_focus.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/controls/checkbox/unchecked_focus.svg",
+      "bytes": 415
+    },
+    {
+      "source": "Veyrath-Settings-UI-Kit/controls/checkbox/unchecked_hover.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/controls/checkbox/unchecked_hover.svg",
+      "bytes": 316
+    },
+    {
+      "source": "Veyrath-Settings-UI-Kit/controls/checkbox/unchecked_normal.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/controls/checkbox/unchecked_normal.svg",
+      "bytes": 316
+    },
+    {
+      "source": "Veyrath-Settings-UI-Kit/controls/slider/thumb_hover.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/controls/slider/thumb_hover.svg",
+      "bytes": 580
+    },
+    {
+      "source": "Veyrath-Settings-UI-Kit/controls/slider/thumb_normal.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/controls/slider/thumb_normal.svg",
+      "bytes": 580
+    },
+    {
+      "source": "Veyrath-Settings-UI-Kit/controls/slider/thumb_pressed.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/controls/slider/thumb_pressed.svg",
+      "bytes": 580
+    },
+    {
+      "source": "Veyrath-Settings-UI-Kit/crests/settings_gear.png",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/crests/settings_gear.png",
+      "bytes": 1807649
+    },
+    {
+      "source": "Veyrath-Settings-UI-Kit/icons/chevron_down.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/icons/chevron_down.svg",
+      "bytes": 211
+    },
+    {
+      "source": "Veyrath-Settings-UI-Kit/ornaments/divider_horizontal.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/ornaments/divider_horizontal.svg",
+      "bytes": 499
+    },
+    {
+      "source": "Veyrath-Settings-UI-Kit/ornaments/divider_vertical.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/ornaments/divider_vertical.svg",
+      "bytes": 227
+    },
+    {
+      "source": "Veyrath-Settings-UI-Kit/panels/settings_cloth.png",
+      "runtime": "sites/veyrath/dist/assets/ui/settings/panels/settings_cloth.png",
+      "bytes": 2710588
+    }
+  ],
+  "fonts": "Reuses identical licensed Crest & Cloth font families already installed."
+}

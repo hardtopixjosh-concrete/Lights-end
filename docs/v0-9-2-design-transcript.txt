@@ -1,0 +1,619 @@
+
+=== PAGE 1 ===
+VEYRATH | V0.9.2 IMPLEMENTATION CHANGE ORDER
+1
+VEYRATH
+V0.9.2 - COMPLETE IMPLEMENTATION UPDATE
+Build instructions / superseding change order for Codex - 14 October 2026
+Purpose: Implement the changes agreed after the earlier master game design and class PDFs. This is NOT a recap. It
+contains required additions, exact behavior, provisional numeric values, dependency rules, and verification checks.
+Keep earlier mechanics unless explicitly superseded below.
+PRIORITY AND PRECEDENCE
+• Priority 1: Explicit confirmed player choices in this update supersede conflicting statements in earlier PDFs.
+• Priority 2: Values labeled PROPOSED are default prototype tuning, not permanent locked balance.
+• Do not: replace working maps/assets, redo established systems, treat prior examples as new instructions, or
+remove existing functioning systems without a listed reason.
+01 | Change-order index
+ID
+ACTION REQUIRED
+PRECEDENCE
+C01
+Increase Warrior basic-attack reach by small amount
+Update Warrior LMB coverage only
+C02
+Add Blood Mage as fourth Mage specialization
+New class content; full implementation
+below
+C03
+Remove escalating reforge costs
+Overrides previous reforge multiplier
+C04
+Replace old talent progression with branching talent engine
+Overrides every 5 levels / mini-boss-only
+models
+C05
+Add upper-right minimap
+New HUD feature
+C06
+Replace instant XP on kill with collectible ground XP
+Changes XP acquisition
+C07
+Mini-boss reward choice: talent, gold, or temporary buff
+Supersedes guaranteed skill point per
+mini-boss
+02 | Global invariants - DO NOT CHANGE
+• LMB basic attack comes from equipped weapon family, never class specialization. Weapon behavior affixes
+change only LMB. Up to TWO ordinary behavior affixes per weapon. RMB/Q/E/R come from specialization; SPACE
+uses the class movement skill.
+• WASD determines visual facing while walking. Mouse aims attacks and casts; casting may temporarily face the
+cursor, then moving-facing resumes.
+• Six Warrior LMB families: Longsword, Twin Blades, Throwing Axe, Greatsword, Halberd, Warhammer. Six Mage
+LMB families: Wand, Staff, Spellbook, Orb, Scepter, Grimoire. Mage LMB is free of Arcane Energy.
+• Only RED ASCENDANT weapons may have unique weapon signatures that alter non-LMB skills. Lower rarities may
+have ordinary stat and LMB behavior affixes; no signature exceptions.
+
+
+=== PAGE 2 ===
+VEYRATH | V0.9.2 IMPLEMENTATION CHANGE ORDER
+2
+• Collected weapons and gold persist after death; class levels, talents and temporary buffs reset. Saved weapons
+retain rarity, affixes, appearance, ceiling, and signature, while numerical power restarts at effective level 1 and
+scales with character level to stored ceiling. No weapon-use mastery.
+• Maintain single desert battlefield, fixed forge, continuous demon waves, elite packs, major bosses, shrines,
+wandering merchant, rifts, ancient trials, buff camps, day/night/Blood Moon and rare realm-abduction boss. Death
+to realm boss returns player to world without ending run.
+03 | C01: Warrior LMB reach hotfix
+IMPLEMENT: Multiply only the reach / travel-distance parameter of each existing Warrior weapon-family LMB by 1.10
+(PROPOSED playtest start). Keep damage, attack interval, cone angle, number of targets and active-skill reach
+unchanged.
+Weapon
+Change
+Longsword
+Every combo swing reach x1.10
+Twin Blades
+Slash radius/reach x1.10; no cone-width change
+Greatsword
+Forward sweep radius x1.10; no angular expansion
+Throwing Axe
+Projectile maximum travel distance x1.10
+Halberd
+Thrust distance x1.10; hitbox width unchanged
+Warhammer
+Increase maximum center placement distance x1.10; impact radius unchanged
+Balance anchor: level-1 Longsword LMB = 250 noncritical damage, four hits to defeat reference 1,000-HP medium
+enemy. Do not raise base damage with this range change. Ensure attacks point toward mouse while move-facing
+obeys WASD.
+04 | C02: NEW Blood Mage - required class content
+Add a fourth Mage specialization named BLOOD MAGE alongside Pyromancer, Cryomancer, and Stormcaller. At
+character level 1 the player selects one specialization for that run. Blood Mage has its own RMB/Q/E/R, visuals,
+talent graph, and balanced Arcane Energy costs. Equipped Mage weapon still determines LMB.
+Complete starting ability kit - build all of these
+Input
+Skill
+Required behavior / provisional values
+LMB
+Equipped weapon
+Unchanged: free weapon-family basic attack; no resource cost; no Blood Mage override
+RMB
+Blood Lance
+Manual targeted piercing blood projectile; 300 base damage, 20 energy, 4s cooldown. Eligible to
+apply Bleed through talents. Mouse-targeted world-space travel.
+Q
+Crimson Veil
+Manual barrier, 50 HP initial shield, 15 energy, 12s cooldown. Absorbs incoming damage before
+health; no automatic healing.
+E
+Sanguine Drain
+Manual, aimed channel up to 2 seconds; 25 energy, 8s cooldown; one damage/healing tick every
+0.5s. 120 damage and 24 healing per successful tick; maximum 4 ticks = 480 damage / 96 healing.
+R
+Blood Eclipse
+Manual cast area targeted near cursor; 50 energy, 40s cooldown; damages enemies periodically in
+marked zone. PROPOSED 5-second duration, 100 damage per second to each valid target, with
+per-target tick limits.
+
+
+=== PAGE 3 ===
+VEYRATH | V0.9.2 IMPLEMENTATION CHANGE ORDER
+3
+Input
+Skill
+Required behavior / provisional values
+SPACE
+Arcane Blink
+Existing Mage Blink, free, 3s cooldown; preserves normal collision/arena restrictions
+Sanguine Drain - detailed acceptance rules
+• Press and hold E to channel, or use existing consistent channel input if held-input support differs. Stop on release,
+interruption, death, stun, lost line of sight, or 2-second maximum. Pay the 25 energy once on successful activation,
+not per tick.
+• Acquire the target under mouse aim using a narrow directed beam and line-of-sight check. While channeling,
+movement speed is reduced (PROPOSED 65% normal); player may steer aim but cannot cast unrelated spells until
+channel ends; SPACE Blink cancels channel.
+• Ticks occur at 0.5s, 1.0s, 1.5s and 2.0s after start. Only hits actually landing on a valid damageable target heal.
+Empty casts, invulnerable targets and environmental surfaces never heal. Base heal = 20% of actual qualifying
+primary-target damage, capped at 24 HP per base tick and 96 HP per base cast before talents.
+• Healing cannot exceed missing health except where Living Veil explicitly turns a portion of overheal into a capped
+temporary shield. Multi-target talent chains apply reduced healing and total per-cast heal caps; damage
+amplification must not produce unlimited sustain.
+• Bosses remain drainable, but boss mechanics cannot be cheesed: line-of-sight, range, slow movement,
+interruption, and healing caps apply. No stacking dozens of simultaneous life-drain ticks in hordes.
+Mage Arcane Energy - use the updated system, NOT older mana
+State
+Regeneration
+Trigger
+Actively casting costly skills
+3 energy/sec
+While/just after energy-costing casts
+0-1.5s since last costly cast
+3 energy/sec
+Casting pressure remains
+1.5-2.5s since last costly cast
+12 energy/sec
+Transition recovery
+More than 2.5s without costly cast
+25 energy/sec
+Rapid recovery
+LMB / Blink
+Free
+Do not reset recovery timer
+Maximum energy: 100 baseline. Energy regenerates regardless of moving or being in combat. Older Mage
+document flat +8/s regeneration and original higher Fireball/Frost costs are superseded by the Arcane Energy
+design.
+05 | Blood Mage: talent graph content
+Create a class talent graph consistent with shared rules in Section 07. The Blood Mage tree should expose
+approximately 35-40 total nodes distributed through three richly branching routes, interconnected by a few optional
+cross-links. These are defined talent nodes, not weapon affixes.
+Path
+Minor node examples
+Enhanced / major unlocks
+Blood Lance / Hemorrhage
++5% Lance damage; +8% projectile speed;
++1 target pierce; +6% Bleed duration;
++5% damage vs bleeding targets
+Hemorrhage (Lance applies Bleed); Crimson Spear (delayed
+secondary Lance); Blood Dominion (Blood Eclipse
+consumes eligible Bleed stacks for controlled burst).
+
+
+=== PAGE 4 ===
+VEYRATH | V0.9.2 IMPLEMENTATION CHANGE ORDER
+4
+Path
+Minor node examples
+Enhanced / major unlocks
+Sanguine Drain / Sustain
++5% Drain damage; +8% Drain range;
++5% healing efficiency; -3% E cooldown;
++5% channel control
+Blood Feast (+healing vs bleeding primary target, capped);
+Crimson Torrent (chains to one secondary target with
+reduced damage and healing); Eternal Hunger (full drain
+empowers next Lance).
+Blood Ward / Survival
++5% max HP; +8% Veil barrier; -3% Q
+cooldown; +4% movement during channel;
++5% barrier duration
+Living Veil (capped overheal -> barrier); Undying Blood
+(fatal-hit protection, long internal cooldown); Crimson Veil
+enhancement (barrier damage absorption improved).
+Keystone compatibility: Blood Feast and Crimson Torrent can work together, but both must respect total healing
+caps. Crimson Spear is a class skill change available through talents, not a Legendary/Mythic weapon signature.
+Blood Eclipse does not directly heal by default. Limit mutually exclusive transformations per spell if alternate
+keystones replace the same behavior.
+06 | C03: Reforging must have FLAT repeat price
+REMOVE reforge-price escalation from repeated use. No multiplication by 1.35^n and no other hidden per-item
+reroll-cost progression. Reforge number may still be tracked for analytics/history but must not affect cost.
+Rarity
+Stat reroll
+Behavior reroll
+Common
+50
+Not eligible
+Magic
+75
+150
+Rare
+100
+200
+Legendary
+150
+300
+Mythic
+200
+400
+Ascendant
+300
+600
+• Values are PROPOSED initial gold economy prices. For the same weapon rarity, operation type and conditions,
+reforge #1 and #50 must cost exactly the same.
+• After paying for a reroll, present rolled eligible affix and allow KEEP OLD or ACCEPT NEW. Charge once either way.
+Costs are fixed across attempts. Preserve affix categories and eligibility/compatibility rules.
+• No reforge may increase rarity, ceiling or ordinary slot count, exceed two behavior slots, forge a red-only
+signature onto other rarities or reroll Ascendant signatures through ordinary affix operations.
+07 | C04: REPLACE old talent system with branching graph
+Confirmed: At level 1, choose one specialization. Earn one talent point every two character levels (2,4,...30) = 15
+from leveling. Mini-boss reward choices can provide up to 5 additional bonus points; absolute maximum 20
+spendable points in a run. These points are pooled in the chosen specialization tree; no separate major-point
+currency.
+Talents are run-only and unspent points can accumulate. Do not auto-open the tree on level-up. Single-player
+simulation pauses only when player opens it. Death clears allocations and point balances; permanent weapon/gold
+unchanged.
+
+
+=== PAGE 5 ===
+VEYRATH | V0.9.2 IMPLEMENTATION CHANGE ORDER
+5
+Graph topology + node specification
+• Each specialization: target 30-40 connected nodes with multiple alternate routes, cross-links and at least three
+thematic branches. Avoid a single linear list or three simple columns. Implement graph coordinates for rendering
+and graph edges for prerequisite traversal.
+• Minor nodes: many 1-point percentage/stat increments tied to the selected path. Enhanced nodes: 1-point
+mechanic refinements. Major nodes: 1-point noticeable ability upgrades. Keystones: 1-point build-defining changes
+with tradeoffs.
+• Requirements: Enhanced nodes require at least 3 allocated points in tree; first Major >=5; advanced Major >=10;
+Keystone >=15; ALL also require an active connected path to node. Unlock gate checks apply to currently allocated
+point count before buying the target node.
+• One node costs one point. Respect exclusivity groups for competing transformations of the same RMB/Q/E/R
+ability. All nodes must provide precise tooltip with actual numbers, prerequisites, spell affected and preview of
+changes.
+• The build uses the selected specialization only. It cannot mix different class specialization trees in one run. The
+talent tree does not replace the weapon-family LMB. Avoid converting weapon behavior affixes into class talent
+upgrades.
+Reference branch themes for all eight specializations
+Class / Specialization
+Branch directions
+Warrior - Berserker
+Bleed/critical pressure; mobility and Savage Rush; Carnage / Bloodlust / ultimate aggression
+Warrior - Vanguard
+Perfect Guard timing and riposte; stagger/Sundering; Seismic Stomp/Last Bastion survival
+Warrior - Spellblade
+Arcane Crescent; Rune Detonation positioning; Runic Barrier / Arcane Overload interactions
+Warrior - Warlord
+Brutal Charge movement; War Cry disruption and enemy weakening;
+Earthbreaker/Conqueror control
+Mage - Pyromancer
+Burn spreading; Fireball evolution; Meteor impacts
+Mage - Cryomancer
+Chill/freeze control; defensive frost; shatter interactions
+Mage - Stormcaller
+Chain Lightning bounce; Arcane Energy management; Blink/lightning mobility
+Mage - Blood Mage
+Blood Lance/Bleed; Sanguine Drain sustain; Crimson Veil and survival
+08 | C07: Mini-boss three-way choice + bonus-point cap
+Upon a qualifying mini-boss defeat, present a three-way reward choice: (A) +1 run-only bonus talent point, (B)
+persistent gold cache, (C) temporary damage/survival buff. A player chooses one, not all three. Choices may be
+deferred via pending reward notification; reward cannot be claimed twice.
+• Allow at most five mini-boss talent-point selections per run; combined leveling+bonus never exceeds 20. Once
+cap is reached, replace talent option with a valid alternative reward; do not display dead/disabled choice.
+Elapsed run time
+Proposed mini-boss HP
+Gold option
+Example buff option
+0-5 min
+12k-15k
+125
++10% damage for 3 minutes
+
+
+=== PAGE 6 ===
+VEYRATH | V0.9.2 IMPLEMENTATION CHANGE ORDER
+6
+Elapsed run time
+Proposed mini-boss HP
+Gold option
+Example buff option
+5-10 min
+17k-22k
+175
++12% damage for 3 minutes
+10-20 min
+25k-40k
+250
++15% damage for 3 minutes
+20-30 min
+40k-60k
+350
++18% damage for 3 minutes
+Endless
+Director-scaled
+Scaled
+Director-scaled
+PROPOSED values. Mini-bosses should be mechanically difficult, not just inflated HP. Reward choice does not
+remove eligible weapon drops. Same temporary buff does not stack; reselect refreshes timer. Gold banks on
+selection immediately, persists death. Talent points reset on death.
+09 | C05: Top-right minimap - implementation
+• Create permanent compact minimap in upper right of gameplay HUD, following player position. Show player arrow
+and facing, nearby walkable terrain and solid rocks/structures; fixed forge marker always after discovery; reveal
+other landmarks/events as encountered.
+• Include icons for revealed elite pack/mini-boss, active major boss, Wandering Merchant, Demonic Rift, Ancient
+Trial and optional buff camps; remove expired event icons. No clutter of 150 individual ordinary enemies. Include
+clear marker priority and approximate display bounds.
+• Camera/world and minimap coordinates must align, including isometric projection offsets and sprite ground-foot
+positions. Minimap must update without excessive draw calls. Preserve existing HUD elements and avoid collisions
+with menus.
+• Include toggle/zoom only if simple. Unexplored markers remain hidden except those intentionally revealed by
+game design. Secret realm boss omens must not be shown as a guaranteed minimap event.
+Acceptance
+• Player moves northeast: marker tracks correct mapped path. Forge appears at correct position. Merchant icon
+vanishes when merchant leaves. No phantom boss markers, no overlay covering talent/reward screens.
+10 | C06: Ground XP - new collection mechanics
+REPLACE XP automatically awarded on enemy kill with physical collectable XP crystal drops. When XP-granting
+enemy dies, create value-carrying XP object at or near ground contact point. XP is added only when crystal reaches
+the player. Death clears uncollected run XP.
+Setting
+Prototype default
+Drop occurrence
+100% of XP-awarding kills (may merge into an existing crystal)
+Direct pickup radius
+65 world units
+Magnet initiation radius
+110 world units
+Magnet movement
+Smooth accelerated travel to player; no physical blocking
+Lifetime
+Persists for run unless merged into aggregate value
+Density control
+Merge nearby crystals into larger-value orbs; pool visuals and objects
+
+
+=== PAGE 7 ===
+VEYRATH | V0.9.2 IMPLEMENTATION CHANGE ORDER
+7
+• XP value comes from the defeated enemy; no unintended XP loss from gem merging or reuse. Long-range Mage
+must approach drops just like Warrior, providing a natural risk/positioning tradeoff.
+• Do not attach expensive dynamic physics to each XP gem. Use pooled lightweight world pickups; no per-frame
+O(N-squared) gem collision. Different crystal sizes/colors may show combined values, but the total retained XP must
+be exact.
+• Add optional future magnet event / pickup only if existing assets and game systems support it; do not make it
+required for the initial change order.
+Acceptance
+• Kill 10 enemies outside pickup range -> XP does not immediately change; collect all 10 gems or aggregated
+equivalent -> full expected XP credited once. High-density fights do not produce thousands of persistent costly
+entities.
+11 | Technical rollout and validation checklist
+Implement incrementally in the current codebase: inspect current files and APIs first; preserve working assets and
+earlier completed game loops. Use shared configurable services rather than hardcoding class changes into
+unrelated combat systems.
+Order
+Build / verification
+1
+Remove reforge escalation, verify 1st vs 20th reroll cost stays constant; old/new affix choice saves atomically
+2
+Adjust six Warrior LMB range parameters only; measure hit geometry, no DPS damage change
+3
+Add XP pickups and collection/merge logic; verify exact XP totals and performance
+4
+Add top-right minimap with camera/world coordinate conversion and event markers
+5
+Create branching talent data schema, graph UI and allocation validation for all specializations
+6
+Implement even-level point awards + optional mini-boss rewards, hard-cap 20, save/death rules
+7
+Add Blood Mage four active skills, channels, healing, energy integration, VFX, and full talent paths
+8
+Test Blood Mage against 1,000-HP medium demon, dense waves and mechanically demanding bosses
+Non-negotiable regression tests
+• Weapon swap changes only LMB; Warrior specializations unchanged; Mage LMB free. Red-only signatures.
+Weapon ceiling scaling after death. Persistent gold/weapons; temporary buffs and talents reset. Realm boss defeat
+is nonfatal. Pause interfaces freeze simulation in single player.
+• Blood Mage Drain cannot heal without damage, ignore line of sight, or create infinite multi-target healing. Arcane
+Energy speeds correctly transition with time since costly spell (free LMB does not delay regeneration).
+• Graph blocks disconnected paths, duplicate node purchases, out-of-spec cap, incompatible skill evolutions, invalid
+respec refunds. Mini-boss reward IDs prevent duplication and rewards remain claimable if deferred.
+12 | Change log: explicitly superseded older instructions
+
+
+=== PAGE 8 ===
+VEYRATH | V0.9.2 IMPLEMENTATION CHANGE ORDER
+8
+Prior instruction
+Replacement in this document
+Vampirist specialization name
+BLOOD MAGE
+Mini-boss always gives skill point
+Three-way choice, +5 bonus point cap
+Talent point only every 5 levels / 6 total
+One point per even level (15), plus up to 5 mini-boss points
+Small linear skill paths
+30-40 node connected branching graph per specialization
+Forge costs escalate 1.35x every reroll
+Fixed cost per rarity and operation
+XP automatically earned on kill
+Ground crystal pickup required
+Older Mage base mana regen +8/s
+Arcane Energy burst/recover rates: 3, 12, 25/sec
+No Vampire Mage kit specified
+Blood Mage skills and E heal fully specified above
+Implementation convention: For any unresolved detail, use the labeled PROPOSED initial value as a test default, do not interpret
+it as a balance lock. List any deviations in a concise Codex change report with files changed, tests, and outstanding issues.
+
+
+=== PAGE 9 ===
+VEYRATH / V0.9.2
+WARRIOR CLASS APPENDIX
+The following five pages reproduce the established Warrior
+specialization reference without changing its ability definitions.
+INCLUDES:
+Berserker, Vanguard, Spellblade, and Warlord.
+Their RMB, Q, E, R abilities, effects, damage values,
+cooldowns, and intended combat combinations.
+IMPLEMENTATION PRECEDENCE:
+1. Equipped weapon defines the LMB basic attack.
+2. Specialization defines RMB, Q, E, and R.
+3. SPACE remains Dash for Warrior.
+4. V0.9.2 talent points and mini-boss reward choices
+   supersede earlier progression schedules.
+5. Damage and cooldown numbers are playtest targets.
+6. Red Ascendant is the only weapon rarity with
+   exclusive skill-changing signature effects.
+V0.9.2 combined implementation update / companion ability reference
+
+
+=== PAGE 10 ===
+VEYRATH  |  Warrior specializations reference
+1
+VEYRATH
+Warrior Specializations - Exact Ability Reference
+Four Warrior paths: Berserker, Vanguard, Spellblade, and Warlord. This document records the previously
+defined abilities and values without inventing additional skill-tree nodes.
+Input
+Berserker
+Vanguard
+Spellblade
+Warlord
+LMB
+Equipped weapon
+Equipped weapon
+Equipped weapon
+Equipped weapon
+RMB
+Savage Rush
+Sundering Strike
+Arcane Crescent
+Brutal Charge
+Q
+Bloodlust
+Perfect Guard
+Runic Barrier
+War Cry
+E
+Carnage
+Seismic Stomp
+Rune Detonation
+Earthbreaker
+R
+Unchained Wrath
+Last Bastion
+Arcane Overload
+Conqueror's Wrath
+SPACE
+Dash
+Dash
+Dash
+Dash
+Established game rules
+ LMB behavior is determined by equipped Warrior weapon, never by specialization. Weapon ordinary behavior
+affixes modify only LMB.
+ RMB, Q, E, and R are determined by the chosen Warrior specialization. SPACE remains Dash.
+ At level 1, select one specialization path. Specialization points are earned every five character levels. The
+exact individual skill-tree node designs are not yet specified in this document.
+ WASD determines character facing while walking; mouse aims attacks and abilities. Casting/attacking may
+temporarily turn the character toward the mouse.
+ Only red Ascendant weapons can have exclusive signature effects that modify non-LMB skills.
+
+
+=== PAGE 11 ===
+VEYRATH  |  Warrior specializations reference
+2
+BERSERKER
+Aggression · Bleeding · Mobility
+Get into combat quickly, maintain pressure, and eliminate groups before they overwhelm you.
+RMB - Savage Rush
+Rush toward the cursor, cutting through enemies in a straight path. Damages multiple targets, applies Bleed,
+and passes through ordinary demons. Stops at solid obstacles and blocking bosses.
+400 damage · 4-second cooldown
+Q - Bloodlust
+Enter a frenzy for 5 seconds. Gain +25% attack speed and +15% damage. The effect rewards aggression but
+does not remove the need to dodge.
+5-second duration · 18-second cooldown
+E - Carnage
+Perform three quick 360-degree strikes, damaging nearby enemies. Excellent for escaping a surrounded
+position by clearing space.
+180 damage per strike · 9-second cooldown
+R - Unchained Wrath
+For 6 seconds, gain a powerful rage state. Manually performed LMB attacks create secondary spectral cuts. You
+still have to attack manually; the ultimate enhances your actions rather than automatically fighting.
+6-second duration · 40-second cooldown
+Example combat sequence
+Savage Rush into a pack → Carnage → Bloodlust → finish tougher targets with weapon-based LMB.
+LMB: Equipped weapon controls all basic attacks. SPACE: Dash.
+
+
+=== PAGE 12 ===
+VEYRATH  |  Warrior specializations reference
+3
+VANGUARD
+Counters · Stagger · Survival
+Stay close to dangerous enemies, read their attacks, counter at the right moment, and punish openings.
+RMB - Sundering Strike
+Deliver a devastating forward attack that breaks defenses and generates stagger. Especially effective against
+Guardians and elites. This is a class ability, not a weapon-specific basic swing.
+450 damage · 5-second cooldown
+Q - Perfect Guard
+Take a defensive stance and precisely counter eligible attacks. A successful parry deals counter damage and
+momentarily increases enemy stagger.
+0.25-second perfect window · 7-second cooldown
+E - Seismic Stomp
+Stomp the ground to release a circular shockwave. Stuns small enemies, interrupts eligible elite attacks, and
+adds stagger to bosses.
+300 damage · 10-second cooldown
+R - Last Bastion
+For 6 seconds, reduce incoming damage, become highly resistant to stagger, and empower successful
+counterattacks. Great for surviving a Blood Moon or a difficult boss phase.
+40% damage reduction · 6-second duration · 40-second cooldown
+Example combat sequence
+Perfect Guard a boss attack → Sundering Strike during recovery → Seismic Stomp to build stagger → punish
+with LMB.
+LMB: Equipped weapon controls all basic attacks. SPACE: Dash.
+
+
+=== PAGE 13 ===
+VEYRATH  |  Warrior specializations reference
+4
+SPELLBLADE
+Arcane power · Explosions · Area control
+Combine physical combat with ranged arcane techniques and explosive rune magic. Uses cooldowns, not the
+Mage Arcane Energy resource.
+RMB - Arcane Crescent
+Launch a broad, crescent-shaped magical projectile. It travels through multiple enemies, offering the Warrior a
+medium-range attack.
+350 damage · 4-second cooldown
+Q - Runic Barrier
+Form a temporary barrier that absorbs damage. When broken or expired, it releases a small magical blast.
+Useful when fighting within dense groups.
+3-second duration · 12-second cooldown
+E - Rune Detonation
+Place a magical rune near the cursor. It detonates after a short delay. Rewards predicting enemy movement and
+placing explosions strategically.
+400 damage · 9-second cooldown
+R - Arcane Overload
+For 6 seconds, manually performed LMB attacks charge magical energy. Every third successful basic hit
+releases an arcane shockwave. Works with the equipped weapon’s attack rhythm without replacing its LMB
+pattern.
+6-second duration · 40-second cooldown
+Example combat sequence
+Place Rune Detonation ahead of enemies → Arcane Crescent → LMB to finish → Arcane Overload during larger
+hordes.
+LMB: Equipped weapon controls all basic attacks. SPACE: Dash.
+
+
+=== PAGE 14 ===
+VEYRATH  |  Warrior specializations reference
+5
+WARLORD
+Physical power · Crowd control · Aggressive positioning
+Use powerful combat techniques to control where enemies move, scatter hordes, and dominate the battlefield.
+RMB - Brutal Charge
+Rush forward, knocking aside ordinary enemies and damaging everything in your path. Colliding with a large
+enemy causes a powerful impact and briefly staggers it.
+400 damage · 5-second cooldown
+Q - War Cry
+Release an intimidating shout that briefly interrupts nearby smaller demons and weakens their attacks.
+20% enemy damage reduction for 5 seconds · 14-second cooldown
+E - Earthbreaker
+Deliver a devastating overhead impact toward the cursor, creating a straight fissure through the ground. The
+fissure damages enemies along its path and briefly knocks smaller demons off balance.
+450 damage · 10-second cooldown
+R - Conqueror’s Wrath
+Enter a powerful combat stance. During this time, manually activated basic attacks generate additional stagger
+and knockback. Brutal Charge and Earthbreaker gain enhanced impact effects.
+7-second duration · 40-second cooldown
+Example combat sequence
+Brutal Charge through a horde → War Cry to weaken threats → Earthbreaker along a packed line →
+Conqueror’s Wrath for empowered control.
+LMB: Equipped weapon controls all basic attacks. SPACE: Dash.
+Balance and implementation notes
+The listed damage and cooldown numbers are prototype targets. The reference medium demon has 1,000 HP
+and the baseline Longsword deals 250 damage per normal LMB hit (four hits to defeat it).
+All four paths work with every Warrior weapon family: Twin Blades, Throwing Axe, Greatsword, Longsword,
+Halberd, and Warhammer. Do not bind secondary abilities to the current LMB weapon animation.

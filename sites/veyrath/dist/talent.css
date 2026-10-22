@@ -1,0 +1,19 @@
+/* Dedicated graph viewport: six interwoven lanes, optional cross-route links. */
+#skill-list.branching-talents{grid-template-columns:minmax(0,1fr) 245px;align-items:start;gap:14px}
+.talent-viewport{max-height:69vh;min-height:400px;overflow:auto;border:1px solid #a8a6bd44;overscroll-behavior:contain;scrollbar-color:#7c658c #11121c}
+.branching-graph.constellation{width:790px;min-width:790px;height:950px;border:0;overflow:hidden}
+.branching-graph .tree-node{width:42px;height:42px;border-width:2px}
+.branching-graph .tree-node .node-art{font-size:28px}
+.branching-graph .tree-node small{top:46px;width:104px;font-size:9px;line-height:1.2;pointer-events:none}
+.branching-graph .tree-node em{bottom:-4px;min-width:22px;font-size:9px;line-height:1}
+.branching-graph .tree-node.talent-major,.branching-graph .tree-node.talent-advanced{border-radius:10px;background:#2c2034}
+.branching-graph .tree-node.talent-keystone{width:48px;height:48px;border-width:3px;background:#3b2b23;box-shadow:0 0 15px #c89b4220}
+.branching-graph .tree-node.learned{box-shadow:0 0 12px color-mix(in srgb,var(--path-color) 50%,transparent)}
+.branching-graph .skill-links line{stroke-width:.24;stroke-dasharray:.7 .7}
+.branching-graph .skill-links line.lit{stroke-width:.35;stroke-dasharray:none}
+.talent-theme{position:absolute;top:14px;transform:translateX(-50%);width:220px;text-align:center;color:var(--path-color);font:12px Cinzel,Georgia,serif}
+.branching-talents .tree-detail{position:sticky;top:0;padding:5px 4px;max-height:69vh;overflow:auto}
+.branching-talents .tree-detail h3{font-size:20px;line-height:1.3;margin:12px 0}
+.branching-talents .tree-detail p{font-size:11px;line-height:1.6}
+.talent-points{font-weight:bold;color:#eddaa6}.talent-preview{color:#b8d9d3}
+@media(max-width:700px){#skill-list.branching-talents{grid-template-columns:1fr}.talent-viewport{max-height:48vh;min-height:300px}.branching-talents .tree-detail{position:static;max-height:none}.branching-graph .tree-node small{top:46px;width:104px;font-size:9px}}

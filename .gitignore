@@ -1,0 +1,15 @@
+node_modules/
+.sites-runtime/
+.openai/local/
+.env
+.env.*
+*.dpapi
+*.pem
+*.key
+*.zip
+*.tar
+*.tar.gz
+*.log
+*.bak-oct19
+launcher/out/
+launcher/out-coop/

@@ -1,0 +1,173 @@
+{
+  "archive": "Visuals/UI/Veyrath-Crest-and-Cloth-UI-Kit.zip",
+  "selected": [
+    {
+      "source": "veyrath-ui-kit/buttons/blank/amber_hover.svg",
+      "runtime": "sites\\veyrath\\dist\\assets\\ui\\crest-cloth\\buttons\\blank\\amber_hover.svg",
+      "bytes": 581,
+      "adaptation": "SVG preserveAspectRatio=none to fit intrinsic-width live-label controls; original archive unchanged."
+    },
+    {
+      "source": "veyrath-ui-kit/buttons/blank/amber_normal.svg",
+      "runtime": "sites\\veyrath\\dist\\assets\\ui\\crest-cloth\\buttons\\blank\\amber_normal.svg",
+      "bytes": 581,
+      "adaptation": "SVG preserveAspectRatio=none to fit intrinsic-width live-label controls; original archive unchanged."
+    },
+    {
+      "source": "veyrath-ui-kit/buttons/blank/amber_pressed.svg",
+      "runtime": "sites\\veyrath\\dist\\assets\\ui\\crest-cloth\\buttons\\blank\\amber_pressed.svg",
+      "bytes": 581,
+      "adaptation": "SVG preserveAspectRatio=none to fit intrinsic-width live-label controls; original archive unchanged."
+    },
+    {
+      "source": "veyrath-ui-kit/buttons/blank/blue_hover.svg",
+      "runtime": "sites\\veyrath\\dist\\assets\\ui\\crest-cloth\\buttons\\blank\\blue_hover.svg",
+      "bytes": 581,
+      "adaptation": "SVG preserveAspectRatio=none to fit intrinsic-width live-label controls; original archive unchanged."
+    },
+    {
+      "source": "veyrath-ui-kit/buttons/blank/blue_normal.svg",
+      "runtime": "sites\\veyrath\\dist\\assets\\ui\\crest-cloth\\buttons\\blank\\blue_normal.svg",
+      "bytes": 581,
+      "adaptation": "SVG preserveAspectRatio=none to fit intrinsic-width live-label controls; original archive unchanged."
+    },
+    {
+      "source": "veyrath-ui-kit/buttons/blank/blue_pressed.svg",
+      "runtime": "sites\\veyrath\\dist\\assets\\ui\\crest-cloth\\buttons\\blank\\blue_pressed.svg",
+      "bytes": 581,
+      "adaptation": "SVG preserveAspectRatio=none to fit intrinsic-width live-label controls; original archive unchanged."
+    },
+    {
+      "source": "veyrath-ui-kit/buttons/blank/green_hover.svg",
+      "runtime": "sites\\veyrath\\dist\\assets\\ui\\crest-cloth\\buttons\\blank\\green_hover.svg",
+      "bytes": 581,
+      "adaptation": "SVG preserveAspectRatio=none to fit intrinsic-width live-label controls; original archive unchanged."
+    },
+    {
+      "source": "veyrath-ui-kit/buttons/blank/green_normal.svg",
+      "runtime": "sites\\veyrath\\dist\\assets\\ui\\crest-cloth\\buttons\\blank\\green_normal.svg",
+      "bytes": 581,
+      "adaptation": "SVG preserveAspectRatio=none to fit intrinsic-width live-label controls; original archive unchanged."
+    },
+    {
+      "source": "veyrath-ui-kit/buttons/blank/green_pressed.svg",
+      "runtime": "sites\\veyrath\\dist\\assets\\ui\\crest-cloth\\buttons\\blank\\green_pressed.svg",
+      "bytes": 581,
+      "adaptation": "SVG preserveAspectRatio=none to fit intrinsic-width live-label controls; original archive unchanged."
+    },
+    {
+      "source": "veyrath-ui-kit/buttons/blank/neutral_disabled.svg",
+      "runtime": "sites\\veyrath\\dist\\assets\\ui\\crest-cloth\\buttons\\blank\\neutral_disabled.svg",
+      "bytes": 581,
+      "adaptation": "SVG preserveAspectRatio=none to fit intrinsic-width live-label controls; original archive unchanged."
+    },
+    {
+      "source": "veyrath-ui-kit/buttons/blank/purple_hover.svg",
+      "runtime": "sites\\veyrath\\dist\\assets\\ui\\crest-cloth\\buttons\\blank\\purple_hover.svg",
+      "bytes": 581,
+      "adaptation": "SVG preserveAspectRatio=none to fit intrinsic-width live-label controls; original archive unchanged."
+    },
+    {
+      "source": "veyrath-ui-kit/buttons/blank/purple_normal.svg",
+      "runtime": "sites\\veyrath\\dist\\assets\\ui\\crest-cloth\\buttons\\blank\\purple_normal.svg",
+      "bytes": 581,
+      "adaptation": "SVG preserveAspectRatio=none to fit intrinsic-width live-label controls; original archive unchanged."
+    },
+    {
+      "source": "veyrath-ui-kit/buttons/blank/purple_pressed.svg",
+      "runtime": "sites\\veyrath\\dist\\assets\\ui\\crest-cloth\\buttons\\blank\\purple_pressed.svg",
+      "bytes": 581,
+      "adaptation": "SVG preserveAspectRatio=none to fit intrinsic-width live-label controls; original archive unchanged."
+    },
+    {
+      "source": "veyrath-ui-kit/cards/skill_orange.png",
+      "runtime": "sites\\veyrath\\dist\\assets\\ui\\crest-cloth\\cards\\skill_orange.png",
+      "bytes": 2574668
+    },
+    {
+      "source": "veyrath-ui-kit/cards/stat_common.png",
+      "runtime": "sites\\veyrath\\dist\\assets\\ui\\crest-cloth\\cards\\stat_common.png",
+      "bytes": 2827691
+    },
+    {
+      "source": "veyrath-ui-kit/cards/stat_epic.png",
+      "runtime": "sites\\veyrath\\dist\\assets\\ui\\crest-cloth\\cards\\stat_epic.png",
+      "bytes": 2888050
+    },
+    {
+      "source": "veyrath-ui-kit/cards/stat_rare.png",
+      "runtime": "sites\\veyrath\\dist\\assets\\ui\\crest-cloth\\cards\\stat_rare.png",
+      "bytes": 2577455
+    },
+    {
+      "source": "veyrath-ui-kit/fonts/Nunito-OFL.txt",
+      "runtime": "sites\\veyrath\\dist\\assets\\ui\\crest-cloth\\fonts\\Nunito-OFL.txt",
+      "bytes": 4385
+    },
+    {
+      "source": "veyrath-ui-kit/fonts/Nunito-Variable.ttf",
+      "runtime": "sites\\veyrath\\dist\\assets\\ui\\crest-cloth\\fonts\\Nunito-Variable.ttf",
+      "bytes": 276932
+    },
+    {
+      "source": "veyrath-ui-kit/fonts/SourceSerif4-OFL.txt",
+      "runtime": "sites\\veyrath\\dist\\assets\\ui\\crest-cloth\\fonts\\SourceSerif4-OFL.txt",
+      "bytes": 4400
+    },
+    {
+      "source": "veyrath-ui-kit/fonts/SourceSerif4-Variable.ttf",
+      "runtime": "sites\\veyrath\\dist\\assets\\ui\\crest-cloth\\fonts\\SourceSerif4-Variable.ttf",
+      "bytes": 1209508
+    },
+    {
+      "source": "veyrath-ui-kit/icons/arrow_type.svg",
+      "runtime": "sites\\veyrath\\dist\\assets\\ui\\crest-cloth\\icons\\arrow_type.svg",
+      "bytes": 853
+    },
+    {
+      "source": "veyrath-ui-kit/icons/bow.svg",
+      "runtime": "sites\\veyrath\\dist\\assets\\ui\\crest-cloth\\icons\\bow.svg",
+      "bytes": 352
+    },
+    {
+      "source": "veyrath-ui-kit/icons/critical.svg",
+      "runtime": "sites\\veyrath\\dist\\assets\\ui\\crest-cloth\\icons\\critical.svg",
+      "bytes": 382
+    },
+    {
+      "source": "veyrath-ui-kit/icons/damage.svg",
+      "runtime": "sites\\veyrath\\dist\\assets\\ui\\crest-cloth\\icons\\damage.svg",
+      "bytes": 392
+    },
+    {
+      "source": "veyrath-ui-kit/icons/health.svg",
+      "runtime": "sites\\veyrath\\dist\\assets\\ui\\crest-cloth\\icons\\health.svg",
+      "bytes": 399
+    },
+    {
+      "source": "veyrath-ui-kit/icons/magic.svg",
+      "runtime": "sites\\veyrath\\dist\\assets\\ui\\crest-cloth\\icons\\magic.svg",
+      "bytes": 381
+    },
+    {
+      "source": "veyrath-ui-kit/icons/power_shot.svg",
+      "runtime": "sites\\veyrath\\dist\\assets\\ui\\crest-cloth\\icons\\power_shot.svg",
+      "bytes": 418
+    },
+    {
+      "source": "veyrath-ui-kit/icons/speed.svg",
+      "runtime": "sites\\veyrath\\dist\\assets\\ui\\crest-cloth\\icons\\speed.svg",
+      "bytes": 398
+    },
+    {
+      "source": "veyrath-ui-kit/icons/volley.svg",
+      "runtime": "sites\\veyrath\\dist\\assets\\ui\\crest-cloth\\icons\\volley.svg",
+      "bytes": 427
+    },
+    {
+      "source": "veyrath-ui-kit/ornaments/divider_cream.svg",
+      "runtime": "sites\\veyrath\\dist\\assets\\ui\\crest-cloth\\ornaments\\divider_cream.svg",
+      "bytes": 269
+    }
+  ]
+}

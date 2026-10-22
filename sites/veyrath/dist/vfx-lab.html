@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Light's End VFX Lab</title>
+<style>
+ :root{color-scheme:dark}
+ html,body{margin:0;height:100%;background:#15110d;color:#e9dcc6;font:13px/1.4 system-ui,sans-serif;overflow:hidden}
+ canvas#lab{position:fixed;inset:0;width:100vw;height:100vh;display:block;cursor:crosshair}
+ #hud{position:fixed;left:12px;top:10px;pointer-events:none;text-shadow:0 1px 2px #000}
+ #hud b{color:#ffb35a}
+ #hud .muted{opacity:.7}
+ .lil-gui.root{max-height:calc(100vh - 16px);overflow-y:auto}
+</style>
+</head>
+<body>
+<canvas id="lab"></canvas>
+<div id="hud"><b>Light's End VFX Lab</b> <span id="status"></span><br><span class="muted">Click the ground to spawn the effect there · Space = replay · Saved recipes are used by the game in this browser</span><br><span id="info" class="muted"></span></div>
+<script type="module" src="./vfx-lab.js?v=fx-104"></script>
+</body>
+</html>

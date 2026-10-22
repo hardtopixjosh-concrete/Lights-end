@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import {eliteAimAhead,ELITE_MODIFIERS,eliteTint,tickElitePowers,assignElite} from '../dist/elite-powers.js';
+import {basicImp,specialDemon} from '../dist/demon-roster.js';
+import {createCombat} from '../dist/combat.js';
+import {createSurvival,tickSurvival} from '../dist/survival.js';
+import {createRewards} from '../dist/rewards.js';
+const variants=[0,.25,.5,.75].map(x=>basicImp(()=>x).skin);assert.equal(new Set(variants).size,4);assert(variants.every(x=>x==='imp'||x.startsWith('demon-imp')));
+const elite=specialDemon({role:'leader'},{elite:true});assert.equal(elite.scale,2.3);assert(elite.scale<2.65);assert.equal(new Set(ELITE_MODIFIERS.map(m=>m.filter)).size,6);for(const m of ELITE_MODIFIERS)assert.notEqual(eliteTint({modifier:m.id}),'none');
+const p={x:1800,y:1400},enemy={x:1600,y:1400};for(let dir=0;dir<8;dir++){const a=dir*Math.PI/4,v={x:Math.cos(a)*220,y:Math.sin(a)*220};for(const [roll,mode] of [[.1,'current'],[.5,'ahead'],[.8,'offset']]){const t=eliteAimAhead(p,enemy,v,1,()=>roll);assert.equal(t.mode,mode);const dx=t.x-p.x,dy=t.y-p.y,along=dx*t.dx+dy*t.dy;if(mode==='current')assert.equal(Math.hypot(dx,dy),0);else assert(along>0);assert(Math.hypot(dx,dy)<=270);assert.equal(t.x,eliteAimAhead(p,enemy,v,1,()=>roll).x);}}
+let n=1;const counts={current:0,ahead:0,offset:0};for(let i=0;i<2000;i++){const rng=()=>((n=(n*1664525+1013904223)>>>0)/4294967296);counts[eliteAimAhead(p,enemy,{x:220,y:0},1,rng).mode]++;}assert(counts.current>400&&counts.ahead>700&&counts.offset>450);
+const original=Math.random;Math.random=()=>.1;try{for(const modifier of ['frostbound','waller','explosive']){const c=createCombat(),s=createSurvival(c),r=createRewards(s,c);c.targets=[{...c.target,id:1,...enemy,role:'leader',state:'alive',modifier,powerCD:0,emerge:0}];tickElitePowers(r,s,c,p,[],.01,{x:220,y:0});assert(r.hazards.length>0);// Oct 15: patterns changed (volley/arc/cluster); check each is centred on the current-mode snapshot.
+if(modifier==='frostbound'){assert.equal(r.hazards[0].x,p.x);assert.equal(r.hazards[0].y,p.y);}else if(modifier==='waller')assert(r.hazards.every(h=>Math.abs(Math.hypot(h.x-p.x,(h.y-p.y)/.65)-115)<1e-6),'wall arc centred on snapshot');else{const cx=r.hazards.reduce((a,h)=>a+h.x,0)/r.hazards.length,cy=r.hazards.reduce((a,h)=>a+h.y,0)/r.hazards.length;assert(Math.abs(cx-p.x)<1e-6&&Math.abs(cy-p.y)<1e-6,'cluster centred on snapshot');}const pos=r.hazards.map(h=>[h.x,h.y]);tickElitePowers(r,s,c,{x:1850,y:1500},[],.1,{x:-220,y:0});assert.deepEqual(r.hazards.map(h=>[h.x,h.y]),pos);}
+ const c=createCombat(),s=createSurvival(c);s.spawnTimer=99;c.targets=[{...c.target,id:1,x:p.x-110,y:p.y,role:'leader',state:'alive',speed:0,age:0,scale:2.3,cooldown:0,emerge:0,swing:null}];tickSurvival(s,c,p,[],{width:850,height:650,zoom:1},.01);assert.equal(c.targets[0].swing.reach,145);let hits=[];for(let i=0;i<80;i++)hits.push(...tickSurvival(s,c,p,[],{width:850,height:650,zoom:1},.01));assert(hits.some(e=>e.type==='playerHit'),'elite reaches110 units');
+}finally{Math.random=original;}
+console.log('Elite feel passed:4 imps, smaller elites/7 tints,8-direction mixed targeting and fixed warnings, real ice/wall/fire placement, extended melee contact.');
+await import('./demon-variety.test.js');

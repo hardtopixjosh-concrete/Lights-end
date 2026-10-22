@@ -1,0 +1,20 @@
+import assert from 'node:assert/strict';
+import {currentOffer,banishOption,chooseOffer,rollOffer} from '../dist/level-cards.js';
+const s={classId:'sword',level:2,cardStats:{},pendingPicks:[{kind:'stat',level:2}]};
+const offer=currentOffer(s,()=>.5),before=structuredClone(offer.options);
+assert.equal(banishOption(s,1).id,before[1].id);
+assert.equal(currentOffer(s,()=>{throw Error('Unexpected reroll');}),offer);
+assert.deepEqual(offer.options,[before[0],before[2]]);
+assert.equal(s.pendingPicks.length,1);
+assert.deepEqual(s.banished,[before[1].id]);
+assert(!rollOffer(s,{kind:'stat'},()=>.5).some(o=>o.id===before[1].id));
+assert.equal(chooseOffer(s,1).id,before[2].id);
+assert.equal(s.cardStats[before[2].stat],before[2].value);
+assert.equal(s.pendingPicks.length,0);
+// Banishing all choices must not leave an empty co-op pick blocking the shared pause.
+const all={classId:'sword',pendingPicks:[{kind:'stat',level:3}],cardStats:{}};
+currentOffer(all,()=>.3);for(let i=0;i<3;i++)assert(banishOption(all,0));
+assert.equal(currentOffer(all),null);assert.equal(all.pendingPicks.length,0);
+assert.deepEqual(all.cardStats,{});assert.equal(all.banished.length,3);
+assert.equal(banishOption(all,0),false);
+console.log('Banish preserves remaining rolls, excludes future offers, selects correctly, and safely exhausts a pick.');

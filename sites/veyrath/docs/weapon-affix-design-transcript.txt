@@ -1,0 +1,168 @@
+=== PAGE 1 ===
+VEYRATH  /  Weapon Affix System V0.5
+1
+ VEYRATH | WEAPON AFFIX SYSTEM
+V0.5 Quick Reference - Warrior + Mage | Codex companion specification
+Core rule: Weapon family determines only the LMB basic-attack pattern. Ordinary affixes enhance its numbers or behavior. RMB, Q, E,
+R, and SPACE are class skills, unchanged by ordinary weapon affixes. Red Ascendant weapons alone may carry a separate signature
+effect that changes other skills.
+1 | Weapon identity and rarity
+Component
+Function
+Weapon family
+Defines LMB attack shape, speed, range and delivery.
+Effective level
+Numerical strength starts at level 1 each run and rises with character level to the weapon ceiling.
+Stat affixes
+Numerical boosts: attack speed, damage, range, crit, health, Mage energy, etc.
+Behavior affixes
+Modify LMB: extra projectiles, wider cone, echoes, pierce, ricochet, shockwaves.
+Signature
+Red Ascendant only; separate from ordinary affix count and may modify active skills.
+Rarity
+Ordinary affixes
+Max behaviors
+Signature
+Gray / Common
+0-1
+0
+No
+Blue / Magic
+1-2
+1
+No
+Purple / Rare
+2-3
+1
+No
+Orange / Legendary
+3-4
+2
+No
+Yellow / Mythic
+4-5
+2
+No
+Red / Ascendant
+5-6
+2
+Yes (exclusive)
+2 | Weapon families (LMB only)
+Warrior family
+LMB attack
+Mage family
+LMB attack
+Twin Blades
+Fast narrow cone
+Wand
+Rapid arcane bolts
+Throwing Axe
+Ranged piercing line
+Staff
+Piercing projectile
+Greatsword
+Slow wide cone
+Spellbook
+Fan of projectiles
+Longsword
+Three-hit combo
+Orb
+Radial pulse
+Halberd
+Long narrow thrust
+Scepter
+Continuous beam
+Warhammer
+Circular forward impact
+Grimoire
+Seeking wisps
+3 | Example shared stat affixes
+Basic Attack Damage, Attack Speed, Critical Chance, Critical Damage, Range, Damage to Elites/Bosses, Stagger, Health, Movement
+Speed, Gold from Elites; projectile speed/area where applicable; Arcane Energy maximum, regeneration, and recovery delay for Mage
+only.
+4 | Warrior LMB behavior-affix pools
+
+
+=== PAGE 2 ===
+VEYRATH  /  Weapon Affix System V0.5
+2
+Family
+Behavior examples
+Twin Blades
+Extended Edge; Sweeping Flurry; Double Cut; Bloodletting; Momentum; Cross Slash
+Throwing Axe
+Twin Throw; Greater Pierce; Returning Blade; Ricochet; Heavy Flight; Long Flight
+Greatsword
+Long Reach; Wide Arc; Aftershock; Crushing Edge; Execution Sweep; Cleaving Momentum
+Longsword
+Extended Cut; Sweeping Third; Swift Recovery; Piercing Thrust; Echo Finisher; Precision Edge
+Halberd
+Extended Shaft; Broadhead; Penetrating Strike; Hooked Blade; Sweeping Return; Impaling Force
+Warhammer
+Expanded Impact; Tremor; Crushing Blow; Shattering Impact; Focused Impact; Fault Line
+5 | Mage LMB behavior-affix pools
+Family
+Behavior examples
+Wand
+Split Shot; Double Impact; Seeking Bolts; Ricochet; Focused Barrage; Echo Shot
+Staff
+Greater Pierce; Expanding Bolt; Twin Lance; Arcane Push; Echo Lance; Lingering Charge
+Spellbook
+Additional Pages; Focused Pages; Scattered Pages; Second Volley; Piercing Pages; Returning Pages
+Orb
+Expanded Pulse; Double Pulse; Repulsion; Focused Pulse; Resonance; Arcane Ring
+Scepter
+Twin Beam; Beam Width; Extended Channel; Refraction; Resonant Beam; Penetrating Ray
+Grimoire
+Additional Wisp; Greater Seeking; Lingering Spirits; Spirit Split; Spectral Pierce; Convergent Spirits
+6 | Compatibility and safeguard rules
+No duplicate IDs, incompatible opposing behaviors, or more than two behavior affixes. No recursive extra attacks or unbounded
+projectile spawning. Limit repeated target hits and on-hit procs. Examples: Focused Pages conflicts with Scattered Pages; Expanded
+Pulse conflicts with Focused Pulse; Returning Axe conflicts with Ricochet initially; third-hit Longsword replacements are exclusive.
+7 | Loot generation
+1. Roll family, rarity and item-level ceiling. 2. Roll ordinary-affix count. 3. Roll 0-2 eligible behavior affixes within rarity cap. 4. Fill
+remaining slots with compatible stat affixes. 5. Roll values and validate exclusions. 6. Ascendant only: roll separately curated exclusive
+signature. 7. Save unique instance, rolls, quality, forge history, visual rarity and schema version.
+8 | Forge rules
+Action
+Prototype base cost
+Constraint
+Reforge stat
+100 gold
+Only eligible stat pool
+Reforge behavior
+250 gold
+Compatible behavior pool; cap 2
+Convert stat to behavior
+400 gold
+Rare or higher; free behavior slot
+Lock ordinary affix
+250 gold
+Protect chosen affix
+Upgrade quality +1
+150 gold
+Maximum +5; base damage only
+Salvage
+Rarity-based payout
+Destroys weapon; no refund of forge spending
+Subsequent reforge cost = base cost x 1.35^(previous reforges), rounded. Reforging cannot raise rarity, item-level ceiling, or affix count;
+ordinary reforging cannot generate red-only signatures. Signature reroll is disabled in the initial design.
+9 | Scaling, combat balance and persistence
+
+
+=== PAGE 3 ===
+VEYRATH  /  Weapon Affix System V0.5
+3
+Effective level = min(character level, weapon item-level ceiling). Base damage and numerical affix values scale upward; behavioral
+identities (e.g. +2 pierce, second pulse) remain active at level 1. A proposed starting model scales percentage bonuses from 40% of
+their full rolled value at level 1 to 100% at ceiling. Weapons retain their appearances, affixes and signature identity after death; gold
+persists; no weapon mastery XP.
+Balance with single-target boss tests, dense-horde clear tests, and moving elite-pack tests. Tune extra projectile damage, echo
+damage, hit records, proc caps, attack rates and VFX budgets so behavior-affix combinations do not multiply damage uncontrollably.
+10 | Codex implementation priorities
+Data-driven WeaponFamily, AffixDefinition, WeaponInstance and BasicAttack models; deterministic modifier ordering (base > shape >
+projectile count > travel/pierce > hit > secondary effects); weighted eligible rolls; validation; atomic forge/save transactions; automated
+tests for affix caps, incompatibility, level-reset scaling, red-only signatures, and ability-slot separation.
+Supersedes: Earlier proposed fixed rarity-breakpoint modifiers. Preserves: Veyrath world design, per-five-level specialization points,
+fixed forge, weapon/gold persistence, and Mage Arcane Energy design. Note: All numbers and affix pools here are provisional until
+playtested.

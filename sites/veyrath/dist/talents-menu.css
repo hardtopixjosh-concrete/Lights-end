@@ -1,0 +1,88 @@
+/* Oct 18 (user): talent window from the Veyrath Talent Tree pack. Board is the pack's 1672x941 design canvas,
+   scaled to fit (--tt-s). Gold trim stays gold; available/learned node layers take the path colour (--tint);
+   locked and Coming Soon layers stay gray. */
+#levelup-panel:has(.tt-wrap) .levelup-panel{transform:none;filter:none;animation:none;contain:none;padding:0;width:auto;max-width:none;max-height:none;overflow:visible}
+#levelup-panel:has(.tt-wrap) .levelup-panel>:not(#levelup-choices){display:none}
+#levelup-panel #levelup-choices:has(.tt-wrap){display:block;margin:0}
+.tt-wrap{position:fixed;inset:0;z-index:20;background:rgba(3,8,13,.55)}
+.tt-board{position:absolute;left:50%;top:50%;width:1672px;height:941px;transform:translate(-50%,-50%) scale(var(--tt-s,1));transform-origin:center;font:600 16px/1.25 VeyrathBody,Nunito,sans-serif;color:#eceef1}
+.tt-board{text-align:left}
+.tt-board>*,.tt-board>.tt-node{position:absolute;margin:0}
+.tt-c{transform:translate(-50%,-50%)}
+.tt-modal{width:1544px;height:892px;border-style:solid;border-image:url('assets/ui/armory/artwork/panel-9slice-source.png') 80 fill / 25px stretch;box-sizing:border-box}
+.tt-modal::before{content:'';position:absolute;inset:25px;background:rgba(5,19,33,.68)}
+.tt-corner{width:42px;height:42px;pointer-events:none}
+.tt-lines{left:0;top:0;width:1672px;height:941px;pointer-events:none;overflow:visible}
+.tt-lines line{stroke-linecap:round}
+.tt-lines .lit{stroke:var(--tint);stroke-width:2.4;filter:drop-shadow(0 0 4px var(--tint))}
+.tt-lines .mid{stroke:#74787d;stroke-width:1.4}
+.tt-lines .dim{stroke:#4f555b;stroke-width:1.3}
+/* Gold rules with diamond ends; plain row lines. */
+.tt-rule{height:1.4px;background:#cda33f;margin-top:-.7px}
+.tt-rule::before,.tt-rule::after{content:'';position:absolute;top:-3px;width:6px;height:6px;background:#f4cc70;transform:rotate(45deg)}
+.tt-rule::before{left:-3px}.tt-rule::after{right:-3px}
+.tt-rowline{height:1px;background:#465058}
+.tt-vline{width:1.4px;background:#cda33f}.tt-vline.tt-thin{width:1px;background:#bd9239}
+/* Text. */
+#levelup-panel .tt-title{font:700 52px/1 VeyrathSerif,'Source Serif 4',serif;letter-spacing:.04em;color:#fff3dc;text-shadow:0 3px 2px #050c12}
+#levelup-panel .tt-head{font:700 26px/1 VeyrathSerif,serif;letter-spacing:.03em;color:#fff0d5;padding-top:6px}
+#levelup-panel .tt-head-big{font-size:30px}
+.tt-legend{font:600 16px VeyrathBody,sans-serif;color:#eceef1}
+.tt-rname{font:700 19px/1.2 VeyrathSerif,serif;color:#e4e8ed;width:180px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tt-rsum{font:600 14px/1.2 VeyrathBody,sans-serif;color:#d6dce3;width:180px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+#levelup-panel .tt-branch{transform:translateX(-50%);font:700 24px/1 VeyrathSerif,serif;letter-spacing:.03em;color:#eee8dc;white-space:nowrap;display:flex;align-items:center;gap:10px}
+.tt-branch.locked{color:#c0c7d2}
+.tt-hlock{width:18px;height:18px;background:#c0c7d2;mask:url('assets/ui/talents/badges/lock.svg') center/contain no-repeat;-webkit-mask:url('assets/ui/talents/badges/lock.svg') center/contain no-repeat}
+.tt-key{min-width:48px;height:31px;padding:0 9px;display:grid;place-items:center;box-sizing:border-box;border:1.5px solid var(--tint);border-radius:3px;background:linear-gradient(#14283b,#071522);font:700 17px VeyrathBody,sans-serif;color:#fff;box-shadow:0 0 8px color-mix(in srgb,var(--tint) 40%,transparent)}
+.tt-key.locked{border-color:#7d848c;color:#c3c7cd;box-shadow:none}
+.tt-nname{transform:translateX(-50%);width:130px;text-align:center;font:600 15px/1.15 VeyrathBody,sans-serif;color:#f5f5f5;text-shadow:0 1px 2px #000;pointer-events:none}
+.tt-nname.locked{color:#c3c7cd}
+#levelup-panel .tt-soonhead{font:700 22px/1 VeyrathSerif,serif;color:#f1e8da}
+.tt-info{width:910px;height:46px;display:flex;align-items:center;gap:20px;overflow:hidden}
+.tt-info b{flex:none;padding-right:20px;border-right:1.4px solid #d9ac46;font:700 24px/1.1 VeyrathSerif,serif;color:#f5e9d2;white-space:nowrap}
+.tt-info span{font:600 16px/1.25 VeyrathBody,sans-serif;color:#eceef1;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+/* Nodes: backing, glow, glyph, frame (+ multiply tint), lock. */
+#levelup-panel .tt-hit{padding:0;margin:0;border:0;background:none;box-shadow:none;min-width:0;min-height:0;cursor:default;line-height:0}
+#levelup-panel button.tt-hit{cursor:pointer}
+#levelup-panel button.tt-hit:hover,#levelup-panel button.tt-hit:focus-visible{background:none;transform:translate(-50%,-50%);outline:none}
+.tt-node{position:relative;display:block;width:var(--sz);height:var(--sz);--frame:url('assets/ui/talents/nodes/frame_available.png');--gc:var(--tint)}
+.tt-node>i,.tt-node>b{position:absolute;inset:0}
+.tt-have{--frame:url('assets/ui/talents/nodes/frame_selected.png')}
+.tt-shut{--frame:url('assets/ui/talents/nodes/frame_locked.png');--gc:#8b929b}
+.tt-soon{--frame:url('assets/ui/talents/nodes/frame_coming_soon.png');--gc:#6f767e}
+#levelup-panel button.tt-hit:hover .tt-open,#levelup-panel button.tt-hit:focus-visible .tt-open{--frame:url('assets/ui/talents/nodes/frame_hover.png')}
+#levelup-panel button.tt-hit:hover .tt-open .tt-glow{opacity:.9}
+.tt-back{background:url('assets/ui/talents/nodes/backing_navy.png') center/100% no-repeat}
+.tt-glow{background:var(--tint);mask:url('assets/ui/talents/nodes/glow_white.png') center/100% no-repeat;-webkit-mask:url('assets/ui/talents/nodes/glow_white.png') center/100% no-repeat;opacity:.55}
+.tt-have .tt-glow{opacity:.8}
+.tt-glyph{inset:18%!important;background:var(--gc);mask:var(--glyph) center/contain no-repeat;-webkit-mask:var(--glyph) center/contain no-repeat}
+.tt-glyph.tt-svg{background:none;mask:none;-webkit-mask:none;display:grid;place-items:center;--tint:var(--gc)}
+.tt-glyph.tt-svg svg{width:100%;height:100%}
+.tt-shut .tt-glyph.tt-svg,.tt-soon .tt-glyph.tt-svg{filter:grayscale(1) brightness(.8)}
+.tt-frame{background:var(--frame) center/100% no-repeat}
+.tt-ftint{display:none;background:var(--tint);mask:var(--frame) center/100% no-repeat;-webkit-mask:var(--frame) center/100% no-repeat;mix-blend-mode:multiply}
+.tt-have .tt-ftint,.tt-open .tt-ftint{display:block}
+.tt-lock{inset:auto!important;left:38%!important;top:74%!important;width:24%;height:24%;background:url('assets/ui/talents/badges/lock.svg') center/contain no-repeat}
+.tt-rank{display:grid;place-items:center;font:800 calc(var(--sz)*.42)/1 VeyrathBody,sans-serif;color:var(--gc)}
+.tt-shut .tt-rank,.tt-soon .tt-rank{color:#8b929b}
+/* Buttons (pack blank/x buttons). */
+#levelup-panel .tt-btn,#levelup-panel .tt-x{border:0;padding:0;margin:0;cursor:pointer;color:#fff6e6;box-shadow:none;min-width:0;background:url('assets/ui/talents/buttons/blank_normal.svg') center/100% 100% no-repeat}
+#levelup-panel .tt-btn:hover:not(:disabled),#levelup-panel .tt-x:hover{background:url('assets/ui/talents/buttons/blank_hover.svg') center/100% 100% no-repeat;transform:none}
+#levelup-panel .tt-btn:active:not(:disabled){background:url('assets/ui/talents/buttons/blank_pressed.svg') center/100% 100% no-repeat}
+#levelup-panel .tt-btn:disabled{background:url('assets/ui/talents/buttons/blank_disabled.svg') center/100% 100% no-repeat;color:#8f9697;cursor:not-allowed}
+#levelup-panel .tt-x{width:46px;height:46px;background-image:url('assets/ui/talents/buttons/x_normal.svg')}
+#levelup-panel .tt-x:hover{background-image:url('assets/ui/talents/buttons/x_hover.svg')}
+#levelup-panel .tt-close{width:153px;height:45px;display:flex;align-items:center;justify-content:center;gap:16px;font:700 22px VeyrathSerif,serif}
+#levelup-panel .tt-close kbd{font:700 14px VeyrathBody,sans-serif;padding:3px 7px;border:1.5px solid #d1ad60;border-radius:3px;background:#101c24;color:#fff3db}
+#levelup-panel .tt-heal{width:330px;height:45px;font:700 17px VeyrathBody,sans-serif}
+
+/* Oct 18 (user): floating node tooltip beside the hovered node. */
+#levelup-panel .tt-tip{position:absolute;width:340px;box-sizing:border-box;padding:14px 16px;border:1.5px solid #d9ac46;border-radius:6px;background:linear-gradient(#13263a,#081624);box-shadow:0 8px 22px #000a,0 0 0 1px #050d15 inset;display:none;flex-direction:column;gap:8px;pointer-events:none;z-index:20}
+#levelup-panel .tt-tip.show{display:flex}
+#levelup-panel .tt-tip b{font:700 21px/1.15 VeyrathSerif,serif;color:#f5e9d2}
+#levelup-panel .tt-tip span{font:600 16px/1.35 VeyrathBody,sans-serif;color:#e4e8ec}
+/* Oct 18 (user): Heal instead was squeezed into the fixed-aspect button art; draw its frame in CSS so it fits the label. */
+#levelup-panel .tt-heal,#levelup-panel .tt-heal:hover:not(:disabled),#levelup-panel .tt-heal:active:not(:disabled),#levelup-panel .tt-heal:disabled{background:linear-gradient(#14283b,#071522);border:2px solid #9d9d9d;border-radius:7px;box-shadow:inset 0 2px 0 #ffffff1f;padding:0 18px;width:auto;min-width:240px;white-space:nowrap}
+#levelup-panel .tt-heal:hover:not(:disabled){background:linear-gradient(#1c3850,#0b1e2e);border-color:#d9ac46}
+#levelup-panel .tt-heal:active:not(:disabled){background:linear-gradient(#071522,#14283b)}
+#levelup-panel .tt-heal:disabled{border-color:#5a5f63;color:#8f9697}

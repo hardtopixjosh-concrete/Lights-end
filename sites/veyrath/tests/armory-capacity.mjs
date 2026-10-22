@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+import {ARMORY_CAPACITY,RUN_BAG,createArmory,makeWeapon,storeWeapon,transactArmory,migrateArmory} from '../dist/weapons.js';
+assert.equal(ARMORY_CAPACITY,50);
+assert.equal(RUN_BAG,12);
+const a=createArmory();
+while(a.weapons.filter(w=>w.location==='armory').length<49)assert(storeWeapon(a,makeWeapon(1,()=>.4,0,0,'sword')));
+const pocket=makeWeapon(1,()=>.4,0,0,'sword');pocket.location='pocket';a.weapons.push(pocket);
+const result=transactArmory(a,'stash',pocket.id);
+assert(!result.error,result.error);
+assert.equal(result.next.weapons.filter(w=>w.location==='armory').length,50);
+const full=result.next,extra=makeWeapon(1,()=>.4,0,0,'sword');
+assert(storeWeapon(full,extra));assert.equal(extra.location,'overflow');
+const nextPocket=makeWeapon(1,()=>.4,0,0,'sword');nextPocket.location='pocket';full.weapons.push(nextPocket);
+assert.match(transactArmory(full,'stash',nextPocket.id).error,/Armory full/);
+const saved=JSON.parse(JSON.stringify(full)),migrated=migrateArmory(saved);
+for(const w of full.weapons)assert(migrated.weapons.some(n=>n.id===w.id),'Existing weapon preserved');
+assert.deepEqual(saved,full,'Migration leaves input untouched');
+console.log('PASS: 50 slots, pocket boundary, overflow preservation, save migration; run bag unchanged.');

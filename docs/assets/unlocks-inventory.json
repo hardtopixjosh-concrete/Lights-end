@@ -1,0 +1,336 @@
+{
+  "archive": "Visuals/UI/Lights-End-Unlocks-Asset-Pack.zip",
+  "archive_status": "Complete replacement archive; all selected entries read and CRC32-verified by ZipFile.",
+  "selected": [
+    {
+      "source": "lights-end-unlocks/buttons/blank/close_disabled.png",
+      "relative": "buttons/blank/close_disabled.png",
+      "bytes": 2322,
+      "crc32": "0x48ef7372",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/buttons/blank/close_disabled.png"
+    },
+    {
+      "source": "lights-end-unlocks/buttons/blank/close_hover.png",
+      "relative": "buttons/blank/close_hover.png",
+      "bytes": 2689,
+      "crc32": "0x2ed8a124",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/buttons/blank/close_hover.png"
+    },
+    {
+      "source": "lights-end-unlocks/buttons/blank/close_normal.png",
+      "relative": "buttons/blank/close_normal.png",
+      "bytes": 2690,
+      "crc32": "0x91bd46bf",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/buttons/blank/close_normal.png"
+    },
+    {
+      "source": "lights-end-unlocks/buttons/blank/close_pressed.png",
+      "relative": "buttons/blank/close_pressed.png",
+      "bytes": 2629,
+      "crc32": "0x39b72a58",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/buttons/blank/close_pressed.png"
+    },
+    {
+      "source": "lights-end-unlocks/buttons/blank/purchase_disabled.png",
+      "relative": "buttons/blank/purchase_disabled.png",
+      "bytes": 2309,
+      "crc32": "0x93564bb",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/buttons/blank/purchase_disabled.png"
+    },
+    {
+      "source": "lights-end-unlocks/buttons/blank/purchase_hover.png",
+      "relative": "buttons/blank/purchase_hover.png",
+      "bytes": 2648,
+      "crc32": "0x30ac4236",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/buttons/blank/purchase_hover.png"
+    },
+    {
+      "source": "lights-end-unlocks/buttons/blank/purchase_normal.png",
+      "relative": "buttons/blank/purchase_normal.png",
+      "bytes": 2631,
+      "crc32": "0x95d330e2",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/buttons/blank/purchase_normal.png"
+    },
+    {
+      "source": "lights-end-unlocks/buttons/blank/purchase_pressed.png",
+      "relative": "buttons/blank/purchase_pressed.png",
+      "bytes": 2581,
+      "crc32": "0x1deec0e0",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/buttons/blank/purchase_pressed.png"
+    },
+    {
+      "source": "lights-end-unlocks/buttons/blank/unlock_disabled.png",
+      "relative": "buttons/blank/unlock_disabled.png",
+      "bytes": 2363,
+      "crc32": "0x53188beb",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/buttons/blank/unlock_disabled.png"
+    },
+    {
+      "source": "lights-end-unlocks/buttons/blank/unlock_hover.png",
+      "relative": "buttons/blank/unlock_hover.png",
+      "bytes": 2717,
+      "crc32": "0x1d4a1d4",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/buttons/blank/unlock_hover.png"
+    },
+    {
+      "source": "lights-end-unlocks/buttons/blank/unlock_normal.png",
+      "relative": "buttons/blank/unlock_normal.png",
+      "bytes": 2731,
+      "crc32": "0x897763de",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/buttons/blank/unlock_normal.png"
+    },
+    {
+      "source": "lights-end-unlocks/buttons/blank/unlock_pressed.png",
+      "relative": "buttons/blank/unlock_pressed.png",
+      "bytes": 2660,
+      "crc32": "0x9b51e711",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/buttons/blank/unlock_pressed.png"
+    },
+    {
+      "source": "lights-end-unlocks/cards/path_disabled.png",
+      "relative": "cards/path_disabled.png",
+      "bytes": 469754,
+      "crc32": "0x487090f9",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/cards/path_disabled.png"
+    },
+    {
+      "source": "lights-end-unlocks/cards/path_hover.png",
+      "relative": "cards/path_hover.png",
+      "bytes": 1079503,
+      "crc32": "0x715819c8",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/cards/path_hover.png"
+    },
+    {
+      "source": "lights-end-unlocks/cards/path_normal.png",
+      "relative": "cards/path_normal.png",
+      "bytes": 1073004,
+      "crc32": "0xe19d00e2",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/cards/path_normal.png"
+    },
+    {
+      "source": "lights-end-unlocks/cards/path_unlocked.png",
+      "relative": "cards/path_unlocked.png",
+      "bytes": 1021820,
+      "crc32": "0x9b1bcbc7",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/cards/path_unlocked.png"
+    },
+    {
+      "source": "lights-end-unlocks/crests/crimson_blank.png",
+      "relative": "crests/crimson_blank.png",
+      "bytes": 267099,
+      "crc32": "0x26710e1c",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/crests/crimson_blank.png"
+    },
+    {
+      "source": "lights-end-unlocks/crests/green_blank.png",
+      "relative": "crests/green_blank.png",
+      "bytes": 268036,
+      "crc32": "0x38aee13b",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/crests/green_blank.png"
+    },
+    {
+      "source": "lights-end-unlocks/crests/ice_blank.png",
+      "relative": "crests/ice_blank.png",
+      "bytes": 269750,
+      "crc32": "0x439b8f7b",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/crests/ice_blank.png"
+    },
+    {
+      "source": "lights-end-unlocks/crests/navy_blank.png",
+      "relative": "crests/navy_blank.png",
+      "bytes": 264963,
+      "crc32": "0xfa34e435",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/crests/navy_blank.png"
+    },
+    {
+      "source": "lights-end-unlocks/crests/neutral_blank.png",
+      "relative": "crests/neutral_blank.png",
+      "bytes": 267777,
+      "crc32": "0xd7e43776",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/crests/neutral_blank.png"
+    },
+    {
+      "source": "lights-end-unlocks/crests/orange_blank.png",
+      "relative": "crests/orange_blank.png",
+      "bytes": 265421,
+      "crc32": "0x521318ff",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/crests/orange_blank.png"
+    },
+    {
+      "source": "lights-end-unlocks/crests/violet_blank.png",
+      "relative": "crests/violet_blank.png",
+      "bytes": 270014,
+      "crc32": "0x9e3d399",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/crests/violet_blank.png"
+    },
+    {
+      "source": "lights-end-unlocks/navigation/blank/navy_disabled.png",
+      "relative": "navigation/blank/navy_disabled.png",
+      "bytes": 320350,
+      "crc32": "0x1e157e5d",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/navigation/blank/navy_disabled.png"
+    },
+    {
+      "source": "lights-end-unlocks/navigation/blank/navy_hover.png",
+      "relative": "navigation/blank/navy_hover.png",
+      "bytes": 703754,
+      "crc32": "0x771ada35",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/navigation/blank/navy_hover.png"
+    },
+    {
+      "source": "lights-end-unlocks/navigation/blank/navy_normal.png",
+      "relative": "navigation/blank/navy_normal.png",
+      "bytes": 710713,
+      "crc32": "0x932100a4",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/navigation/blank/navy_normal.png"
+    },
+    {
+      "source": "lights-end-unlocks/navigation/blank/navy_pressed.png",
+      "relative": "navigation/blank/navy_pressed.png",
+      "bytes": 655326,
+      "crc32": "0x75303a74",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/navigation/blank/navy_pressed.png"
+    },
+    {
+      "source": "lights-end-unlocks/navigation/blank/orange_disabled.png",
+      "relative": "navigation/blank/orange_disabled.png",
+      "bytes": 310307,
+      "crc32": "0xca70dca",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/navigation/blank/orange_disabled.png"
+    },
+    {
+      "source": "lights-end-unlocks/navigation/blank/orange_hover.png",
+      "relative": "navigation/blank/orange_hover.png",
+      "bytes": 682615,
+      "crc32": "0x1deea220",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/navigation/blank/orange_hover.png"
+    },
+    {
+      "source": "lights-end-unlocks/navigation/blank/orange_normal.png",
+      "relative": "navigation/blank/orange_normal.png",
+      "bytes": 709889,
+      "crc32": "0xeba9dc9c",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/navigation/blank/orange_normal.png"
+    },
+    {
+      "source": "lights-end-unlocks/navigation/blank/orange_pressed.png",
+      "relative": "navigation/blank/orange_pressed.png",
+      "bytes": 609943,
+      "crc32": "0x9405d0d7",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/navigation/blank/orange_pressed.png"
+    },
+    {
+      "source": "lights-end-unlocks/panels/panel-9slice.png",
+      "relative": "panels/panel-9slice.png",
+      "bytes": 1297989,
+      "crc32": "0x11c7ecc7",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/panels/panel-9slice.png"
+    },
+    {
+      "source": "lights-end-unlocks/panels/currency-blank.png",
+      "relative": "panels/currency-blank.png",
+      "bytes": 212966,
+      "crc32": "0x39c74a52",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/panels/currency-blank.png"
+    },
+    {
+      "source": "lights-end-unlocks/status/locked_blank.png",
+      "relative": "status/locked_blank.png",
+      "bytes": 2686,
+      "crc32": "0x53ad9983",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/status/locked_blank.png"
+    },
+    {
+      "source": "lights-end-unlocks/status/unlocked_blank.png",
+      "relative": "status/unlocked_blank.png",
+      "bytes": 2676,
+      "crc32": "0xd9cf329a",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/status/unlocked_blank.png"
+    },
+    {
+      "source": "lights-end-unlocks/ornaments/separator_horizontal.png",
+      "relative": "ornaments/separator_horizontal.png",
+      "bytes": 579,
+      "crc32": "0x342f59b",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/ornaments/separator_horizontal.png"
+    },
+    {
+      "source": "lights-end-unlocks/ornaments/separator_vertical.png",
+      "relative": "ornaments/separator_vertical.png",
+      "bytes": 1096,
+      "crc32": "0xf08f75ce",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/ornaments/separator_vertical.png"
+    },
+    {
+      "source": "lights-end-unlocks/ornaments/title_divider.png",
+      "relative": "ornaments/title_divider.png",
+      "bytes": 5482,
+      "crc32": "0xb7bf990f",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/ornaments/title_divider.png"
+    },
+    {
+      "source": "lights-end-unlocks/tabs/blank/navy_normal.png",
+      "relative": "tabs/blank/navy_normal.png",
+      "bytes": 8027,
+      "crc32": "0xd534f3df",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/tabs/blank/navy_normal.png"
+    },
+    {
+      "source": "lights-end-unlocks/tabs/blank/navy_hover.png",
+      "relative": "tabs/blank/navy_hover.png",
+      "bytes": 7888,
+      "crc32": "0xc63469d",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/tabs/blank/navy_hover.png"
+    },
+    {
+      "source": "lights-end-unlocks/tabs/blank/navy_pressed.png",
+      "relative": "tabs/blank/navy_pressed.png",
+      "bytes": 7865,
+      "crc32": "0x9b7b39f3",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/tabs/blank/navy_pressed.png"
+    },
+    {
+      "source": "lights-end-unlocks/tabs/blank/navy_disabled.png",
+      "relative": "tabs/blank/navy_disabled.png",
+      "bytes": 6426,
+      "crc32": "0x94f06922",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/tabs/blank/navy_disabled.png"
+    },
+    {
+      "source": "lights-end-unlocks/tabs/blank/orange_normal.png",
+      "relative": "tabs/blank/orange_normal.png",
+      "bytes": 8826,
+      "crc32": "0x38c2665d",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/tabs/blank/orange_normal.png"
+    },
+    {
+      "source": "lights-end-unlocks/tabs/blank/orange_hover.png",
+      "relative": "tabs/blank/orange_hover.png",
+      "bytes": 8453,
+      "crc32": "0x6a106a5",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/tabs/blank/orange_hover.png"
+    },
+    {
+      "source": "lights-end-unlocks/tabs/blank/orange_pressed.png",
+      "relative": "tabs/blank/orange_pressed.png",
+      "bytes": 7948,
+      "crc32": "0xd684a8ae",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/tabs/blank/orange_pressed.png"
+    },
+    {
+      "source": "lights-end-unlocks/tabs/blank/orange_disabled.png",
+      "relative": "tabs/blank/orange_disabled.png",
+      "bytes": 6617,
+      "crc32": "0x860b75f7",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/tabs/blank/orange_disabled.png"
+    },
+    {
+      "source": "lights-end-unlocks/panels/modal.png",
+      "relative": "panels/modal.png",
+      "bytes": 3748437,
+      "crc32": "0x73a087a9",
+      "runtime": "sites/veyrath/dist/assets/ui/unlocks/pack/panels/modal.png"
+    }
+  ],
+  "archive_bytes": 52520777
+}

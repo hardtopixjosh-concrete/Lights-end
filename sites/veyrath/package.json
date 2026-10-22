@@ -1,0 +1,12 @@
+{
+  "name": "veyrath",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "test:v092": "node --test tests/v092-*.test.js",
+    "release:prepare": "node tools/deploy/prepare.mjs --checkout .sites-runtime/publisher",
+    "release:upload": "node tools/deploy/upload.mjs --checkout .sites-runtime/publisher",
+    "test:delivery": "node tests/asset-delivery-smoke.mjs"
+  }
+}

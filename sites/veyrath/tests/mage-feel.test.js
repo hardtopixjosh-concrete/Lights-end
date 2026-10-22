@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import {projectileHitsBody,createMage,tickMage,requestMage,queueMageSpell,MAGE_SPELLS} from '../dist/mage.js';
+import {createCombat} from '../dist/combat.js';
+import {createSurvival} from '../dist/survival.js';
+import {TALENT_NODES} from '../dist/talent-data.js';
+const enemy={x:1900,y:1400,scale:1.25,role:'swarmer',radius:12};
+assert(projectileHitsBody({x:1900,y:1350,kind:'bolt'},enemy),'visible head contact');assert(projectileHitsBody({x:1900,y:1390,kind:'bolt'},enemy),'torso contact');assert(!projectileHitsBody({x:1900,y:1260,kind:'bolt'},enemy),'clear miss above head');
+const c=createCombat(),s=createSurvival(c),m=createMage(s),p={x:1800,y:1400,row:0};c.targets=Array.from({length:12},(_,i)=>({...c.targets[0],id:i,x:1900+i*30,y:1400,hp:2000,maxHp:2000}));
+assert(requestMage(m,c,s,p,{x:1900,y:1320},'bolt'));let events=[];for(let i=0;i<40;i++)events.push(...tickMage(m,c,s,p,{x:1900,y:1320},[],.02));assert(events.some(e=>e.type==='hit'),'aim at visible head hits');
+m.cast=null;m.cooldowns.bolt=0;m.held=true;events=[];for(let i=0;i<60;i++)events.push(...tickMage(m,c,s,p,{x:1900,y:1360},[],.02));assert.equal(events.filter(e=>e.type==='mageCast'&&e.kind==='bolt').length,2);m.held=false;m.cast=null;
+s.path='storm';s.classId='mage';s.skills=Object.fromEntries(TALENT_NODES.filter(n=>n.path==='storm'&&n.tier===0).map(n=>[n.id,1]));/* Oct 19: cooldown values come from data (Oct 15 short cooldowns) */assert(requestMage(m,c,s,p,{x:1900,y:1400},'fireball')); /* Oct 15: storm chain on RMB */events=[];for(let i=0;i<15;i++)events.push(...tickMage(m,c,s,p,{x:1900,y:1400},[],.02));assert.equal(new Set(events.filter(e=>e.type==='hit').map(e=>e.targetId)).size,11);/* 10 jumps + blast, see mage.test.js */assert(m.particles.length+(m.efx?.length??0)>20&&m.particles.length<=640);
+for(let i=0;i<100;i++)tickMage(m,c,s,p,null,[],.02);assert.equal(m.particles.length,0);
+m.cooldowns.chain=0;requestMage(m,c,s,p,{x:1900,y:1360},'bolt');m.held=true;assert(queueMageSpell(m,c,s,p,{x:1900,y:1400},'chain'));const qe=[];for(let i=0;i<30;i++)qe.push(...tickMage(m,c,s,p,null,[],.02));assert(m.cooldowns.chain>0,'queued spell has priority over held primary');/* Oct 19: Storm E is Storm Rod (charges, no cooldown on the first rod) - check the cast instead */m.held=false;
+console.log('Mage feel smoke passed: head/torso hits, true misses, visual head aim, half-rate primary, 10-target/3s lightning and bounded fading particles.');

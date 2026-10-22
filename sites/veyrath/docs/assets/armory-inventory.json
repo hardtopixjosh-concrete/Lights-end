@@ -1,0 +1,438 @@
+{
+  "archive": "Visuals/UI/Veyrath-Armory-Inventory-Asset-Pack.zip",
+  "selected": [
+    {
+      "source": "veyrath-armory/panels/modal.png",
+      "runtime": "dist/assets/ui/armory/panels/modal.png",
+      "width": 2400,
+      "height": 1712,
+      "bytes": 3205504,
+      "sha256": "0fc244c3f76199ac3b2cdc2d3d2e8c37a9068ec325e33885a23b683e0331b55a"
+    },
+    {
+      "source": "veyrath-armory/panels/details.png",
+      "runtime": "dist/assets/ui/armory/panels/details.png",
+      "width": 1108,
+      "height": 1304,
+      "bytes": 2096955,
+      "sha256": "539e483de05e324b42102891e82f8507382e6d1a0e7acbc81707a8f6d081482d"
+    },
+    {
+      "source": "veyrath-armory/panels/equipped_row.png",
+      "runtime": "dist/assets/ui/armory/panels/equipped_row.png",
+      "width": 1130,
+      "height": 194,
+      "bytes": 333378,
+      "sha256": "0a6f9c72906d8326537afa6f9b9d12609f758ae7693de64d88797eb34e1a2f6c"
+    },
+    {
+      "source": "veyrath-armory/panels/run_bag.png",
+      "runtime": "dist/assets/ui/armory/panels/run_bag.png",
+      "width": 1134,
+      "height": 576,
+      "bytes": 938456,
+      "sha256": "562ef680ac713c77fa2641981043cf38a158c81db007f7d92c6729962465d117"
+    },
+    {
+      "source": "veyrath-armory/panels/currency.png",
+      "runtime": "dist/assets/ui/armory/panels/currency.png",
+      "width": 320,
+      "height": 120,
+      "bytes": 61135,
+      "sha256": "9eafcc3fc44fe25b1c6b449cde59b681c8cbaa80adf636f152931d2294a4f14a"
+    },
+    {
+      "source": "veyrath-armory/panels/divider.png",
+      "runtime": "dist/assets/ui/armory/panels/divider.png",
+      "width": 2280,
+      "height": 32,
+      "bytes": 828,
+      "sha256": "6a6bed93f150cc7f605b8bce02f5ccc7a35fe3254cc57efdb495d59cf4eda532"
+    },
+    {
+      "source": "veyrath-armory/panels/safe_pocket_normal.png",
+      "runtime": "dist/assets/ui/armory/panels/safe_pocket_normal.png",
+      "width": 1134,
+      "height": 212,
+      "bytes": 7101,
+      "sha256": "80631b625a71eccd589571741a1cc60a07d31b804bc54d72d894ddf7a1cf3650"
+    },
+    {
+      "source": "veyrath-armory/panels/safe_pocket_hover.png",
+      "runtime": "dist/assets/ui/armory/panels/safe_pocket_hover.png",
+      "width": 1134,
+      "height": 212,
+      "bytes": 7080,
+      "sha256": "1766b643bc2fecfc674cee843a603a23a1210a3e069c90593b4d3f37f6f807ad"
+    },
+    {
+      "source": "veyrath-armory/panels/safe_pocket_valid.png",
+      "runtime": "dist/assets/ui/armory/panels/safe_pocket_valid.png",
+      "width": 1134,
+      "height": 212,
+      "bytes": 7131,
+      "sha256": "cc8efae52c3c3657986c7ca69bee681222449d4cf14b7c496f91a0addf454683"
+    },
+    {
+      "source": "veyrath-armory/panels/safe_pocket_invalid.png",
+      "runtime": "dist/assets/ui/armory/panels/safe_pocket_invalid.png",
+      "width": 1134,
+      "height": 212,
+      "bytes": 7110,
+      "sha256": "3acf4921766dc4159a121a2cdd16022acbe8f435d269dea1fb0f72662fde7d4e"
+    },
+    {
+      "source": "veyrath-armory/panels/corner_top_left.png",
+      "runtime": "dist/assets/ui/armory/panels/corner_top_left.png",
+      "width": 128,
+      "height": 128,
+      "bytes": 9909,
+      "sha256": "eabff9bab43eefaad53ee15546a7ef7bfb744835ca571d3d8e34575576d685fc"
+    },
+    {
+      "source": "veyrath-armory/panels/corner_top_right.png",
+      "runtime": "dist/assets/ui/armory/panels/corner_top_right.png",
+      "width": 128,
+      "height": 128,
+      "bytes": 10127,
+      "sha256": "a3d72edf4a6e62dd8447729037b6b727657a2946f4dc886ee9f740ab2d0e87fc"
+    },
+    {
+      "source": "veyrath-armory/panels/corner_bottom_left.png",
+      "runtime": "dist/assets/ui/armory/panels/corner_bottom_left.png",
+      "width": 128,
+      "height": 128,
+      "bytes": 10163,
+      "sha256": "a092243daf82ecf8c3a2f1354ab248c72503d91a0f3fa994c590c3c693f5acb2"
+    },
+    {
+      "source": "veyrath-armory/panels/corner_bottom_right.png",
+      "runtime": "dist/assets/ui/armory/panels/corner_bottom_right.png",
+      "width": 128,
+      "height": 128,
+      "bytes": 10036,
+      "sha256": "df8ea1a6afe95e17dfbcd1d953637ce06bbbf7ba0166a9f0990b1719b9f8caa7"
+    },
+    {
+      "source": "veyrath-armory/crests/navy_blank.png",
+      "runtime": "dist/assets/ui/armory/crests/navy_blank.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 264963,
+      "sha256": "07652d60a1c10808ad0faf7ec881ea935675f8081ee41fb53ef09ba987fcf7d9"
+    },
+    {
+      "source": "veyrath-armory/artwork/panel-9slice-source.png",
+      "runtime": "dist/assets/ui/armory/artwork/panel-9slice-source.png",
+      "width": 1024,
+      "height": 640,
+      "bytes": 1297989,
+      "sha256": "80b51a57faddf47e2b7e1ce33380ca7acaf3cf9730f06a3951cef28fc4dbc685"
+    },
+    {
+      "source": "veyrath-armory/slots/empty.png",
+      "runtime": "dist/assets/ui/armory/slots/empty.png",
+      "width": 264,
+      "height": 176,
+      "bytes": 3679,
+      "sha256": "4c2d2a137d4c11c9afd4b275b95d720f9f7131854deb043a92d6e30301e161d4"
+    },
+    {
+      "source": "veyrath-armory/slots/hover.png",
+      "runtime": "dist/assets/ui/armory/slots/hover.png",
+      "width": 264,
+      "height": 176,
+      "bytes": 3894,
+      "sha256": "3b83f05943490eb3fcf01602a9be988891816c29184e25e9f0d85ffa661e322e"
+    },
+    {
+      "source": "veyrath-armory/slots/selected.png",
+      "runtime": "dist/assets/ui/armory/slots/selected.png",
+      "width": 264,
+      "height": 176,
+      "bytes": 6900,
+      "sha256": "7fef6e99f3b740ceef9b6e8c01840b75450b2d32558c99a306937ae91e0c70b3"
+    },
+    {
+      "source": "veyrath-armory/slots/drag_valid.png",
+      "runtime": "dist/assets/ui/armory/slots/drag_valid.png",
+      "width": 264,
+      "height": 176,
+      "bytes": 4012,
+      "sha256": "0bf1dc2421ee9fe9809c5136474f0205160658e8d9e9790a8f90ac9158a0d37f"
+    },
+    {
+      "source": "veyrath-armory/slots/drag_invalid.png",
+      "runtime": "dist/assets/ui/armory/slots/drag_invalid.png",
+      "width": 264,
+      "height": 176,
+      "bytes": 3796,
+      "sha256": "9da198fa405988f0080db33e27d323a714192f7a58b75ecba7110a631673921c"
+    },
+    {
+      "source": "veyrath-armory/slots/focus_overlay.png",
+      "runtime": "dist/assets/ui/armory/slots/focus_overlay.png",
+      "width": 264,
+      "height": 176,
+      "bytes": 1028,
+      "sha256": "b64b13caf1085b69134e821d73d293893bd769a852fa56a63d4eeabe37b46823"
+    },
+    {
+      "source": "veyrath-armory/slots/pocket_normal.png",
+      "runtime": "dist/assets/ui/armory/slots/pocket_normal.png",
+      "width": 148,
+      "height": 160,
+      "bytes": 2838,
+      "sha256": "1b9d32706c564e2cd5e2c34570666408d6a7180910d4e0290c564ed9c28c1fad"
+    },
+    {
+      "source": "veyrath-armory/slots/pocket_hover.png",
+      "runtime": "dist/assets/ui/armory/slots/pocket_hover.png",
+      "width": 148,
+      "height": 160,
+      "bytes": 2816,
+      "sha256": "42b23a8f3a9c971d52157f3ef186c574972c6819914fcaa5508beae7f0edc057"
+    },
+    {
+      "source": "veyrath-armory/slots/pocket_valid.png",
+      "runtime": "dist/assets/ui/armory/slots/pocket_valid.png",
+      "width": 148,
+      "height": 160,
+      "bytes": 2850,
+      "sha256": "7bd73f96dde06b95a2d7e5e7554f1dde642d73dea92a55cbd30aeb907fc24a0e"
+    },
+    {
+      "source": "veyrath-armory/slots/pocket_invalid.png",
+      "runtime": "dist/assets/ui/armory/slots/pocket_invalid.png",
+      "width": 148,
+      "height": 160,
+      "bytes": 2845,
+      "sha256": "cf4160eaea2b3fbb78700b1fa8fa83de064b06674e75bae12fac5b0030d8e57e"
+    },
+    {
+      "source": "veyrath-armory/controls/stat_normal.png",
+      "runtime": "dist/assets/ui/armory/controls/stat_normal.png",
+      "width": 330,
+      "height": 158,
+      "bytes": 3314,
+      "sha256": "32d2d9ddeea8f1a1dd7d98eb4882202be9f5fa1e572d96b76b09bbff7e6d82cc"
+    },
+    {
+      "source": "veyrath-armory/controls/stat_hover.png",
+      "runtime": "dist/assets/ui/armory/controls/stat_hover.png",
+      "width": 330,
+      "height": 158,
+      "bytes": 3357,
+      "sha256": "bb816bf812ce2b38ccee54e469dc29d3bce44b015bec18dc090e94be7a5935dc"
+    },
+    {
+      "source": "veyrath-armory/controls/stat_positive.png",
+      "runtime": "dist/assets/ui/armory/controls/stat_positive.png",
+      "width": 330,
+      "height": 158,
+      "bytes": 3318,
+      "sha256": "f4b8918e467aca9136a5aa6a714c9d2047e0ab50f992cb5d2ec7abda9d1d70af"
+    },
+    {
+      "source": "veyrath-armory/controls/stat_negative.png",
+      "runtime": "dist/assets/ui/armory/controls/stat_negative.png",
+      "width": 330,
+      "height": 158,
+      "bytes": 3314,
+      "sha256": "70d1a304d913b581d7fd5904932cbbd3fe843fab5ca7401400c3882d6f5c5bde"
+    },
+    {
+      "source": "veyrath-armory/controls/dropdown_normal.png",
+      "runtime": "dist/assets/ui/armory/controls/dropdown_normal.png",
+      "width": 802,
+      "height": 80,
+      "bytes": 2347,
+      "sha256": "84dd44251bd54694b7f2e36b8d610ea03a95385d73a50a48faab818563a3676b"
+    },
+    {
+      "source": "veyrath-armory/controls/dropdown_hover.png",
+      "runtime": "dist/assets/ui/armory/controls/dropdown_hover.png",
+      "width": 802,
+      "height": 80,
+      "bytes": 2378,
+      "sha256": "f22d5709eecb1ac62aa76aa450739c022700267579a49d4b7907223dfec972cb"
+    },
+    {
+      "source": "veyrath-armory/controls/dropdown_focused.png",
+      "runtime": "dist/assets/ui/armory/controls/dropdown_focused.png",
+      "width": 802,
+      "height": 80,
+      "bytes": 2378,
+      "sha256": "593098d1973a7084b1fa76770a058294749765ad0b70217b59c1270559129d32"
+    },
+    {
+      "source": "veyrath-armory/controls/dropdown_disabled.png",
+      "runtime": "dist/assets/ui/armory/controls/dropdown_disabled.png",
+      "width": 802,
+      "height": 80,
+      "bytes": 2340,
+      "sha256": "d76eb34099ff9e3e3a989cbf10313db2b97c998398b106e0e8d1f71e24480977"
+    },
+    {
+      "source": "veyrath-armory/controls/affix_row.png",
+      "runtime": "dist/assets/ui/armory/controls/affix_row.png",
+      "width": 1022,
+      "height": 82,
+      "bytes": 3672,
+      "sha256": "27298f6daf2c02c18751e640f7d05ad2c5ef63f7d9562e5c27642771666076bb"
+    },
+    {
+      "source": "veyrath-armory/buttons/blank/orange_normal.png",
+      "runtime": "dist/assets/ui/armory/buttons/blank/orange_normal.png",
+      "width": 500,
+      "height": 106,
+      "bytes": 5176,
+      "sha256": "c5be702a76b5f896bd17494b95bc1cf9c1a091d797951425944488cee872d973"
+    },
+    {
+      "source": "veyrath-armory/buttons/blank/orange_hover.png",
+      "runtime": "dist/assets/ui/armory/buttons/blank/orange_hover.png",
+      "width": 500,
+      "height": 106,
+      "bytes": 4885,
+      "sha256": "42281972d7bd7a867c49a9d18b73ede3c07f063360f0586490fb77c83d8a37fb"
+    },
+    {
+      "source": "veyrath-armory/buttons/blank/orange_pressed.png",
+      "runtime": "dist/assets/ui/armory/buttons/blank/orange_pressed.png",
+      "width": 500,
+      "height": 106,
+      "bytes": 4364,
+      "sha256": "bd796f3f3e61cadd5fb734dd59a09f5824597d66a452849b828f70682389273d"
+    },
+    {
+      "source": "veyrath-armory/buttons/blank/orange_disabled.png",
+      "runtime": "dist/assets/ui/armory/buttons/blank/orange_disabled.png",
+      "width": 500,
+      "height": 106,
+      "bytes": 3226,
+      "sha256": "9cd9a605e74490224ebc52812f6e677a6e397b49de59faef632abc4c800d5829"
+    },
+    {
+      "source": "veyrath-armory/buttons/blank/navy_normal.png",
+      "runtime": "dist/assets/ui/armory/buttons/blank/navy_normal.png",
+      "width": 500,
+      "height": 106,
+      "bytes": 4632,
+      "sha256": "6ee80b5d9b3703ae3e2250d960c0edcf1c94d02aca5828d8d8e876939f9194f3"
+    },
+    {
+      "source": "veyrath-armory/buttons/blank/navy_hover.png",
+      "runtime": "dist/assets/ui/armory/buttons/blank/navy_hover.png",
+      "width": 500,
+      "height": 106,
+      "bytes": 4519,
+      "sha256": "ba077632bde93bf7eec75ed277301d43d82bc15dd5fefbc4a0fd62eb4b03512e"
+    },
+    {
+      "source": "veyrath-armory/buttons/blank/navy_pressed.png",
+      "runtime": "dist/assets/ui/armory/buttons/blank/navy_pressed.png",
+      "width": 500,
+      "height": 106,
+      "bytes": 4435,
+      "sha256": "3d05438229ffc8ccad8dfd745fa5ac33e61abf4c22257e3a653723c3c2af09eb"
+    },
+    {
+      "source": "veyrath-armory/buttons/blank/navy_disabled.png",
+      "runtime": "dist/assets/ui/armory/buttons/blank/navy_disabled.png",
+      "width": 500,
+      "height": 106,
+      "bytes": 3234,
+      "sha256": "1c47230c6338b661cfd8b82532c07e4ee062d930506b36b4f36d712a5ed8404f"
+    },
+    {
+      "source": "veyrath-armory/buttons/blank/close_normal.png",
+      "runtime": "dist/assets/ui/armory/buttons/blank/close_normal.png",
+      "width": 300,
+      "height": 96,
+      "bytes": 2542,
+      "sha256": "cfbe2cdb1879bb1b046f5144dd577fe8355223eeeac177d67a7c1abdf7747819"
+    },
+    {
+      "source": "veyrath-armory/buttons/blank/close_hover.png",
+      "runtime": "dist/assets/ui/armory/buttons/blank/close_hover.png",
+      "width": 300,
+      "height": 96,
+      "bytes": 2558,
+      "sha256": "b299cbe82554bd48da424425ae9010bdd93b096ad321046b27cf5ff78c7bfa9f"
+    },
+    {
+      "source": "veyrath-armory/buttons/blank/close_pressed.png",
+      "runtime": "dist/assets/ui/armory/buttons/blank/close_pressed.png",
+      "width": 300,
+      "height": 96,
+      "bytes": 2406,
+      "sha256": "35a87b9f82917ba57659a3b0fae35f65506af0d6cd6553ecf8191b2db2edb8c9"
+    },
+    {
+      "source": "veyrath-armory/buttons/blank/close_disabled.png",
+      "runtime": "dist/assets/ui/armory/buttons/blank/close_disabled.png",
+      "width": 300,
+      "height": 96,
+      "bytes": 1709,
+      "sha256": "592ec5661c7afd03ba6786dd6184f306fbff53303d4e5f477a2ee6c4a1232f96"
+    },
+    {
+      "source": "veyrath-armory/icons/coin.png",
+      "runtime": "dist/assets/ui/armory/icons/coin.png",
+      "width": 256,
+      "height": 256,
+      "bytes": 27300,
+      "sha256": "a1306599c842de610623ff8d998bf6f1d282a0acc3faa9803226fa440d10f6e7"
+    },
+    {
+      "source": "veyrath-armory/icons/warning.png",
+      "runtime": "dist/assets/ui/armory/icons/warning.png",
+      "width": 256,
+      "height": 256,
+      "bytes": 6498,
+      "sha256": "d47f4e7ece268799a3233a4b74f9d6d66852cf9913f9600059a2a7fe5f156a4a"
+    },
+    {
+      "source": "veyrath-armory/icons/star_gold.png",
+      "runtime": "dist/assets/ui/armory/icons/star_gold.png",
+      "width": 256,
+      "height": 256,
+      "bytes": 4124,
+      "sha256": "f2a83c275ba6d362fb440cc199329480e6560e1a99cb245872d056feae61d8c8"
+    },
+    {
+      "source": "veyrath-armory/icons/comparison_up.png",
+      "runtime": "dist/assets/ui/armory/icons/comparison_up.png",
+      "width": 256,
+      "height": 256,
+      "bytes": 1201,
+      "sha256": "1b7f8ec606d56432c909ea1aabb0da6bf27aeb4ef22e5a7098376af1fc394c40"
+    },
+    {
+      "source": "veyrath-armory/icons/comparison_down.png",
+      "runtime": "dist/assets/ui/armory/icons/comparison_down.png",
+      "width": 256,
+      "height": 256,
+      "bytes": 1100,
+      "sha256": "9dffa128172864177c0b5aeef974dfb75244464dfc99353c1bc5e11c9a5fed0c"
+    },
+    {
+      "source": "veyrath-armory/badges/equipped_blank.png",
+      "runtime": "dist/assets/ui/armory/badges/equipped_blank.png",
+      "width": 196,
+      "height": 68,
+      "bytes": 1799,
+      "sha256": "143b4d3d0d0a8d0f09231c4ee330662706c3db0e5fab3c7e6146d430be1797b6"
+    },
+    {
+      "source": "veyrath-armory/keycaps/blank.png",
+      "runtime": "dist/assets/ui/armory/keycaps/blank.png",
+      "width": 100,
+      "height": 80,
+      "bytes": 1897,
+      "sha256": "6f507c2d98ecc3e8448c209cd206b9fdf61cf10ea15cdcc184c81c1c2c7bee97"
+    }
+  ],
+  "notes": "Source preserved. Current icons, live text and existing licensed Cloth fonts reused. Sample screen, fixed values, sources and duplicate font files not shipped."
+}

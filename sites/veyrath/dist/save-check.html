@@ -1,0 +1,10 @@
+<!doctype html><meta charset="utf-8"><title>Light's End — read-only save check</title>
+<style>body{font:16px/1.5 system-ui;background:#101923;color:#eaf0f7;max-width:960px;margin:36px auto;padding:20px}pre{white-space:pre-wrap;background:#172738;padding:18px;border:1px solid #446}button{padding:12px;font:inherit}iframe{display:none}</style>
+<h1>Read-only save check</h1><p>This page reads game save summaries. It does not start the game, migrate, write, delete or restore anything.</p><button id="copy">Copy summary</button><pre id="out">Checking…</pre>
+<script>
+const allowed=['http://127.0.0.1:8765','http://localhost:8765'],report={};
+function inspect(){const result={};for(const key of ['veyrath-meta-v1','veyrath-meta-before-progression-v2','veyrath-armory-v1','veyrath-armory-before-progression-v7','veyrath-armory-before-core-v6','veyrath-account-transaction-v1']){try{const raw=localStorage.getItem(key);if(!raw){result[key]='absent';continue;}const v=JSON.parse(raw);result[key]=key.includes('transaction')?{present:true}:key.includes('meta')?{version:v.version,paths:v.paths??[],cosmeticRunes:v.runes??[],upgrades:v.upgrades??{},gameplaySlots:v.gameplaySlots??0,gameplayRunes:v.gameplayRunes??[],runs:v.totals?.runs??0}:{version:v.version,gold:v.gold,weapons:v.weapons?.length,equipped:v.weapons?.find(w=>w.id===v.equipped)?.name,rarities:v.weapons?.map(w=>w.rarity)};}catch(e){result[key]={error:String(e.message)}}}return result;}
+const out=document.getElementById('out');function render(){out.textContent=JSON.stringify(report,null,2);}
+report[location.origin]=inspect();render();const other=allowed.find(o=>o!==location.origin);if(other&&allowed.includes(location.origin)){const link=document.createElement('a');link.href=other+'/save-check.html';link.textContent='Check the separate save at '+other;link.style.color='#a8d8ff';document.body.append(link);}
+document.getElementById('copy').onclick=async()=>{try{await navigator.clipboard.writeText(out.textContent);document.getElementById('copy').textContent='Copied';}catch{const r=document.createRange();r.selectNodeContents(out);getSelection().removeAllRanges();getSelection().addRange(r);}};
+</script>

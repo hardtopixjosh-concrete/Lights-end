@@ -1,0 +1,392 @@
+--- PAGE 1 ---
+VEYRATH  /  MAGE CLASS SPECIFICATION
+Companion to Game Design Review V0.8  |  Mage V0.2  |  14 Oct 2026
+1
+MAGE CLASS
+Implementation Companion | Version 0.2
+A class-specific build specification for Codex, designed to supplement Action Roguelite Complete Game
+Design Review V0.8 without replacing the shared game systems.
+Authority rule: V0.8 remains the source of truth for world design, persistence, weapon rarity, forge,
+enemies and events. This PDF defines Mage-specific controls, resources, skills, weapons and class balance.
+Where older Mage brainstorming differs, the Arcane Energy system in this document supersedes it.
+1 | Design identity and non-negotiable rules
+• Mage is a ranged, manually controlled spellcaster, built for elemental combinations, positional play and
+ burst/recovery rhythms.
+• Player input: WASD movement, mouse aiming, LMB/RMB/Q/E/R combat, SPACE Blink, I inventory, F
+ interaction.
+• No automatic primary spells. Holding LMB repeats a free projectile; secondary spell effects may trigger
+ from player-initiated actions.
+• One equipped weapon at a time; no armor/jewelry; no weapon mastery XP. Permanent weapons and gold,
+ temporary character level and skill allocations.
+• Leveling grants automatic character stat growth. Eligible mini-boss victories award skill points; acquiring
+ points does not open a menu. Spend them when convenient.
+REVIEW [ ] KEEP [ ] CHANGE [ ] REMOVE [ ] TEST FIRST
+Notes: ________________________________________________________________________________________
+
+
+--- PAGE 2 ---
+VEYRATH  /  MAGE CLASS SPECIFICATION
+Companion to Game Design Review V0.8  |  Mage V0.2  |  14 Oct 2026
+2
+2 | Shared-game compatibility matrix
+Shared V0.8 system
+Mage interpretation
+One isometric desert map
+Use existing camera and SmallScaleInt compatible 8-direction artwork; do not
+replace map.
+Continuous hordes / large body
+blockers
+Blink crosses ordinary enemies; respects solid scenery, large blockers and bosses,
+subject to anti-stuck safety.
+Mini-boss skill points
+Up to 8 points per run for the Mage initial implementation; V0.8 broader 8-10
+estimate remains a proposal.
+Boss mechanics
+Every boss must be beatable using base Mage spells; class-specific counters may
+differ from Swordsman parries.
+Permanent weapon system
+Weapon numerical power begins at effective level 1 each run, grows with character
+level to saved item-level ceiling.
+Realm Sovereign
+Mage can be abducted; realm defeat returns to ongoing desert run, not permanent
+death.
+
+
+--- PAGE 3 ---
+VEYRATH  /  MAGE CLASS SPECIFICATION
+Companion to Game Design Review V0.8  |  Mage V0.2  |  14 Oct 2026
+3
+3 | Starting abilities and numerical prototype
+Input
+Ability
+Energy
+Timing and purpose
+LMB
+Arcane Bolt
+0
+30 damage; hold to fire every 0.30s; free casting does not reset
+energy recovery.
+RMB
+Fireball
+15
+85 impact + burn; 2.5s cooldown; small explosion.
+Q
+Frost Nova
+20
+25 damage; 9s cooldown; freezes ordinary enemies, chills bosses.
+E
+Chain Lightning
+25
+45 per hit; up to 4 targets; 6s cooldown.
+R
+Meteor
+50
+250 center / 125 outer; 35s cooldown; aimed impact with clear
+telegraph.
+SPACE
+Arcane Blink
+0
+3s cooldown; short-distance repositioning and brief invulnerability.
+Starting stats: 170 HP, 100 maximum Arcane Energy. The Swordsman baseline is 250 HP. Numbers are
+proposed for playtesting, not locked performance results.
+REVIEW [ ] KEEP [ ] CHANGE [ ] REMOVE [ ] TEST FIRST
+Notes: ________________________________________________________________________________________
+4 | Arcane Energy: authoritative resource rules
+Arcane Energy replaces traditional Mage mana. Energy spending causes slow regeneration while frequent
+high-cost spells are used; taking a brief break from energy-consuming spells activates rapid recovery.
+Movement, Blink and free LMB do not hinder recovery.
+Arcane Energy regeneration timeline (no costly spells after t=0)
+3/s
+12/s
+25/s
+0s
+1.5s
+2.5s
+5s
+Energy-consuming spells restart the recovery timer; free Arcane Bolt does not.
+Elapsed time since last costly spell
+Regeneration rate
+0.0s to under 1.5s
+3 energy / second
+1.5s to under 2.5s
+12 energy / second
+2.5s or longer
+25 energy / second
+• Spend energy at cast commitment. Reject casts lacking energy without spending cooldown. Restart the
+ energy recovery timer only for successful energy-consuming spell casts.
+
+
+--- PAGE 4 ---
+VEYRATH  /  MAGE CLASS SPECIFICATION
+Companion to Game Design Review V0.8  |  Mage V0.2  |  14 Oct 2026
+4
+• Cap regeneration at maximum energy, apply frame-independent accumulation, and avoid exploits from
+ pause, lag or time-scale changes.
+• Free LMB should remain useful against bosses at zero energy; never require kills or hit counts to trigger
+ baseline regeneration.
+• Optional visual feedback: resource bar brightens at the high-regeneration threshold, with restrained VFX.
+ 
+REVIEW [ ] KEEP [ ] CHANGE [ ] REMOVE [ ] TEST FIRST
+Notes: ________________________________________________________________________________________
+
+
+--- PAGE 5 ---
+VEYRATH  /  MAGE CLASS SPECIFICATION
+Companion to Game Design Review V0.8  |  Mage V0.2  |  14 Oct 2026
+5
+5 | Skill points, skill tree and evolution framework
+The Mage uses a 24-node proposal: eight nodes per branch (six regular and two major evolutions). All nodes
+cost one point. Up to eight eligible mini-boss rewards provide points per run. At this stage a maximum of two
+major evolutions per run is the recommended balance target, not a separately approved choice.
+Each major evolution needs at least three prior points invested in its branch and its named prerequisite. A
+spell can have only one active replacement evolution at a time. Points persist only during the current run and
+may be respeced at the fixed forge.
+Pyromancer - fire damage and explosions
+Node
+Design effect
+Kindling
++12% burn damage
+Searing Impact
++15% Fireball explosion radius
+Wildfire
+Burning enemy deaths spread weaker burn to one target (limited triggers)
+Molten Core
+Fireball direct hits deal +15% damage to elites
+Infernal Focus
++20% Meteor center damage
+Fuel the Flames
+Applying burn to a previously unburned elite restores 4 energy; 5s internal
+cooldown
+Inferno Orb [evolution]
+Replaces Fireball with a slow damaging orb and delayed explosion; prerequisite
+Searing Impact
+Falling Stars [evolution]
+Replaces Meteor with three smaller impacts; prerequisite Infernal Focus
+Cryomancer - control and defense
+Node
+Design effect
+Cold Snap
++15% chill strength
+Permafrost
++25% chill duration
+Frozen Armor
+Frost Nova creates a 20-point barrier for 3s
+Shatter
+Frost damage against frozen targets causes a limited ice burst
+Glacial Reach
++20% Frost Nova radius
+Frigid Recovery
+Frost Nova costs 5 less energy
+Ice Prison [evolution]
+Replaces Frost Nova with targeted ring of ice; prerequisite Glacial Reach
+Crystal Spear [evolution]
+Replaces Arcane Bolt with piercing chill projectile; prerequisite Cold Snap;
+remains free
+
+
+--- PAGE 6 ---
+VEYRATH  /  MAGE CLASS SPECIFICATION
+Companion to Game Design Review V0.8  |  Mage V0.2  |  14 Oct 2026
+6
+Stormcaller - lightning and mobility
+Node
+Design effect
+Static Charge
+Shock increases target damage received by 5%, subject to global caps
+Conductivity
+Chain Lightning can reach one additional target
+Overcurrent
++12% Chain Lightning damage
+Quickening
+Arcane Bolt attack interval reduced by 8%
+Stormflow
++2 energy regeneration per second; apply to each active regen stage
+Voltaic Escape
+Blink shocks nearby enemies at destination
+Ball Lightning [evolution]
+Replaces Chain Lightning with slow moving area lightning; prerequisite
+Conductivity
+Thunderstep [evolution]
+Evolves Blink with directional lightning strike; prerequisite Voltaic Escape;
+remains free
+Implementation reconciliation: Earlier Mage brainstorming called the resource "mana", mentioned Arcane
+Momentum and constant 8 mana/sec, and described some abilities with different costs. Those are
+obsolete. Implement only Arcane Energy (100 maximum; staged 3/12/25 regeneration, with the spell costs
+above). Arcane Momentum is not included.
+6 | Skill tree user experience
+• No popups on XP level-ups and no forced mini-boss reward screens. Show a small available-points indicator.
+ 
+• Allow skill points to accumulate. Tree can open on demand while the single-player simulation is paused.
+ 
+• Represent each branch with a compact connected path; display prerequisites, active effects, energy-cost
+ changes and conflicts before confirming selection.
+• Never require spending points to access basic RMB/Q/E/R skills; all starting controls function at level 1.
+ 
+REVIEW [ ] KEEP [ ] CHANGE [ ] REMOVE [ ] TEST FIRST
+Notes: ________________________________________________________________________________________
+7 | Elemental reaction rules
+Reaction
+Trigger and result
+Thermal Shock
+Fire applied to a Frozen enemy causes a localized burst and consumes Freeze; on bosses
+consumes Chill stacks and adds stagger.
+Shatterstorm
+Lightning on a Frozen target launches limited ice fragments; bosses receive reduced
+non-freezing effect.
+Overload
+Lightning on Burning target causes localized explosion and applies Shock nearby.
+
+
+--- PAGE 7 ---
+VEYRATH  /  MAGE CLASS SPECIFICATION
+Companion to Game Design Review V0.8  |  Mage V0.2  |  14 Oct 2026
+7
+• Per-target major-reaction internal cooldown: proposed 1s. Cap targets and particle counts per cast.
+ Secondary reaction damage does not recursively trigger full reactions by default.
+• Freeze/stun effects on bosses convert to limited stagger or reduced debuffs. Maintain boss mechanic
+ readability over spectacular VFX.
+REVIEW [ ] KEEP [ ] CHANGE [ ] REMOVE [ ] TEST FIRST
+Notes: ________________________________________________________________________________________
+
+
+--- PAGE 8 ---
+VEYRATH  /  MAGE CLASS SPECIFICATION
+Companion to Game Design Review V0.8  |  Mage V0.2  |  14 Oct 2026
+8
+8 | Mage weapons, scaling and forging
+Family
+Gameplay role
+Tradeoff
+Staff
+High spell damage and larger AoE
+Slower basic casting
+Wand
+Faster free LMB and mobility
+Lower damage per hit
+Spellbook
+More effective reactions and control
+Reduced direct spell damage
+All Mage weapons use the same rarity order as V0.8: Common (gray), Magic (blue), Rare (purple), Legendary
+(orange), Mythic (gold), Ascendant (red). Each owns a unique persistent ID, affixes, rarity, saved item-level
+ceiling, forging state, cosmetic identity and signature effects.
+Critical scaling rule
+At the start of each ordinary new run, effective weapon level = 1. The numerical base damage and affix
+magnitudes increase with character level until they reach the weapon's saved item-level ceiling. The weapon
+always keeps its rarity, model/VFX identity, affix types, and signature behavior. Numeric proc strength scales;
+visual signature effects do not disappear. The item itself gains no weapon XP or mastery.
+Example signature items
+Weapon
+Signature mechanic
+Ashen Star - Legendary Staff
+Meteor leaves three burning zones; Falling Stars spreads impacts.
+Frostweaver - Mythic Spellbook
+Shattering frozen targets releases a limited seeking ice shard.
+Stormglass - Legendary Wand
+Chain Lightning gains an extra bounce on a Shocked target, subject to caps.
+The Sovereign's Eye - realm exclusive
+Meteor produces a delayed spectral echo at reduced level-scaled strength.
+Affixes and the forge
+• Mage-specific affixes: spell/elemental damage, cast speed, max energy, energy regeneration, Fireball AoE,
+ Nova radius, lightning targets, Meteor damage, Blink cooldown, reaction damage, status duration and boss
+damage.
+• Add class/family eligibility tags to the existing shared affix generator. Restrict incompatible affixes and
+ prevent duplicated unique signature effects.
+• Use the existing fixed-location forge and shared gold economy: ordinary affix rerolls, +quality, salvage and
+ current-run respec. Do not introduce a Mage-exclusive currency.
+• Rerolls cannot create Sovereign-exclusive signature effects. Realm weapons are obtained only through the
+ realm boss.
+REVIEW [ ] KEEP [ ] CHANGE [ ] REMOVE [ ] TEST FIRST
+Notes: ________________________________________________________________________________________
+
+
+--- PAGE 9 ---
+VEYRATH  /  MAGE CLASS SPECIFICATION
+Companion to Game Design Review V0.8  |  Mage V0.2  |  14 Oct 2026
+9
+9 | World activities and class parity
+Event
+Mage adaptation
+Buff camps / Blood Moon
+AoE valuable against crowds; fast demons and pressure require precise Blink, not
+passive screen clears.
+Cursed shrines / merchant
+Mage-compatible energy bargains, staff/wand/spellbook stock, all using existing
+gold rules.
+Demonic rifts
+Target anchors under pressure; elemental reactions assist but do not auto-clear
+anchors.
+Ancient Trials
+Replace Swordsman-only parry objectives with Blink timing, interrupt, or
+precision-cast equivalents.
+Major bosses / Sovereign
+Same phase logic and telegraphs; class-appropriate counterplay, windows for
+casting, no mandatory rare gear.
+
+
+--- PAGE 10 ---
+VEYRATH  /  MAGE CLASS SPECIFICATION
+Companion to Game Design Review V0.8  |  Mage V0.2  |  14 Oct 2026
+10
+10 | Class parity and performance acceptance
+The Mage should not fall behind the Swordsman due to energy downtime. Benchmark both classes with
+equivalent effective-level and rarity weapons under similar skill investment.
+Metric
+Initial acceptance hypothesis
+Single-target boss output
+Over representative 60-second rotations, approximately within 10-15% sustained
+damage at similar build investment.
+Wave clear
+Comparable defeated-enemies-per-minute outcomes; Mage favors ranged burst,
+Swordsman consistent cleave.
+Survivability
+Similar skilled-player run completion; Mage has lower HP offset by ranged control
+and Blink.
+Resource feel
+Free Arcane Bolt always viable; multiple costly spells can be chained, followed by a
+short rapid recovery period.
+Browser performance
+Shared visual/projectile pooling; capped chain bounces, reactions, damage numbers
+and overlap queries.
+11 | Codex build instructions and order
+• 1. Audit the existing project and confirm framework, actual sprite animations and established shared
+ services; do not overwrite the Swordsman.
+• 2. Implement Mage controller with eight-direction mouse-facing and existing camera. Map keys to
+ class-specific spell actions.
+• 3. Implement a reusable Arcane Energy component with staged regeneration, costs, pause rules, UI, and
+ automated tests.
+• 4. Add Arcane Bolt, Fireball, Frost Nova, Chain Lightning, Meteor and Blink using reusable
+ projectile/area/chain/status building blocks.
+• 5. Add controlled elemental reactions and global status-resistance/crowd-control parity with bosses.
+ 
+• 6. Implement data-driven 24-node Mage tree, per-ability evolution restrictions, mini-boss points, deferred
+ spending and respec.
+• 7. Add staff/wand/spellbook weapon families and Mage-specific affix filtering without duplicating inventory
+ or persistence systems.
+• 8. Verify level-1 re-entry scaling, saved ceiling behavior, realm-exclusive effects, forging and death/restart
+ persistence.
+• 9. Test major bosses, Blood Moon, trials, elites, and secret Sovereign realm with both Mage and
+ Swordsman.
+• 10. Report changed files, test evidence, observed FPS and unresolved balance questions, rather than
+ assuming values are finalized.
+REVIEW [ ] KEEP [ ] CHANGE [ ] REMOVE [ ] TEST FIRST
+Notes: ________________________________________________________________________________________
+
+
+--- PAGE 11 ---
+VEYRATH  /  MAGE CLASS SPECIFICATION
+Companion to Game Design Review V0.8  |  Mage V0.2  |  14 Oct 2026
+11
+12 | Decisions not yet locked
+• Maximum of two evolutions per run (recommended, not confirmed).
+ 
+• The precise internal node prerequisite topology beyond the named evolution prerequisites.
+ 
+• Whether Arcane Energy can exceed 100 from an affix or node and how stages interact with bonuses.
+ 
+• Exact cast timings and hit frames based on the asset pack actually in the Codex folder.
+ 
+• All damage numbers, energy values, cooldowns and affix rolls need measured playtesting.
+ 
+Final consistency check: No conventional mana bar; no Arcane Momentum; no automatic basic attacks; no
+skill point per character level; no weapon mastery; no permanent armor; no reset of weapon identity/effects;
+no lethal permanent run-ending result from a defeat inside the Sovereign realm.

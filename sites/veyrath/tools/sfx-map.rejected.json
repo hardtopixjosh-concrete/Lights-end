@@ -1,0 +1,38 @@
+{
+ "_note": "Oct 19: CC0 packs in VEYRATH/Sounds/packs (Kenney Impact/RPG/Interface, rubberduck 80 CC0 RPG + creature SFX). Kinds not listed keep their synth recipe.",
+ "packs": {
+  "imp": "../../../Sounds/packs/kenney_impact-sounds/Audio",
+  "rpg": "../../../Sounds/packs/kenney_rpg-audio/Audio",
+  "ui": "../../../Sounds/packs/kenney_interface-sounds/Audio",
+  "rd": "../../../Sounds/packs/rubberduck_80-rpg-sfx",
+  "cr": "../../../Sounds/packs/rubberduck_80-creature-sfx"
+ },
+ "sounds": {
+  "hit": {"files": ["imp:impactPunch_medium_000.ogg","imp:impactPunch_medium_001.ogg","imp:impactPunch_medium_002.ogg","imp:impactSoft_medium_000.ogg","imp:impactSoft_medium_001.ogg"], "gain": 0.35, "pitch": 0.1},
+  "crit": {"files": ["imp:impactPunch_heavy_000.ogg","imp:impactPunch_heavy_001.ogg","imp:impactPunch_heavy_002.ogg"], "gain": 0.5},
+  "parry": {"files": ["imp:impactMetal_heavy_000.ogg","imp:impactMetal_heavy_001.ogg","imp:impactMetal_heavy_002.ogg"], "gain": 0.55},
+  "pickup-gold": {"files": ["rd:item_coins_01.ogg","rd:item_coins_02.ogg","rd:item_coins_03.ogg","rd:item_coins_04.ogg"], "gain": 0.4},
+  "pickup-xp": {"files": ["rd:item_gem_01.ogg","rd:item_gem_02.ogg","rd:item_gem_03.ogg","rd:item_gem_04.ogg"], "gain": 0.25, "pitch": 0.1},
+  "pickup-heal": {"files": ["ui:confirmation_001.ogg","ui:confirmation_002.ogg"], "gain": 0.45},
+  "ui-click": {"files": ["ui:click_001.ogg","ui:click_002.ogg","ui:click_003.ogg"], "gain": 0.45, "pitch": 0.03},
+  "card": {"files": ["ui:select_001.ogg","ui:select_002.ogg","ui:select_003.ogg"], "gain": 0.45, "pitch": 0.03},
+  "boss-roar": {"files": ["cr:roar_01.ogg","cr:roar_02.ogg","cr:roar_03.ogg","rd:creature_roar_01.ogg","rd:creature_roar_02.ogg","rd:creature_roar_03.ogg"], "gain": 0.75, "pitch": 0.05},
+  "tyrant-roar": {"files": ["cr:monster_01.ogg","cr:monster_02.ogg","cr:monster_03.ogg","rd:creature_monster_01.ogg","rd:creature_monster_02.ogg"], "gain": 0.8, "pitch": 0.04},
+  "elite": {"files": ["cr:grunt_01.ogg","cr:grunt_02.ogg","cr:grunt_03.ogg","cr:troll_01.ogg","cr:troll_02.ogg"], "gain": 0.6},
+  "boss-death": {"files": ["rd:creature_die_01.ogg","cr:scream_01.ogg","cr:scream_02.ogg"], "gain": 0.8, "pitch": 0.03},
+  "boss-smash": {"files": ["rd:stones_01.ogg","rd:stones_02.ogg","imp:impactWood_heavy_000.ogg","imp:impactWood_heavy_001.ogg"], "gain": 0.7},
+  "boss-charge": {"files": ["imp:impactSoft_heavy_000.ogg","imp:impactSoft_heavy_001.ogg","imp:impactSoft_heavy_002.ogg"], "gain": 0.6},
+  "ring": {"files": ["rd:stones_03.ogg","rd:stones_04.ogg","imp:impactMining_000.ogg","imp:impactMining_001.ogg"], "gain": 0.6},
+  "shed": {"files": ["imp:impactPlate_heavy_000.ogg","imp:impactPlate_heavy_001.ogg","imp:impactPlate_heavy_002.ogg"], "gain": 0.75},
+  "w-potion": {"files": ["imp:impactGlass_light_000.ogg","imp:impactGlass_light_001.ogg","imp:impactGlass_light_002.ogg"], "gain": 0.45},
+  "w-canister": {"files": ["imp:impactGlass_medium_000.ogg","imp:impactGlass_medium_001.ogg"], "gain": 0.45},
+  "w-barrel": {"files": ["imp:impactWood_heavy_002.ogg","imp:impactWood_heavy_003.ogg"], "gain": 0.6},
+  "w-daggers": {"files": ["rpg:knifeSlice.ogg","rpg:knifeSlice2.ogg"], "gain": 0.45, "pitch": 0.08},
+  "w-kunai": {"files": ["rpg:drawKnife1.ogg","rpg:drawKnife2.ogg","rpg:drawKnife3.ogg"], "gain": 0.45, "pitch": 0.08},
+  "w-shuriken": {"files": ["rd:blade_01.ogg","rd:blade_02.ogg","rd:blade_03.ogg"], "gain": 0.4, "pitch": 0.1},
+  "pyro-bolt": {"files": ["rd:spell_fire_01.ogg","rd:spell_fire_02.ogg","rd:spell_fire_03.ogg"], "gain": 0.45},
+  "lmb-embers": {"files": ["rd:spell_fire_04.ogg","rd:spell_fire_05.ogg"], "gain": 0.4},
+  "lmb-flamegaunt": {"files": ["rd:spell_fire_06.ogg","rd:spell_fire_07.ogg"], "gain": 0.45},
+  "lmb-sigilbook": {"files": ["rd:book_01.ogg","rd:book_02.ogg","rd:book_03.ogg"], "gain": 0.45}
+ }
+}

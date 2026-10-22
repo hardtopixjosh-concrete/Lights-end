@@ -1,0 +1,4 @@
+Merchant traveler: selected 2Archer Idle and Run animations from the supplied
+2D HD Character pack 1 V1.2.zip (SmallScaleInt pack identified in the original
+VEYRATH design PDF). No license/readme text was present in this local ZIP.
+This note records provenance only and does not assert new license terms.

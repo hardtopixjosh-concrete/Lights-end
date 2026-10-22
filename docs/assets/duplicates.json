@@ -1,0 +1,4682 @@
+[
+  {
+    "sha256": "1dfb421114f1cdf010496e63ae6e2fe92c3a1a6fd6616de5bc389453da0df99e",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Blood FX Pack 1.zip",
+        "sequence": "Super Pixel Blood FX Pack 1/PNG/bldfx1_blood_stream_A_large_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Splatters/directional_splatter_001/directional_splatter_001_large_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "aad65e4250a2edcefa5269efe5b6fd78b8e19d2f6bf9df67ff2b50422984aa33",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Blood FX Pack 1.zip",
+        "sequence": "Super Pixel Blood FX Pack 1/PNG/bldfx1_blood_stream_A_large_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Splatters/directional_splatter_001/directional_splatter_001_large_green"
+      }
+    ]
+  },
+  {
+    "sha256": "9f8df3aae559b6aa05ef71ed5583489740e87638a8053af5e0389fd5fac9b62c",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Blood FX Pack 1.zip",
+        "sequence": "Super Pixel Blood FX Pack 1/PNG/bldfx1_blood_stream_A_large_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Splatters/directional_splatter_001/directional_splatter_001_large_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "f511ea3c630829b6815992eaa012185924b168079b33d765c8822fc6e1382a64",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Blood FX Pack 1.zip",
+        "sequence": "Super Pixel Blood FX Pack 1/PNG/bldfx1_blood_stream_A_large_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Splatters/directional_splatter_001/directional_splatter_001_large_red"
+      }
+    ]
+  },
+  {
+    "sha256": "d370a80223380a5229dc5657f8b7627357bdab5c037f8292ffe37a7eb96ce2dd",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Blood FX Pack 1.zip",
+        "sequence": "Super Pixel Blood FX Pack 1/PNG/bldfx1_blood_stream_A_large_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Splatters/directional_splatter_001/directional_splatter_001_large_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "b86180c8017d88eeaa93c281ca34f6ebb21fcde930099d7d19e7c5abc0bdc1e7",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Blood FX Pack 1.zip",
+        "sequence": "Super Pixel Blood FX Pack 1/PNG/bldfx1_blood_stream_A_large_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Splatters/directional_splatter_001/directional_splatter_001_large_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "5ce839a8d6fe947771888739dbb1b2c51be4f4391c6ad8c67f31549f2a23db26",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Blood FX Pack 1.zip",
+        "sequence": "Super Pixel Blood FX Pack 1/PNG/bldfx1_blood_stream_A_small_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Splatters/directional_splatter_001/directional_splatter_001_small_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "5c60b6a431b53b524419107d822d598127a3bb4ea20de41adead9bbd2a214f24",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Blood FX Pack 1.zip",
+        "sequence": "Super Pixel Blood FX Pack 1/PNG/bldfx1_blood_stream_A_small_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Splatters/directional_splatter_001/directional_splatter_001_small_green"
+      }
+    ]
+  },
+  {
+    "sha256": "2c5f5159ba3aca42394a28f4da497fda02ce4ffda28dd96d357d7405e68bcc1d",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Blood FX Pack 1.zip",
+        "sequence": "Super Pixel Blood FX Pack 1/PNG/bldfx1_blood_stream_A_small_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Splatters/directional_splatter_001/directional_splatter_001_small_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "3fffe50cc3032b4d0878e5ea8495fa91dbe421b2b3c9df65f42ef7bd9882246b",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Blood FX Pack 1.zip",
+        "sequence": "Super Pixel Blood FX Pack 1/PNG/bldfx1_blood_stream_A_small_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Splatters/directional_splatter_001/directional_splatter_001_small_red"
+      }
+    ]
+  },
+  {
+    "sha256": "c8903bf8151faa0a1589ec01082feb2f9f9f1480afffd3a5f85baeb7d8c13493",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Blood FX Pack 1.zip",
+        "sequence": "Super Pixel Blood FX Pack 1/PNG/bldfx1_blood_stream_A_small_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Splatters/directional_splatter_001/directional_splatter_001_small_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "cba5047d8fa3b4d8e9ad964639e841fc28a8ba2c84002a5ccad81748a0b55730",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Blood FX Pack 1.zip",
+        "sequence": "Super Pixel Blood FX Pack 1/PNG/bldfx1_blood_stream_A_small_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Splatters/directional_splatter_001/directional_splatter_001_small_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "2d8554956242875025bc36c4757c68fefe52604f683303fcc206862136c7fc67",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/epic_explosion_002/epic_explosion_002_large_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_epic_explosion_C_large_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "b9b0423ab62549ad1dc943119ef04ae3528c8cb5a08ebdee507e7feff3ad622d",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/epic_explosion_002/epic_explosion_002_large_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_epic_explosion_C_large_green"
+      }
+    ]
+  },
+  {
+    "sha256": "d5fa53031ba9b3c6421f9793e4a723a73d47aa53568ab74b770316555438064d",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/epic_explosion_002/epic_explosion_002_large_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_epic_explosion_C_large_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "e23d7e3438553e61a8656d2f5fa67035b894e27daaa995f3b141425f82142ed0",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/epic_explosion_002/epic_explosion_002_large_pink"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_epic_explosion_C_large_pink"
+      }
+    ]
+  },
+  {
+    "sha256": "065f1a95a64bb2be230744c007dcd8296e08bfa15a7695b4fa0bd264621c6817",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/epic_explosion_002/epic_explosion_002_large_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_epic_explosion_C_large_red"
+      }
+    ]
+  },
+  {
+    "sha256": "a3d82528cf7c89e5ee6b414ecc8baa6bbd7768b113bee13f2710a216a8ff44a3",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/epic_explosion_002/epic_explosion_002_large_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_epic_explosion_C_large_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "aa15b12b17d80d2e5b9b23c96ae962484ac307f2d10fb8381716c3373de4d0af",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/epic_explosion_002/epic_explosion_002_large_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_epic_explosion_C_large_white"
+      }
+    ]
+  },
+  {
+    "sha256": "c5d2674f803120e3d37d284c26fd24932466195f4e262ed3b62f5330162c6a8f",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/epic_explosion_002/epic_explosion_002_large_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_epic_explosion_C_large_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "6a97687aa5325f1ab05ae349de94e58259aa8ca6a2f0881fdf5cb1858f86f248",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/epic_explosion_002/epic_explosion_002_small_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_epic_explosion_C_small_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "da26fe114cb119afa7a73ee941bf09ebb6ed5f8d08315f00f3917bdf343b9d62",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/epic_explosion_002/epic_explosion_002_small_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_epic_explosion_C_small_green"
+      }
+    ]
+  },
+  {
+    "sha256": "1a339c7aa18be799ed1eda8e9469ceef8a57f3b55bcc004b3f4206c2e78ea1ec",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/epic_explosion_002/epic_explosion_002_small_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_epic_explosion_C_small_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "e8333c2568dfb630061ed1b63b825cfac8d73d84c343163eaf8ac827d63cae9b",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/epic_explosion_002/epic_explosion_002_small_pink"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_epic_explosion_C_small_pink"
+      }
+    ]
+  },
+  {
+    "sha256": "2985d9d6ac7695f7366095dfe6a37fae3b2d43f1e3c8aca14d7fa7bc4fce0f48",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/epic_explosion_002/epic_explosion_002_small_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_epic_explosion_C_small_red"
+      }
+    ]
+  },
+  {
+    "sha256": "2fd8beee11deedff3daf1549ddac724b48c544010b446606b016d0048e8e80f7",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/epic_explosion_002/epic_explosion_002_small_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_epic_explosion_C_small_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "959a977303658bd6907dcf407551c7f0bf75127bff1065d1f86dd2911fc843b6",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/epic_explosion_002/epic_explosion_002_small_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_epic_explosion_C_small_white"
+      }
+    ]
+  },
+  {
+    "sha256": "3dd8ad39ce90092c1c904c945f3cdfd0bb1a376d44b43256e06155be7dd48027",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/epic_explosion_002/epic_explosion_002_small_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_epic_explosion_C_small_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "c1c1da1e486b585600319086c93499384081586418862b4435628623e70331d3",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_001/stylized_explosion_001_large_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_A_large_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "0b6f4b58271030adc338ca42df00c399b90d9529e66bb7ea30e4b7605a92b43a",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_001/stylized_explosion_001_large_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_A_large_green"
+      }
+    ]
+  },
+  {
+    "sha256": "6404431c3159640863bf6ec83d2f32906b9121a400cb1467926a921e57994e94",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_001/stylized_explosion_001_large_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_A_large_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "b27f8baa542b67c9a6f3ce20288c20ff1f2f67c1d50dac601f6a21e875f272d2",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_001/stylized_explosion_001_large_pink"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_A_large_pink"
+      }
+    ]
+  },
+  {
+    "sha256": "6340f21a39a014324bbf57c5f313f33cb863244004e76a013e8a1daeeb68c4dd",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_001/stylized_explosion_001_large_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_A_large_red"
+      }
+    ]
+  },
+  {
+    "sha256": "b01eb0b5132500f02504b963a43aa5ae5ecdc8c60816effb78d0b11a1e24768c",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_001/stylized_explosion_001_large_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_A_large_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "ecc4c668883f4c727dc0373c91a83a322d1ff8ac8542f4c993ede73d25db4f92",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_001/stylized_explosion_001_large_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_A_large_white"
+      }
+    ]
+  },
+  {
+    "sha256": "a6c44835568f2d8b4a5d4feba64045e527528858763bab789f95bb0e107dd51a",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_001/stylized_explosion_001_large_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_A_large_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "009b44f5f05d938a8d488b840c9e2a584931c4669ed5eefc4d7b7b7a4c60bd8e",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_001/stylized_explosion_001_small_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_A_small_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "a3c6acfa05b86fdb6dc7941b26d5cec3d7d72b500e4f02732efaf31bf96f9a08",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_001/stylized_explosion_001_small_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_A_small_green"
+      }
+    ]
+  },
+  {
+    "sha256": "9adc9fe7936de27cc3920f40d456d22e51c8ddba6ab7a9088abe560d76a52799",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_001/stylized_explosion_001_small_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_A_small_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "61dd6a97c6de1becd36641e04fc72f70d6106f9b802acd4a7732d95c209db59c",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_001/stylized_explosion_001_small_pink"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_A_small_pink"
+      }
+    ]
+  },
+  {
+    "sha256": "d41fe166f10725e8e74907817ac55f68556a16129aeb0efe42e1ef02b6d05b1f",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_001/stylized_explosion_001_small_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_A_small_red"
+      }
+    ]
+  },
+  {
+    "sha256": "c04b19a460743ae9b21695e84c0d4bc0fba436ace1bc37b20e985833c984d8b6",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_001/stylized_explosion_001_small_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_A_small_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "ad8e5e20c00b248c2f213694e109d20b1bf0657b4668e78ae5a8421221da58d8",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_001/stylized_explosion_001_small_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_A_small_white"
+      }
+    ]
+  },
+  {
+    "sha256": "9351b12975deefa35093637e5f2604224a614a3529ef5f496f72aec7ca0de58f",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_001/stylized_explosion_001_small_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_A_small_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "a10a6120dca117aa6032dbd931681fec17535abc38de4687e3583dfdb50c57e0",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_002/stylized_explosion_002_large_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_B_large_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "7c0e199f49451f0d141a16e2c141213d1b02f8802b0bad01f050c9cd7b68c3cf",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_002/stylized_explosion_002_large_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_B_large_green"
+      }
+    ]
+  },
+  {
+    "sha256": "c0e0f3f97d8726997ff005efe19168369b5b2635a08861cb7d46eee27f4d3033",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_002/stylized_explosion_002_large_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_B_large_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "5cdee469af1148b401dae772c23062bc8f1d208a6fe7409a4fc2113d3fdc83eb",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_002/stylized_explosion_002_large_pink"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_B_large_pink"
+      }
+    ]
+  },
+  {
+    "sha256": "803d9fda0884e62b21ff1d9cc06f8c81503b55298935900f8fe26b409747b9d4",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_002/stylized_explosion_002_large_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_B_large_red"
+      }
+    ]
+  },
+  {
+    "sha256": "926db0df27872a6d15770b6b1dc466086be854c6c27b0360d0d9266e91668325",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_002/stylized_explosion_002_large_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_B_large_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "e4d9d0e21674212bdcc4e6e45c6f228394d38d89ba7878ecad633969b0f22854",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_002/stylized_explosion_002_large_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_B_large_white"
+      }
+    ]
+  },
+  {
+    "sha256": "5236e20bd3a262610c30bb1ec6060badd768d37b1ab26729079c4ddb7ba01834",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_002/stylized_explosion_002_large_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_B_large_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "b94b6d15d5c819d361ce46beb88c7efa645f4cddd8e1c90ee2e7cd5d7eec4e88",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_002/stylized_explosion_002_small_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_B_small_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "d5d2a1e02922f3c57591a599de2d1744d89c5f34214bc761a42ecf3022c647b9",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_002/stylized_explosion_002_small_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_B_small_green"
+      }
+    ]
+  },
+  {
+    "sha256": "16470fd3d9f65ef51d959608019e338951fb8ffe8cd2862a31fabe00198ed99a",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_002/stylized_explosion_002_small_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_B_small_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "e2be4714003065ee3499b654ceb45c94ac91ee9edd12c20c893a8a4ac2896d1e",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_002/stylized_explosion_002_small_pink"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_B_small_pink"
+      }
+    ]
+  },
+  {
+    "sha256": "402e6ab8fd4facd10661e2a103af021a08a439e69c4af32a93acce0ef48b59a1",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_002/stylized_explosion_002_small_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_B_small_red"
+      }
+    ]
+  },
+  {
+    "sha256": "4b9042069b6088a72871f273e4a6d2d8d88690dad2578f4b9f74c6b0b2c71548",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_002/stylized_explosion_002_small_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_B_small_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "0c4ad9a2a3729ccc9f76d0a403521a6df0c4414058b1dcd568f7fc2d37c6fd4d",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_002/stylized_explosion_002_small_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_B_small_white"
+      }
+    ]
+  },
+  {
+    "sha256": "643f5a1508475d86a5bf6ece160da6e70cd3ce5c1ab72c6750a292c5f05b6f56",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_002/stylized_explosion_002_small_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_B_small_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "81ccb896ba3daeb8cfdad7a271180b7caed9cadae9141ec8b497809d91358534",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_003/stylized_explosion_003_large_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_C_large_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "641b9000d2d9a49e8b4f71b0a26dba30258d52ac6cd7738448f9368defd3527c",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_003/stylized_explosion_003_large_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_C_large_green"
+      }
+    ]
+  },
+  {
+    "sha256": "1ed50aa73b6d876f6637fda453ac5eb75fbc09fbb7cf024569c4236087e16fd1",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_003/stylized_explosion_003_large_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_C_large_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "95f6ce69ba1598424a7e268d578052783ce73277b7e0657001d434bdfbe3fa44",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_003/stylized_explosion_003_large_pink"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_C_large_pink"
+      }
+    ]
+  },
+  {
+    "sha256": "444f3e719f9afb83ab428cc0b280e27e74d12b23db07a43eb85d89f7acdbe816",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_003/stylized_explosion_003_large_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_C_large_red"
+      }
+    ]
+  },
+  {
+    "sha256": "4cef004bec23889ac93dec5f2a014d4207da9db317354f3426f4ff8a87aa07af",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_003/stylized_explosion_003_large_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_C_large_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "77d3a6f267e6673909ee8c024b6404d5214206d44e904b97e9cf0e487d68f08a",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_003/stylized_explosion_003_large_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_C_large_white"
+      }
+    ]
+  },
+  {
+    "sha256": "265e6a824cc13f21a7a071dbe78bfd5dc55d83cab75a0dd94aeaa643389d7ed3",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_003/stylized_explosion_003_large_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_C_large_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "8f397d74ed2dc210131617b75ff6f309af3ea349e222c2eaae9def5ec78e24ab",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_003/stylized_explosion_003_small_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_C_small_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "88b04b67cbd7ec927051c5611fde12ae920224474d3a8c03c9bccdf5226202cf",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_003/stylized_explosion_003_small_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_C_small_green"
+      }
+    ]
+  },
+  {
+    "sha256": "08f59f8ffad6130302c179e5caf5de0984084b10788bceb680a23f65aff74455",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_003/stylized_explosion_003_small_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_C_small_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "067c15b92ca51960980122b02896a2b7955a74f58f495fa933ecce7a64d1184a",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_003/stylized_explosion_003_small_pink"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_C_small_pink"
+      }
+    ]
+  },
+  {
+    "sha256": "00123a390f6d123d2b8edcf1aa587ccbbc3d434afdade97aa8252a72c1442814",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_003/stylized_explosion_003_small_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_C_small_red"
+      }
+    ]
+  },
+  {
+    "sha256": "14d62aa25a916b836c2907ff90eb84b5a49dff314163c5f7c4c0f6a8c956726e",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_003/stylized_explosion_003_small_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_C_small_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "08cde044ab91d05e0e14765507d9af751e13c64a303beb3223b24b0961211e67",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_003/stylized_explosion_003_small_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_C_small_white"
+      }
+    ]
+  },
+  {
+    "sha256": "c4cea941a8935228c8400d88d4a85902cf2b8f1bda453a60106168360258c6a4",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/stylized_explosion_003/stylized_explosion_003_small_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Explosion FX Pack 1.zip",
+        "sequence": "Super Pixel Explosion FX Pack 1/PNG/expfx1_stylized_explosion_C_small_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "78077beced71945416555ce88e9d7f9ef42f645b4fcc998a2ea1747666242755",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/symmetrical_explosion_001/symmetrical_explosion_001_large_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_toon_explosion_large_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "954c290ce3e8149e2c9479c8e92242f5b8151107d6054eb07fab8f558cde5b7e",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/symmetrical_explosion_001/symmetrical_explosion_001_large_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_toon_explosion_large_green"
+      }
+    ]
+  },
+  {
+    "sha256": "3acdc51ce23b6d53858f322270b8fa459ada69d1e7215d414ba5e07ac4b17f18",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/symmetrical_explosion_001/symmetrical_explosion_001_large_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_toon_explosion_large_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "f8ec65ed9fe2bb1fc7e1ccadfb7837016bf7ee9bcd6258a1fd4b7e4a2f032cc2",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/symmetrical_explosion_001/symmetrical_explosion_001_large_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_toon_explosion_large_red"
+      }
+    ]
+  },
+  {
+    "sha256": "737d48152d1cd6e82fdc6ecf34090417c15d255a50a185aa05761a4e0d8c74f6",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/symmetrical_explosion_001/symmetrical_explosion_001_large_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_toon_explosion_large_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "324bfb47aa560e5487df7ab2c76f8fe7401538449c3e6b26af37801730b40246",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/symmetrical_explosion_001/symmetrical_explosion_001_large_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_toon_explosion_large_white"
+      }
+    ]
+  },
+  {
+    "sha256": "4e116fa00a00ec5a3c2a6f4730066b84f0a34da823129aab8b23fb3b3881538f",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/symmetrical_explosion_001/symmetrical_explosion_001_large_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_toon_explosion_large_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "6dd4e9e6abc57c2008ada8a9b8f1d844b401f10af008b5434fe36678a490a4e7",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/symmetrical_explosion_001/symmetrical_explosion_001_small_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_toon_explosion_small_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "abb4bced4cd0d2361e9316e31b1eca156450e8cb5fe248f9e685bad934c5148b",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/symmetrical_explosion_001/symmetrical_explosion_001_small_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_toon_explosion_small_green"
+      }
+    ]
+  },
+  {
+    "sha256": "89d0eb1706fd8760948ee89415470615df40b87ab056a20fb351956ef9d6339a",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/symmetrical_explosion_001/symmetrical_explosion_001_small_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_toon_explosion_small_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "d49c846a2011aee1402abec70211f68031a89db26d2528ac14ce20407fa4f258",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/symmetrical_explosion_001/symmetrical_explosion_001_small_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_toon_explosion_small_red"
+      }
+    ]
+  },
+  {
+    "sha256": "51358f9f92843a6331eefd6452f65d6b87440bc58df7c7295d949d1bad67dd0f",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/symmetrical_explosion_001/symmetrical_explosion_001_small_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_toon_explosion_small_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "af2fffee61369a7dc30fb0f728762848dfeacca6d21a287b3bf13b89892e4249",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/symmetrical_explosion_001/symmetrical_explosion_001_small_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_toon_explosion_small_white"
+      }
+    ]
+  },
+  {
+    "sha256": "7b2d9058a2d3187effb37e2fd088e2d1db37bf225bf5dedf5150c8414763af1c",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Explosions/symmetrical_explosion_001/symmetrical_explosion_001_small_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_toon_explosion_small_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "5d5105ee2a13c8225d734e1b0f7af0600409cb103ea9542fbf250359ae3b4b4f",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_absorb_001/spell_absorb_001_large_black"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_absorb_large_black"
+      }
+    ]
+  },
+  {
+    "sha256": "29fe592efd476d3a4bc83cabb526ac65c7252d79a8dd2c053f8e1d3fa0bbb0a5",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_absorb_001/spell_absorb_001_large_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_absorb_large_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "d3608ed7bc4740084a0367dbaa7a0e7381a6262c53b4944fa658b3f805b0c1a6",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_absorb_001/spell_absorb_001_large_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_absorb_large_green"
+      }
+    ]
+  },
+  {
+    "sha256": "0a292001e6847265560e4736ba0632092ac1a178547bd4caef0440506f45fbfa",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_absorb_001/spell_absorb_001_large_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_absorb_large_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "71ed50c367c4f25d9da5ddae905dab21211d347a109567fe5d4763a20f010505",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_absorb_001/spell_absorb_001_large_pink"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_absorb_large_pink"
+      }
+    ]
+  },
+  {
+    "sha256": "49dd1844b6ed162c7fec2bda7b7e885e28dab29f8f06d4b3fab2a7dee7cd8030",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_absorb_001/spell_absorb_001_large_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_absorb_large_red"
+      }
+    ]
+  },
+  {
+    "sha256": "3009244d9aacfc57a1715d2b9c387e220b9dd18dd982484aaed21bdd16babb8f",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_absorb_001/spell_absorb_001_large_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_absorb_large_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "9a2973ad62f6d7fc5407e6f977bedaa18e351427bc5ef81a0434c649a1b47b4a",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_absorb_001/spell_absorb_001_large_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_absorb_large_white"
+      }
+    ]
+  },
+  {
+    "sha256": "c3ead62dc4849c7c5dc7b790223261f8b1429c03fa93f3669f3d91f84a6ea04a",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_absorb_001/spell_absorb_001_large_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_absorb_large_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "9cd290ba3641066bd06e4c46af9c8f115dd9aa493b7e96aa7961b7176a8d3dcd",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_absorb_001/spell_absorb_001_small_black"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_absorb_small_black"
+      }
+    ]
+  },
+  {
+    "sha256": "832fd54bfb639a24a13fa81e2104708a1d72e1fae4d22c9c17ae726e2fc46bd3",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_absorb_001/spell_absorb_001_small_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_absorb_small_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "f0f4826547bf9839cdf12c9df425cb6fefaab07a8a9c372802a54caa8fabf319",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_absorb_001/spell_absorb_001_small_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_absorb_small_green"
+      }
+    ]
+  },
+  {
+    "sha256": "0481d9f80543a9148377ce9cd0d0b88f1ad5b9e037de458104f4dafc12c16cee",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_absorb_001/spell_absorb_001_small_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_absorb_small_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "e9f6ddecf358e74b8e5b97a2cad3e6905fe7d29b6d50f06c45648758bb3040ca",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_absorb_001/spell_absorb_001_small_pink"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_absorb_small_pink"
+      }
+    ]
+  },
+  {
+    "sha256": "c419ec728142abcd670835c223e695bdbac8a24e9b072e4bb1e85fd9b2b4b58d",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_absorb_001/spell_absorb_001_small_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_absorb_small_red"
+      }
+    ]
+  },
+  {
+    "sha256": "26f3a95237b1c8573163cb16dea488bcdaf2b7e751ea323ee051591194b3d467",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_absorb_001/spell_absorb_001_small_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_absorb_small_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "3abee4d35a85801c44462a8386a353d651d08b0a69655449a5be3da0fc0cee7c",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_absorb_001/spell_absorb_001_small_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_absorb_small_white"
+      }
+    ]
+  },
+  {
+    "sha256": "d299e4a99c9a8283c736667dcbf584df31bfc6eac1bf9838a7e668326820719c",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_absorb_001/spell_absorb_001_small_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_absorb_small_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "c14270a0a8ef3059de5933f4814940f1504da4d9899310f47a5f0579b44373c9",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_poison_001/spell_poison_001_large_black"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_poison_large_black"
+      }
+    ]
+  },
+  {
+    "sha256": "8183411bdf47aee30b0e09444d809dcff6e6ef5d44f71fa436c5c779c808db76",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_poison_001/spell_poison_001_large_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_poison_large_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "0bbfb264c29fa01f2807d678746c8329592440364c26d4d2ff47e11175dd4b71",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_poison_001/spell_poison_001_large_brown"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_poison_large_brown"
+      }
+    ]
+  },
+  {
+    "sha256": "a79ffe8e343425491c8f249fd4f949a591fc8def81da5ef14a4dadccfd0a4267",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_poison_001/spell_poison_001_large_gray"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_poison_large_gray"
+      }
+    ]
+  },
+  {
+    "sha256": "09593ba187bcd7748358b708adb8c74faeeb30a72c80fd6457183ec8e8fdd313",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_poison_001/spell_poison_001_large_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_poison_large_green"
+      }
+    ]
+  },
+  {
+    "sha256": "77181e572c982240a3bdd9c664dbb3958de379d112fc8c35f81dba5170994a10",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_poison_001/spell_poison_001_large_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_poison_large_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "3fa79447ba8467f704bdf210d34161ad9d9f8886db55adc995db80dd6ac67f5b",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_poison_001/spell_poison_001_large_pink"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_poison_large_pink"
+      }
+    ]
+  },
+  {
+    "sha256": "eb6dbf2b7037d8f4081f9e9c0fd3c609735d78d29acbab2666bdaf97da71867e",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_poison_001/spell_poison_001_large_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_poison_large_red"
+      }
+    ]
+  },
+  {
+    "sha256": "b71ea1d318baf2132cb0ec807860678e5c084b47a13e4e7bd2cdec22879274e3",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_poison_001/spell_poison_001_large_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_poison_large_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "f3b898f82a69f13bfca53ddc674a955d28d0937d341413bc75a8f81ae3199388",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_poison_001/spell_poison_001_large_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_poison_large_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "a36509ca6e64739e87b13dc3ea4a1ec43870ac281369715a08418ebd531d5b22",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_poison_001/spell_poison_001_small_black"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_poison_small_black"
+      }
+    ]
+  },
+  {
+    "sha256": "0594d1816c495d35f83de7fdb764cbb3cffad14947abe63d31796550e7c87fbc",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_poison_001/spell_poison_001_small_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_poison_small_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "092fa3f76b8cd70f99e9d65e939b1f816ad4fe08f5f468286d38c88c580cf169",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_poison_001/spell_poison_001_small_brown"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_poison_small_brown"
+      }
+    ]
+  },
+  {
+    "sha256": "288f251f660d7c1201a48a7ae6de8894de57885f83d19a3e59fa1c14699cd1d1",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_poison_001/spell_poison_001_small_gray"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_poison_small_gray"
+      }
+    ]
+  },
+  {
+    "sha256": "103c5ec4fc50298a613cc22dd39bf1d3a06656969d8ea4800c4ebc7327875192",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_poison_001/spell_poison_001_small_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_poison_small_green"
+      }
+    ]
+  },
+  {
+    "sha256": "dbf3be237f644a5ff9a70469abb9ba1d8b7ce19b4c2ce99b72e362a53423a814",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_poison_001/spell_poison_001_small_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_poison_small_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "1b1c61c1de0e8d000990e60fff1e3ed1f38691907044bd399e67b5601621b3d9",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_poison_001/spell_poison_001_small_pink"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_poison_small_pink"
+      }
+    ]
+  },
+  {
+    "sha256": "501dd7aeb5f7cb97d66c296971976f6c8f06af906cbe86ae836d909e919832e0",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_poison_001/spell_poison_001_small_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_poison_small_red"
+      }
+    ]
+  },
+  {
+    "sha256": "40b1c1448cfaf5dadd3c9a2564f58b023dd25937983a57bf2ce0fae93ee2ba97",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_poison_001/spell_poison_001_small_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_poison_small_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "52a597c762f184311d7b4543d53154353e1843fa08085284e0a5827116ff1cc8",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Fantasy Spells/spell_poison_001/spell_poison_001_small_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 2 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 2/PNG/fanfx2_poison_small_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "e9a1e70a96476a6b5249bf07b1c2e3d414539e72680b51e9e86ed1dc61336a20",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_001/symmetrical_impact_001_large_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 2.zip",
+        "sequence": "Super Pixel Impact FX Pack 2/PNG/impfx2_cinematic_impact_A_large_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "c55c7649288b3a0ac98b302bbaf7959b7b72fa7817bc6ef4df3f84c2e4b0151c",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_001/symmetrical_impact_001_large_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 2.zip",
+        "sequence": "Super Pixel Impact FX Pack 2/PNG/impfx2_cinematic_impact_A_large_green"
+      }
+    ]
+  },
+  {
+    "sha256": "325f85ad07bf603b97f43eddbfb830046533df38a41d0cf76e9f945afb17c06e",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_001/symmetrical_impact_001_large_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 2.zip",
+        "sequence": "Super Pixel Impact FX Pack 2/PNG/impfx2_cinematic_impact_A_large_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "6a4421d9a5940d6758397bb71d12da951a8d459991b66085691f0b7cd08486e9",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_001/symmetrical_impact_001_large_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 2.zip",
+        "sequence": "Super Pixel Impact FX Pack 2/PNG/impfx2_cinematic_impact_A_large_red"
+      }
+    ]
+  },
+  {
+    "sha256": "83ba3623e67f618232c009ae42aee81f139507026386b99ceec2ac4593e961e4",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_001/symmetrical_impact_001_large_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 2.zip",
+        "sequence": "Super Pixel Impact FX Pack 2/PNG/impfx2_cinematic_impact_A_large_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "7a1aaaf795497fa05eb53403548a7d69f5aa7c4ec450c8614ae43b0cd1bb03bf",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_001/symmetrical_impact_001_large_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 2.zip",
+        "sequence": "Super Pixel Impact FX Pack 2/PNG/impfx2_cinematic_impact_A_large_white"
+      }
+    ]
+  },
+  {
+    "sha256": "727d6167ecad0e7f9f45de12cab8387d08d3685e5a013dea4cc05a7f548cad20",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_001/symmetrical_impact_001_large_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 2.zip",
+        "sequence": "Super Pixel Impact FX Pack 2/PNG/impfx2_cinematic_impact_A_large_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "8acb60de41d274fe1b5256f4c151c31633b05d4337758ec923b086bfa1c559a5",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_001/symmetrical_impact_001_small_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 2.zip",
+        "sequence": "Super Pixel Impact FX Pack 2/PNG/impfx2_cinematic_impact_A_small_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "6bd84486b1ede25b6c87ee433605d682aa29bad9859153929ff1110ea4e08b86",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_001/symmetrical_impact_001_small_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 2.zip",
+        "sequence": "Super Pixel Impact FX Pack 2/PNG/impfx2_cinematic_impact_A_small_green"
+      }
+    ]
+  },
+  {
+    "sha256": "d0b492bf1adbed6da438340e3197c2217c76eb11dc4b39af0e89fa0e0efd8582",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_001/symmetrical_impact_001_small_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 2.zip",
+        "sequence": "Super Pixel Impact FX Pack 2/PNG/impfx2_cinematic_impact_A_small_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "ca56d1978e9c33a1f6db607b59311475849f84a939860d90d7d7da8e676b379c",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_001/symmetrical_impact_001_small_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 2.zip",
+        "sequence": "Super Pixel Impact FX Pack 2/PNG/impfx2_cinematic_impact_A_small_red"
+      }
+    ]
+  },
+  {
+    "sha256": "08730d093c9404a7e0d6f299af15de52410e79343153df5739f173c2bf1b290a",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_001/symmetrical_impact_001_small_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 2.zip",
+        "sequence": "Super Pixel Impact FX Pack 2/PNG/impfx2_cinematic_impact_A_small_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "bc62200a1e10ff088df383ba72476fd927a133a773a05181f2ec417d2af0bd5c",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_001/symmetrical_impact_001_small_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 2.zip",
+        "sequence": "Super Pixel Impact FX Pack 2/PNG/impfx2_cinematic_impact_A_small_white"
+      }
+    ]
+  },
+  {
+    "sha256": "b8323b488d4cdc55142454eb10d6890a136664cfd140d888e110d9ab6627c80b",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_001/symmetrical_impact_001_small_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 2.zip",
+        "sequence": "Super Pixel Impact FX Pack 2/PNG/impfx2_cinematic_impact_A_small_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "e6c13979edad739a1b0ab71f365c5fccff469fcbdad459031250943b27387763",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_002/symmetrical_impact_002_large_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_A_large_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "0d837a2ddc6c9ea18b8bf6248fc83f01f7bc1fa1f29f318d9b61d1b7aa5822fb",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_002/symmetrical_impact_002_large_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_A_large_green"
+      }
+    ]
+  },
+  {
+    "sha256": "fc17bfb17f158096b1c83cffe221f4ec991e833bc537058e43d8d999c21a0294",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_002/symmetrical_impact_002_large_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_A_large_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "e86fdb92f2b50e2b9e64501a4f3cb1cf8495123f847d6e3b66ebc66557f7b22c",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_002/symmetrical_impact_002_large_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_A_large_red"
+      }
+    ]
+  },
+  {
+    "sha256": "b97a23b55bd6e36366c8530335836137c6b4f952b23b817381f35d156c9b582c",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_002/symmetrical_impact_002_large_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_A_large_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "5a6e3ca90380bc512e822f6bf54bfd26fe1efae101e38b62022de56bd9a66a47",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_002/symmetrical_impact_002_large_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_A_large_white"
+      }
+    ]
+  },
+  {
+    "sha256": "2d07a422d12be713becb9f84d10ecf4694cdc3e5294394dcdd0e0881aafb3b36",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_002/symmetrical_impact_002_large_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_A_large_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "cc7e18155036485c4221991abcae06d3a657ebe7957d0f54c241e5b85153f358",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_002/symmetrical_impact_002_small_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_A_small_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "e83c3d0afe290b5d5d620931b16b80892088a817a823cdb2da37283a4145207e",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_002/symmetrical_impact_002_small_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_A_small_green"
+      }
+    ]
+  },
+  {
+    "sha256": "ab7435e9aa3e28298f657a7feba68fb706095382424e2711769ce742a64e8dc5",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_002/symmetrical_impact_002_small_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_A_small_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "595b9f9dcf8f1f3b2194504dcc9bca1be9ca8eea2d251497ff71e41ad24885d1",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_002/symmetrical_impact_002_small_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_A_small_red"
+      }
+    ]
+  },
+  {
+    "sha256": "12afc4047017ea92dd618d0a6fb20237fa5cfec75439b9d2c8434d77eb4cbcc4",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_002/symmetrical_impact_002_small_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_A_small_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "36f6255e6867718bd1ab7bcf6d1fa68bc6edba1ce880daa76e16de328fa0eef7",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_002/symmetrical_impact_002_small_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_A_small_white"
+      }
+    ]
+  },
+  {
+    "sha256": "10cab117d15040c5485ddde70ab01ae1e2f3f59460c5a0ba94ac680827a23978",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_002/symmetrical_impact_002_small_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_A_small_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "6b5672f251efddcefc5b9fbccef4b38f5af7a6ff0df64ae774c890169c2f8b94",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_003/symmetrical_impact_003_large_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_B_large_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "74b25526919163fa2276430e09affe2e8ec5b60482dcfd94705ec6d096b4f2e1",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_003/symmetrical_impact_003_large_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_B_large_green"
+      }
+    ]
+  },
+  {
+    "sha256": "20ee53426db793a46fc9f525a070533a7164f6ade3b346510826458e882775d5",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_003/symmetrical_impact_003_large_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_B_large_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "e8c0bd695dd59a0b0c8f277bf86bf193280e716c9fe41c01b2025394f29e2191",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_003/symmetrical_impact_003_large_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_B_large_red"
+      }
+    ]
+  },
+  {
+    "sha256": "2b662b479c32ecc2eaa6416e3b6d52381bf4fd5d56ff455ca11d2675d976323c",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_003/symmetrical_impact_003_large_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_B_large_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "24b484dc0f768510eb516728d9299338e22ec7a62046c97e22a1fbeb58ce5541",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_003/symmetrical_impact_003_large_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_B_large_white"
+      }
+    ]
+  },
+  {
+    "sha256": "5d5a2d4b32652bea785b15fb77f6a1a41b082d491c4d7a991e461d997098f0bd",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_003/symmetrical_impact_003_large_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_B_large_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "39c6aab542e812280c8505e44c297ea5504468aabbc299a5a06acfc86951d2f7",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_003/symmetrical_impact_003_small_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_B_small_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "7b64f431204ffd4c8b1770203e258e980229345cc17f5d2a7e2fe3b25d8147ba",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_003/symmetrical_impact_003_small_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_B_small_green"
+      }
+    ]
+  },
+  {
+    "sha256": "935986c6846acbc656768c7ae34f521fc15008542810939cc91cfe7078004c73",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_003/symmetrical_impact_003_small_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_B_small_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "b0291f44f34682c7c2f53319f2f8db8b2b1823e0893705a82ed7d22a74eec454",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_003/symmetrical_impact_003_small_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_B_small_red"
+      }
+    ]
+  },
+  {
+    "sha256": "100a7877a244d1f44ec8cd17f83cf3800992d92027ac90cf18173bde0f0a123f",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_003/symmetrical_impact_003_small_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_B_small_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "8d97bc7e3acbac4b7b1a2d45c56ea54365d6241fdd4b83f4ff0cc92a49c0b047",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_003/symmetrical_impact_003_small_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_B_small_white"
+      }
+    ]
+  },
+  {
+    "sha256": "1f1696f26c88e1cc1c3508c8d12c14bc0833824a5bf217f39d2333a3bc2b27d4",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_003/symmetrical_impact_003_small_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_B_small_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "d9cfab4ca8a78ab4ae40d0730ba278b514ec005dfe35ae95f1c99f9515f28b98",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_004/symmetrical_impact_004_large_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_C_large_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "a8f75cb150647a142d9117eaa77b967f611d4dcb3b25c856d5ee4740e01d3735",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_004/symmetrical_impact_004_large_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_C_large_green"
+      }
+    ]
+  },
+  {
+    "sha256": "978bfe38aa6209766a9c603d85a409db1965d33f5a633a28091597f5c7e24cda",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_004/symmetrical_impact_004_large_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_C_large_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "2d4f42558ed695518498b71c72cada0a85e5951462f66fa56ee84b41770b982b",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_004/symmetrical_impact_004_large_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_C_large_red"
+      }
+    ]
+  },
+  {
+    "sha256": "69303ce3be34f1526018ef5f6c3c29814db213da177039f9a9d2cf169066419f",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_004/symmetrical_impact_004_large_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_C_large_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "23b1796b22b468563ee2adf8d1859150b25d0c715ee792f7cbc5b3a7f56d7b80",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_004/symmetrical_impact_004_large_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_C_large_white"
+      }
+    ]
+  },
+  {
+    "sha256": "40619375fc9462fbab5b10452b906fb1eac9f7f4ade096e0f6be53bba85123a4",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_004/symmetrical_impact_004_large_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_C_large_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "596a0a094db38237a8c5d4bb5ab8d6b0e46681266fd03c9b23021639cf364913",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_004/symmetrical_impact_004_small_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_C_small_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "094a6d04b2111b62ea4824ec7766e0ce2d665c7d5f06e83ff6437629e241297b",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_004/symmetrical_impact_004_small_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_C_small_green"
+      }
+    ]
+  },
+  {
+    "sha256": "0f78bce0b5b040b9b950e208630f8b046ee87854761704d5b59d642ea38d233b",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_004/symmetrical_impact_004_small_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_C_small_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "c0fa829ca777d3ed61608fddb819133e5d03d1590e0513027d7d807a42e4e04c",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_004/symmetrical_impact_004_small_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_C_small_red"
+      }
+    ]
+  },
+  {
+    "sha256": "b90d5864dd6bfb4acf3cf6417715e126c5d863c9197ab2b972c890e8fd0d56ee",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_004/symmetrical_impact_004_small_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_C_small_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "42d98f19988c0887733d8d428883fef368c9922d09762d6ec886692d7b243524",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_004/symmetrical_impact_004_small_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_C_small_white"
+      }
+    ]
+  },
+  {
+    "sha256": "cc41251d26af98f590d44b7dec2036eb104bbc7ce65708409c1610c432fb6680",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Impacts/symmetrical_impact_004/symmetrical_impact_004_small_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 1.zip",
+        "sequence": "Super Pixel Impact FX Pack 1/PNG/impfx1_toon_impact_C_small_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "a6a453372c18efc1e2b3877bc92a5b6f9d876980245d532b3c28f3a4b3d1532f",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_001/lightning_burst_001_large_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_zap_A_large_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "41da66df08ddba1172b6109825b1d45a4789e0097f51ab75fbe0f55b6df7868a",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_001/lightning_burst_001_large_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_zap_A_large_green"
+      }
+    ]
+  },
+  {
+    "sha256": "3f6ccfc6ce91ddcf2de19675a38f7c3c38013703d04ca4df179fb512348c8cd7",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_001/lightning_burst_001_large_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_zap_A_large_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "8154a25d524af3235706aa354d8244221eb83bbc3053e6374bca4a56276e2796",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_001/lightning_burst_001_large_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_zap_A_large_red"
+      }
+    ]
+  },
+  {
+    "sha256": "08e1a843484c0a8a34495c9eda34e05400ca00fc74caaf4204c6bfe2e313199b",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_001/lightning_burst_001_large_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_zap_A_large_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "02ce01f8faa5d9724318828fed93d62ccfcda3e95efb3e3d732470bce0400f82",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_001/lightning_burst_001_large_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_zap_A_large_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "04dc1261d2fa43137597c1cf242d8e5a4467d3461756379eb20535c3debf1db7",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_001/lightning_burst_001_small_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_zap_A_small_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "02348acbac19ccf5a68830919aaa74bf929a02d448707701050c386bcad1b659",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_001/lightning_burst_001_small_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_zap_A_small_green"
+      }
+    ]
+  },
+  {
+    "sha256": "c8e07f3b5f1f283f25bc2b35d9e420bb2f3f6e8f01d90df57d880c8058b30326",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_001/lightning_burst_001_small_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_zap_A_small_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "b9a4c6319620a252b9ba113268942dafb263bb7741efa5fe87011b95628b5e4d",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_001/lightning_burst_001_small_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_zap_A_small_red"
+      }
+    ]
+  },
+  {
+    "sha256": "bdc5da7b149e659e3fa897555f3fccc9f374cd5f86b11e28d85695218847767e",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_001/lightning_burst_001_small_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_zap_A_small_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "130c9998af1ecad5304328832568317838f6a7156ea73aa889d8f80309916af9",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_001/lightning_burst_001_small_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_zap_A_small_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "84da483933adb98eff575ab6da5313abdb6a2f31cde1f903f2eb59fd5d3a76f3",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_002/lightning_burst_002_large_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 2.zip",
+        "sequence": "Super Pixel Impact FX Pack 2/PNG/impfx2_scifi_impact_B_large_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "bd6d918ba90d94516ac2f247ea4d1ff970d7dcc97f37883193de4e3479bae653",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_002/lightning_burst_002_large_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 2.zip",
+        "sequence": "Super Pixel Impact FX Pack 2/PNG/impfx2_scifi_impact_B_large_green"
+      }
+    ]
+  },
+  {
+    "sha256": "7c468552f608867605486d33df3f43334835a928272af0ec136a5fd3de167766",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_002/lightning_burst_002_large_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 2.zip",
+        "sequence": "Super Pixel Impact FX Pack 2/PNG/impfx2_scifi_impact_B_large_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "ea24b794427c3d3f3f1dd742f737a1fd7e8b4a2eb7e793e1720d3dccdac13778",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_002/lightning_burst_002_large_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 2.zip",
+        "sequence": "Super Pixel Impact FX Pack 2/PNG/impfx2_scifi_impact_B_large_red"
+      }
+    ]
+  },
+  {
+    "sha256": "264cf480a886cb4351c47395e46720badb3e6b60134849328e88a0f24601a066",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_002/lightning_burst_002_large_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 2.zip",
+        "sequence": "Super Pixel Impact FX Pack 2/PNG/impfx2_scifi_impact_B_large_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "0002653590fbbdeeb51156d9c48dd3450060796f4193012f35541068534fb48d",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_002/lightning_burst_002_large_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 2.zip",
+        "sequence": "Super Pixel Impact FX Pack 2/PNG/impfx2_scifi_impact_B_large_white"
+      }
+    ]
+  },
+  {
+    "sha256": "50787254f6af52cf519318a35879c1580516dff02dd78a0d05686511cdda06ec",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_002/lightning_burst_002_large_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 2.zip",
+        "sequence": "Super Pixel Impact FX Pack 2/PNG/impfx2_scifi_impact_B_large_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "d736f5ed342cbf9c391195db3d781d0142bacb488dbf927636169b816ffe2e52",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_002/lightning_burst_002_small_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 2.zip",
+        "sequence": "Super Pixel Impact FX Pack 2/PNG/impfx2_scifi_impact_B_small_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "88669ed16dcfcd9381f7816ccf91ebd14e01c372e084df3e9aa9ec9af625cc5d",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_002/lightning_burst_002_small_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 2.zip",
+        "sequence": "Super Pixel Impact FX Pack 2/PNG/impfx2_scifi_impact_B_small_green"
+      }
+    ]
+  },
+  {
+    "sha256": "fd8ed6195a8c47fb44d891ff1966849b086d1ed815753e0d62879d6fbcbc3e1f",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_002/lightning_burst_002_small_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 2.zip",
+        "sequence": "Super Pixel Impact FX Pack 2/PNG/impfx2_scifi_impact_B_small_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "4c2e2ec4f99815e016bd16eedfbd4f942f41c29305ec004e2866cea8bf8b8dae",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_002/lightning_burst_002_small_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 2.zip",
+        "sequence": "Super Pixel Impact FX Pack 2/PNG/impfx2_scifi_impact_B_small_red"
+      }
+    ]
+  },
+  {
+    "sha256": "9546dc934ea56f8d683123ac52a8de662c9659c3e4d06d215b9b0c2a39792b5d",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_002/lightning_burst_002_small_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 2.zip",
+        "sequence": "Super Pixel Impact FX Pack 2/PNG/impfx2_scifi_impact_B_small_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "cbf58dcf543ac728eea09d830a9059eca7f25e1dd593dd3d753a966aaec6a71b",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_002/lightning_burst_002_small_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 2.zip",
+        "sequence": "Super Pixel Impact FX Pack 2/PNG/impfx2_scifi_impact_B_small_white"
+      }
+    ]
+  },
+  {
+    "sha256": "3b3ee5af78f3008d34bec045adb84c1177da8ab5a00cab0cbfbe94c545ba1fbe",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_002/lightning_burst_002_small_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Impact FX Pack 2.zip",
+        "sequence": "Super Pixel Impact FX Pack 2/PNG/impfx2_scifi_impact_B_small_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "23fa9c88f283da4ed0f95b6e1b4360466289480375559eb8481aeef3aaa3d184",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_003/lightning_burst_003_large_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_explosion_B_large_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "5a9305d8a027d4dadb62271de23efa7adcbbad61bbe6e4dc7db0e4f400e7b4df",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_003/lightning_burst_003_large_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_explosion_B_large_green"
+      }
+    ]
+  },
+  {
+    "sha256": "6a0f4be97c34f3c6fee943eecc889c1ab4513333acd3e07de757f2932b8b7e4b",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_003/lightning_burst_003_large_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_explosion_B_large_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "9ac3aea9457a448eaa60f5aaf5c787328049dee2f23cbffd6700be573df882a9",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_003/lightning_burst_003_large_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_explosion_B_large_red"
+      }
+    ]
+  },
+  {
+    "sha256": "f9b76455d20e547d8e27229ae79cf5bdc8fc0e84087adebb694c463e8743981b",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_003/lightning_burst_003_large_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_explosion_B_large_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "74f9ed4e6da60e102db2a75fe0183dd7cab84a04fefa928801977f8bf20789c7",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_003/lightning_burst_003_large_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_explosion_B_large_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "03fe78b72513047f87ea76fbdeedb15e9a3b7cf6b79c06872d451916a1e32b7b",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_003/lightning_burst_003_small_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_explosion_B_small_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "c6ae3c41582c4b6813e2f805c0d2d2d0550d58a357486e066707fd94196734ad",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_003/lightning_burst_003_small_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_explosion_B_small_green"
+      }
+    ]
+  },
+  {
+    "sha256": "e39e6c262f9b77f2edf65bbd70265f7734e3db456488f0f3edf8a080a20eb36c",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_003/lightning_burst_003_small_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_explosion_B_small_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "007415ad1eb2992a78ef98c5763941e53a2afc1c309caadcf42294af015306ca",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_003/lightning_burst_003_small_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_explosion_B_small_red"
+      }
+    ]
+  },
+  {
+    "sha256": "fca90121ab7f25f1ca89dd360b231ef778cb1bb186e53c01ef5d801937d7d3ae",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_003/lightning_burst_003_small_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_explosion_B_small_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "808c6cd024f6e1e44d4178407b6330354681af1ccf1cf30c03a2025d88ad23c2",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Lightning/lightning_burst_003/lightning_burst_003_small_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_explosion_B_small_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "aabcd30f0437f19426dec27a0d4d12b376a85f2af460e4233a997e27b86a3b3c",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_001/round_sparkle_burst_001_large_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_burst_A_large_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "c01cfe90f64b68aac1548bae728d20b0cfda12679089bc12ea5627f7b9dbe81e",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_001/round_sparkle_burst_001_large_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_burst_A_large_green"
+      }
+    ]
+  },
+  {
+    "sha256": "46e0f93cf8b66100960112569223d722aee136f5cb0679ccbe61a6928edecfd1",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_001/round_sparkle_burst_001_large_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_burst_A_large_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "1feb03f7358dd1bea1351f2b502215eb657fd199d831cfba324e7df7fc85f832",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_001/round_sparkle_burst_001_large_rainbow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_burst_A_large_rainbow"
+      }
+    ]
+  },
+  {
+    "sha256": "73a2427a841f60207292b47e8963f9f00d05a3568ad5357925de7badff1cbe0f",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_001/round_sparkle_burst_001_large_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_burst_A_large_red"
+      }
+    ]
+  },
+  {
+    "sha256": "29e0febdbe768974e67d1acd9f68347b2c908326ede0bff47936e9167c776ce8",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_001/round_sparkle_burst_001_large_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_burst_A_large_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "9b8a44ecd0b5c02e36f3bba6d19b92039afd2f4d2a0d79a1f3697c3d8b3a98a6",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_001/round_sparkle_burst_001_large_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_burst_A_large_white"
+      }
+    ]
+  },
+  {
+    "sha256": "8c3c6a59ecd12f6d39a7c894552b2699c32b764625474db42a8b99b1a31da9a3",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_001/round_sparkle_burst_001_large_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_burst_A_large_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "14c3b764a04b11f86ee447b80b5d065798d1412232ba09c3ef1879feb57ee182",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_001/round_sparkle_burst_001_small_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_burst_A_small_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "50f5cd58ced693027fe23618db70a9a37a42195daaac802437325372270c0b2c",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_001/round_sparkle_burst_001_small_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_burst_A_small_green"
+      }
+    ]
+  },
+  {
+    "sha256": "c534d4fa18f7d9f19deded9b6686de9c39607867e0abb474df7401ec6939560f",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_001/round_sparkle_burst_001_small_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_burst_A_small_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "e6453a6bd8f4d885e13e7269e4db76399218db2b9d3918d046f69a166407c59b",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_001/round_sparkle_burst_001_small_rainbow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_burst_A_small_rainbow"
+      }
+    ]
+  },
+  {
+    "sha256": "e20f71db87de78b5dd22c0de1c566d0155eef188dda2a9c94111cda4abfd9b3d",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_001/round_sparkle_burst_001_small_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_burst_A_small_red"
+      }
+    ]
+  },
+  {
+    "sha256": "a6a2ed5898e589db0c08564c3af68766bda711a6a31db72fd351545ae56ef3bd",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_001/round_sparkle_burst_001_small_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_burst_A_small_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "196433149965f05b0d0fc3feaf30825e6edf3a00746115582fd976e261f85241",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_001/round_sparkle_burst_001_small_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_burst_A_small_white"
+      }
+    ]
+  },
+  {
+    "sha256": "182cdbe43c6c31c1035485fd325a58425b45ae80fef96f22ccedfd8ea8f5d4fe",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_001/round_sparkle_burst_001_small_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_burst_A_small_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "9662cb632d1e26a5a5475e334bfc8f5ab77eac4bc8c1440a41923cec4648d67d",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_002/round_sparkle_burst_002_large_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_puff_A_large_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "036c6ff7475ae4717e64deaefb59e8f4a42005b97b36078642db3c888130ed95",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_002/round_sparkle_burst_002_large_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_puff_A_large_green"
+      }
+    ]
+  },
+  {
+    "sha256": "ca7b328796bd5826404a1c6cb192faa40cf87b0ee6cbac4f03d8c4bab984b374",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_002/round_sparkle_burst_002_large_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_puff_A_large_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "fe80de169fe6ca2b488e9ee27f3850562be4c4f3dc3d434d5323e4f047943fe1",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_002/round_sparkle_burst_002_large_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_puff_A_large_red"
+      }
+    ]
+  },
+  {
+    "sha256": "63c8af6cb443268edfd5bb4b20f4fc4080d9d5c2d4a1fb233f690d388fa5a0a8",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_002/round_sparkle_burst_002_large_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_puff_A_large_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "85c4a6d19ee9e05e017c51fd0beec9ea826667602daa4d30ddfea6234b895fe5",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_002/round_sparkle_burst_002_large_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_puff_A_large_white"
+      }
+    ]
+  },
+  {
+    "sha256": "bfe69a02bc316cd860420319701efba8a99fd1b68293f2bd79fac04d9e87f4dd",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_002/round_sparkle_burst_002_large_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_puff_A_large_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "721c58be1b5e84a219dc55130822e29fba7e0d3d99022d55754d6887544fca9d",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_002/round_sparkle_burst_002_small_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_puff_A_small_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "e6c76ccc9e4068ee76f5e2be805f6ad98b09cff244f0d22cdb9702066ff1fda7",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_002/round_sparkle_burst_002_small_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_puff_A_small_green"
+      }
+    ]
+  },
+  {
+    "sha256": "f8d1fd7d79cc896f7f1697967fad28b14efdc7fce105ff6fa6f52c0bbcef7367",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_002/round_sparkle_burst_002_small_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_puff_A_small_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "3df5a9490a239c1e39e2e23a86d8c0895520e1d358e95279a556c36985352c6a",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_002/round_sparkle_burst_002_small_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_puff_A_small_red"
+      }
+    ]
+  },
+  {
+    "sha256": "cc6002732521deb2f01d8e4e52e2b9d69288871538f881640a8484eda441616f",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_002/round_sparkle_burst_002_small_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_puff_A_small_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "3ad7f2e0b3714544b6f2394815181f0a8b1643ea25eaa2590700d344a30e9741",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_002/round_sparkle_burst_002_small_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_puff_A_small_white"
+      }
+    ]
+  },
+  {
+    "sha256": "c4ebd7cc01e230e6e2f319de602552d3de097f6d15000dba9d443ca2f287bc9c",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_002/round_sparkle_burst_002_small_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_puff_A_small_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "32de618a4ebd37fa10d74a619ae18cf809deec2d89f0c9e1a479e6a8fc0ad531",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_003/round_sparkle_burst_003_large_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_magic_spawn_large_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "322dbc044b90b38353dd3be71f70f8b0f9c1ed4320bbdfeed4b7110d7d7e55df",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_003/round_sparkle_burst_003_large_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_magic_spawn_large_green"
+      }
+    ]
+  },
+  {
+    "sha256": "9db1045654efa95913d51c333a8902f3af61799c41a3c092c34cc3ce55c989fe",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_003/round_sparkle_burst_003_large_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_magic_spawn_large_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "033b6c0947e25e379d6928406c7eaa523445d20ccb57b13544712b175077ad9a",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_003/round_sparkle_burst_003_large_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_magic_spawn_large_red"
+      }
+    ]
+  },
+  {
+    "sha256": "6c2502b747e19e51737ea853b0e7aa5232fe62600a181527a81cf8a543f079ec",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_003/round_sparkle_burst_003_large_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_magic_spawn_large_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "da2f34b6eea204daa990acd38f6e63244d5179d69b4da9afec82f4058298239b",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_003/round_sparkle_burst_003_large_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_magic_spawn_large_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "3387823a99d50c04492b92ce1b7e3f86a4819d2b8f6fdd4e4d7e3779f9a9533a",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_003/round_sparkle_burst_003_small_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_magic_spawn_small_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "e05b57f0fd604993385cc153b86dd70889d146e91921d662049e1ff8f0e58b7e",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_003/round_sparkle_burst_003_small_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_magic_spawn_small_green"
+      }
+    ]
+  },
+  {
+    "sha256": "57d9f39b7a2aad40dc0ef72078d96b685c6a0620aed8a5496bfe141fb33282d5",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_003/round_sparkle_burst_003_small_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_magic_spawn_small_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "64ede8728cfb8dba15e477a9686182cfb60f5bc725e5397bc6537f3675c12527",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_003/round_sparkle_burst_003_small_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_magic_spawn_small_red"
+      }
+    ]
+  },
+  {
+    "sha256": "2ee3b53ca15abeaf2f807979d4b65510aa78d10a449ad592be164f130871ff41",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_003/round_sparkle_burst_003_small_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_magic_spawn_small_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "ddc568183ff7b566d87029110f8083596746e8914b10633705c29ee616b6ab8b",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Magic Bursts/round_sparkle_burst_003/round_sparkle_burst_003_small_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_magic_spawn_small_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "a7cfaf64bec8da73514a4e28966e57a755f3f6d79ae4e33df1159ae7ee282c30",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_charge_up_001/scifi_charge_up_001_large_black"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_charge_up_large_black"
+      }
+    ]
+  },
+  {
+    "sha256": "10fdbfeae966148d8ac8f3a03a5ea85e5caff865b4567ec1ef1897d13dadcaae",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_charge_up_001/scifi_charge_up_001_large_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_charge_up_large_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "8bb1e4c40ffa3ecaa0c6cd10390f3931e467a23926295397dc246c009cd8e861",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_charge_up_001/scifi_charge_up_001_large_gray"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_charge_up_large_gray"
+      }
+    ]
+  },
+  {
+    "sha256": "78c0402e440275901d6743456f8f6ad5c4315bc9f94d385910ef4f856e03f641",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_charge_up_001/scifi_charge_up_001_large_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_charge_up_large_green"
+      }
+    ]
+  },
+  {
+    "sha256": "04852903592c968b00dfacb578f2817e69dab25a4262bb2f303bffb266bde148",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_charge_up_001/scifi_charge_up_001_large_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_charge_up_large_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "890f5fb56a5df5e76a6d9732fcaeb40c26441749bd48947ea5ba8c071730158c",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_charge_up_001/scifi_charge_up_001_large_pink"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_charge_up_large_pink"
+      }
+    ]
+  },
+  {
+    "sha256": "ca15cd948bddffb8a2935275956cca478aa16e00063cd709eb897f43a5aa3d6c",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_charge_up_001/scifi_charge_up_001_large_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_charge_up_large_red"
+      }
+    ]
+  },
+  {
+    "sha256": "1448df032e3f7291bb734d7f0f1ac1e0b62bf7ddf52f3f8d103c86276c689ab2",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_charge_up_001/scifi_charge_up_001_large_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_charge_up_large_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "b7c406f74d737556e3cf194c419e10230a19f9ec793af8dfebba1a9e636a063a",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_charge_up_001/scifi_charge_up_001_large_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_charge_up_large_white"
+      }
+    ]
+  },
+  {
+    "sha256": "d5b973d0f86234d54c2a8ac475130991ce319e34ae0224da91b202ab97f7f2f4",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_charge_up_001/scifi_charge_up_001_large_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_charge_up_large_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "ded6c271a56848f1594b1d3953c094d95e68109428228089ef1e4666e4cdb8b4",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_charge_up_001/scifi_charge_up_001_small_black"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_charge_up_small_black"
+      }
+    ]
+  },
+  {
+    "sha256": "af6ee63bb2bd1f65bf056ee6768743d9dc9aa5cb3a078dc296a84c1d2852d0fe",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_charge_up_001/scifi_charge_up_001_small_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_charge_up_small_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "f4d74f384b5d27f89d3f7080cc53197a30aafde7dc8839a2e085174eb3433414",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_charge_up_001/scifi_charge_up_001_small_gray"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_charge_up_small_gray"
+      }
+    ]
+  },
+  {
+    "sha256": "f4c49d0527892357d82b371ce2b26e2326d54af81ef19767c58f414e18c5da24",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_charge_up_001/scifi_charge_up_001_small_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_charge_up_small_green"
+      }
+    ]
+  },
+  {
+    "sha256": "5061fcf052e84ebfab07fbd797ed1633ddac84cb5c8893cb5c0e354008704c46",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_charge_up_001/scifi_charge_up_001_small_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_charge_up_small_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "0ff0f4b32b849fae0d7d6e53c57badc0f1b1544907cea4416b45a3666e01938f",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_charge_up_001/scifi_charge_up_001_small_pink"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_charge_up_small_pink"
+      }
+    ]
+  },
+  {
+    "sha256": "7250f8c5a092ec22399bef84d55363bb2336873e5a9f66a85d2651799e20f406",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_charge_up_001/scifi_charge_up_001_small_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_charge_up_small_red"
+      }
+    ]
+  },
+  {
+    "sha256": "12a825f4f9da0565adcb76527fc5321317655316c0971d8885494484448141e8",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_charge_up_001/scifi_charge_up_001_small_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_charge_up_small_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "e81aa48b93dd31ae6abca825a5278f45f506a96de4c23d5af010f45c88f50335",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_charge_up_001/scifi_charge_up_001_small_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_charge_up_small_white"
+      }
+    ]
+  },
+  {
+    "sha256": "ee596d8b6cccd5da47a6929a1d3dba8f1e4acc3eba4734c25cf43a7dfc6f0348",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_charge_up_001/scifi_charge_up_001_small_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_charge_up_small_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "2f57301d6758f31d6f1f02d830112395c6a6a6680d2b96a22b868ee632e3dc22",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_warp_001/scifi_warp_001_large_black"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_warp_large_black"
+      }
+    ]
+  },
+  {
+    "sha256": "715fd1516936287f2339efaf09b3c93e1bcefbca55ad2366fe2e980c4dd7dcb2",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_warp_001/scifi_warp_001_large_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_warp_large_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "be1c38be35e5944ac5b1a55e751a37e15765db2f6f4bedd4b26acb8e64f9c01b",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_warp_001/scifi_warp_001_large_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_warp_large_green"
+      }
+    ]
+  },
+  {
+    "sha256": "dfbf51c4a3869c890b3bf23d5b80d89049c08a1c724c847ef35c7fd150c4a529",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_warp_001/scifi_warp_001_large_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_warp_large_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "b9e0841c71211446a7d582953a239d7b267b02382a1e1eef80d6fa9b26d1dc1f",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_warp_001/scifi_warp_001_large_pink"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_warp_large_pink"
+      }
+    ]
+  },
+  {
+    "sha256": "4596bb25af9b1ac0907740f2e9ee3c1f5d8af700cf37ce9058257f9c6b7530bf",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_warp_001/scifi_warp_001_large_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_warp_large_red"
+      }
+    ]
+  },
+  {
+    "sha256": "dfa50150e746b6a97cf9172be17cb45086b292b840e068f4218dcc4a53a23c76",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_warp_001/scifi_warp_001_large_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_warp_large_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "af83477975780a121e65af5787b14922e441a9fc43c8d42c15077a1f019644bd",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_warp_001/scifi_warp_001_large_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_warp_large_white"
+      }
+    ]
+  },
+  {
+    "sha256": "cd28ee56e1df9156d2ae4643ced36436aa1cb549ad06d5414279d1b6eda7ffd8",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_warp_001/scifi_warp_001_large_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_warp_large_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "21a8001f390cfb05e34811f73717692b82f22ce5ce8177446441412ad1953468",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_warp_001/scifi_warp_001_small_black"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_warp_small_black"
+      }
+    ]
+  },
+  {
+    "sha256": "c10c93c39618001d8135c65649a80258ed17d7ee76f059bebd4986f36bcc6198",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_warp_001/scifi_warp_001_small_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_warp_small_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "11b6c13843ca8c25a14ee9e59b62fbb8cd87caf4740d89c37561db902833f819",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_warp_001/scifi_warp_001_small_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_warp_small_green"
+      }
+    ]
+  },
+  {
+    "sha256": "e6f8e5843494fca5b86de746a556da6b0c3285d8d414c788ab0b3e9f0997eb1a",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_warp_001/scifi_warp_001_small_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_warp_small_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "94a675955e10fe26bb341c786b1e4d339ab958a46b001780135bed247d8fd479",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_warp_001/scifi_warp_001_small_pink"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_warp_small_pink"
+      }
+    ]
+  },
+  {
+    "sha256": "6be630c1486387075f435c41395bfbdb9e7831ec41f416d6f1f577d860d5bd00",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_warp_001/scifi_warp_001_small_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_warp_small_red"
+      }
+    ]
+  },
+  {
+    "sha256": "798d9d1b706b3f86fd5b47cddc2397a943952c865a59e5fdbf84c13753668dfa",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_warp_001/scifi_warp_001_small_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_warp_small_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "c0094cff555c4dc7dc67e6010c39ef891001ea32b4d0da654baa9ec922b74618",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_warp_001/scifi_warp_001_small_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_warp_small_white"
+      }
+    ]
+  },
+  {
+    "sha256": "61d224ada5c6923e8d768b7663e4dc077e9e2b3e6bb6c491381d56fa0955193f",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_warp_001/scifi_warp_001_small_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 2.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 2/PNG/scifx2_warp_small_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "510226d586806cc7c01ffe25ea2bf6153ad9dddaa8af4d091d089cd3e20fddf7",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_warp_002/scifi_warp_002_large_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_explosion_A_large_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "e4f13f4fe0e2f2993d63196e72c9aed7575b1b44a93e9f5a05aa0cb0dcaf5ac9",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_warp_002/scifi_warp_002_large_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_explosion_A_large_green"
+      }
+    ]
+  },
+  {
+    "sha256": "eb22478b3bd708d90c70c6284df0f30b41e43f14db890063f304657410a4c5c7",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_warp_002/scifi_warp_002_large_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_explosion_A_large_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "15e996b881214b5004a19003658b1c5de6c0cff0a055e6e5feba0e392df544ce",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_warp_002/scifi_warp_002_large_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_explosion_A_large_red"
+      }
+    ]
+  },
+  {
+    "sha256": "87a33ed285872c9283f3dbd321e3a701714a1ca95e614cb019a5b8fb2522eb2f",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_warp_002/scifi_warp_002_large_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_explosion_A_large_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "8413d2ba79b860a20dad26c5085365a3a6edd6e3b9fd47129a7c9d00f2d8b812",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_warp_002/scifi_warp_002_large_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_explosion_A_large_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "3a77641bc4c93cca914cf208d3dcc8b45a6b523924822b3de01a70b8ede5d91f",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_warp_002/scifi_warp_002_small_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_explosion_A_small_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "17ae81044e68053b8772afa79fd908702439deae3bbf32cce504b9fbee2c93f7",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_warp_002/scifi_warp_002_small_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_explosion_A_small_green"
+      }
+    ]
+  },
+  {
+    "sha256": "e96a14e24be5f54ef94c53aae32069cbe12ea1a7f1f6b870c251d6bea50520bb",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_warp_002/scifi_warp_002_small_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_explosion_A_small_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "4d8d5b5b941c0e74d0409523b21c7e0d6fae722ce0ad29e334869bd369218610",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_warp_002/scifi_warp_002_small_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_explosion_A_small_red"
+      }
+    ]
+  },
+  {
+    "sha256": "1172131509f1c2c0638523624c41ce7fe8d50d664311d79e7931173876777ac6",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_warp_002/scifi_warp_002_small_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_explosion_A_small_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "f77cacd98b4834bf34e16db13a450644334b2f8e393ee4deb46bb4aa6204d770",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Sci-fi/scifi_warp_002/scifi_warp_002_small_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Sci-fi FX Pack 1.zip",
+        "sequence": "Super Pixel Sci-fi FX Pack 1/PNG/scifx1_explosion_A_small_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "d56c115c1129b9aab6401b13bcd5dbaf602ad926b038f9d1356fd1de649c1d41",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/directional_smoke_burst_001/directional_smoke_burst_001_large_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_puff_B_large_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "89a81eee448a0fe793659e80d80499d105fe3e00bc93ec8c85ae19e388f79265",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/directional_smoke_burst_001/directional_smoke_burst_001_large_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_puff_B_large_green"
+      }
+    ]
+  },
+  {
+    "sha256": "90147630be6b38ef2b73adbe1328c57ca45c70036e1bbeebd2aedf274d983b26",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/directional_smoke_burst_001/directional_smoke_burst_001_large_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_puff_B_large_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "7a1ddf63afae4c21a8fd4f2605f885cf1e885426e5940e5a921b9908d746fa38",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/directional_smoke_burst_001/directional_smoke_burst_001_large_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_puff_B_large_red"
+      }
+    ]
+  },
+  {
+    "sha256": "84cd7015f2b57d48464dd17dfbbb86460ab72418992bacc495408a07e54631c5",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/directional_smoke_burst_001/directional_smoke_burst_001_large_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_puff_B_large_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "7676809d4e66dd5ed6a01124ea7fc495ace18b40b85ce209f3aeb152e7f8b5bb",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/directional_smoke_burst_001/directional_smoke_burst_001_large_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_puff_B_large_white"
+      }
+    ]
+  },
+  {
+    "sha256": "9ab1b22e7a319a5a15b38a5c22ebd602272afdd1942679d1069376e7cb67d5ec",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/directional_smoke_burst_001/directional_smoke_burst_001_large_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_puff_B_large_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "32e868ceccfc4edfde233c3d1d200e1a6cb71489b86538a8fd69f6161f1f4a5a",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/directional_smoke_burst_001/directional_smoke_burst_001_small_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_puff_B_small_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "05f81c2ab5f7fdee70aa8fd9f108578d82bf01c48b602ae53aba8bea1f21cec3",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/directional_smoke_burst_001/directional_smoke_burst_001_small_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_puff_B_small_green"
+      }
+    ]
+  },
+  {
+    "sha256": "3d4742daea62976b1b657bcf63063d5c0c81563d3de9a9ecd64548548f44e8fa",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/directional_smoke_burst_001/directional_smoke_burst_001_small_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_puff_B_small_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "00f9117de5cdfffc895092ee711840e6a0ee856a08c40d288cde0aec630a3948",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/directional_smoke_burst_001/directional_smoke_burst_001_small_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_puff_B_small_red"
+      }
+    ]
+  },
+  {
+    "sha256": "9f2b8cb77721c374b5afd5f0dce84b092dd167ddea5c624b0d8096981ad9804f",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/directional_smoke_burst_001/directional_smoke_burst_001_small_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_puff_B_small_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "836fd4e18d5be249380633369f77f9a7d248e0aca015a72a8a4f2bd468c81b9a",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/directional_smoke_burst_001/directional_smoke_burst_001_small_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_puff_B_small_white"
+      }
+    ]
+  },
+  {
+    "sha256": "2cec5ae2c1cb796d0b58905277ba449fe87bc6070dc24527c55c34545c891a6c",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/directional_smoke_burst_001/directional_smoke_burst_001_small_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_magic_puff_B_small_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "f6833ab9d7eb0599e5af587dec2c041f411c851c8148729c30adbe9a3980ec1f",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/stylized_skull_smoke_burst_001/stylized_skull_smoke_burst_001_large_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_skull_puff_large_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "a4ebb4635020d9e034b5ea8a4b7220f92a65f866763bea071b104b4723aab44f",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/stylized_skull_smoke_burst_001/stylized_skull_smoke_burst_001_large_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_skull_puff_large_green"
+      }
+    ]
+  },
+  {
+    "sha256": "ea3d5e20581a9adf6fcdaa12fa7fa6e443173e2d92a36691a48127305930c939",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/stylized_skull_smoke_burst_001/stylized_skull_smoke_burst_001_large_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_skull_puff_large_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "d7c875fe0a4d90f2d7214165b59db0c0cc3be904cf5b95adb33e1e14a4d53541",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/stylized_skull_smoke_burst_001/stylized_skull_smoke_burst_001_large_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_skull_puff_large_red"
+      }
+    ]
+  },
+  {
+    "sha256": "0fd5a11c0a8b46a629f64ea9dbb2fc86458ba32284f86fabf667e39363907b67",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/stylized_skull_smoke_burst_001/stylized_skull_smoke_burst_001_large_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_skull_puff_large_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "f65ffbc3c64996421db0c711b4a9fd03b44d0104438863cfe00383ddab7af524",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/stylized_skull_smoke_burst_001/stylized_skull_smoke_burst_001_large_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_skull_puff_large_white"
+      }
+    ]
+  },
+  {
+    "sha256": "411e01788b6d5d947064a7b714eee4a140a1edb8e0a984ee3b4204b5bb43ac11",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/stylized_skull_smoke_burst_001/stylized_skull_smoke_burst_001_large_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_skull_puff_large_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "486b762758f00eb625deaf01bd2106067d323e28cb6d334aae5dcd862b78a6bf",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/stylized_skull_smoke_burst_001/stylized_skull_smoke_burst_001_small_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_skull_puff_small_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "d66ef4c32379507730b25555f36a9012464aa6e00c8804033e39d4bda1c0b95b",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/stylized_skull_smoke_burst_001/stylized_skull_smoke_burst_001_small_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_skull_puff_small_green"
+      }
+    ]
+  },
+  {
+    "sha256": "2494e9143fc3740b55d87144715c2614df9ffb03889f6e51b365c0f05d6127a7",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/stylized_skull_smoke_burst_001/stylized_skull_smoke_burst_001_small_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_skull_puff_small_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "8335af0ec421cc3a9f4d6b9ba18df50c2fcac36c744b7ff03faf95dc78a3b6cb",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/stylized_skull_smoke_burst_001/stylized_skull_smoke_burst_001_small_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_skull_puff_small_red"
+      }
+    ]
+  },
+  {
+    "sha256": "692c9ee068c8d634601cab50f7604e1b5dafabd46b921f1c9c98c01ee118ff89",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/stylized_skull_smoke_burst_001/stylized_skull_smoke_burst_001_small_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_skull_puff_small_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "cc1c57f64e4473d29e7931a6269d841124668692d3ecb78a89d34a6129f0c757",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/stylized_skull_smoke_burst_001/stylized_skull_smoke_burst_001_small_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_skull_puff_small_white"
+      }
+    ]
+  },
+  {
+    "sha256": "e16674087e631eeeaead4796540d0ac8bfbb50f9c85bd864df54202f901b7993",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/stylized_skull_smoke_burst_001/stylized_skull_smoke_burst_001_small_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Fantasy FX Pack 1 v1_1.zip",
+        "sequence": "Super Pixel Fantasy FX Pack 1/PNG/fanfx1_skull_puff_small_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "226bdb96b8d9993d9f3e30241061a690a9fa141e6870dad9ff0005ae5719773a",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/symmetrical_smoke_burst_001/symmetrical_smoke_burst_001_large_black"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_smoke_bomb_large_black"
+      }
+    ]
+  },
+  {
+    "sha256": "970f406aa8d882d38278e814119bf82a82ca91da94decf80ea78ad6717cf29ed",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/symmetrical_smoke_burst_001/symmetrical_smoke_burst_001_large_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_smoke_bomb_large_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "69094eee752feda3bc211874f3301a1cf1a67390e7ede37e02777592f21102d7",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/symmetrical_smoke_burst_001/symmetrical_smoke_burst_001_large_brown"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_smoke_bomb_large_brown"
+      }
+    ]
+  },
+  {
+    "sha256": "6de6899913bd7086112b390c4eed0c4ae6fc552e634289a0a31130876f240e42",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/symmetrical_smoke_burst_001/symmetrical_smoke_burst_001_large_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_smoke_bomb_large_green"
+      }
+    ]
+  },
+  {
+    "sha256": "6d3c45626f38db83759a6b81a9cbcb8eae6b509650157a590882a154aff2e829",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/symmetrical_smoke_burst_001/symmetrical_smoke_burst_001_large_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_smoke_bomb_large_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "c850e0aa5d966b8f7da068c083c2b9d9459f52064208f2bdcebd9f6f790a9a82",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/symmetrical_smoke_burst_001/symmetrical_smoke_burst_001_large_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_smoke_bomb_large_red"
+      }
+    ]
+  },
+  {
+    "sha256": "669f2b6489d7e489e9b6a268bd007814692a502078440e931ec05eef20798857",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/symmetrical_smoke_burst_001/symmetrical_smoke_burst_001_large_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_smoke_bomb_large_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "6d8dea1f7989f570e38a7723bae11a58afadb7b60187574a4c85a1ed45b1951b",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/symmetrical_smoke_burst_001/symmetrical_smoke_burst_001_large_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_smoke_bomb_large_white"
+      }
+    ]
+  },
+  {
+    "sha256": "53dbda505845ba323f8bc21b4259f927aeb00984c01e9a91056f45c9fa3d3849",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/symmetrical_smoke_burst_001/symmetrical_smoke_burst_001_large_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_smoke_bomb_large_yellow"
+      }
+    ]
+  },
+  {
+    "sha256": "274458aa8460fe290b7f340a22eb0063f873c3e452f77328ad33f70c95f358aa",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/symmetrical_smoke_burst_001/symmetrical_smoke_burst_001_small_black"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_smoke_bomb_small_black"
+      }
+    ]
+  },
+  {
+    "sha256": "cbcd3844146a329383ce68b3fc843d232d5763caaa74d643d27ae3626270cbde",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/symmetrical_smoke_burst_001/symmetrical_smoke_burst_001_small_blue"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_smoke_bomb_small_blue"
+      }
+    ]
+  },
+  {
+    "sha256": "a55b8b2259e6780b76bd8ec8dcfd24b2e07613ca9c5c6438f3bf81572354a818",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/symmetrical_smoke_burst_001/symmetrical_smoke_burst_001_small_brown"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_smoke_bomb_small_brown"
+      }
+    ]
+  },
+  {
+    "sha256": "bfa890f495b2801847f266f1921793e846621762460130078d6bd9cd24e25656",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/symmetrical_smoke_burst_001/symmetrical_smoke_burst_001_small_green"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_smoke_bomb_small_green"
+      }
+    ]
+  },
+  {
+    "sha256": "a02434e329cfde1b4a52d59349ae5d70b20e05b57eb932e334602e0c52bcf528",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/symmetrical_smoke_burst_001/symmetrical_smoke_burst_001_small_orange"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_smoke_bomb_small_orange"
+      }
+    ]
+  },
+  {
+    "sha256": "048028d642f12982aab36506c80d6f2a8f1b7092ddf6c09ab024cab6be9ce82b",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/symmetrical_smoke_burst_001/symmetrical_smoke_burst_001_small_red"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_smoke_bomb_small_red"
+      }
+    ]
+  },
+  {
+    "sha256": "13a00bc03e4596c5ffc892df04044d1c78e3a3d85e2d3709df0acc9e2075f2d1",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/symmetrical_smoke_burst_001/symmetrical_smoke_burst_001_small_violet"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_smoke_bomb_small_violet"
+      }
+    ]
+  },
+  {
+    "sha256": "0a3bc875eac4d5ee6d46c9d5731e1c446ec3f6d6c06137cf087bc962898c3a15",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/symmetrical_smoke_burst_001/symmetrical_smoke_burst_001_small_white"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_smoke_bomb_small_white"
+      }
+    ]
+  },
+  {
+    "sha256": "5280299413f2a1ad79e3c78a91a2e39a33f84cd92d10348adc96b29b459df0c8",
+    "locations": [
+      {
+        "archive": "Visuals/Super Pixel Effects Gigapack v3.0.0.zip",
+        "sequence": "Super Pixel Effects Gigapack/PNG/Smoke Bursts/symmetrical_smoke_burst_001/symmetrical_smoke_burst_001_small_yellow"
+      },
+      {
+        "archive": "Visuals/Super Pixel Effects Pack 3.zip",
+        "sequence": "Super Pixel Effects Pack 3/PNG/fx3_smoke_bomb_small_yellow"
+      }
+    ]
+  }
+]

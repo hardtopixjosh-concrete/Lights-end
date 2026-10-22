@@ -1,0 +1,13 @@
+# Development toolkit — October 15, 2026
+
+User approved Tiled, lil-gui, performance tools and Howler. Existing gameplay and saved armory remain the default.
+
+Open dist/maps/desert.tmj in desktop Tiled; see TILED_WORKFLOW.md. Actual startup loads it and desert-props.tsj before artwork. Scenery, independent collision polygons, spawn, Forge marker and eight event centers are editable. Forge decoration remains a runtime overlay. The finite orthogonal screen-space object format matches current art; it is not a universal Tiled importer. No editor binary was bundled or installed. This batch preserves the map layout rather than redesigning it.
+
+Menu -> Developer tools opens local lil-gui0.21.0. Controls adjust enemy speeds, elite reach/windup/recovery, arrival/population multipliers and reference Longsword/Orb damage. Existing actors update base speed preserving curse factors; new attacks use new values. Pause/resume, Reset build defaults, bounded atomic schema1 JSON import and Export JSON are provided. Experiments stay in memory, not permanent item rolls or official game balance. Reload restores defaults; export retains a proposal. Inputs do not trigger gameplay keys.
+
+Optional stats.js0.17.0 overlay adds FPS plus120-sample update/draw timing and p95 frame interval, half-second counters, enemy/projectile/particle counts and map source. Off by default; lazy-loaded with tools, no external telemetry. Paused rendering can be measured, so use active gameplay samples for performance judgments. This is not a complete GPU profiler or benchmark guarantee.
+
+Howler2.2.4 replaces supplied sound playback; see HOWLER_AUDIO.md. Existing quiet assets,15%BG/20%FX defaults, saved sliders,650ms fades, simultaneous background/encounter loops and voice caps remain. Synthetic cues share its Web Audio context. Music loading waits for a gesture, fixing an observed initial HTML5 audio-pool warning. No audio re-encoding/boost; autoplay rules still apply.
+
+All three libraries ship locally with MIT licenses and pinned source/version/hashes in dist/vendor/manifest.json; no runtime CDN. Focused toolkit check passed post-Forge map migration,10markers/event override,live speed/pressure,atomic import/reset and vendor files. Focused audio lifecycle/gain/voice/async checks passed, with one targeted rerun for the observed warning. Browser verified map startup, changing/resetting a value, monitor and warning-free post-fix startup. No broad suite or duplicate production check. Old tests/audio.test.js inspects replaced internals and is historical, not claimed passing. Next: authored map expansion and targeted tuning with exports.

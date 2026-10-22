@@ -1,0 +1,758 @@
+
+--- PAGE 1 ---
+GAME DESIGN REVIEW  /  V0.8  /  OCT 2026
+1
+ISOMETRIC ACTION
+ROGUELITE
+Complete Mechanics Review | Version 0.8 | October 2026
+Working concept: The precision of Diablo and Path of Exile meets the continuous enemy pressure of Vampire Survivors:
+one large, handcrafted isometric desert battlefield; manual combat; boss mechanics worth mastering; meaningful
+weapon collection across runs.
+Actual in-development gameplay screenshot supplied by the creator. Preserve this camera feel, isometric perspective, terrain palette and
+environmental density.
+WORLD
+One desert map
+COMBAT
+Manual skills
+PROGRESS
+Mini-boss points
+PERMANENT
+Gold + weapons
+Purpose: Print or annotate this document. Every major section has KEEP / CHANGE / REMOVE / TEST FIRST boxes and
+space for handwritten decisions. Gameplay choices already approved are separated from proposals and numbers that
+still require testing.
+
+
+--- PAGE 2 ---
+GAME DESIGN REVIEW  /  V0.8  /  OCT 2026
+2
+01 Quick reference & decision register
+AREA
+CURRENT DESIGN
+STATUS
+Presentation
+Close isometric desert, seamless single map, actual asset packs
+CONFIRMED
+Combat
+WASD, mouse aim, LMB/RMB/Q/E/R, SPACE dash
+CONFIRMED
+Enemy collision
+Soft regular enemies; only large/elite/boss player blockers
+CONFIRMED
+Death
+Ends ordinary run; keep weapons and gold
+CONFIRMED
+Weapon scaling
+Each new run resets effective item power to level 1; scales to saved ceiling
+CONFIRMED
+Progression
+XP automatic stats; mini-boss kills grant skill-tree points
+CONFIRMED
+Equipment
+Weapons only; no weapon mastery
+CONFIRMED
+Forge
+Fixed map landmark, weapon upgrades/rerolls/salvage
+CONFIRMED
+Events
+Cursed shrines, wandering merchant, demonic rifts, ancient trials
+CONFIRMED
+Rare boss
+May abduct into separate realm; loss returns player to main run
+CONFIRMED
+Day/night
+Different monsters and Blood Moon pressure phase
+CONFIRMED
+Timers, drop rates,
+costs
+Specific numerical balance, probabilities and schedules
+PROPOSED
+Review priorities
+• Check whether every major system contributes to the core loop rather than creating unnecessary menu work.
+ 
+• Review world-event frequency and visual clutter: the game must remain combat-first.
+ 
+• Evaluate boss mechanics for learnability and fairness rather than simply higher HP or damage.
+ 
+• Validate permanent weapon scaling so rare weapons retain special effects without trivializing new runs.
+ 
+REVIEW: [ ] KEEP [ ] CHANGE [ ] REMOVE [ ] TEST FIRST
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+
+
+--- PAGE 3 ---
+GAME DESIGN REVIEW  /  V0.8  /  OCT 2026 3
+02 World, map, presentation & assets
+Confirmed direction: one very large, seamless, mostly handcrafted isometric desert. Match the provided screenshot:
+sand, vegetation, boulders, ruins, towering stones and natural open combat spaces. No forced region transitions or
+corridor-based dungeon structure. The player roams freely.
+• Fixed forge located at a recognizable landmark; can be reached from different directions.
+• Enemy packs, camps, trials, rifts and shrines use curated potential placement points, randomized or activated per run.
+• Camera remains at current screenshot scale unless playtesting proves a moderate zoom change is necessary.
+• Characters, demons and terrain use the three existing SmallScaleInt packs: HD 8-Directional Top-Down Character Pack
+1; 2D Desert Tileset; Top-Down Demons.
+• Environment should remain visually subordinate to combat telegraphs, loot and enemy silhouettes.
+• Ground-level collision footprints and correct draw-depth order for props, rocks and tall structures.
+Gameplay view and art direction
+Existing game screenshot - visual direction, not proposed replacement art.
+REVIEW: [ ] KEEP [ ] CHANGE [ ] REMOVE [ ] TEST FIRST
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+add a little bit of clouds or dust clouds etc moving. give some depth.
+
+--- PAGE 4 ---
+GAME DESIGN REVIEW  /  V0.8  /  OCT 2026 4
+03 Player controls and combat
+CONTROL ABILITY EXPECTED BEHAVIOR
+WASD Walk Eight-direction sprite movement independent of cursor.
+Mouse Aim Precise world-space aim, nearest visual eight-direction facing.
+LMB Sword combo Manual 3-hit combo; may continue by holding button.
+RMB Heavy Cleave Slower, broad attack for stagger and large targets.
+Q Parry Brief skill-timed counter window; some boss moves un-parryable.
+E Ground Slam AoE damage/stagger, crowd management.
+R Blade Storm Powerful player-triggered ultimate.
+SPACE Dash Directional evade; pass through small enemies.
+I / F Inventory / interact Pause solo game in menus; interact with forge/events.
+Combat feel - nonnegotiable
+• No automatic basic attacks or abilities: player decides when to strike.
+• Input buffer allows smooth combos. Dash can cancel specific recovery windows without removing all attack
+commitment.
+• Attacks hit based on precise mouse direction, not merely snapped sprite facing.
+• Attack hit windows must align with provided animation frames; small hitstop, distinct parry sound and stagger
+reactions.
+• Maintain clear melee openings on bosses; no required skill-node or weapon to beat them.
+Prototype numbers - TEST FIRST
+250 starting HP; combo hits 45/50/65; Heavy Cleave 110; movement 220 units/sec; dash approximately 3-second
+cooldown and 0.18-second invulnerability; ultimate around 35-second cooldown. These are tuning seeds, not confirmed
+balance.
+REVIEW: [ ] KEEP [ ] CHANGE [ ] REMOVE [ ] TEST FIRST
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+i like the idea of having animations/sounds when we hit something. give a better feel
+
+--- PAGE 5 ---
+GAME DESIGN REVIEW  /  V0.8  /  OCT 2026 5
+04 Enemy roles, crowds and collision
+ROLE START HP TACTICAL FUNCTION
+Swarmer 75 Fast frequent close-range pressure; approach around player.
+Bruiser 225 Slow wide telegraphed attacks; punish standing still.
+Caster 100 Keeps distance; fires dodgeable patterns.
+Charger 150 Visible windup then committed dash trajectory.
+Guardian 450 Large sturdy blocker; protects other enemies.
+Summoner 175 Stays back; creates capped reinforcements.
+Locked collision model
+• Regular enemies use soft separation, may overlap slightly and cannot hard-trap the player.
+• Only large demons, elite leaders and bosses body-block the player. Terrain is solid.
+• Dash ignores ordinary-enemy bodies but collides with terrain and major blockers.
+• Collision uses footprint near feet, never the entire image bounding rectangle.
+• Enemy steering combines pursuit, spacing and obstacle avoidance with capped separation impulses.
+Attack-pressure system
+Approx. 3-4 regular melee enemies may initiate their strike at once as an initial readability target; others circle, move
+and reposition. Ranged enemies, elites and bosses use separate encounter coordination. Already-started animations
+complete unless interrupted by valid game rules.
+Performance target
+Use spatial hashing, pooled enemy/projectile objects, lightweight group steering, AI update throttling and shared
+animation textures. Prototype toward 150-180 active enemies at the late-run peak while preserving input response. FPS
+benchmarks are goals, not verified performance.
+REVIEW: [ ] KEEP [ ] CHANGE [ ] REMOVE [ ] TEST FIRST
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+have a mechanic where if i leave something out for awhile it starts to engrage. basically its hp pool gets higher
+and the enemy starts to become red and the model gets a little bigger
+
+--- PAGE 6 ---
+GAME DESIGN REVIEW  /  V0.8  /  OCT 2026 6
+05 Run pacing and encounter director
+Confirmed: enemies spawn continuously across the desert. There are no mandatory downtime rounds. Difficulty
+gradually escalates with timed peaks, shifting mixtures of regular monsters and increasingly threatening encounters.
+RUN TIME POPULATION TARGET NEW PRESSURE
+0-5 min 12-40 Swarmers, bruisers, early elites.
+5-10 min 40-70 First major boss; caster threats.
+10-15 min 70-100 Chargers and mixed attacks.
+15-20 min 100-140 Guardians, summoners, Blood Moon proposed.
+20-25 min 140-165 Elite-heavy packs and difficult specials.
+25-30 min 165-180 Climax, major boss; potential endless continuation.
+Spawn constraints
+• Spawn ordinary demons outside the visible camera in valid navigable locations; avoid obvious pop-in.
+• Use a regenerating spawn budget and enemy-cost weights; do not instantly fill all killed positions.
+• Never spawn a boss directly on top of the player; limit simultaneous major bosses and queue unresolved encounters.
+• Normal enemies can be recycled far from action; never despawn an actively engaged boss or elite.
+• Consider an approx. 30-minute core run, then optional endless mode - the ending condition remains open.
+REVIEW: [ ] KEEP [ ] CHANGE [ ] REMOVE [ ] TEST FIRST
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+I want the end boss to be very difficult. basically you dont kill him very often at all.
+
+--- PAGE 7 ---
+GAME DESIGN REVIEW  /  V0.8  /  OCT 2026 7
+06 Elite packs, mini-bosses and major bosses
+Elite packs - gold hunting
+One leader plus roughly 3-6 supporting demons; modifiers can include Explosive, Vampiric, Frostbound, Shielded,
+Berserker and Warding. Pack leaders have recognizable tells and visual auras. Baseline approximately one pack every
+60-90 seconds; 40-80 gold and ~15% weapon drop chance proposed.
+Mini-bosses - strategic skill points
+Powerful roaming or landmark encounters around every ~3 minutes as a starting target. They grant one skill-tree point
+on eligible kills without automatically opening any menu. Cap skill-point-producing wins around 8-10 per run; future
+mini-bosses award gold/loot, not endless skill points. Exact spawning and point cap are untested.
+Major bosses - mechanics, not stat checks
+BOSS ATTACK DESIGN REWARD
+Ashen Butcher (~5 min) Sweeps, delayed charge, ground smash; phase shift at 50% HP. Guaranteed weapon + gold.
+Hollow Prophet (~10 min) Projectile fans, marked eruptions, reposition, summoned guardians. Guaranteed weapon + gold.
+Boss acceptance criteria: at least two genuinely learnable mechanics beyond damage output; distinguish parryable
+moves; clear telegraphs, reasonable punish windows and a viable melee approach; no impossible overlapping hazard
+sequences. Adapt inspiration from V Rising and RuneScape encounter design.
+REVIEW: [ ] KEEP [ ] CHANGE [ ] REMOVE [ ] TEST FIRST
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+5% weapon drop chanc on elites
+
+--- PAGE 8 ---
+GAME DESIGN REVIEW  /  V0.8  /  OCT 2026
+8
+07 Levels, skill points and ability evolution
+Confirmed: leveling automatically improves core stats. Never open a skill menu on routine level-up. Points come
+primarily from killing mini-bosses and can be saved until the player chooses to allocate them. Death resets points and
+skill choices.
+BRANCH
+PLAYSTYLE
+EXAMPLE NODES
+Berserker
+Critical hits, bleed, execution
+Fast combo, bleed finisher, cleave execution.
+Vanguard
+Defensive counters, parry, recovery
+Healing parry, counter boost, temporary guard.
+Spellblade
+Fire, frost, lightning, crowd effects
+Ignite spread, frost ground, chain lightning.
+Meaningful nodes, not constant micromanagement
+• Begin with ~18 meaningful nodes (6 per branch), potentially grow to 24 after testing.
+ 
+• Skill points are rare - roughly eight to ten opportunities across a long successful run.
+ 
+• Mix nodes between branches; skill evolutions modify the existing LMB/RMB/Q/E/R actions rather than demanding many
+ new keys.
+• Examples: combo produces fire wave; cleave becomes Cyclone; parry fires lightning; slam creates frozen/burning
+ ground; ultimate pulls enemies.
+• Respec available at the fixed forge; progression remains run-only.
+ 
+REVIEW: [ ] KEEP [ ] CHANGE [ ] REMOVE [ ] TEST FIRST
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+
+
+--- PAGE 9 ---
+GAME DESIGN REVIEW  /  V0.8  /  OCT 2026 9
+08 Weapon families, rarity and unique effects
+Confirmed: weapons are the ONLY equipment that persist. No armor/rings/amulets as equippable loot, and absolutely no
+weapon mastery XP. Weapons may differ in attacks, speed, reach, stagger and affixes.
+FAMILY CORE IDENTITY
+Longsword Balanced speed, reach and combo breadth.
+Greatsword Slow, heavy cleave, high stagger.
+Twin Blades Fast, short-range, status and on-hit effects.
+Battleaxe Execution, heavy damage and armor pressure.
+Polearm Longer reach with narrower controlled attacks.
+COMMON MAGIC RARE LEGEND MYTHIC ASCEND
+Rarity palette: Gray > Blue > Purple > Orange > Yellow/Gold > Red. Red-tier weapons can feature intense flames and a distinct aura.
+Weapon appearance remains after death.
+RARITY AFFIX SLOTS INITIAL WEIGHT
+Common 0-1 50%
+Magic 1-2 28%
+Rare 2-3 14%
+Legendary 3-4 6%
+Mythic 4-5 1.7%
+Ascendant 5-6 0.3%
+Special weapon effects
+A curated set of signature effects can alter skills: Molten Wake makes cleave burn the ground; Second Impact repeats
+slam; Thundercall emits lightning on parry; Blood Debt rewards bleed finishers; Frozen Verdict shatters frozen targets.
+High rarity increases possibilities, not automatic superiority in every build.
+REVIEW: [ ] KEEP [ ] CHANGE [ ] REMOVE [ ] TEST FIRST
+zero afix for common, 1 for magic, 2 for rare, 3 for legendary, 4 for mythic, 5 for ascendant. also ascendant
+should be the only weapon that has the wild effects on it.
+
+--- PAGE 10 ---
+GAME DESIGN REVIEW  /  V0.8  /  OCT 2026 10
+09 Evolving weapons: permanent, but balanced
+NEW CONFIRMED RULE: after each ordinary death, start the next run with the selected permanent weapon at effective
+level 1
+. Its numerical power increases with character level until it reaches that weapon's saved maximum item level /
+power ceiling. The weapon does not permanently lose its original ceiling.
+WEAPON PROPERTY START OF NEXT RUN
+Name, rarity, family, saved max level Kept.
+Visual style, blade aura, signature effect identity Kept and visible from level 1.
+Affix types / rolled quality / forged improvements Kept as persistent data.
+Current effective weapon level Reset to 1.
+Base damage / numeric affix magnitude Scaled to level 1, then progressively restored.
+Full saved max-level power Reached when player level catches weapon ceiling.
+Weapon XP / weapon mastery None - no usage-based level-ups.
+Example: a saved level-25 sword
+At player level 1, the sword behaves numerically like its level-1 counterpart. At player level 10, its effective level is 10.
+At player level 25 and beyond, its effective level is capped at 25. The sword's red flame, name and special attack
+behavior remain present throughout; damage and proc coefficients scale. This is character-level synchronization, not
+weapon mastery.
+Crucial balance test
+Decide the exact level-1 normalization curve and whether some signature effects need minimum proc magnitude limits.
+Preserve functional identity without granting late-game damage immediately. Forging upgrades should affect its
+full-power ceiling and scale proportionally in early levels.
+REVIEW: [ ] KEEP [ ] CHANGE [ ] REMOVE [ ] TEST FIRST
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+ya it may need to be changed. 1 to 1 based of levels might upgrade weapon to fast
+
+--- PAGE 11 ---
+GAME DESIGN REVIEW  /  V0.8  /  OCT 2026 11
+10 Loot, affixes and drops
+Drop pipeline: choose loot eligibility > weapon family > rarity > maximum item level > base roll > compatible affixes
+and signature > visual treatment > unique saved instance.
+AFFIX POOL EXAMPLES
+Physical offense Physical damage, attack speed, crit chance, crit damage, elite damage.
+Defensive Max HP, damage reduction while attacking, recovery after kill.
+Mobility Dash cooldown, dash range, movement speed.
+Elemental Fire / ignite, frost / chill, lightning / shock.
+Status Bleed, poison, debuff duration, bonuses to afflicted targets.
+Ability-specific Cleave radius, Ground Slam damage, parry bonus, ultimate duration.
+Utility Gold find, XP gain, pickup radius, limited cooldown recovery.
+Drop philosophy and starting odds
+Basic demons ~0.15% weapon drop chance, elites ~15%, major bosses always drop a weapon. For initial boss rarity
+tests: Common 15%, Magic 40%, Rare 30%, Legendary 12%, Mythic 2.5%, Ascendant 0.5%. These probabilities are
+proposals and should be checked against actual enemies killed per run.
+Rules to prevent runaway builds
+• No duplicate or mutually incompatible affixes; signature effects draw from curated pools.
+• Affix tiers depend on the weapon's stored item level; better tier eligibility does not guarantee better rolls.
+• Add ordinary bonuses within explicit groups; strictly control multiplicative procs, attack speed and cooldown reductions.
+• Keep actual randomized rolls in permanent save data, so balance changes do not silently regenerate player items.
+REVIEW: [ ] KEEP [ ] CHANGE [ ] REMOVE [ ] TEST FIRST
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+again elites are now 5% chance
+def will need test runs to see how this feels.
+
+--- PAGE 12 ---
+GAME DESIGN REVIEW  /  V0.8  /  OCT 2026
+12
+11 Forge, inventory and gold economy
+Fixed forge: always the same map landmark. Player fights their way there. Opening the interface pauses solo
+simulation. The forge supports ordinary affix rerolls, limited weapon quality upgrades, salvage and current-run skill
+respec.
+FUNCTION
+PROPOSED VALUE
+RULE
+Affix reroll
+100 gold x 1.35^(prior rolls)
+Increasing cost on same weapon.
+Quality upgrade
+150 gold x 1.6^(quality)
+Up to +5; propose +2% base per level.
+Affix lock
+~250 gold
+One ordinary affix lock, cost to be tuned.
+Common salvage
++10 gold
+Destroys weapon.
+Magic salvage
++25 gold
+Destroys weapon.
+Rare salvage
++60 gold
+Destroys weapon.
+Legendary salvage
++150 gold
+Destroys weapon.
+Mythic salvage
++350 gold
+Destroys weapon.
+Ascendant salvage
++800 gold
+Destroys weapon.
+Gold economy
+Keep all collected gold after death. Main sources: elite packs, bosses, rare normal drops, weapon salvage and events.
+Initial target 300-500 gold in a successful first 10 minutes. No upgrade/salvage loop should generate free gold; salvage
+values ignore previously spent crafting costs.
+Inventory UX
+• One equipped weapon; proposed 12-weapon run backpack and 20-weapon permanent armory.
+ 
+• Hover/click inspect; compare damage, speed, reach, affixes and affected skills.
+ 
+• Favorite protection; confirm equipped/favorite salvage; rarity beam for important ground loot.
+ 
+• Inventory pauses solo game. Overflow chest guarantees no acquired weapon is silently lost.
+ 
+• Between runs select starting weapon and salvage extras; death preserves all unsalvaged weapons.
+ 
+REVIEW: [ ] KEEP [ ] CHANGE [ ] REMOVE [ ] TEST FIRST
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+
+
+--- PAGE 13 ---
+GAME DESIGN REVIEW  /  V0.8  /  OCT 2026
+13
+12 Optional buff camps and world titans
+Fixed optional camps in the existing desert, guarded by powerful elites. They offer high-value buffs like League of
+Legends jungle camps. Player chooses whether the danger is worth the reward. Buffs reset on ordinary death.
+CAMP
+GUARDIAN STYLE
+REWARD (PROPOSED)
+Crimson Warcamp
+Aggressive fire elite
++15% attack damage + small burn for 4 min.
+Azure Sanctum
+Caster elite / magic traps
++15% cooldown recovery + dash benefit for 4 min.
+Stonewarden's Rest
+Durable slam-focused guardian
++12% damage reduction + stagger resistance for 4 min.
+Large optional world titans
+• Dune Wyrm: around minute 12; breath patterns, position changes, breakable armor. Defeat grants Wyrm's Heart, a
+ strong temporary run buff.
+• Obsidian Colossus: late-run challenge, staged attacks, weak-point windows. Defeat grants Colossus' Dominion for
+ remainder of run.
+• Minor camp respawn target ~6 minutes; identical buffs refresh instead of stacking indefinitely.
+ 
+• World titan buffs last for the run; all exact values and availability times are open for balancing.
+ 
+REVIEW: [ ] KEEP [ ] CHANGE [ ] REMOVE [ ] TEST FIRST
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+
+
+--- PAGE 14 ---
+GAME DESIGN REVIEW  /  V0.8  /  OCT 2026
+14
+13 Cursed shrines - APPROVED FEATURE
+Shrines appear at selected ruins and offer explicit, optional bargains: accept a temporary curse in exchange for a
+desirable reward. No more than one active shrine curse at a time as an initial rule.
+SHRINE
+RISK
+REWARD
+Blood Pact
++30% incoming damage for 3 min
+Double elite gold during curse.
+Glass Warrior
+-35% maximum HP for 2 min
++50% attack damage.
+Demon's Bargain
++20% enemy speed for 3 min
+Better rare weapon odds.
+Forsaken Ground
+Healing reduced 75% for 3 min
++35% XP gain.
+Mark of the Hunted
+A dangerous elite hunts player
+Rare-or-better reward if defeated.
+Interaction and integrity
+• Shrine interaction should present clear risk/reward before accepting.
+ 
+• No guaranteed free reward by abandoning or restarting a curse.
+ 
+• Protect against overlap with realm transition and paused menus.
+ 
+• Rare shrines should feel discoverable, not crowd the minimap.
+ 
+REVIEW: [ ] KEEP [ ] CHANGE [ ] REMOVE [ ] TEST FIRST
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+
+
+--- PAGE 15 ---
+GAME DESIGN REVIEW  /  V0.8  /  OCT 2026 15
+14 Wandering merchant - APPROVED FEATURE
+A merchant intermittently appears in a sensible desert location, remains for a limited time, and sells weapons for
+permanent gold. Merchant access provides an alternative to random drops without undermining boss hunting.
+SLOT OFFER PLAYER TRADEOFF
+1 Affordable randomized weapon Low-risk spend / basic upgrade.
+2 Higher-rarity or higher-ceiling weapon Expensive but inspectable.
+3 Wildcard or sealed weapon Unknown affix details; gamble on quality.
+Merchant rules
+• Initial appearance estimate: ~20-30% of runs. This is provisional.
+• Stock changes on each appearance; no guaranteed Ascendant or exclusive Sovereign loot.
+• Prices scale with rarity and maximum weapon level; purchases are permanent.
+• Vendor and weapon purchase transaction must be saved reliably.
+• Consider merchant voice lines and rare ominous hints about the Sovereign without revealing a guaranteed arrival.
+REVIEW: [ ] KEEP [ ] CHANGE [ ] REMOVE [ ] TEST FIRST
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+you cannot get a yellow or red item here. and an orange is raaaaaaaaare
+
+--- PAGE 16 ---
+GAME DESIGN REVIEW  /  V0.8  /  OCT 2026 16
+15 Demonic rifts - APPROVED FEATURE
+A demonic portal opens in the desert and starts producing monsters. The player can ignore it or enter the danger to
+destroy its anchors before time runs out. This is a target-priority event, not simply another oversized health bar.
+Proposed encounter sequence
+STEP MECHANIC
+1. Rift opens Rift appears at valid location with readable map marker.
+2. Three anchors Player must attack independently placed anchors.
+3. Escalation Rift spawns progressively more dangerous waves until sealed.
+4. Success Destroy anchors before ~90 sec: gold + weapon chance.
+5. Failure Bonus reward lost; normal run continues after rift collapses.
+Blood Moon interaction
+Rifts opened during a Blood Moon use faster, rarer demons and increase rewards, but remain avoidable. Spawn caps
+and local pressure budgets prevent a rift from spawning unlimited entities alongside a scheduled major boss.
+REVIEW: [ ] KEEP [ ] CHANGE [ ] REMOVE [ ] TEST FIRST
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+I have to accept the rift and then it opens the 3 anchors. i can ignore if i want
+
+--- PAGE 17 ---
+GAME DESIGN REVIEW  /  V0.8  /  OCT 2026 17
+16 Ancient trials - APPROVED FEATURE
+Short optional tests at old desert ruins. Trial mechanics emphasize skill, target prioritization and precise actions rather
+than requiring a rare weapon or high stats.
+TRIAL OBJECTIVE PROPOSED REWARD
+Steel Defeat champion within 90 sec Gold + weapon chance.
+Precision Parry three signaled attacks Gold + temporary crit buff.
+Survival Survive 60 sec in marked area Temporary defensive buff.
+Hunter Kill fleeing marked enemies 3-min elite gold bonus.
+Unbroken Win without taking damage Rare weapon chance.
+Important quality checks
+• Trials must be solvable with the basic Swordsman kit and no particular weapon.
+• Provide a clearly marked start/end and a readable timer when applicable.
+• Trial failure does not end a run.
+• Avoid trial objectives that contradict collision, controls, or mini-boss point rewards.
+• Initial 2-3 available locations per run; exact frequency remains a proposal.
+REVIEW: [ ] KEEP [ ] CHANGE [ ] REMOVE [ ] TEST FIRST
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+These ancient trials are in a Collosium style area thats walled off except for the entrance. its a part on the map
+
+--- PAGE 18 ---
+GAME DESIGN REVIEW  /  V0.8  /  OCT 2026 18
+17 Day, night and Blood Moon
+Confirmed: the map changes atmospherically throughout a run. More enemies and night-only variants appear after
+dark. A recurring Blood Moon dramatically increases enemy density and movement speed. The event timing is
+predictable, even if individual spawns are not.
+DAY NIGHT BLOOD MOONAFTERMATH
+00:00 20:00
+Suggested 20-minute repeating schedule (subject to revision).
+PHASE TIME WORLD EFFECT
+Day 0-10 min Baseline density, normal daylight roster.
+Night 10-16 min +20% spawn pressure; night-only demon types.
+Blood Moon 16-18 min +50% pressure; +15% movement speed; red lighting.
+Aftermath 18-20 min Reduced spawn pressure before cycle repeats.
+Special night content
+• Night-only monsters with meaningful mechanics, not just recolors.
+• Blood Moon-exclusive enemy variants, special mini-boss opportunity and increased rewards.
+• Do not inflate Blood Moon enemy HP automatically; increase density, speed and composition instead.
+• Prioritize contrast/readability in red lighting so attack telegraphs remain visible.
+• All main-realm clock progress pauses if the player is abducted to the other realm.
+REVIEW: [ ] KEEP [ ] CHANGE [ ] REMOVE [ ] TEST FIRST
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+the timing may change. need to test
+
+--- PAGE 19 ---
+GAME DESIGN REVIEW  /  V0.8  /  OCT 2026 19
+18 Secret realm abduction - APPROVED FEATURE
+Signature feature: an extremely rare, mechanically demanding boss may abduct the player without the player opting in.
+The encounter may occur at unpredictable times and does not happen every run.
+RULE DESIGN
+Arrival Rare random event; proposed ~15-25% of eligible runs; no guarantee.
+Frequency Maximum one abduction per run as starting constraint.
+Transition Freeze world, preserve player location and active main-realm state.
+Victorious player Receives one exclusive Sovereign weapon and returns to original world.
+Defeated player Returns to original world and resumes ordinary run - NOT game over.
+Encounter duration Separate realm timer; original day/night, buff and boss clocks pause.
+Return safety Brief protected entry window to avoid instant damage from existing enemies.
+The Hollow Sovereign: mechanically challenging
+PHASE ATTACK / PUZZLE
+1. Duel, 100-75% Delayed sword sequence; recognize parryable and dodge-only blows.
+2. Fractured Floor, 75-50% Sequential safe zones and delayed exploding floor runes.
+3. Mirror Trial, 50-25% Discriminate true boss from copies using repeatable tells.
+4. Reckoning, 25-0% Combines learned mechanics with tightly controlled overlaps.
+The boss must be hard because of timing, positioning, pattern recognition and decision-making - not simply an absurd
+HP pool or unfair one-shot damage. It is beatable with ordinary equipment and a well-played baseline skill kit.
+REVIEW: [ ] KEEP [ ] CHANGE [ ] REMOVE [ ] TEST FIRST
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+you gain a random red weapon. I like the idea of maybe the Red weapons are Set weapons with a specific
+name and they're like what you try to farm for. like on runescape you try to kill a boss over and over until you get
+a bis weapon
+make this boss super hard. you have to have a really good build OR be incredible at mechanics
+
+--- PAGE 20 ---
+GAME DESIGN REVIEW  /  V0.8  /  OCT 2026 20
+19 Sovereign omens, suspense and exclusive loot
+Subtle omen system - APPROVED
+• Shadows briefly stretch in the wrong direction, even in daylight.
+• Ancient symbols appear and fade on rocks or ruins.
+• Wind reverses; dust behaves unnaturally; distant whispers or metallic tones interrupt ambient audio.
+• Some runs show one or more signs but no abduction - omens are intentionally not certain.
+• The boss may arrive after minimal warning, but the final transition is clearly signaled.
+• Abduction moment: demons briefly freeze, audio cuts, a shadow circle appears, and the player vanishes in a
+~4-6-second sequence.
+Exclusive weapon pool - PROPOSED
+WEAPON SIGNATURE SKILL EFFECT
+Judgment's Edge Heavy Cleave produces a delayed spectral echo.
+The Divided Soul Dash empowers the next combo with a shadow-repeat finisher.
+The King's Ruin Parry charges empower ultimate with directional waves.
+Worldbreaker Ground Slam adds a second expanding stagger ring.
+Develop 6-8 exclusive Sovereign weapons over time. They cannot drop from generic enemies, other bosses, merchants
+or the forge. Their signature effects remain visible and functional at level 1, while their numerical contribution follows
+evolving-weapon scaling.
+Atmospheric progression
+After the first successful Sovereign victory, subtle ambient details may change cosmetically in future runs, without
+granting stats or weapon mastery.
+REVIEW: [ ] KEEP [ ] CHANGE [ ] REMOVE [ ] TEST FIRST
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+if there is subtle signs popping up its just a hint that something is out there. BUT if more than just a couple pop up then thats
+a gurantee that the boss will pull you into another realm at somepoint during that run, so try to last
+
+--- PAGE 21 ---
+GAME DESIGN REVIEW  /  V0.8  /  OCT 2026
+21
+20 Event director and safeguards
+An overarching World Event Director should coordinate regular waves, elites, camps, mini-bosses, timed bosses,
+shrines, merchant appearances, trials, rifts, Blood Moons, and the rare Sovereign abduction.
+EVENT
+INITIAL FREQUENCY IDEA
+OVERLAP RULE
+Elite packs
+Every ~60-90 sec
+Multiple modest threats allowed.
+Mini-bosses
+Roughly every ~3 min
+Award capped points.
+Major bosses
+Five-minute milestones
+Queue if prior boss unresolved.
+Buff camps
+Static locations; ~6-min respawn
+Refresh buffs rather than infinite stacks.
+Cursed shrines
+~2-3 per run
+One active curse at a time.
+Merchant
+~20-30% run chance
+Avoid boss transitions.
+Rifts
+Every ~6-8 min
+Limit concurrent timed events.
+Ancient trials
+~2-3 available per run
+Localized, opt-in encounters.
+Sovereign
+Very rare; at most once/run
+No mid-boss/transition abduction.
+Fairness / performance
+• At most two active optional timed world events as an initial cap.
+ 
+• Pause the main realm in a Sovereign fight; return to preserved state without timing exploits.
+ 
+• Do not generate event objectives inside inaccessible props or behind blocked geometry.
+ 
+• A single event must never force impossible overlap between multiple mechanics.
+ 
+• Keep optional world events discoverable through subtle landmarks/map hints, not constant full-screen prompts.
+ 
+REVIEW: [ ] KEEP [ ] CHANGE [ ] REMOVE [ ] TEST FIRST
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+
+
+--- PAGE 22 ---
+GAME DESIGN REVIEW  /  V0.8  /  OCT 2026 22
+21 Save system, UI and technical delivery
+Separate permanent and temporary state
+PERMANENT SAVE RUN-ONLY STATE
+All acquired unsalvaged weapon instances Character level, XP, skill-tree points.
+Weapon identity, ceiling, rolls, forging and signature Effective weapon level and numerical stat scaling.
+Gold treasury, favorites, armory Active buffs, curses, enemies and boss state.
+Cosmetic Sovereign victory record if added Main-realm timeline, rift/trial progress, camp timers.
+Engineering guardrails
+• Do not rebuild the existing Codex project or map without first auditing current framework, sprites, animation sheets and
+scene code.
+• Use data-driven definitions for enemy behavior, events, weapons, affixes, effects and boss patterns.
+• Version permanent weapon saves and make gold spending + item updates transactional.
+• Separate UI from simulation; inventory, forge and skill tree pause solo gameplay.
+• Use animation pooling, atlases and benchmark dense enemy scenes on real browsers.
+• Implement automated tests for weapon rescaling, realm return after death, exclusive drops, forge atomicity and event
+scheduling.
+Open decisions
+• 30-minute victory condition vs purely endless survival.
+• Whether late-game buffs can be renewed or only refreshed, and whether camp buffs stack across categories.
+• How much health the Sovereign returns the player with after defeat.
+• Exact skill point cap and whether some trials may rarely grant bonus points.
+• Whether forging costs depend on item ceiling, current quality and signature rarity.
+• Whether merchant has a safe interaction bubble (currently not established).
+REVIEW: [ ] KEEP [ ] CHANGE [ ] REMOVE [ ] TEST FIRST
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+Notes: __________________________________________________________________________________________________
+another thing that would be nice is for now unless we come up with something better. because when we have
+multi players. when you go into a menu or something to change a weapon or to do a skill, you have a total of
+15 seconds. which gives u a bubble from damage. if you go over the 15 in the menu then the bubble is gone and
+you can take damage. and you cant keep resetting that by going in and out of menu, once menu is up its 30 seconds
+so 15sec downtime after being in it before bubble restarts. and it shows a timer in the menu
+
+--- PAGE 23 ---
+GAME DESIGN REVIEW  /  V0.8  /  OCT 2026
+23
+22 Roadmap, milestones and final markup page
+PHASE
+WHAT TO BUILD / VALIDATE
+A - Current combat
+Swordsman controls, 8-direction sprites, enemy roles, crowd separation.
+B - Persistence
+Gold, armory, equipment stats, effective weapon level scaling.
+C - Encounter loop
+Mini-boss skill points, elite loot, fixed forge, first mechanically rich boss.
+D - Map activities
+Two buff camps, shrine, trial, merchant, first rift.
+E - World atmosphere
+Day/night lighting, special demons, Blood Moon.
+F - Secret encounter
+Omen signals, realm snapshot/return, Sovereign phases, exclusive loot.
+G - Polish/balance
+Loot economy simulations, 30-minute pacing, testing, optimization.
+Overall decisions to mark
+[ ] KEEP [ ] CHANGE [ ] REMOVE Core gameplay loop
+ 
+[ ] KEEP [ ] CHANGE [ ] REMOVE Isometric visual style
+ 
+[ ] KEEP [ ] CHANGE [ ] REMOVE Skill point pacing
+ 
+[ ] KEEP [ ] CHANGE [ ] REMOVE Weapon rarity and scaling
+ 
+[ ] KEEP [ ] CHANGE [ ] REMOVE Forge and persistent gold
+ 
+[ ] KEEP [ ] CHANGE [ ] REMOVE Optional world events
+ 
+[ ] KEEP [ ] CHANGE [ ] REMOVE Buff camps and titan encounters
+ 
+[ ] KEEP [ ] CHANGE [ ] REMOVE Secret Sovereign boss
+ 
+[ ] KEEP [ ] CHANGE [ ] REMOVE Day/night/Blood Moon
+ 
+[ ] KEEP [ ] CHANGE [ ] REMOVE Boss complexity and fairness
+ 
+Top changes to request from Codex
+1. __________________________________________________________________________________________________
+2. __________________________________________________________________________________________________
+3. __________________________________________________________________________________________________
+4. __________________________________________________________________________________________________
+5. __________________________________________________________________________________________________
+Review note: This is a design document, not proof that every discussed system is currently implemented. Confirmed
+means approved as design direction. Proposed statistics, probabilities, enemy counts, costs and schedules remain
+subject to prototyping and playtesting.

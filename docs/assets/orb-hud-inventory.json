@@ -1,0 +1,182 @@
+{
+  "archive": "Visuals/UI/Veyrath-Orb-HUD-Asset-Pack.zip",
+  "selected": [
+    {
+      "source": "veyrath-orb-hud/orbs/frame_gold.png",
+      "runtime": "dist/assets/ui/orb-hud/orbs/frame_gold.png",
+      "bytes": 153467,
+      "width": 512,
+      "height": 512,
+      "sha256": "262dc5a9a7e70eb7672b30b9ddbc3e384ff75c22fb4be776dbf6b44ff5d40d38"
+    },
+    {
+      "source": "veyrath-orb-hud/orbs/glass_empty.png",
+      "runtime": "dist/assets/ui/orb-hud/orbs/glass_empty.png",
+      "bytes": 24553,
+      "width": 512,
+      "height": 512,
+      "sha256": "7f06992fbee74269457a55e9ce62f6840755cd293a052592ca4a1a40795845b3"
+    },
+    {
+      "source": "veyrath-orb-hud/orbs/glass_shine.png",
+      "runtime": "dist/assets/ui/orb-hud/orbs/glass_shine.png",
+      "bytes": 55688,
+      "width": 512,
+      "height": 512,
+      "sha256": "d164812959f53e6e15948472a65c99e9682cf275ed2eea7578a336d32ffdb017"
+    },
+    {
+      "source": "veyrath-orb-hud/orbs/low_health_glow.png",
+      "runtime": "dist/assets/ui/orb-hud/orbs/low_health_glow.png",
+      "bytes": 50724,
+      "width": 512,
+      "height": 512,
+      "sha256": "0e80deb967d809568daef69e7562add6af33aa9c8fa34e2598936cc0d1c50f62"
+    },
+    {
+      "source": "veyrath-orb-hud/orbs/liquid_health.png",
+      "runtime": "dist/assets/ui/orb-hud/orbs/liquid_health.png",
+      "bytes": 1987609,
+      "width": 1024,
+      "height": 1024,
+      "sha256": "0c51351777ea3a72ff12daf108fbc59d6583be1a09fa723a3469c58152014787"
+    },
+    {
+      "source": "veyrath-orb-hud/orbs/liquid_mana.png",
+      "runtime": "dist/assets/ui/orb-hud/orbs/liquid_mana.png",
+      "bytes": 2141016,
+      "width": 1024,
+      "height": 1024,
+      "sha256": "e82068346c7f80af071528d9882e61e89a926d98574b58ac9d3c019b5f94096b"
+    },
+    {
+      "source": "veyrath-orb-hud/panels/action_bar.png",
+      "runtime": "dist/assets/ui/orb-hud/panels/action_bar.png",
+      "bytes": 1735928,
+      "width": 2200,
+      "height": 472,
+      "sha256": "68944dadcf93953ba33e82c9b91a672f7e342ac87e6e99175fbdc21ad8949022"
+    },
+    {
+      "source": "veyrath-orb-hud/panels/run_stats.png",
+      "runtime": "dist/assets/ui/orb-hud/panels/run_stats.png",
+      "bytes": 266543,
+      "width": 1256,
+      "height": 148,
+      "sha256": "6feba3dca514b020947cca953522558a83853fec940ad56484d039d7245b341b"
+    },
+    {
+      "source": "veyrath-orb-hud/panels/connector.png",
+      "runtime": "dist/assets/ui/orb-hud/panels/connector.png",
+      "bytes": 2195,
+      "width": 180,
+      "height": 180,
+      "sha256": "71f07a6932026bb103588c55fd3dbf99bdca692e84202f924b9ae8bc67893a3c"
+    },
+    {
+      "source": "veyrath-orb-hud/bars/xp_track.png",
+      "runtime": "dist/assets/ui/orb-hud/bars/xp_track.png",
+      "bytes": 1161,
+      "width": 1600,
+      "height": 56,
+      "sha256": "db293557152807e297b9c8dc7c529515dd6f5dbfcd2b7f5bb7984fd574fdd90b"
+    },
+    {
+      "source": "veyrath-orb-hud/bars/xp_fill.png",
+      "runtime": "dist/assets/ui/orb-hud/bars/xp_fill.png",
+      "bytes": 910,
+      "width": 1600,
+      "height": 56,
+      "sha256": "06ad8c0ef6f725bd8b5ca0b2e86bfaf5fe111d965910841807e787f439505dde"
+    },
+    {
+      "source": "veyrath-orb-hud/bars/xp_frame_overlay.png",
+      "runtime": "dist/assets/ui/orb-hud/bars/xp_frame_overlay.png",
+      "bytes": 1117,
+      "width": 1600,
+      "height": 56,
+      "sha256": "bb2707be7ee5de64a4e30d72bc30b3eb19fc27cf9b2a9c700fc2b6093e606af9"
+    },
+    {
+      "source": "veyrath-orb-hud/badges/level_blank.png",
+      "runtime": "dist/assets/ui/orb-hud/badges/level_blank.png",
+      "bytes": 776,
+      "width": 160,
+      "height": 70,
+      "sha256": "c97d1febaf71553cc6ffc115f7234afc227ade9f357aefd22d84c7169f016ccd"
+    },
+    {
+      "source": "veyrath-orb-hud/keycaps/blank.png",
+      "runtime": "dist/assets/ui/orb-hud/keycaps/blank.png",
+      "bytes": 730,
+      "width": 144,
+      "height": 64,
+      "sha256": "e66f10a23f1ae1a787ecdca47eb1a93dd1dabd2378e52b3b56d8d5503c5f4368"
+    },
+    {
+      "source": "veyrath-orb-hud/keycaps/blank_wide.png",
+      "runtime": "dist/assets/ui/orb-hud/keycaps/blank_wide.png",
+      "bytes": 767,
+      "width": 186,
+      "height": 64,
+      "sha256": "d8e798eb52b359650c4eba54ed58660ae26de589ec7a01dd01b82d4e185b573b"
+    },
+    {
+      "source": "veyrath-orb-hud/slots/normal.png",
+      "runtime": "dist/assets/ui/orb-hud/slots/normal.png",
+      "bytes": 106102,
+      "width": 256,
+      "height": 256,
+      "sha256": "e35ad42646fa982714dd783877f53862d73a6d62024453f2b3c933b449a660b2"
+    },
+    {
+      "source": "veyrath-orb-hud/slots/hover.png",
+      "runtime": "dist/assets/ui/orb-hud/slots/hover.png",
+      "bytes": 109131,
+      "width": 256,
+      "height": 256,
+      "sha256": "8ae751cef281983060956ce0278954c8b0fc9b653c8e519719fd6069b7f25da3"
+    },
+    {
+      "source": "veyrath-orb-hud/slots/pressed.png",
+      "runtime": "dist/assets/ui/orb-hud/slots/pressed.png",
+      "bytes": 85573,
+      "width": 256,
+      "height": 256,
+      "sha256": "6e625a57e9747fb4371945e5773b606c71cd36b325dde0213d6dc29bc2f6286c"
+    },
+    {
+      "source": "veyrath-orb-hud/slots/active.png",
+      "runtime": "dist/assets/ui/orb-hud/slots/active.png",
+      "bytes": 57137,
+      "width": 256,
+      "height": 256,
+      "sha256": "6542b94a70265bd76518ba5885e1782688fc3cae2f4c0a8c3451580de0b446be"
+    },
+    {
+      "source": "veyrath-orb-hud/slots/locked.png",
+      "runtime": "dist/assets/ui/orb-hud/slots/locked.png",
+      "bytes": 52112,
+      "width": 256,
+      "height": 256,
+      "sha256": "5f5be145e2e9be37d5ab03e5a018af56667b85990679cd8f38cd79db56a3463f"
+    },
+    {
+      "source": "veyrath-orb-hud/slots/cooldown.png",
+      "runtime": "dist/assets/ui/orb-hud/slots/cooldown.png",
+      "bytes": 80879,
+      "width": 256,
+      "height": 256,
+      "sha256": "0cc98ef17372e2baf10f8809a371a53c64178380992d3799512d0dfcae9e6dd6"
+    },
+    {
+      "source": "veyrath-orb-hud/slots/focus_overlay.png",
+      "runtime": "dist/assets/ui/orb-hud/slots/focus_overlay.png",
+      "bytes": 1303,
+      "width": 256,
+      "height": 256,
+      "sha256": "8df4709516d0d46189ef33c8a71d029b1ba08bcc685aadef14c248eb430fb4e3"
+    }
+  ],
+  "notes": "Source ZIP preserved. Runtime uses existing game icons and existing licensed Cloth fonts; no presets, example code, masters or sample labels shipped."
+}

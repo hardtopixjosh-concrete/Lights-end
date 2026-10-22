@@ -1,0 +1,162 @@
+/* Supplied Armory pack. Desktop modal is the reference's 1200 × 856 composition. */
+#armory-panel.cloth-armory{background:#020a12a6;backdrop-filter:blur(4px);font-family:ClothBody,sans-serif;color:#f6e9d0}
+#armory-panel.cloth-armory>.panel{position:relative;width:1200px;height:856px;min-width:0;max-width:none;max-height:none;padding:0;border:0;border-radius:0;overflow:visible;background:transparent url('assets/ui/armory/panels/modal.png') center/100% 100% no-repeat;box-shadow:0 20px 70px #0009;transform:scale(var(--armory-scale,1));transform-origin:center;zoom:1;text-align:left}
+#armory-panel .armory-corner{position:absolute;width:36px;height:36px;pointer-events:none;z-index:5;background:center/contain no-repeat}
+#armory-panel .armory-corner.top-left{top:0;left:0;background-image:url('assets/ui/armory/panels/corner_top_left.png')}
+#armory-panel .armory-corner.top-right{top:0;right:0;background-image:url('assets/ui/armory/panels/corner_top_right.png')}
+#armory-panel .armory-corner.bottom-left{bottom:0;left:0;background-image:url('assets/ui/armory/panels/corner_bottom_left.png')}
+#armory-panel .armory-corner.bottom-right{bottom:0;right:0;background-image:url('assets/ui/armory/panels/corner_bottom_right.png')}
+#armory-panel .arm-head{position:absolute;left:38px;right:34px;top:18px;height:98px;display:block;padding:0 0 12px;background:url('assets/ui/armory/panels/divider.png') center bottom/100% 16px no-repeat}
+#armory-panel #armory-title{font:700 58px/1.1 ClothSerif,serif;letter-spacing:0;margin:0;color:#fff0d7;text-shadow:0 2px 3px #0009}
+#armory-panel #armory-sub{max-width:740px;margin:6px 0 0;font:600 17px/1.3 ClothBody,sans-serif;color:#c9dbe7}
+#armory-panel .arm-wallet{position:absolute;right:0;top:15px;display:flex;align-items:center;gap:24px;font:700 15px ClothBody,sans-serif;color:#d2dfeb}
+#armory-panel .arm-gold{width:150px;height:56px;display:flex;align-items:center;justify-content:center;gap:10px;background:url('assets/ui/armory/panels/currency.png') center/100% 100% no-repeat}
+#armory-panel .arm-gold::before{content:'';width:28px;height:28px;background:url('assets/ui/armory/icons/coin.png') center/contain no-repeat}
+#armory-panel .arm-gold small{display:none}
+#armory-panel .arm-gold b{font:700 32px/1 ClothSerif,serif;color:#ffdc85;vertical-align:0}
+#armory-panel .armory-layout{position:absolute;left:31px;right:33px;top:125px;height:652px;margin:0;display:grid;grid-template-columns:567px minmax(0,1fr);gap:15px;min-height:0;flex:none}
+#armory-panel #weapon-list{display:flex;flex-direction:column;gap:10px;padding:0;max-height:none;min-height:0;overflow:auto;scrollbar-width:thin;scrollbar-color:#be9a55 #0a1c2c;scroll-padding:8px}
+#armory-panel .inventory-section{flex:none;min-width:0}
+#armory-panel .arm-section{display:flex;align-items:baseline;flex-wrap:wrap;gap:5px 14px;min-height:34px;margin:0 0 6px;padding:0 5px;border:0;border-radius:0;background:none;color:#ffdf91;font:700 26px/1.1 ClothSerif,serif;letter-spacing:0}
+#armory-panel .arm-section small{font:600 15px/1.25 ClothBody,sans-serif;color:#c5d7e3;letter-spacing:0;flex:1}
+#armory-panel .inventory-equipped .arm-section small{color:#7ce8b5}
+#armory-panel .arm-section em{font:700 25px/1 ClothSerif,serif;margin-left:auto;color:#fff0d7;white-space:nowrap}
+#armory-panel .inventory-body{min-height:97px;padding:8px 12px;background:url('assets/ui/armory/panels/equipped_row.png') center/100% 100% no-repeat}
+#armory-panel .inventory-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:5px 8px;padding:9px 8px;background:url('assets/ui/armory/panels/run_bag.png') center/100% 100% no-repeat}
+#armory-panel .inventory-inventory .inventory-grid,#armory-panel .inventory-overflow .inventory-grid{background-size:100% 100%;min-height:106px}
+#armory-panel button.inventory-item{position:relative;width:100%;min-width:0;height:80px;display:grid;grid-template-columns:82px minmax(0,1fr) auto;align-items:center;gap:10px;margin:0;padding:0;border:0;border-radius:0;background:none;box-shadow:none;text-align:left;letter-spacing:0;transform:none}
+#armory-panel button.inventory-item:hover{background:#ffffff09;border:0}
+#armory-panel .inventory-item.selected:not(.inventory-compact){background:#e99c1c16;box-shadow:inset 0 0 0 1px #edbc6b}
+#armory-panel .inventory-crest{position:relative;display:grid;place-items:center;flex:none;width:82px;height:82px;background:url('assets/ui/armory/crests/navy_blank.png') center/contain no-repeat}
+#armory-panel .inventory-crest svg,#armory-panel .inventory-crest img{width:44%;height:44%;object-fit:contain;fill:none;stroke:var(--tint,#fff0d9);stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 1px 2px #0008)}
+#armory-panel .arm-text{min-width:0}
+#armory-panel .arm-name{display:flex;gap:5px 9px;align-items:baseline;flex-wrap:wrap}
+#armory-panel .arm-name b{font:700 26px/1.1 ClothSerif,serif;color:var(--tint,#fff0d9);overflow-wrap:anywhere}
+#armory-panel .arm-name i{font:800 11px/1.2 ClothBody,sans-serif;color:#bcd0df;letter-spacing:.025em;font-style:normal;text-transform:uppercase}
+#armory-panel .arm-text>small{font:600 14px/1.3 ClothBody,sans-serif;color:#d1dfe8;margin-top:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+#armory-panel .inventory-body .arm-text>small{-webkit-line-clamp:1;font-size:13px;margin-top:4px}
+#armory-panel .arm-state{min-width:88px;padding:6px 8px;background:url('assets/ui/armory/badges/equipped_blank.png') center/100% 100% no-repeat;color:#ffe49b;font:800 16px/1 ClothBody,sans-serif;text-align:center}
+#armory-panel .inventory-favorite{position:absolute;right:6px;top:3px;color:#ffdc83;font-size:18px;text-shadow:0 1px 3px #000}
+#armory-panel button.inventory-item.inventory-compact,#armory-panel .inventory-empty{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0;height:88px;padding:3px 6px;border:0;border-radius:0;background:transparent url('assets/ui/armory/slots/empty.png') center/100% 100% no-repeat;box-shadow:none;overflow:hidden}
+#armory-panel button.inventory-compact:hover{background-image:url('assets/ui/armory/slots/hover.png')}
+#armory-panel button.inventory-compact.selected{background-image:url('assets/ui/armory/slots/selected.png')}
+#armory-panel .inventory-compact .inventory-crest{width:61px;height:61px}
+#armory-panel .inventory-compact .arm-text{width:100%;text-align:center}
+#armory-panel .inventory-compact .arm-name{display:block}
+#armory-panel .inventory-compact .arm-name b{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font:800 14px/19px ClothBody,sans-serif;color:#fff0d9}
+#armory-panel .inventory-compact .arm-name i,#armory-panel .inventory-compact .arm-text small,#armory-panel .inventory-compact .arm-state{display:none}
+#armory-panel .inventory-held-marker b{font:800 14px/1.3 ClothBody,sans-serif;color:#b9c8d3}
+#armory-panel .inventory-held-marker small{font:600 12px/1.3 ClothBody,sans-serif;color:#8fa6b8}
+#armory-panel .inventory-safe-pocket .inventory-body{height:106px;min-height:106px;display:flex;align-items:center;justify-content:center;gap:22px;padding:10px 20px;background-image:url('assets/ui/armory/panels/safe_pocket_normal.png')}
+#armory-panel .inventory-safe-pocket .inventory-body:hover{background-image:url('assets/ui/armory/panels/safe_pocket_hover.png')}
+#armory-panel .inventory-pocket-empty{width:74px;height:80px;flex:none;background:url('assets/ui/armory/slots/pocket_normal.png') center/100% 100% no-repeat}
+#armory-panel .pocket-empty-message b{display:block;font:700 22px/1.2 ClothSerif,serif;color:#f3e4c9}
+#armory-panel .pocket-empty-message small{display:block;max-width:320px;margin-top:5px;font:600 15px/1.4 ClothBody,sans-serif;color:#b9cfdf}
+#armory-panel .drop-valid{outline:2px solid #6ee9a1;outline-offset:-3px}
+#armory-panel .drop-invalid{outline:2px solid #ef727c;outline-offset:-3px}
+#armory-panel .inventory-grid.drop-valid{background-image:url('assets/ui/armory/slots/drag_valid.png')}
+#armory-panel .inventory-grid.drop-invalid{background-image:url('assets/ui/armory/slots/drag_invalid.png')}
+#armory-panel .inventory-safe-pocket .drop-valid{background-image:url('assets/ui/armory/panels/safe_pocket_valid.png')}
+#armory-panel .inventory-safe-pocket .drop-invalid{background-image:url('assets/ui/armory/panels/safe_pocket_invalid.png')}
+#armory-panel .drop-valid .inventory-pocket-empty{background-image:url('assets/ui/armory/slots/pocket_valid.png')}
+#armory-panel .drop-invalid .inventory-pocket-empty{background-image:url('assets/ui/armory/slots/pocket_invalid.png')}
+#armory-panel .arm-detail{min-height:0;display:flex;flex-direction:column;gap:0;padding:18px 24px 11px;overflow:hidden;border:0;border-radius:0;background:url('assets/ui/armory/panels/details.png') center/100% 100% no-repeat}
+#armory-panel #weapon-detail{flex:1;min-height:0;overflow:auto;padding-right:2px;scrollbar-width:thin;scrollbar-color:#b99555 #0b2235}
+#armory-panel .arm-protection{display:flex;align-items:center;gap:9px;margin:0 0 9px;font:800 17px/1.3 ClothBody,sans-serif;color:#8ae5b9}
+#armory-panel .arm-protection.at-risk{color:#ffbf4b}
+#armory-panel .arm-protection.at-risk::before{content:'';width:20px;height:20px;flex:none;background:url('assets/ui/armory/icons/warning.png') center/contain no-repeat}
+#armory-panel .arm-weapon-head{display:grid;grid-template-columns:108px minmax(0,1fr);align-items:start;gap:15px;margin:0 0 8px;min-height:115px}
+#armory-panel .arm-weapon-head .inventory-crest{width:108px;height:108px}
+#armory-panel .arm-weapon-summary{min-width:0}
+#armory-panel .arm-title{font:700 34px/1.06 ClothSerif,serif;margin:0 0 3px;overflow-wrap:anywhere}
+#armory-panel .arm-family{font:800 13px/1.3 ClothBody,sans-serif;margin:0 0 4px;color:#bdcfdf;text-transform:uppercase}
+#armory-panel .arm-weapon-summary .arm-meta{font:600 13px/1.3 ClothBody,sans-serif;margin:0 0 6px;color:#c8d9e5}
+#armory-panel #weapon-detail .arm-weapon-summary .affix{font:600 13px/1.4 ClothBody,sans-serif;margin:0;color:#d2dfeb}
+#armory-panel .fe-rune{display:grid;grid-template-columns:100px minmax(0,1fr);align-items:center;gap:10px;margin:6px 0 10px;font:700 16px/1.2 ClothBody,sans-serif;color:#d5e3ed}
+#armory-panel .fe-rune select,#armory-panel #lock-affix{width:100%;max-width:100%;min-width:0;height:40px;margin:0;padding:4px 28px 4px 12px;border:0;border-radius:0;background:#10283d url('assets/ui/armory/controls/dropdown_normal.png') center/100% 100% no-repeat;font:700 14px ClothBody,sans-serif;color:#deebf4;color-scheme:dark}
+#armory-panel .fe-rune select:hover{background-image:url('assets/ui/armory/controls/dropdown_hover.png')}
+#armory-panel .fe-rune select:focus-visible{background-image:url('assets/ui/armory/controls/dropdown_focused.png')}
+#armory-panel .fe-rune select:disabled{opacity:1;color:#aebfcd;background-image:url('assets/ui/armory/controls/dropdown_disabled.png')}
+#armory-panel .arm-compare{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px 8px;margin:0 0 10px}
+#armory-panel .arm-compare>div{height:75px;min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;padding:6px;border:0;border-radius:0;background:url('assets/ui/armory/controls/stat_normal.png') center/100% 100% no-repeat}
+#armory-panel .arm-compare>div[data-trend=positive]{background-image:url('assets/ui/armory/controls/stat_positive.png')}
+#armory-panel .arm-compare>div[data-trend=negative]{background-image:url('assets/ui/armory/controls/stat_negative.png')}
+#armory-panel .arm-compare>div:hover{background-image:url('assets/ui/armory/controls/stat_hover.png')}
+#armory-panel .arm-compare small{font:800 10px/1.1 ClothBody,sans-serif;color:#bdd0df;letter-spacing:.025em;text-transform:uppercase;text-align:center}
+#armory-panel .arm-compare b{font:700 27px/1.1 ClothSerif,serif;color:#fff1d8}
+#armory-panel .arm-compare em{display:flex;align-items:center;gap:5px;margin:0;font:800 14px/1 ClothBody,sans-serif;font-style:normal;color:#f47784}
+#armory-panel .arm-compare em.up{color:#7ce6a8}
+#armory-panel .arm-compare em::before{content:'';width:11px;height:11px;background:url('assets/ui/armory/icons/comparison_down.png') center/contain no-repeat}
+#armory-panel .arm-compare em.up::before{background-image:url('assets/ui/armory/icons/comparison_up.png')}
+#armory-panel #weapon-detail .arm-power-preview p{font:600 13px/1.4 ClothBody,sans-serif;margin:4px 0;color:#c5d9e8}
+#armory-panel #weapon-detail>.arm-section{font-size:23px;min-height:28px;margin:9px 0 6px;padding:0;background:url('assets/ui/armory/panels/divider.png') right center/72% 12px no-repeat}
+#armory-panel #weapon-detail .arm-affix-list .affix{min-height:39px;padding:8px 10px;margin:5px 0;font:600 14px/1.4 ClothBody,sans-serif;color:#dfebf4;background:url('assets/ui/armory/controls/affix_row.png') center/100% 100% no-repeat;overflow-wrap:anywhere}
+#armory-panel .arm-affix-summary{margin:7px 0;font:600 13px/1.3 ClothBody,sans-serif;color:#c3d6e5}
+#armory-panel .weapon-buttons{flex:none;display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:10px 0 0}
+#armory-panel .weapon-buttons button,#armory-panel .frow button,#armory-panel .armory-detail-tabs button{min-width:0;margin:0;padding:7px 12px;height:50px;border:0;border-radius:0;box-shadow:none;background:url('assets/ui/armory/buttons/blank/navy_normal.png') center/100% 100% no-repeat;font:700 24px/1 ClothSerif,serif;color:#fff0d3;letter-spacing:0;transform:none;white-space:normal}
+#armory-panel .weapon-buttons button:hover,#armory-panel .frow button:hover,#armory-panel .armory-detail-tabs button:hover{background-image:url('assets/ui/armory/buttons/blank/navy_hover.png')}
+#armory-panel .weapon-buttons button:active,#armory-panel .frow button:active,#armory-panel .armory-detail-tabs button:active{background-image:url('assets/ui/armory/buttons/blank/navy_pressed.png')}
+#armory-panel #equip-weapon{background-image:url('assets/ui/armory/buttons/blank/orange_normal.png')}
+#armory-panel #equip-weapon:hover{background-image:url('assets/ui/armory/buttons/blank/orange_hover.png')}
+#armory-panel #equip-weapon:active{background-image:url('assets/ui/armory/buttons/blank/orange_pressed.png')}
+#armory-panel .weapon-buttons button:disabled,#armory-panel .frow button:disabled{opacity:1;color:#a2b1bf;background-image:url('assets/ui/armory/buttons/blank/navy_disabled.png');cursor:default}
+#armory-panel #equip-weapon:disabled{background-image:url('assets/ui/armory/buttons/blank/orange_disabled.png')}
+#armory-panel #favorite-weapon{font-size:22px}
+#armory-panel #forge-note{flex:none;margin:8px 0 0;font:600 13px/1.3 ClothBody,sans-serif;color:#b8cedd}
+#armory-panel .armory-detail-tabs{flex:none;display:none;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}
+#armory-panel[data-mode=forge] .armory-detail-tabs{display:grid}
+#armory-panel .armory-detail-tabs button{height:38px;font-size:18px}
+#armory-panel .armory-detail-tabs [aria-pressed=true]{background-image:url('assets/ui/armory/buttons/blank/orange_normal.png');color:#fff2d5}
+#armory-panel #forge-actions{display:none;flex:1;min-height:0;overflow:auto;margin:0;scrollbar-width:thin}
+#armory-panel[data-view=forge] #forge-actions:not([hidden]){display:block}
+#armory-panel[data-view=forge] #weapon-detail,#armory-panel[data-view=forge] .weapon-buttons{display:none}
+#armory-panel .frow{margin:0 0 8px;padding:10px;grid-template-columns:minmax(0,1fr) 160px;gap:12px;border:1px solid #a07f4544;background:#0c2233;border-radius:3px}
+#armory-panel .frow b{font:800 16px/1.2 ClothBody,sans-serif;color:#f6e6c8}
+#armory-panel .frow small{margin-top:4px;font:600 13px/1.35 ClothBody,sans-serif;color:#b7cddd}
+#armory-panel .frow button{height:44px;font-size:17px}
+#armory-panel .frow .danger{color:#ffb1b7}
+#armory-panel .arm-foot{position:absolute;left:31px;right:33px;bottom:14px;height:55px;padding:13px 10px 0;display:flex;align-items:center;justify-content:space-between;gap:12px;background:url('assets/ui/armory/panels/divider.png') center top/100% 16px no-repeat;font:600 16px/1 ClothBody,sans-serif;color:#cfdfeb}
+#armory-panel .arm-foot kbd{display:inline-grid;place-items:center;min-width:29px;height:31px;margin:0 4px;padding:0 7px;border:0;border-radius:0;background:url('assets/ui/armory/keycaps/blank.png') center/100% 100% no-repeat;font:800 14px ClothBody,sans-serif;color:#f5ead6}
+#armory-panel #armory-close{width:135px;height:43px;padding:4px 12px;margin:0;border:0;border-radius:0;box-shadow:none;background:url('assets/ui/armory/buttons/blank/close_normal.png') center/100% 100% no-repeat;font:700 24px ClothSerif,serif;color:#ffefd1;letter-spacing:0;transform:none}
+#armory-panel #armory-close:hover{background-image:url('assets/ui/armory/buttons/blank/close_hover.png')}
+#armory-panel #armory-close:active{background-image:url('assets/ui/armory/buttons/blank/close_pressed.png')}
+#armory-panel button:focus-visible{outline:2px solid #ffe0a0;outline-offset:2px}
+#armory-panel .inventory-compact:focus-visible{outline:0;background-image:url('assets/ui/armory/slots/hover.png')}
+#armory-panel .inventory-compact:focus-visible::after{content:'';position:absolute;inset:0;background:url('assets/ui/armory/slots/focus_overlay.png') center/100% 100% no-repeat;pointer-events:none}
+body:has(#armory-panel:not([hidden])) #settings{visibility:hidden}
+body:has(#armory-panel:not([hidden])) #toast{top:auto;bottom:20px;left:50%;transform:translateX(-50%);pointer-events:none}
+@media(max-width:760px){
+ #armory-panel.cloth-armory>.panel{width:calc(100vw - 24px);height:calc(100dvh - 24px);max-height:none;transform:none;padding:20px 14px 14px;border:0 solid transparent;border-image:url('assets/ui/armory/artwork/panel-9slice-source.png') 80 fill / 20px stretch;display:flex;flex-direction:column;overflow:hidden}
+ #armory-panel .arm-head{position:relative;inset:auto;height:auto;flex:none;padding:0 0 18px}
+ #armory-panel #armory-title{font-size:38px}
+ #armory-panel #armory-sub{font-size:13px;max-width:100%;padding-right:0}
+ #armory-panel .arm-wallet{position:static;margin-top:12px;justify-content:space-between;gap:8px;font-size:12px;white-space:normal}
+ #armory-panel .arm-gold{width:120px;height:45px;flex:none}
+ #armory-panel .arm-gold b{font-size:27px}
+ #armory-panel .armory-layout{position:static;display:flex;flex-direction:column;gap:16px;height:auto;flex:1;min-height:0;overflow:auto;margin:6px 0}
+ #armory-panel #weapon-list{flex:none;overflow:visible}
+ #armory-panel .arm-section{font-size:22px}
+ #armory-panel .arm-section small{font-size:12px}
+ #armory-panel .arm-section em{font-size:20px}
+ #armory-panel .inventory-grid{gap:5px;padding:8px 6px}
+ #armory-panel button.inventory-item{grid-template-columns:66px minmax(0,1fr);height:auto;min-height:80px;gap:8px}
+ #armory-panel .inventory-crest{width:66px;height:66px}
+ #armory-panel .arm-name b{font-size:22px}
+ #armory-panel .arm-state{position:absolute;right:0;bottom:0;min-width:70px;font-size:12px}
+ #armory-panel button.inventory-item.inventory-compact,#armory-panel .inventory-empty{height:82px}
+ #armory-panel .inventory-compact .inventory-crest{width:54px;height:54px}
+ #armory-panel .inventory-compact .arm-name b{font-size:11px}
+ #armory-panel .arm-detail{flex:none;min-height:620px;height:620px;padding:18px 14px 12px}
+ #armory-panel .arm-weapon-head{grid-template-columns:82px minmax(0,1fr);gap:10px}
+ #armory-panel .arm-weapon-head .inventory-crest{width:82px;height:82px}
+ #armory-panel .arm-title{font-size:28px}
+ #armory-panel .fe-rune{grid-template-columns:82px minmax(0,1fr);font-size:14px;gap:5px}
+ #armory-panel .arm-compare{gap:5px}
+ #armory-panel .weapon-buttons{gap:9px}
+ #armory-panel .weapon-buttons button{font-size:21px}
+ #armory-panel .arm-foot{position:relative;inset:auto;height:51px;flex:none;padding:9px 2px 0;justify-content:flex-end}
+ #armory-panel .arm-foot>span{display:none}
+ #armory-panel .inventory-safe-pocket .inventory-body{padding:10px;gap:12px}
+ #armory-panel .pocket-empty-message small{font-size:13px}
+}
+@media(max-width:420px){#armory-panel .inventory-grid{grid-template-columns:repeat(3,minmax(0,1fr))}#armory-panel .frow{grid-template-columns:minmax(0,1fr)}#armory-panel .frow button{width:100%}}

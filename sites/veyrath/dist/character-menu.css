@@ -1,0 +1,266 @@
+/* Supplied character-select cloth kit; existing models and game controls stay live. */
+#fe-loadout{--cs-scale:1;color:#fff0d5;font-family:ClothBody,sans-serif}
+#fe-loadout :is(.lb-left,.lb-right){top:48px;width:435px;bottom:auto;padding:76px 58px 90px;zoom:var(--cs-scale);border:0;border-radius:0;box-shadow:none;backdrop-filter:none;background:transparent center top/100% 100% no-repeat;overflow:hidden}
+#fe-loadout .lb-left{left:0;height:819px;background-image:url('assets/ui/character-select/panels/class_banner.png')}
+#fe-loadout .lb-right{right:0;height:803px;background-image:url('assets/ui/character-select/panels/loadout_banner.png');display:flex;flex-direction:column}
+#fe-loadout :is(.lb-left,.lb-right) h3{font:700 38px/1.1 ClothSerif,serif;letter-spacing:.02em;color:#fff0d5;margin:0;padding:0;border:0}
+#fe-loadout .lb-right h3{font-size:26px;text-align:center}
+#fe-loadout #prep-char-sub{font:600 18px/1.3 ClothBody,sans-serif;margin:8px 0;color:#d5d5d9}
+#fe-loadout .lb-label{font:700 19px/1.3 ClothSerif,serif;letter-spacing:.06em;color:#f5deb0}
+#fe-loadout .lb-left .lb-label{margin:16px 0 6px;padding-bottom:7px}
+#fe-loadout #path-picker{margin:0;width:100%}
+#fe-loadout .lb-paths .path-choice{height:auto;min-height:94px;padding:9px 34px 9px 9px;grid-template-columns:42px 1fr;gap:0 10px;border:0;border-radius:0;box-shadow:none;background:transparent url('assets/ui/character-select/controls/path_row_normal.svg') center/100% 100% no-repeat}
+#fe-loadout .lb-paths .path-choice strong{font:800 21px/1.15 ClothBody,sans-serif;-webkit-text-stroke:0}
+#fe-loadout .lb-paths .path-choice small{font:600 15px/1.25 ClothBody,sans-serif;margin-top:4px;color:#d4d9e2}
+#fe-loadout .lb-paths .path-choice .lb-picon,#fe-loadout .lb-picon svg{width:40px;height:46px}
+#fe-loadout .lb-paths .path-choice::after{right:5px}
+#fe-loadout .lb-paths .path-choice:hover{background-image:url('assets/ui/character-select/controls/path_row_hover.svg')}
+#fe-loadout .lb-paths .path-choice[aria-pressed=true]{background-image:url('assets/ui/character-select/controls/path_row_selected.svg')}
+#fe-loadout #path-note:empty{display:none}
+#fe-loadout .lb-note{font:600 16px/1.35 ClothBody,sans-serif;color:#d2d7e0}
+#fe-loadout .lb-spells{gap:9px;margin-top:10px}
+#fe-loadout .lb-spell{width:52px;height:52px;flex:0 0 52px;border:0;border-radius:0;box-shadow:none;background:transparent url('assets/ui/character-select/frames/spell_backplate.svg') center/100% 100% no-repeat}
+#fe-loadout .lb-equipped{grid-template-columns:92px minmax(0,1fr);gap:14px;margin-top:24px}
+#fe-loadout .lb-equipped .prep-tile.big{width:92px;height:112px}
+#fe-loadout .lb-eqtext b{font:800 21px/1.2 ClothBody,sans-serif;-webkit-text-stroke:0;margin:4px 0}
+#fe-loadout .lb-eqtext small{font:600 16px/1.3 ClothBody,sans-serif;margin:5px 0 10px}
+#fe-loadout .lb-right .lb-label{margin:24px 0 0;padding-top:18px}
+#fe-loadout .lb-runes{grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;max-height:180px;overflow-y:auto;flex-shrink:0;padding:4px;margin-top:12px}
+#fe-loadout .lb-rune .lb-rbox{width:38px;height:38px;border:0;box-shadow:none;border-radius:0}
+#fe-loadout .lb-rune .gem{width:11px;height:11px}
+#fe-loadout .lb-rune span{font:700 16px/1.2 ClothBody,sans-serif}
+#fe-loadout #lb-rune-note{font:600 15px/1.3 ClothBody,sans-serif;margin-top:12px}
+#fe-loadout .lb-right .lb-pocket{margin-top:24px;padding-top:16px}
+#fe-loadout .lb-pocket .lb-label{padding:0;margin:0 0 12px}
+#fe-loadout .lb-pocket .lb-label::before{display:none}
+#fe-loadout .lb-pkrow{grid-template-columns:76px 1fr;gap:14px}
+#fe-loadout .lb-pkrow .prep-tile{width:76px;height:76px;margin:0}
+#fe-loadout .lb-pocket p.lb-note{font:600 16px/1.4 ClothBody,sans-serif}
+#fe-loadout :is(.lb-spell,.lb-char,.lb-rbox,.lb-equipped>.prep-tile,.lb-pkrow>.prep-tile){position:relative;border:0;border-radius:0;box-shadow:none}
+#fe-loadout :is(.lb-spell,.lb-char,.lb-rbox,.lb-equipped>.prep-tile,.lb-pkrow>.prep-tile)::after{content:'';position:absolute;inset:0;pointer-events:none;background:var(--cs-frame) center/100% 100% no-repeat;z-index:4;border:0;border-radius:0}
+#fe-loadout .lb-char{width:112px;height:112px;background:transparent url('assets/ui/character-select/frames/portrait_backplate.svg') center/100% 100% no-repeat;padding:9px;overflow:visible}
+#fe-loadout .lb-mini{width:94px;height:94px}
+#fe-loadout .lb-char span{bottom:10px;font:800 12px ClothBody,sans-serif;z-index:5}
+#fe-loadout .lb-char kbd{z-index:5}
+#fe-loadout .lb-carousel{gap:12px}
+#fe-loadout .lb-plate{bottom:165px}
+#fe-loadout .lb-cap{font:700 15px ClothSerif,serif;color:#f5deb0}
+#fe-loadout .lb-foot{height:94px;padding:19px 32px 0;gap:18px;border:0;background:transparent url('assets/ui/character-select/panels/footer.svg?v=spacing') center/100% 100% no-repeat;backdrop-filter:none}
+#fe-loadout .lb-foot>.lb-label{margin:0;font-size:18px}
+#fe-loadout #lb-mode{width:200px;height:46px;font:700 18px ClothBody,sans-serif}
+#fe-loadout .lb-status{font:600 15px/1.3 ClothBody,sans-serif;padding:0}
+#fe-loadout .lb-start{margin-left:auto;width:250px;height:58px;flex-shrink:0}
+#fe-loadout .lb-link{width:130px;height:46px;margin:0;padding:0;text-decoration:none;flex-shrink:0}
+#fe-loadout .lb-open{width:195px;max-width:100%;height:48px;padding:0;font-size:15px;letter-spacing:0}
+#fe-loadout .lb-title{font:700 22px ClothSerif,serif;color:#ffebc1;letter-spacing:.12em}
+#fe-loadout .lb-back{font:700 18px ClothSerif,serif;letter-spacing:.08em}
+#fe-loadout .lb-pathchip{display:none}
+#fe-loadout button:focus-visible{outline:2px solid #ffe0a0;outline-offset:3px}
+#fe-loadout .lb-ally .lb-invite{width:78px;height:78px;transform:none;border:0;box-shadow:none;background:transparent url('assets/ui/character-select/controls/invite_normal.svg') center/contain no-repeat;font-size:0}
+#fe-loadout .lb-ally b{font:700 18px ClothBody,sans-serif;color:#ffebc1}
+#fe-loadout .lb-ally small{font:600 13px ClothBody,sans-serif}
+#fe-loadout .lb-spell{--cs-frame:url('assets/ui/character-select/frames/spell_normal.svg')}
+#fe-loadout .lb-spell:hover{--cs-frame:url('assets/ui/character-select/frames/spell_hover.svg')}
+#fe-loadout .lb-spell:focus-visible{--cs-frame:url('assets/ui/character-select/frames/spell_focus.svg')}
+#fe-loadout .lb-spell.selected{--cs-frame:url('assets/ui/character-select/frames/spell_selected.svg')}
+#fe-loadout .lb-char{--cs-frame:url('assets/ui/character-select/frames/portrait_normal.svg')}
+#fe-loadout .lb-char:hover{--cs-frame:url('assets/ui/character-select/frames/portrait_hover.svg')}
+#fe-loadout .lb-char:focus-visible{--cs-frame:url('assets/ui/character-select/frames/portrait_focus.svg')}
+#fe-loadout .lb-char.selected{--cs-frame:url('assets/ui/character-select/frames/portrait_selected.svg')}
+#fe-loadout .lb-rbox{--cs-frame:url('assets/ui/character-select/frames/rune_normal.svg')}
+#fe-loadout .lb-rbox:hover{--cs-frame:url('assets/ui/character-select/frames/rune_hover.svg')}
+#fe-loadout .lb-rbox:focus-visible{--cs-frame:url('assets/ui/character-select/frames/rune_focus.svg')}
+#fe-loadout .lb-rune.selected .lb-rbox{--cs-frame:url('assets/ui/character-select/frames/rune_selected.svg')}
+#fe-loadout .lb-equipped>.prep-tile{--cs-frame:url('assets/ui/character-select/frames/weapon_normal.svg')}
+#fe-loadout .lb-equipped>.prep-tile:hover{--cs-frame:url('assets/ui/character-select/frames/weapon_hover.svg')}
+#fe-loadout .lb-equipped>.prep-tile:focus-visible{--cs-frame:url('assets/ui/character-select/frames/weapon_focus.svg')}
+#fe-loadout .lb-equipped>.prep-tile.selected{--cs-frame:url('assets/ui/character-select/frames/weapon_selected.svg')}
+#fe-loadout .lb-pkrow>.prep-tile{--cs-frame:url('assets/ui/character-select/frames/safe_pocket_normal.svg')}
+#fe-loadout .lb-pkrow>.prep-tile:hover{--cs-frame:url('assets/ui/character-select/frames/safe_pocket_hover.svg')}
+#fe-loadout .lb-pkrow>.prep-tile:focus-visible{--cs-frame:url('assets/ui/character-select/frames/safe_pocket_focus.svg')}
+#fe-loadout .lb-pkrow>.prep-tile.selected{--cs-frame:url('assets/ui/character-select/frames/safe_pocket_selected.svg')}
+#fe-loadout .lb-start{border:0;border-radius:0;box-shadow:none;transform:none;background:transparent url('assets/ui/character-select/buttons/blank/amber_normal.svg') center/100% 100% no-repeat;color:#ffedcc;font-family:ClothSerif,serif;font-weight:700;text-shadow:0 2px 2px #0008;-webkit-text-stroke:0}
+#fe-loadout .lb-start:hover{border:0;border-radius:0;box-shadow:none;transform:none;background:transparent url('assets/ui/character-select/buttons/blank/amber_hover.svg') center/100% 100% no-repeat;color:#ffedcc;font-family:ClothSerif,serif;font-weight:700;text-shadow:0 2px 2px #0008;-webkit-text-stroke:0}
+#fe-loadout .lb-start:focus-visible{border:0;border-radius:0;box-shadow:none;transform:none;background:transparent url('assets/ui/character-select/buttons/blank/amber_focus.svg') center/100% 100% no-repeat;color:#ffedcc;font-family:ClothSerif,serif;font-weight:700;text-shadow:0 2px 2px #0008;-webkit-text-stroke:0}
+#fe-loadout .lb-start:active{border:0;border-radius:0;box-shadow:none;transform:none;background:transparent url('assets/ui/character-select/buttons/blank/amber_pressed.svg') center/100% 100% no-repeat;color:#ffedcc;font-family:ClothSerif,serif;font-weight:700;text-shadow:0 2px 2px #0008;-webkit-text-stroke:0}
+#fe-loadout .lb-start:disabled{border:0;border-radius:0;box-shadow:none;transform:none;background:transparent url('assets/ui/character-select/buttons/blank/amber_disabled.svg') center/100% 100% no-repeat;color:#ffedcc;font-family:ClothSerif,serif;font-weight:700;text-shadow:0 2px 2px #0008;-webkit-text-stroke:0}
+#fe-loadout .lb-open{border:0;border-radius:0;box-shadow:none;transform:none;background:transparent url('assets/ui/character-select/buttons/blank/blue_normal.svg') center/100% 100% no-repeat;color:#ffedcc;font-family:ClothSerif,serif;font-weight:700;text-shadow:0 2px 2px #0008;-webkit-text-stroke:0}
+#fe-loadout .lb-open:hover{border:0;border-radius:0;box-shadow:none;transform:none;background:transparent url('assets/ui/character-select/buttons/blank/blue_hover.svg') center/100% 100% no-repeat;color:#ffedcc;font-family:ClothSerif,serif;font-weight:700;text-shadow:0 2px 2px #0008;-webkit-text-stroke:0}
+#fe-loadout .lb-open:focus-visible{border:0;border-radius:0;box-shadow:none;transform:none;background:transparent url('assets/ui/character-select/buttons/blank/blue_focus.svg') center/100% 100% no-repeat;color:#ffedcc;font-family:ClothSerif,serif;font-weight:700;text-shadow:0 2px 2px #0008;-webkit-text-stroke:0}
+#fe-loadout .lb-open:active{border:0;border-radius:0;box-shadow:none;transform:none;background:transparent url('assets/ui/character-select/buttons/blank/blue_pressed.svg') center/100% 100% no-repeat;color:#ffedcc;font-family:ClothSerif,serif;font-weight:700;text-shadow:0 2px 2px #0008;-webkit-text-stroke:0}
+#fe-loadout .lb-open:disabled{border:0;border-radius:0;box-shadow:none;transform:none;background:transparent url('assets/ui/character-select/buttons/blank/blue_disabled.svg') center/100% 100% no-repeat;color:#ffedcc;font-family:ClothSerif,serif;font-weight:700;text-shadow:0 2px 2px #0008;-webkit-text-stroke:0}
+#fe-loadout .lb-link{border:0;border-radius:0;box-shadow:none;transform:none;background:transparent url('assets/ui/character-select/buttons/blank/neutral_normal.svg') center/100% 100% no-repeat;color:#ffedcc;font-family:ClothSerif,serif;font-weight:700;text-shadow:0 2px 2px #0008;-webkit-text-stroke:0}
+#fe-loadout .lb-link:hover{border:0;border-radius:0;box-shadow:none;transform:none;background:transparent url('assets/ui/character-select/buttons/blank/neutral_hover.svg') center/100% 100% no-repeat;color:#ffedcc;font-family:ClothSerif,serif;font-weight:700;text-shadow:0 2px 2px #0008;-webkit-text-stroke:0}
+#fe-loadout .lb-link:focus-visible{border:0;border-radius:0;box-shadow:none;transform:none;background:transparent url('assets/ui/character-select/buttons/blank/neutral_focus.svg') center/100% 100% no-repeat;color:#ffedcc;font-family:ClothSerif,serif;font-weight:700;text-shadow:0 2px 2px #0008;-webkit-text-stroke:0}
+#fe-loadout .lb-link:active{border:0;border-radius:0;box-shadow:none;transform:none;background:transparent url('assets/ui/character-select/buttons/blank/neutral_pressed.svg') center/100% 100% no-repeat;color:#ffedcc;font-family:ClothSerif,serif;font-weight:700;text-shadow:0 2px 2px #0008;-webkit-text-stroke:0}
+#fe-loadout .lb-link:disabled{border:0;border-radius:0;box-shadow:none;transform:none;background:transparent url('assets/ui/character-select/buttons/blank/neutral_disabled.svg') center/100% 100% no-repeat;color:#ffedcc;font-family:ClothSerif,serif;font-weight:700;text-shadow:0 2px 2px #0008;-webkit-text-stroke:0}
+
+/* Keep all live content inside the stitched cloth safe area. */
+#fe-loadout .lb-left{padding:76px 62px 124px}
+#fe-loadout .lb-right{padding:76px 78px 90px}
+#fe-loadout #path-picker{flex:1 0 auto;gap:4px}
+#fe-loadout .lb-paths .path-choice{flex:1 0 auto;width:100%;min-width:0;min-height:90px;grid-template-columns:34px minmax(0,1fr);grid-template-rows:auto auto;align-content:center;row-gap:4px;padding:7px 29px 7px 8px;column-gap:8px}
+#fe-loadout .lb-paths .path-choice strong{grid-column:2;grid-row:1;align-self:start;min-width:0;font-size:19px;line-height:23px}
+#fe-loadout .lb-paths .path-choice small{grid-column:2;grid-row:2;align-self:start;min-width:0;font-size:13px;line-height:16px;margin:0;overflow-wrap:break-word}
+#fe-loadout .lb-paths .path-choice .lb-picon,#fe-loadout .lb-picon svg{width:32px;height:38px}
+#fe-loadout .lb-paths .path-choice::after{right:7px;width:19px;height:19px}
+#fe-loadout .lb-spells{justify-content:center;gap:12px}
+#fe-loadout .lb-spell kbd{font-size:10px;padding:1px 3px}
+#fe-loadout .lb-right>*,#fe-loadout .lb-eqtext{min-width:0;max-width:100%}
+#fe-loadout .lb-right .lb-equipped{grid-template-columns:82px minmax(0,1fr);gap:12px}
+#fe-loadout .lb-right .lb-equipped .prep-tile.big{width:82px;height:100px}
+#fe-loadout .lb-right .lb-eqtext b{font-size:19px;overflow-wrap:anywhere}
+#fe-loadout .lb-right .lb-open{font-size:13px;letter-spacing:0}
+#fe-loadout .lb-right .lb-label,#fe-loadout .lb-right .lb-note{width:100%}
+#fe-loadout .lb-foot{left:0;right:0;width:100%;background-size:100% 100%}
+#fe-loadout .lb-rune.selected::before{left:calc(50% + 10px);right:auto;top:1px;width:13px;height:13px;font-size:9px;z-index:5}
+
+/* Custom mode list opens above the footer, with room for each mode description. */
+#fe-loadout .lb-mode-picker{position:relative;flex:0 0 200px}
+#fe-loadout #lb-mode-trigger{position:relative;width:100%;height:46px;padding:0 38px 0 17px;text-align:left;border:1px solid #be9654;border-radius:3px;background:linear-gradient(145deg,#1d3c51,#0b2031);box-shadow:inset 0 0 0 3px #07172280;font:800 17px ClothBody,sans-serif;color:#ffe3a5;letter-spacing:0}
+#fe-loadout #lb-mode-trigger::after{content:'';position:absolute;right:17px;top:16px;width:8px;height:8px;border-right:2px solid #e7c17d;border-bottom:2px solid #e7c17d;transform:rotate(45deg)}
+#fe-loadout #lb-mode-trigger[aria-expanded=true]::after{top:21px;transform:rotate(225deg)}
+#fe-loadout #lb-mode-trigger:hover{background:linear-gradient(145deg,#284e66,#122e42);border-color:#ffe0a0}
+#fe-loadout #lb-mode-menu{position:absolute;left:0;bottom:calc(100% + 12px);width:340px;max-width:calc(100vw - 64px);padding:8px;border:1px solid #c39a54;border-radius:5px;background:repeating-linear-gradient(0deg,#ffffff02 0 1px,transparent 1px 4px),linear-gradient(135deg,#18374b,#081a29);box-shadow:0 12px 35px #000b,inset 0 0 0 3px #071421;z-index:30}
+#fe-loadout #lb-mode-menu[hidden]{display:none}
+#fe-loadout #lb-mode-menu button{display:block;position:relative;width:100%;padding:12px 30px 12px 12px;border:1px solid transparent;border-radius:3px;background:transparent;text-align:left;letter-spacing:0;color:#fff0d2;box-shadow:none;transform:none}
+#fe-loadout #lb-mode-menu button+button{margin-top:4px}
+#fe-loadout #lb-mode-menu strong{display:block;font:800 17px ClothBody,sans-serif}
+#fe-loadout #lb-mode-menu small{display:block;margin-top:4px;font:600 13px/1.4 ClothBody,sans-serif;color:#c2d1da}
+#fe-loadout #lb-mode-menu button:hover,#fe-loadout #lb-mode-menu button:focus-visible{background:#34536b70;border-color:#c9a464;outline:none}
+#fe-loadout #lb-mode-menu button[aria-checked=true]{background:#a57a2720;border-color:#b58a44}
+#fe-loadout #lb-mode-menu button[aria-checked=true]::after{content:'✓';position:absolute;right:10px;top:13px;color:#ffda87;font:900 17px ClothBody,sans-serif}
+
+/* Armory: collection tools on the left; an uninterrupted weapon sheet on the right. */
+#fe-loadout.armory-open>.lb-left,#fe-loadout.armory-open>.lb-right{display:none}
+#fe-loadout #prep-armory{left:50%;right:auto;top:64px;transform:translateX(-50%);width:min(1240px,calc(100vw - 48px));max-height:calc(100vh - 174px);padding:22px;display:grid;grid-template-columns:minmax(0,1fr) minmax(340px,40%);grid-template-rows:auto auto auto minmax(180px,1fr) auto;gap:16px 24px;overflow:auto;border:1px solid #b28c50;border-radius:6px;background:repeating-linear-gradient(0deg,#ffffff02 0 1px,transparent 1px 4px),linear-gradient(135deg,#173247f5,#071823fa);box-shadow:0 24px 70px #000b,inset 0 0 0 4px #071522;font-family:ClothBody,sans-serif}
+#fe-loadout #prep-armory[hidden]{display:none}
+#prep-armory .lb-arm-head{grid-column:1/-1;grid-row:1;align-items:center;padding-bottom:14px;border-color:#c69c5155}
+#prep-armory .lb-arm-head h3{font:700 30px/1.1 ClothSerif,serif;letter-spacing:.06em;color:#ffe3aa}
+#prep-armory .lb-sub{font:600 14px/1.4 ClothBody,sans-serif;color:#b9cbd7}
+#prep-armory .lb-arm-head .lb-sub{margin-top:6px;display:block}
+#prep-armory .lb-arm-foot{grid-column:1;grid-row:2;gap:12px;align-self:start}
+#prep-armory .lb-arm-box{padding:12px;min-height:110px;border:1px solid #ac8a4c66;border-radius:4px;background:#07192980;box-shadow:none}
+#prep-armory .lb-arm-box .lb-label{flex-wrap:wrap;gap:3px 8px;font:800 13px ClothBody,sans-serif;color:#e5ca95}
+#prep-armory .lb-arm-box .lb-label em{font:600 11px ClothBody,sans-serif;color:#b8c8d3}
+#prep-armory .lb-arm-box .lb-pkrow{grid-template-columns:48px minmax(0,1fr);gap:10px}
+#prep-armory .lb-arm-box .prep-tile{width:48px;height:48px}
+#prep-armory .lb-arm-box .lb-eqtext b{font:800 15px/1.2 ClothBody,sans-serif;white-space:normal}
+#prep-armory .lb-arm-box .lb-eqtext small{font:600 12px/1.3 ClothBody,sans-serif;margin:3px 0}
+#prep-armory .lb-arm-box button.lb-open{grid-column:1/-1;width:100%;height:32px}
+#prep-armory .lb-arm-tools{grid-column:1;grid-row:3;grid-template-columns:1fr 140px;margin:0;gap:10px}
+#prep-armory .lb-tabs{grid-column:1/-1}
+#prep-armory .lb-tabs button{font:800 15px ClothBody,sans-serif;letter-spacing:0;padding:9px 12px}
+#prep-armory .lb-arm-tools input,#prep-armory .lb-arm-tools select{border-radius:3px;border-color:#ac8a4c66;font:600 14px ClothBody,sans-serif;background:#071824}
+#prep-armory .lb-arm-body{display:contents}
+#prep-armory .lb-arm-left{grid-column:1;grid-row:4;min-height:180px}
+#prep-armory .prep-grid{gap:10px;padding:5px;grid-template-columns:repeat(auto-fill,64px);max-height:340px}
+#prep-armory .prep-tile{border-radius:4px;box-shadow:inset 0 1px 0 #ffffff18;background:radial-gradient(circle at 50% 35%,color-mix(in srgb,var(--tint) 16%,#102d40),#061522)}
+#prep-armory .lb-hint{grid-column:1;grid-row:5;font:600 12px ClothBody,sans-serif;color:#a4bdcc}
+#fe-loadout #prep-armory .lb-inspect{grid-column:2;grid-row:2/6;align-self:start;min-height:0;height:auto;max-height:none;overflow:visible;display:flex;gap:7px;padding:18px 20px;border:1px solid #ad8a4e88;border-radius:5px;background:linear-gradient(160deg,#1a354a,#0b1d2d);box-shadow:inset 0 1px 0 #fff1}
+#prep-armory .lb-insp-head h3{font:700 24px/1.15 ClothSerif,serif;letter-spacing:0;color:#fff0ce}
+#prep-armory .lb-kind{font:600 13px ClothBody,sans-serif;color:#adc1d0}
+#prep-armory .lb-art{height:64px;margin:0;flex-shrink:0}
+#prep-armory .lb-art svg{width:56px;height:56px}
+#prep-armory .lb-inspect .lb-label{margin:5px 0 0;font:800 12px ClothBody,sans-serif;letter-spacing:.12em;color:#dfc58f}
+#prep-armory .lb-inspect p{margin:0;font:600 13px/1.4 ClothBody,sans-serif;color:#d2dee6}
+#prep-armory .lb-stats{margin:4px 0;gap:6px}
+#prep-armory .lb-stats div{padding:7px 9px;border-color:#8b9ba433;border-radius:3px;background:#06152280}
+#prep-armory .lb-stats small{font:800 10px ClothBody,sans-serif;letter-spacing:.08em}
+#prep-armory .lb-stats b{font:800 17px ClothBody,sans-serif;color:#ffdf9a}
+#prep-armory .lb-inspect .lb-equip{height:38px;margin-top:7px;flex-shrink:0;font:800 15px ClothBody,sans-serif;letter-spacing:.08em;border-radius:3px}
+#prep-armory .lb-inspect>.lb-note{font:600 12px ClothBody,sans-serif}
+#prep-armory .lb-salvage{margin-top:2px;padding:7px;font:700 12px ClothBody,sans-serif;border-radius:3px}
+@media(max-width:850px){#fe-loadout #prep-armory{grid-template-columns:1fr;max-height:calc(100vh - 145px);padding:16px;gap:14px}#prep-armory .lb-arm-head{grid-column:1}#fe-loadout #prep-armory .lb-inspect{grid-column:1;grid-row:6}#prep-armory .prep-grid{max-height:200px}}
+#prep-armory .prep-tile .prep-badge{color:#102331;min-width:17px;text-align:center;line-height:16px;border-radius:2px}
+
+/* Persistent, explicit pocket status stays inside the loadout banner. */
+#fe-loadout .lb-right{padding-bottom:90px}
+#fe-loadout .lb-right #lb-runes{max-height:110px;min-height:0}
+#fe-loadout .lb-right #lb-rune-note{font-size:14px;line-height:1.3;margin-top:9px}
+#fe-loadout #prep-pocket{flex:none;margin-top:auto;padding-top:16px}
+#fe-loadout #prep-pocket .lb-label{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin:0 0 12px;font-size:17px}
+#fe-loadout #prep-pocket .pocket-status{display:inline-block;font:800 12px/1.4 ClothBody,sans-serif;font-style:normal;letter-spacing:.02em;padding:3px 7px;border:1px solid #8ba8b066;border-radius:3px;color:#d0e0e5;background:#0a1e2a}
+#fe-loadout #prep-pocket.occupied .pocket-status{color:#ffe1a0;border-color:#c69b52;background:#4a371a}
+#fe-loadout #prep-pocket .lb-pkrow{grid-template-columns:64px minmax(0,1fr);gap:12px;align-items:center}
+#fe-loadout #prep-pocket .prep-tile{width:64px;height:64px}
+#fe-loadout #prep-pocket .pocket-empty{display:grid;place-items:center;background:#091c2b80;font:600 22px ClothBody,sans-serif;color:#91a8b5}
+#fe-loadout #prep-pocket .lb-eqtext b{font:800 18px/1.15 ClothBody,sans-serif;white-space:normal;overflow-wrap:anywhere;margin:0}
+#fe-loadout #prep-pocket .lb-eqtext small{font:600 14px/1.3 ClothBody,sans-serif;margin:5px 0 0}
+#fe-loadout #prep-pocket>.lb-open{width:100%;max-width:none;height:38px;margin-top:10px;font-size:14px}
+
+/* Compact rune summaries; inventories open in a separate modal. */
+#fe-loadout .lb-right #lb-runes.rune-picker-summary{display:block;padding:0;max-height:none;overflow:visible;margin-top:10px}
+#fe-loadout .rune-picker-summary>button{display:flex;align-items:center;gap:10px;width:100%;padding:9px 12px;border:1px solid #b9955577;border-radius:4px;background:#0b2133;color:#ffe5b6;font:700 16px ClothBody,sans-serif;text-align:left;letter-spacing:0}
+#fe-loadout .rune-picker-summary strong{flex:1;font:800 16px ClothBody,sans-serif}
+#fe-loadout .rune-picker-summary small{font:700 12px ClothBody,sans-serif;color:#baceDB}
+#fe-loadout .rune-glyph{font-size:27px}
+#fe-loadout #lb-starter-runes{flex:none;margin:0 0 16px}
+#fe-loadout #lb-starter-runes .lb-label{margin-top:16px;padding-top:14px;font-size:17px}
+#fe-loadout .starter-rune-slots{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:10px}
+#fe-loadout .starter-rune-slot{min-width:0;min-height:84px;padding:7px 3px;display:flex;flex-direction:column;align-items:center;gap:4px;border:1px solid #b4965a;border-radius:4px;background:#0a2133;color:#f5dca5;letter-spacing:0;box-shadow:none}
+#fe-loadout .starter-rune-slot>span{font:700 22px ClothBody,sans-serif}
+#fe-loadout .starter-rune-slot>strong{font:800 12px/1.1 ClothBody,sans-serif;overflow-wrap:anywhere}
+#fe-loadout .starter-rune-slot>small{font:600 11px ClothBody,sans-serif;color:#adbfca}
+#fe-loadout .starter-rune-slot.locked{border-color:#647584;background:#10212c;color:#9eafb9}
+#fe-loadout .starter-rune-slot:hover,#fe-loadout .rune-picker-summary>button:hover{border-color:#ffe0a1;background:#203b4b}
+.rune-inventory{width:min(660px,calc(100vw - 40px));max-height:calc(100vh - 64px);padding:24px;border:1px solid #d1a75b;border-radius:6px;background:linear-gradient(145deg,#19394e,#091b2c);color:#ffedcb;box-shadow:0 24px 80px #000b;font-family:ClothBody,sans-serif;overflow:auto}
+.rune-inventory::backdrop{background:#020b14b3}
+.rune-inventory header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.rune-inventory h2{margin:0;font:700 26px ClothSerif,serif;color:#ffe2a3}
+.rune-inventory button{font:700 15px ClothBody,sans-serif;letter-spacing:0;border:1px solid #b5945877;border-radius:4px;background:#0b2234;color:#ffe7bd;padding:9px 14px;box-shadow:none;transform:none}
+.rune-inventory button:hover{background:#28485c;border-color:#eac785}
+.rune-inventory button:focus-visible{outline:2px solid #ffe0a0;outline-offset:2px}
+.rune-inventory-note{font:600 14px/1.5 ClothBody,sans-serif;color:#c7d6df;margin:12px 0 18px}
+.rune-inventory-list{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.rune-inventory .rune-choice{display:flex;align-items:center;gap:12px;text-align:left;padding:13px}
+.rune-choice .rune-glyph{font-size:28px}
+.rune-choice strong,.rune-choice small,.rune-choice em{display:block}
+.rune-choice strong{font-size:15px}.rune-choice small{font:600 12px/1.4 ClothBody,sans-serif;color:#b7cbd7;margin:5px 0}.rune-choice em{font:800 11px ClothBody,sans-serif;color:#dfbd79}
+.rune-inventory .rune-choice[aria-pressed=true]{border-color:#f1cc76;background:#6a512633}
+.rune-inventory .rune-choice:disabled{opacity:.55;cursor:default}
+.rune-inventory footer{display:flex;justify-content:space-between;gap:12px;margin-top:20px}
+@media(max-width:540px){.rune-inventory-list{grid-template-columns:1fr}}
+
+/* Compact safe pocket beneath the two rune selectors. */
+#fe-loadout #prep-pocket{margin-top:10px;padding-top:10px}
+#fe-loadout #prep-pocket .lb-label{gap:4px 8px;margin-bottom:7px;font-size:15px;letter-spacing:.03em}
+#fe-loadout #prep-pocket .pocket-status{font-size:11px;padding:2px 5px}
+#fe-loadout #prep-pocket .lb-pkrow{grid-template-columns:44px minmax(0,1fr);gap:9px}
+#fe-loadout #prep-pocket .prep-tile{width:44px;height:44px}
+#fe-loadout #prep-pocket .prep-ico svg{width:28px;height:28px}
+#fe-loadout #prep-pocket .lb-eqtext b{font-size:15px}
+#fe-loadout #prep-pocket .lb-eqtext small{font-size:12px;line-height:1.2;margin-top:3px}
+#fe-loadout #prep-pocket>.lb-open{height:30px;margin-top:6px;font-size:12px}
+#fe-loadout #prep-pocket .prep-ico{display:grid;place-items:center;width:100%;height:100%}
+.rune-shop-bar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 16px;padding:10px 12px;border:1px solid #c39a5455;border-radius:4px;background:#06172588}
+.rune-wallet{font:800 17px ClothBody,sans-serif;color:#ffdc90;white-space:nowrap}
+.rune-inventory .rune-slot-buy{color:#ffe3a5;border-color:#c39a54;background:#62492355}
+.rune-inventory .rune-slot-buy:disabled{opacity:.5;cursor:default}
+
+/* Rune ownership and selection are visible before clicking. */
+.rune-inventory .rune-choice{align-items:flex-start;gap:13px;min-height:154px}
+.rune-inventory .rune-choice>span:last-child{flex:1;min-width:0}
+.rune-inventory .rune-choice.rune-locked{background:linear-gradient(145deg,#14232e,#0b1722);border-color:#5e6c76;color:#acb8c0}
+.rune-inventory .rune-choice.rune-locked small{color:#9aabb6}
+.rune-inventory .rune-choice.rune-owned{background:linear-gradient(145deg,#2d5771,#183b52);border-color:#92c9e4;color:#fff5d9;box-shadow:inset 0 1px 0 #d6f1ff2e}
+.rune-inventory .rune-choice.rune-owned small{color:#e0edf4}
+.rune-inventory .rune-choice.rune-owned .rune-glyph{filter:drop-shadow(0 0 6px #8fe6ff88)}
+.rune-inventory .rune-choice.rune-equipped{border:2px solid #ffdb86;padding:12px;background:linear-gradient(145deg,#4e5940,#234235);box-shadow:inset 0 0 20px #ffdc8b19}
+.rune-inventory .rune-choice:disabled{opacity:1;cursor:default}
+.rune-inventory .rune-choice.rune-owned:disabled{border-color:#6e9aac;background:linear-gradient(145deg,#244458,#183345)}
+.rune-inventory .rune-choice:not(:disabled):hover{border-color:#ffe4a3;filter:brightness(1.12)}
+.rune-inventory .rune-ownership{font:900 11px ClothBody,sans-serif;letter-spacing:.05em;color:#ffe0a1;margin:8px 0}
+.rune-inventory .rune-owned .rune-ownership{color:#c2f4ff}
+.rune-inventory .rune-equipped .rune-ownership{color:#ffe4a0}
+.rune-inventory .rune-card-action{display:block;padding:6px 8px;border:1px solid #b29a6b80;border-radius:3px;font:800 12px/1.3 ClothBody,sans-serif;color:#ffe5b2;background:#080e1466}
+.rune-inventory .rune-owned .rune-card-action{background:#c2eaff1c;border-color:#abdff2;color:#fff4cf}
+.rune-lock{position:relative;flex:0 0 22px;width:22px;height:20px;margin-top:13px;border:2px solid #b5c1c9;border-radius:3px;background:#52616b77}
+.rune-lock::before{content:'';position:absolute;left:3px;top:-13px;width:12px;height:13px;border:2px solid #b5c1c9;border-bottom:0;border-radius:9px 9px 0 0}
+.rune-lock::after{content:'';position:absolute;left:8px;top:5px;width:3px;height:7px;background:#dce4e9;border-radius:2px}
+.rune-inventory .rune-choice{min-height:0;padding:11px}
+.rune-inventory .rune-choice.rune-equipped{padding:10px}
+.rune-inventory .rune-choice strong{font-size:14px}
+.rune-inventory .rune-choice small{font-size:11px;line-height:1.35;margin:4px 0}
+.rune-inventory .rune-ownership{margin:6px 0}
+.rune-inventory .rune-card-action{padding:4px 7px;font-size:11px}

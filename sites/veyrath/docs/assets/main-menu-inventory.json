@@ -1,0 +1,166 @@
+{
+  "archive": "Visuals/UI/Lights-End-Main-Menu-Asset-Pack.zip",
+  "selected": [
+    {
+      "source": "lights-end-main-menu/backgrounds/moonlit-desert.png",
+      "runtime": "sites/veyrath/dist/assets/ui/main-menu/backgrounds/moonlit-desert.png",
+      "bytes": 3087576
+    },
+    {
+      "source": "lights-end-main-menu/branding/lights-end-logo.png",
+      "runtime": "sites/veyrath/dist/assets/ui/main-menu/branding/lights-end-logo.png",
+      "bytes": 1002961
+    },
+    {
+      "source": "lights-end-main-menu/branding/tagline.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/main-menu/branding/tagline.svg",
+      "bytes": 27179
+    },
+    {
+      "source": "lights-end-main-menu/ornaments/title_divider.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/main-menu/ornaments/title_divider.svg",
+      "bytes": 559
+    },
+    {
+      "source": "lights-end-main-menu/panels/currency-blank.png",
+      "runtime": "sites/veyrath/dist/assets/ui/main-menu/panels/currency-blank.png",
+      "bytes": 212966
+    },
+    {
+      "source": "lights-end-main-menu/icons/coin.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/main-menu/icons/coin.svg",
+      "bytes": 563
+    },
+    {
+      "source": "lights-end-main-menu/buttons/labeled/armory_normal.png",
+      "runtime": "sites/veyrath/dist/assets/ui/main-menu/buttons/labeled/armory_normal.png",
+      "bytes": 704921
+    },
+    {
+      "source": "lights-end-main-menu/buttons/labeled/armory_hover.png",
+      "runtime": "sites/veyrath/dist/assets/ui/main-menu/buttons/labeled/armory_hover.png",
+      "bytes": 696685
+    },
+    {
+      "source": "lights-end-main-menu/buttons/labeled/armory_pressed.png",
+      "runtime": "sites/veyrath/dist/assets/ui/main-menu/buttons/labeled/armory_pressed.png",
+      "bytes": 650185
+    },
+    {
+      "source": "lights-end-main-menu/buttons/labeled/armory_disabled.png",
+      "runtime": "sites/veyrath/dist/assets/ui/main-menu/buttons/labeled/armory_disabled.png",
+      "bytes": 320413
+    },
+    {
+      "source": "lights-end-main-menu/buttons/labeled/unlocks_normal.png",
+      "runtime": "sites/veyrath/dist/assets/ui/main-menu/buttons/labeled/unlocks_normal.png",
+      "bytes": 694943
+    },
+    {
+      "source": "lights-end-main-menu/buttons/labeled/unlocks_hover.png",
+      "runtime": "sites/veyrath/dist/assets/ui/main-menu/buttons/labeled/unlocks_hover.png",
+      "bytes": 687304
+    },
+    {
+      "source": "lights-end-main-menu/buttons/labeled/unlocks_pressed.png",
+      "runtime": "sites/veyrath/dist/assets/ui/main-menu/buttons/labeled/unlocks_pressed.png",
+      "bytes": 640763
+    },
+    {
+      "source": "lights-end-main-menu/buttons/labeled/unlocks_disabled.png",
+      "runtime": "sites/veyrath/dist/assets/ui/main-menu/buttons/labeled/unlocks_disabled.png",
+      "bytes": 316075
+    },
+    {
+      "source": "lights-end-main-menu/buttons/labeled/best_runs_normal.png",
+      "runtime": "sites/veyrath/dist/assets/ui/main-menu/buttons/labeled/best_runs_normal.png",
+      "bytes": 699020
+    },
+    {
+      "source": "lights-end-main-menu/buttons/labeled/best_runs_hover.png",
+      "runtime": "sites/veyrath/dist/assets/ui/main-menu/buttons/labeled/best_runs_hover.png",
+      "bytes": 691373
+    },
+    {
+      "source": "lights-end-main-menu/buttons/labeled/best_runs_pressed.png",
+      "runtime": "sites/veyrath/dist/assets/ui/main-menu/buttons/labeled/best_runs_pressed.png",
+      "bytes": 644064
+    },
+    {
+      "source": "lights-end-main-menu/buttons/labeled/best_runs_disabled.png",
+      "runtime": "sites/veyrath/dist/assets/ui/main-menu/buttons/labeled/best_runs_disabled.png",
+      "bytes": 317775
+    },
+    {
+      "source": "lights-end-main-menu/buttons/labeled/how_to_play_normal.png",
+      "runtime": "sites/veyrath/dist/assets/ui/main-menu/buttons/labeled/how_to_play_normal.png",
+      "bytes": 700790
+    },
+    {
+      "source": "lights-end-main-menu/buttons/labeled/how_to_play_hover.png",
+      "runtime": "sites/veyrath/dist/assets/ui/main-menu/buttons/labeled/how_to_play_hover.png",
+      "bytes": 693346
+    },
+    {
+      "source": "lights-end-main-menu/buttons/labeled/how_to_play_pressed.png",
+      "runtime": "sites/veyrath/dist/assets/ui/main-menu/buttons/labeled/how_to_play_pressed.png",
+      "bytes": 646289
+    },
+    {
+      "source": "lights-end-main-menu/buttons/labeled/how_to_play_disabled.png",
+      "runtime": "sites/veyrath/dist/assets/ui/main-menu/buttons/labeled/how_to_play_disabled.png",
+      "bytes": 319317
+    },
+    {
+      "source": "lights-end-main-menu/buttons/labeled/settings_normal.png",
+      "runtime": "sites/veyrath/dist/assets/ui/main-menu/buttons/labeled/settings_normal.png",
+      "bytes": 699173
+    },
+    {
+      "source": "lights-end-main-menu/buttons/labeled/settings_hover.png",
+      "runtime": "sites/veyrath/dist/assets/ui/main-menu/buttons/labeled/settings_hover.png",
+      "bytes": 691248
+    },
+    {
+      "source": "lights-end-main-menu/buttons/labeled/settings_pressed.png",
+      "runtime": "sites/veyrath/dist/assets/ui/main-menu/buttons/labeled/settings_pressed.png",
+      "bytes": 644411
+    },
+    {
+      "source": "lights-end-main-menu/buttons/labeled/settings_disabled.png",
+      "runtime": "sites/veyrath/dist/assets/ui/main-menu/buttons/labeled/settings_disabled.png",
+      "bytes": 318085
+    },
+    {
+      "source": "lights-end-main-menu/buttons/blank/orange_normal.png",
+      "runtime": "sites/veyrath/dist/assets/ui/main-menu/buttons/blank/orange_normal.png",
+      "bytes": 709889
+    },
+    {
+      "source": "lights-end-main-menu/buttons/blank/orange_hover.png",
+      "runtime": "sites/veyrath/dist/assets/ui/main-menu/buttons/blank/orange_hover.png",
+      "bytes": 682615
+    },
+    {
+      "source": "lights-end-main-menu/buttons/blank/orange_pressed.png",
+      "runtime": "sites/veyrath/dist/assets/ui/main-menu/buttons/blank/orange_pressed.png",
+      "bytes": 609943
+    },
+    {
+      "source": "lights-end-main-menu/buttons/blank/orange_disabled.png",
+      "runtime": "sites/veyrath/dist/assets/ui/main-menu/buttons/blank/orange_disabled.png",
+      "bytes": 310307
+    },
+    {
+      "source": "lights-end-main-menu/buttons/overlays/play.svg",
+      "runtime": "sites/veyrath/dist/assets/ui/main-menu/buttons/overlays/play.svg",
+      "bytes": 8982,
+      "adaptation": "Removed Enter badge rectangle and its outlined text; original Play glyph, title and diamond retained."
+    }
+  ],
+  "background_override": {
+    "source": "Visuals/UI/lights-end-low-poly-background.png",
+    "runtime": "sites/veyrath/dist/assets/ui/main-menu/backgrounds/low-poly-desert.png",
+    "note": "User-supplied replacement, October 18. Original pack preserved."
+  }
+}

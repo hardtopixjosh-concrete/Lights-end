@@ -1,0 +1,30 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import os from 'node:os';
+import path from 'node:path';
+import {digest} from '../tools/deploy/prepare.mjs';
+import {upload} from '../tools/deploy/upload.mjs';
+const source=fs.readFileSync(new URL('../hosting/asset-worker.mjs',import.meta.url),'utf8');
+async function worker(id){return (await import('data:text/javascript;base64,'+Buffer.from(source.replace("'__RELEASE__'",JSON.stringify(id))).toString('base64'))).default;}
+const db=new Map(),writes=[];
+const BUCKET={async head(k){return db.has(k)?{size:db.get(k).data.length}:null;},async put(k,body,opts={}){const data=Buffer.from(await new Response(body).arrayBuffer());if(opts.sha256)assert.equal(digest(data),Buffer.from(opts.sha256).toString('hex'));if(db.has(k))return null;db.set(k,{data,type:opts.httpMetadata?.contentType});writes.push(k);return {size:data.length};},async get(k,opts){const stored=db.get(k);if(!stored)return null;const data=stored.data,size=data.length;let body=data,range={offset:0,length:size};const spec=opts?.range?.get?.('Range');if(spec){const m=spec.match(/^bytes=(\d+)-(\d*)$/);const offset=Number(m[1]),last=m[2]?Math.min(Number(m[2]),size-1):size-1;range={offset,length:last-offset+1};body=data.subarray(offset,last+1);}return {size,body,httpMetadata:{contentType:stored.type},range,text:async()=>data.toString(),json:async()=>JSON.parse(data)};}};
+const env={BUCKET,ASSET_UPLOAD_TOKEN:'fixture-secret'},ctx={waitUntil:p=>p};let active=await worker('bootstrap');
+const fetcher=(url,options)=>active.fetch(new Request(url,options),env,ctx);
+assert.equal((await fetcher('https://fixture.test/__asset-admin/status')).status,401);
+assert.equal((await fetcher('https://fixture.test/__asset-admin/status',{headers:{Authorization:'Bearer wrong'}})).status,401);
+const temp=fs.mkdtempSync(path.join(os.tmpdir(),'veyrath-assets-'));
+function plan(entries){const files={},objects={};for(const [name,value]of Object.entries(entries)){const data=Buffer.from(value),hash=digest(data),p=path.join(temp,hash);fs.writeFileSync(p,data);files[name]={hash,bytes:data.length,type:name.endsWith('.html')?'text/html':name.endsWith('.js')?'text/javascript':'image/webp'};objects[hash]={...files[name],path:p};}const content=JSON.stringify({schema:1,files}),id=digest(content),manifest=path.join(temp,id+'.json');fs.writeFileSync(manifest,content);return {id,manifest,files:Object.keys(files).length,objects,totalBytes:Object.values(files).reduce((n,x)=>n+x.bytes,0),origin:'https://fixture.test'};}
+const p1=plan({'index.html':'<html><head></head><body>Game</body></html>','game.js':'console.log(1)','assets/boss.webp':'original-quality-byte-fixture'});
+const first=await upload(p1,env.ASSET_UPLOAD_TOKEN,{fetcher,log:()=>{}});assert.equal(first.uploadedObjects,3);
+active=await worker(p1.id);const again=await upload(p1,env.ASSET_UPLOAD_TOKEN,{fetcher,log:()=>{}});assert.equal(again.uploadedObjects,0);assert.equal(again.uploadedBytes,0);
+const html=await fetcher('https://fixture.test/');assert.ok((await html.text()).includes('/__releases/'+p1.id+'/'));
+const alias=await fetcher('https://fixture.test/__releases/'+p1.id+'/assets/boss.webp');assert.equal(alias.status,307);const target=alias.headers.get('Location');const image=await fetcher(target);assert.equal(image.status,200);assert.equal(await image.text(),'original-quality-byte-fixture');assert.match(image.headers.get('Cache-Control'),/immutable/);
+const range=await fetcher(target,{headers:{Range:'bytes=0-7'}});assert.equal(range.status,206);assert.equal(await range.text(),'original');
+globalThis.caches={get default(){throw Error('Hosting denies default cache')},open:async()=>{throw Error('No edge cache permission')}};
+assert.equal(await (await fetcher(target)).text(),'original-quality-byte-fixture');delete globalThis.caches;
+const p2=plan({'index.html':'<html><head></head><body>Game</body></html>','game.js':'console.log(2)','assets/boss.webp':'original-quality-byte-fixture'});
+const changed=await upload(p2,env.ASSET_UPLOAD_TOKEN,{fetcher,log:()=>{}});assert.equal(changed.uploadedObjects,1);assert.equal(changed.uploadedBytes,Buffer.byteLength('console.log(2)'));
+active=await worker(p2.id);assert.equal(await (await fetcher('https://fixture.test/__releases/'+p1.id+'/game.js')).text(),'console.log(1)');assert.equal(await (await fetcher('https://fixture.test/__releases/'+p2.id+'/game.js')).text(),'console.log(2)');
+assert.equal((await fetcher('https://fixture.test/__asset-admin/objects/'+digest('different'),{method:'PUT',headers:{Authorization:'Bearer fixture-secret','Content-Length':'3'},body:'bad'})).status,400);
+assert.equal((await fetcher('https://fixture.test/__asset-admin/releases/'+digest('bad'),{method:'PUT',headers:{Authorization:'Bearer fixture-secret'},body:'bad'})).status,400);
+console.log('PASS: protected uploads, exact bytes/checksums, unchanged upload=0, one-code-file upload only, pinned old/new release, immutable caching, byte-range delivery');

@@ -1,0 +1,61 @@
+/* Supplied Orb HUD artwork; positions follow the pack's 1600 × 340 manifest. */
+.hudbar.orb-hud{width:1600px;height:340px;display:block;bottom:max(10px,env(safe-area-inset-bottom));transform:translateX(-50%) scale(calc(var(--orb-hud-scale,.7) * var(--ui-scale,1)));transform-origin:bottom center;contain:layout style;font-family:ClothBody,sans-serif;color:#fff0d7}
+.orb-hud::before{content:'';position:absolute;left:250px;top:100px;width:1100px;height:236px;background:url('assets/ui/orb-hud/panels/action_bar.png') center/100% 100% no-repeat;pointer-events:none}
+.orb-hud::after{content:'';position:absolute;left:215px;top:133px;width:1170px;height:130px;background:url('assets/ui/orb-hud/panels/connector.png') left center/90px 130px no-repeat,url('assets/ui/orb-hud/panels/connector.png') right center/90px 130px no-repeat;z-index:-1;pointer-events:none}
+.hudbar.orb-hud .hud-orb{position:absolute;top:42px;left:0;width:280px;height:280px;margin:0;border:0;border-radius:0;background:url('assets/ui/orb-hud/orbs/glass_empty.png') center/contain no-repeat;overflow:visible;box-shadow:none}
+.hudbar.orb-hud .orb-resource{left:1320px}
+.orb-liquid-mask{position:absolute;inset:9.375%;border-radius:50%;overflow:hidden;isolation:isolate}
+.hudbar.orb-hud .orb-liquid-mask i{position:absolute;inset:0;width:100%!important;height:100%;border:0;background:url('assets/ui/orb-hud/orbs/liquid_health.png') center/cover no-repeat;clip-path:inset(var(--orb-empty,0%) 0 0);transition:clip-path .12s linear;box-shadow:none;animation:none;filter:none}
+.hudbar.orb-hud .orb-resource .orb-liquid-mask i{background-image:url('assets/ui/orb-hud/orbs/liquid_mana.png')}
+.hudbar.orb-hud #res-fill.rage-full{animation:none;box-shadow:none;filter:none}
+.orb-glass,.orb-frame{position:absolute;inset:0;background:center/contain no-repeat;pointer-events:none}
+.orb-glass{background-image:url('assets/ui/orb-hud/orbs/glass_shine.png');z-index:1}
+.orb-frame{background-image:url('assets/ui/orb-hud/orbs/frame_gold.png');z-index:2}
+.orb-health.low-health .orb-glass{background-image:url('assets/ui/orb-hud/orbs/low_health_glow.png'),url('assets/ui/orb-hud/orbs/glass_shine.png')}
+.hudbar.orb-hud .hud-orb .orb-value{position:absolute;inset:123px 12px auto;height:48px;display:flex;align-items:center;justify-content:center;font:700 35px/1 ClothSerif,serif;color:#fff4df;text-shadow:0 2px 4px #000,0 0 9px #000;letter-spacing:0;z-index:3;white-space:nowrap}
+.hudbar.orb-hud .hud-orb .orb-label{position:absolute;inset:174px 20px auto;height:28px;display:flex;align-items:center;justify-content:center;font:700 20px/1 ClothSerif,serif;color:#fff0d7;letter-spacing:.02em;text-shadow:0 2px 3px #000;z-index:3}
+.hudbar.orb-hud .hud-orb .orb-shield{position:absolute;inset:211px 35px auto;height:25px;display:block;text-align:center;font:800 17px/25px ClothBody,sans-serif;color:#a5ebff;text-shadow:0 2px 4px #000;z-index:3}
+.orb-shield:empty{display:none!important}
+.orb-hud .hud-run-stats{position:absolute;left:486px;top:14px;width:628px;height:74px;display:grid;grid-template-columns:228px 175px 225px;align-items:center;text-align:center;background:url('assets/ui/orb-hud/panels/run_stats.png') center/100% 100% no-repeat}
+.orb-hud .hud-run-stats>*{display:block;min-width:0;margin:0;padding:0 12px;background:none;border:0;border-radius:0;box-shadow:none;font:700 28px/1 ClothSerif,serif;white-space:nowrap;color:#fff0d7}
+.orb-hud .hud-run-stats>*+*{border-left:1px solid #9d7d4788}
+.orb-hud .hud-run-stats #gold-status{color:#f7cd79}
+.orb-hud .slots{position:absolute;left:320px;top:120px;display:grid;grid-template-columns:repeat(6,148px);gap:14px;align-items:start;width:auto;margin:0}
+.orb-hud .slot{position:relative;width:148px;min-width:0;pointer-events:auto;outline:none}
+.orb-hud .slot .slot-face{width:148px;height:148px;border:0;border-radius:0;overflow:visible;background:url('assets/ui/orb-hud/slots/normal.png') center/100% 100% no-repeat;box-shadow:none;filter:none}
+.orb-hud .slot:hover .slot-face{background-image:url('assets/ui/orb-hud/slots/hover.png')}
+.orb-hud .slot.active .slot-face{background-image:url('assets/ui/orb-hud/slots/active.png')}
+.orb-hud .slot.hud-pressed:not(.locked) .slot-face{background-image:url('assets/ui/orb-hud/slots/pressed.png')}
+.orb-hud .slot.cooling .slot-face{background-image:url('assets/ui/orb-hud/slots/cooldown.png')}
+.orb-hud .slot.locked .slot-face{background-image:url('assets/ui/orb-hud/slots/locked.png')}
+.orb-hud .slot:focus-visible .slot-face::before{content:'';position:absolute;inset:0;background:url('assets/ui/orb-hud/slots/focus_overlay.png') center/100% 100% no-repeat;z-index:4;pointer-events:none}
+.orb-hud .slot .slot-icon{inset:24px;z-index:1;opacity:1}
+.orb-hud .slot .slot-icon svg{width:88px;height:88px;max-width:100%;max-height:100%;filter:drop-shadow(0 2px 3px #0009)}
+.orb-hud .slot .slot-icon img{object-fit:contain}
+.orb-hud .slot.locked .slot-icon{opacity:.24}
+.orb-hud .slot.short:not(.locked) .slot-icon{opacity:.5}
+.orb-hud .slot.short:not(.locked) .slot-face{filter:drop-shadow(0 0 3px #f26868)}
+.orb-hud .slot .slot-face kbd{position:absolute;left:50%;top:-7px;bottom:auto;transform:translateX(-50%);display:grid;place-items:center;width:71px;height:32px;padding:0;border:0;border-radius:0;background:url('assets/ui/orb-hud/keycaps/blank.png') center/100% 100% no-repeat;font:700 20px/1 ClothSerif,serif;color:#fff0d7;z-index:5;text-shadow:0 1px 2px #000;letter-spacing:0}
+.orb-hud #slot-dash kbd{width:91px;background-image:url('assets/ui/orb-hud/keycaps/blank_wide.png');font-size:18px}
+.orb-hud .slot .slot-cd{z-index:3;font:800 38px/1 ClothBody,sans-serif;text-shadow:0 2px 5px #000;color:#fff5df;pointer-events:none}
+.orb-hud .slot.locked .slot-cd{font:700 23px/1 ClothBody,sans-serif;color:#c4c6ca;padding-top:34px}
+.orb-hud .slot.cooling .slot-face::after{inset:10px;background:conic-gradient(#020710cf var(--cooldown-angle,360deg),transparent 0);z-index:2;pointer-events:none}
+.orb-hud .slot strong{height:29px;margin:8px -6px 0;font:700 22px/1.1 ClothSerif,serif;color:#fff0cf;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;text-shadow:0 2px 3px #000}
+.orb-hud .slot.locked strong{color:#a7b3c2}
+.hudbar.orb-hud .hbar.xp{position:absolute;left:400px;top:303px;width:694px;height:26px;margin:0;border:0;border-radius:0;background:url('assets/ui/orb-hud/bars/xp_track.png') center/100% 100% no-repeat;overflow:hidden}
+.orb-hud .hbar.xp i{background:url('assets/ui/orb-hud/bars/xp_fill.png') left center/694px 26px no-repeat}
+.orb-hud .hbar.xp::after{content:'';position:absolute;inset:0;background:url('assets/ui/orb-hud/bars/xp_frame_overlay.png') center/100% 100% no-repeat;pointer-events:none}
+.orb-hud>#lv-text{position:absolute;left:320px;top:300px;width:72px;height:32px;display:grid;place-items:center;background:url('assets/ui/orb-hud/badges/level_blank.png') center/100% 100% no-repeat;font:700 23px/1 ClothSerif,serif;white-space:nowrap}
+.orb-hud>#xp-text{position:absolute;left:1104px;top:303px;width:190px;height:26px;text-align:right;font:700 20px/26px ClothBody,sans-serif;color:#e5d9c1;white-space:nowrap}
+.orb-hud>#xp-text::after{content:' XP'}
+.orb-hud .hud-side{position:absolute;left:320px;right:320px;bottom:340px;padding:0;display:flex;flex-direction:row;justify-content:center;gap:12px;pointer-events:none}
+.orb-hud .hud-side button{font:800 20px/1.2 ClothBody,sans-serif;padding:8px 16px;pointer-events:auto}
+body.touch .hudbar.orb-hud{top:max(8px,env(safe-area-inset-top));bottom:auto;transform:translateX(-50%) scale(calc(var(--orb-hud-scale,.5) * var(--ui-scale,1)));transform-origin:top center}
+body.touch .orb-hud .hud-side{bottom:auto;top:340px}
+body.touch .orb-hud::before{top:270px;height:66px}
+body.touch .orb-hud::after{display:none}
+body.touch .touch-btn .slot-face{background:url('assets/ui/orb-hud/slots/normal.png') center/100% 100% no-repeat;border:0;box-shadow:none}
+body.touch .touch-btn.cooling .slot-face{background-image:url('assets/ui/orb-hud/slots/cooldown.png')}
+body.touch .touch-btn.locked .slot-face{background-image:url('assets/ui/orb-hud/slots/locked.png')}
+body.touch .touch-btn.pressed .slot-face{background-image:url('assets/ui/orb-hud/slots/pressed.png')}
+@media(prefers-reduced-motion:reduce){.orb-hud *{transition:none!important;animation:none!important}}

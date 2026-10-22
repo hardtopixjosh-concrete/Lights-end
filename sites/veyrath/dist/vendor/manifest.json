@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Howler.js",
+    "version": "2.2.4",
+    "file": "howler-2.2.4.min.js",
+    "source": "https://registry.npmjs.org/howler/2.2.4",
+    "license": "MIT",
+    "sha256": "736c339444c88baad593e24afdf1d6e8f574019b4e37a110ecb453ff745ffd41"
+  },
+  {
+    "name": "lil-gui",
+    "version": "0.21.0",
+    "file": "lil-gui.esm.min.js",
+    "source": "https://registry.npmjs.org/lil-gui/0.21.0",
+    "license": "MIT",
+    "sha256": "609142ae792244de064029d61f25ae8dcdeae76d4996d9eea95a4671d93a954d"
+  },
+  {
+    "name": "stats.js",
+    "version": "0.17.0",
+    "file": "stats.min.js",
+    "source": "https://registry.npmjs.org/stats.js/0.17.0",
+    "license": "MIT",
+    "sha256": "8a2c2b2d6e1250186bcd6adf5b65593fff66a301d7f8ab3510a39116fe041dd1"
+  },
+  {
+    "name": "PixiJS",
+    "version": "8.21.0",
+    "file": "pixi-8.21.0.min.mjs",
+    "source": "https://registry.npmjs.org/pixi.js/8.21.0",
+    "license": "MIT",
+    "sha256": "2f69e90f5b1980e6ea244bacfb3fa1eb457e16ddcb0a602b694642658956f2ef"
+  },
+  {
+    "name": "pixi-filters",
+    "version": "6.1.4",
+    "file": "pixi-filters-6.1.4.mjs",
+    "source": "https://registry.npmjs.org/pixi-filters/6.1.4",
+    "license": "MIT",
+    "sha256": "2800e4e0eaea5ad29dd46f76f9ff038429b955520f1f25f1061575bc49afb5f5"
+  },
+  {
+    "name": "three.js",
+    "version": "0.170.0",
+    "file": "three-0.170.0.module.min.js",
+    "source": "https://registry.npmjs.org/three/0.170.0",
+    "license": "MIT",
+    "sha256": "08fd7545d13d2c7fb65ab691530a802dafefd638596501854f267d0fb13c39e7"
+  },
+  {
+    "name": "three.js GLTFLoader addon",
+    "version": "0.170.0",
+    "file": "three-addons/loaders/GLTFLoader.js",
+    "source": "https://registry.npmjs.org/three/0.170.0",
+    "license": "MIT",
+    "sha256": "45139faddd5aaf48ed2d62203d976e5cbd703db1a592de40527f9f6cf58abd44"
+  },
+  {
+    "name": "three.js SkeletonUtils addon",
+    "version": "0.170.0",
+    "file": "three-addons/utils/SkeletonUtils.js",
+    "source": "https://registry.npmjs.org/three/0.170.0",
+    "license": "MIT",
+    "sha256": "ee412be1aa05f3051c2bda8ea89612c1ba70c5c87de62b56040282120d5eb991"
+  },
+  {
+    "name": "three.js BufferGeometryUtils addon",
+    "version": "0.170.0",
+    "file": "three-addons/utils/BufferGeometryUtils.js",
+    "source": "https://registry.npmjs.org/three/0.170.0",
+    "license": "MIT",
+    "sha256": "c25b7930e570e9ec56173cd3b866ec8d2e10016630db3937efb439daf1cedbf6"
+  }
+]

@@ -1,0 +1,230 @@
+/* Reference composition: one uniformly scaled 1440 × 820 desktop panel. */
+#welcome:has(#fe-unlocks-screen:not([hidden])){background:#07182b url('assets/ui/character-select/background.png') center/cover no-repeat}
+#welcome:has(#fe-unlocks-screen:not([hidden]))::before{background:#02091540;backdrop-filter:blur(4px)}
+#fe-unlocks-screen{--gold:#e6b75e;position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) scale(var(--unlock-scale,1));transform-origin:center;width:1440px;height:820px;max-height:none;max-width:none;padding:14px 18px 8px;display:flex;flex-direction:column;overflow:visible;border:18px solid transparent;border-image:url('assets/ui/armory/artwork/panel-9slice-source.png') 80 fill / 28px / 4px stretch;border-radius:0;background:#0b2134;box-shadow:0 20px 70px #000b;color:#f8ecd5;font-family:ClothBody,sans-serif;backdrop-filter:none}
+#fe-unlocks-screen[hidden],#fe-unlocks-screen [hidden]{display:none!important}
+#fe-unlocks-screen::before,#fe-unlocks-screen::after{display:none}
+#fe-unlocks-screen .arm-head{flex:none;display:flex;flex-direction:row;align-items:center;gap:18px;padding:0 12px 18px;border:0;background:url('assets/ui/unlocks/pack/ornaments/title_divider.png') center bottom/100% 12px no-repeat}
+#fe-unlocks-screen .arm-head h2{font:700 80px/1 ClothSerif,serif;letter-spacing:-.025em;margin:0;color:#fff0d2;text-shadow:0 3px 4px #0008}
+#fe-unlocks-screen .arm-sub{font:600 21px/1.3 ClothBody,sans-serif;margin:4px 0 0;color:#bed1df}
+#fe-unlocks-screen .arm-wallet{margin-left:auto;flex-shrink:0}
+#fe-unlocks-screen .arm-gold{display:flex;align-items:center;justify-content:center;gap:16px;width:200px;height:86px;background:url('assets/ui/unlocks/pack/panels/currency-blank.png') center/100% 100% no-repeat;font:700 38px ClothSerif,serif;color:#ffda7c}
+#fe-unlocks-screen .arm-gold::before{content:'';width:34px;height:34px;background:url('assets/ui/main-menu/icons/coin.svg') center/contain no-repeat}
+#fe-unlocks-screen .arm-gold small{display:none}
+#fe-unlocks-list{display:grid;grid-template-columns:346px minmax(0,1fr);gap:24px;flex:1;min-height:0;overflow:hidden;margin:14px 0 10px;padding:0}
+#fe-unlocks-screen .unlock-nav{display:flex;flex-direction:column;gap:6px;min-height:0;overflow:auto;padding:0 22px 0 0;border:0;background:url('assets/ui/unlocks/pack/ornaments/separator_vertical.png') right center/10px 100% no-repeat;scrollbar-width:thin}
+#fe-unlocks-screen .unlock-nav button{position:relative;flex:none;display:flex;align-items:center;width:100%;height:82px;min-height:0;margin:0;padding:8px 7% 8px 32%;border:0;border-radius:0;background:url('assets/ui/unlocks/pack/navigation/blank/navy_normal.png') center/100% 100% no-repeat;box-shadow:none;color:#f7e9ce;text-align:left;letter-spacing:0;transform:none;filter:none}
+#fe-unlocks-screen .unlock-nav strong{font:700 24px/1.05 ClothSerif,serif;text-shadow:0 2px 2px #000}
+#fe-unlocks-screen .unlock-nav button:hover,#fe-unlocks-screen .unlock-nav button:focus-visible{background-image:url('assets/ui/unlocks/pack/navigation/blank/navy_hover.png')}
+#fe-unlocks-screen .unlock-nav button:active{background-image:url('assets/ui/unlocks/pack/navigation/blank/navy_pressed.png')}
+#fe-unlocks-screen .unlock-nav button[aria-pressed=true]{background-image:url('assets/ui/unlocks/pack/navigation/blank/orange_normal.png')}
+#fe-unlocks-screen .unlock-nav button[aria-pressed=true]:hover,#fe-unlocks-screen .unlock-nav button[aria-pressed=true]:focus-visible{background-image:url('assets/ui/unlocks/pack/navigation/blank/orange_hover.png')}
+#fe-unlocks-screen .unlock-nav button[aria-pressed=true]:active{background-image:url('assets/ui/unlocks/pack/navigation/blank/orange_pressed.png')}
+#fe-unlocks-screen .unlock-nav button:disabled{background-image:url('assets/ui/unlocks/pack/navigation/blank/navy_disabled.png')}
+#fe-unlocks-screen .unlock-nav button[aria-pressed=true]:disabled{background-image:url('assets/ui/unlocks/pack/navigation/blank/orange_disabled.png')}
+#fe-unlocks-screen .unlock-nav button[data-category=future]{color:#b9c2cb}
+#fe-unlocks-screen .unlock-nav-crest{position:absolute;left:15%;top:47%;transform:translate(-50%,-50%);display:grid;place-items:center;width:76px;height:76px;background:url('assets/ui/unlocks/pack/crests/navy_blank.png') center/contain no-repeat;pointer-events:none}
+#fe-unlocks-screen .unlock-nav [aria-pressed=true] .unlock-nav-crest{background-image:url('assets/ui/unlocks/pack/crests/orange_blank.png')}
+#fe-unlocks-screen .unlock-nav [data-category=future] .unlock-nav-crest{background-image:url('assets/ui/unlocks/pack/crests/neutral_blank.png')}
+#fe-unlocks-screen .unlock-nav-crest svg{width:44px;height:44px}
+#fe-unlocks-screen .unlock-art{fill:none;stroke:none;stroke-width:0;filter:drop-shadow(0 2px 2px #0009);overflow:visible}
+#fe-unlocks-screen button:focus-visible{outline:2px solid #fff0ab;outline-offset:2px}
+#fe-unlocks-screen .unlock-content{display:flex;flex-direction:column;min-height:0;overflow:auto;padding:0 6px 0 0;scrollbar-color:#a68043 #071828;scrollbar-width:thin}
+#fe-unlocks-screen .unlock-class-tabs{flex:none;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-bottom:12px}
+#fe-unlocks-screen .unlock-class-tabs button{position:relative;display:flex;align-items:center;gap:16px;min-width:0;height:76px;margin:0;padding:12px 20px;border:0;border-radius:0;background:url('assets/ui/unlocks/pack/tabs/blank/navy_normal.png') center/100% 100% no-repeat;box-shadow:none;color:#f7e9ce;text-align:left;letter-spacing:0;transform:none;filter:none}
+#fe-unlocks-screen .unlock-class-tabs button:hover,#fe-unlocks-screen .unlock-class-tabs button:focus-visible{background-image:url('assets/ui/unlocks/pack/tabs/blank/navy_hover.png')}
+#fe-unlocks-screen .unlock-class-tabs button:active{background-image:url('assets/ui/unlocks/pack/tabs/blank/navy_pressed.png')}
+#fe-unlocks-screen .unlock-class-tabs button:disabled{background-image:url('assets/ui/unlocks/pack/tabs/blank/navy_disabled.png')}
+#fe-unlocks-screen .unlock-class-tabs button[aria-pressed=true]{background-image:url('assets/ui/unlocks/pack/tabs/blank/orange_normal.png')}
+#fe-unlocks-screen .unlock-class-tabs button[aria-pressed=true]:hover,#fe-unlocks-screen .unlock-class-tabs button[aria-pressed=true]:focus-visible{background-image:url('assets/ui/unlocks/pack/tabs/blank/orange_hover.png')}
+#fe-unlocks-screen .unlock-class-tabs button[aria-pressed=true]:active{background-image:url('assets/ui/unlocks/pack/tabs/blank/orange_pressed.png')}
+#fe-unlocks-screen .unlock-class-tabs button[aria-pressed=true]:disabled{background-image:url('assets/ui/unlocks/pack/tabs/blank/orange_disabled.png')}
+#fe-unlocks-screen .unlock-class-tabs svg{width:40px;height:40px;flex-shrink:0}
+#fe-unlocks-screen .unlock-class-tabs strong{font:700 26px ClothSerif,serif}
+#fe-unlocks-screen .unlock-class-tabs span{margin-left:auto;white-space:nowrap;font:700 22px ClothSerif,serif}
+#fe-unlocks-screen .unlock-group{margin:0 0 16px;flex-shrink:0}
+#fe-unlocks-screen .arm-section{display:flex;align-items:baseline;flex-wrap:wrap;gap:5px 14px;margin:0 0 10px;padding:0;border:0;background:none;font:700 35px/1.15 ClothSerif,serif;letter-spacing:0;color:#ffedcd}
+#fe-unlocks-screen .arm-section small{font:600 20px ClothBody,sans-serif;color:#bcd0df;letter-spacing:0}
+#fe-unlocks-screen .arm-section em{margin-left:auto;font:700 16px ClothBody,sans-serif;color:#d5dbe0;white-space:nowrap}
+#fe-unlocks-screen [data-category=paths] .arm-section em{display:none}
+#fe-unlocks-screen .unlock-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+#fe-unlocks-screen .fe-shop-row{display:grid;grid-template-columns:48px minmax(0,1fr);grid-template-rows:1fr auto;gap:6px 12px;width:100%;min-width:0;margin:0;padding:12px;border:8px solid transparent;border-image:url('assets/ui/unlocks/pack/cards/path_normal.png') 48 fill / 20px stretch;border-radius:0;background:none;align-items:center}
+#fe-unlocks-screen .fe-shop-row:hover{border-image-source:url('assets/ui/unlocks/pack/cards/path_hover.png')}
+#fe-unlocks-screen .fe-shop-row.unlock-owned{border-image-source:url('assets/ui/unlocks/pack/cards/path_unlocked.png')}
+#fe-unlocks-screen .fe-shop-row.unlock-soon{border-image-source:url('assets/ui/unlocks/pack/cards/path_disabled.png')}
+#fe-unlocks-screen .unlock-crest{display:grid;place-items:center;width:48px;height:48px;background:url('assets/ui/unlocks/pack/crests/navy_blank.png') center/contain no-repeat}
+#fe-unlocks-screen .unlock-crest[data-color=orange]{background-image:url('assets/ui/unlocks/pack/crests/orange_blank.png')}
+#fe-unlocks-screen .unlock-crest[data-color=ice]{background-image:url('assets/ui/unlocks/pack/crests/ice_blank.png')}
+#fe-unlocks-screen .unlock-crest[data-color=violet]{background-image:url('assets/ui/unlocks/pack/crests/violet_blank.png')}
+#fe-unlocks-screen .unlock-crest[data-color=crimson]{background-image:url('assets/ui/unlocks/pack/crests/crimson_blank.png')}
+#fe-unlocks-screen .unlock-crest[data-color=green]{background-image:url('assets/ui/unlocks/pack/crests/green_blank.png')}
+#fe-unlocks-screen .unlock-crest[data-color=neutral]{background-image:url('assets/ui/unlocks/pack/crests/neutral_blank.png')}
+#fe-unlocks-screen .fe-swatch{background:none;box-shadow:none;display:grid;place-items:center;border:0;padding:0;width:54%;height:54%;opacity:1}
+#fe-unlocks-screen .fe-swatch svg{width:100%;height:100%}
+#fe-unlocks-screen .arm-text{min-width:0}
+#fe-unlocks-screen .arm-name{display:block}
+#fe-unlocks-screen .arm-name b{font:700 20px/1.1 ClothSerif,serif;color:#fff0d5}
+#fe-unlocks-screen .arm-name i{display:none}
+#fe-unlocks-screen .arm-text>small{display:block;margin-top:5px;font:600 14px/1.3 ClothBody,sans-serif;color:#c3d4e1}
+#fe-unlocks-screen .fe-buy{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:6px;margin:0;padding:0;min-height:32px;border:0}
+#fe-unlocks-screen .fe-buy em{font:700 14px ClothBody,sans-serif;font-style:normal;color:#e4cda4}
+#fe-unlocks-screen .fe-buy button{margin:0;min-height:32px;padding:6px 14px;font:700 17px ClothSerif,serif;letter-spacing:0;border:0;border-radius:0;background:url('assets/ui/unlocks/pack/buttons/blank/purchase_normal.png') center/100% 100% no-repeat;color:#ffe2a0;box-shadow:none;white-space:normal;transform:none}
+#fe-unlocks-screen .fe-buy button:hover:not(:disabled),#fe-unlocks-screen .fe-buy button:focus-visible{background-image:url('assets/ui/unlocks/pack/buttons/blank/purchase_hover.png')}
+#fe-unlocks-screen .fe-buy button:active:not(:disabled){background-image:url('assets/ui/unlocks/pack/buttons/blank/purchase_pressed.png')}
+#fe-unlocks-screen .fe-buy button:disabled{opacity:1;cursor:default;color:#c7c1ad;background-image:url('assets/ui/unlocks/pack/buttons/blank/purchase_disabled.png')}
+#fe-unlocks-screen .fe-buy button:not(.unlock-price){background-image:url('assets/ui/unlocks/pack/buttons/blank/unlock_normal.png')}
+#fe-unlocks-screen .fe-buy button:not(.unlock-price):hover:not(:disabled),#fe-unlocks-screen .fe-buy button:not(.unlock-price):focus-visible{background-image:url('assets/ui/unlocks/pack/buttons/blank/unlock_hover.png')}
+#fe-unlocks-screen .fe-buy button:not(.unlock-price):active:not(:disabled){background-image:url('assets/ui/unlocks/pack/buttons/blank/unlock_pressed.png')}
+#fe-unlocks-screen .fe-buy button:not(.unlock-price):disabled{background-image:url('assets/ui/unlocks/pack/buttons/blank/unlock_disabled.png')}
+#fe-unlocks-screen .unlock-price::before{content:'';display:inline-block;width:20px;height:20px;margin-right:8px;vertical-align:-3px;background:url('assets/ui/main-menu/icons/coin.svg') center/contain no-repeat}
+#fe-unlocks-screen .unlock-afford{padding:6px 8px;background:url('assets/ui/unlocks/pack/status/locked_blank.png') center/100% 100% no-repeat;font:600 13px ClothBody,sans-serif;color:#dcb57f}
+#fe-unlocks-screen .unlock-afford::before{content:'🔒';margin-right:7px}
+#fe-unlocks-screen .unlock-owned .fe-buy em{color:#68f5a0;background:url('assets/ui/unlocks/pack/status/unlocked_blank.png') center/100% 100% no-repeat;border:0;padding:6px 10px}
+#fe-unlocks-screen .unlock-owned .fe-buy em::before{content:'✓';margin-right:12px;font-weight:900}
+#fe-unlocks-screen .unlock-soon .fe-buy em{color:#c1accd;font-size:13px;letter-spacing:.06em}
+/* Four path cards occupy the entire area under the class tabs. */
+#fe-unlocks-screen .unlock-group[data-category=paths]{display:flex;flex-direction:column;flex:1;min-height:0;margin:0}
+#fe-unlocks-screen [data-category=paths] .unlock-cards{flex:1;min-height:0;grid-template-rows:repeat(2,minmax(0,1fr))}
+#fe-unlocks-screen [data-category=paths] .fe-shop-row{grid-template-columns:112px minmax(0,1fr);padding:12px;gap:8px 16px}
+#fe-unlocks-screen [data-category=paths] .unlock-crest{width:112px;height:112px}
+#fe-unlocks-screen [data-category=paths] .arm-name b{font-size:33px}
+#fe-unlocks-screen [data-category=paths] .arm-text>small{font-size:20px;line-height:1.25;margin-top:6px}
+#fe-unlocks-screen [data-category=paths] .fe-buy{min-height:48px;flex-wrap:nowrap;gap:10px}
+#fe-unlocks-screen [data-category=paths] .fe-buy button{min-height:48px;min-width:210px;font-size:23px;padding:6px 18px}
+#fe-unlocks-screen [data-category=paths] .unlock-price::before{width:25px;height:25px;margin-right:10px;vertical-align:-4px}
+#fe-unlocks-screen [data-category=paths] .unlock-afford{font-size:17px;background:none;padding:6px 0;white-space:nowrap}
+#fe-unlocks-screen [data-category=paths] .unlock-owned .fe-buy em{width:100%;font:700 23px ClothSerif,serif;padding:8px 16px}
+#fe-unlocks-screen .arm-foot{flex:none;display:flex;align-items:center;justify-content:space-between;gap:12px;height:54px;margin:0;padding:10px 8px 0;border:0;background:url('assets/ui/unlocks/pack/ornaments/separator_horizontal.png') center top/100% 8px no-repeat;color:#b9cddc;font:600 18px ClothBody,sans-serif}
+#fe-unlocks-screen .arm-foot button{min-width:180px;height:48px;margin:0;padding:4px 20px;border:0;border-radius:0;background:url('assets/ui/unlocks/pack/buttons/blank/close_normal.png') center/100% 100% no-repeat;color:#ffe8bc;font:700 24px ClothSerif,serif;letter-spacing:0;box-shadow:none;transform:none}
+#fe-unlocks-screen .arm-foot button:hover,#fe-unlocks-screen .arm-foot button:focus-visible{background-image:url('assets/ui/unlocks/pack/buttons/blank/close_hover.png')}
+#fe-unlocks-screen .arm-foot button:active{background-image:url('assets/ui/unlocks/pack/buttons/blank/close_pressed.png')}
+#fe-unlocks-screen .arm-foot button:disabled{background-image:url('assets/ui/unlocks/pack/buttons/blank/close_disabled.png')}
+@media(max-width:899px){
+ #fe-unlocks-screen{transform:translate(-50%,-50%);width:calc(100vw - 24px);height:calc(100vh - 24px);border-width:12px;padding:10px}
+ #fe-unlocks-screen .arm-head{padding:0 4px 14px;gap:10px}
+ #fe-unlocks-screen .arm-head h2{font-size:36px}
+ #fe-unlocks-screen .arm-sub{font-size:12px}
+ #fe-unlocks-screen .arm-gold{width:125px;height:60px;font-size:25px;gap:8px}
+ #fe-unlocks-screen .arm-gold::before{width:23px;height:23px}
+ #fe-unlocks-list{grid-template-columns:1fr;grid-template-rows:auto minmax(0,1fr);gap:10px;margin:10px 0}
+ #fe-unlocks-screen .unlock-nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2px;padding:0 0 8px;background:url('assets/ui/unlocks/pack/ornaments/separator_horizontal.png') center bottom/100% 8px no-repeat}
+ #fe-unlocks-screen .unlock-nav button{height:56px;padding-left:32%}
+ #fe-unlocks-screen .unlock-nav strong{font-size:15px}
+ #fe-unlocks-screen .unlock-nav-crest{width:46px;height:46px}
+ #fe-unlocks-screen .unlock-nav-crest svg{width:27px;height:27px}
+ #fe-unlocks-screen .unlock-content{padding:0 4px 0 0}
+ #fe-unlocks-screen .unlock-class-tabs{gap:6px;margin-bottom:10px}
+ #fe-unlocks-screen .unlock-class-tabs button{height:54px;padding:8px;gap:7px}
+ #fe-unlocks-screen .unlock-class-tabs strong{font-size:17px}
+ #fe-unlocks-screen .unlock-class-tabs span{font-size:14px}
+ #fe-unlocks-screen .unlock-class-tabs svg{width:25px;height:25px}
+ #fe-unlocks-screen .arm-section{font-size:25px}
+ #fe-unlocks-screen .arm-section small{font-size:13px}
+ #fe-unlocks-screen .unlock-cards{grid-template-columns:1fr;gap:10px}
+ #fe-unlocks-screen .unlock-group[data-category=paths]{flex:none}
+ #fe-unlocks-screen [data-category=paths] .unlock-cards{grid-template-rows:none;flex:none}
+ #fe-unlocks-screen [data-category=paths] .fe-shop-row{grid-template-columns:80px minmax(0,1fr);min-height:170px;padding:10px;gap:8px 12px}
+ #fe-unlocks-screen [data-category=paths] .unlock-crest{width:80px;height:80px}
+ #fe-unlocks-screen [data-category=paths] .arm-name b{font-size:26px}
+ #fe-unlocks-screen [data-category=paths] .arm-text>small{font-size:16px}
+ #fe-unlocks-screen [data-category=paths] .fe-buy button{min-width:150px;min-height:38px;font-size:19px}
+ #fe-unlocks-screen [data-category=paths] .unlock-afford{font-size:13px}
+ #fe-unlocks-screen [data-category=paths] .unlock-owned .fe-buy em{font-size:19px}
+ #fe-unlocks-screen .arm-foot{height:47px;font-size:12px;padding:8px 4px 0}
+ #fe-unlocks-screen .arm-foot button{min-width:120px;height:38px;font-size:19px}
+}
+@media(min-width:900px){#fe-unlocks-screen [data-category=paths]:not([data-class=Mage]) .arm-text>small{font-size:18px;line-height:1.22}}
+/* Photo-matched ownership row in every category, including starter runes. */
+#fe-unlocks-screen .unlock-owned .fe-buy{display:grid;grid-template-columns:minmax(0,1fr) auto}
+#fe-unlocks-screen .unlock-owned .fe-buy .unlock-status{grid-column:1/-1;display:flex;align-items:center;gap:18px;width:100%;min-height:46px;padding:6px 16px;font:700 21px/1 ClothSerif,serif}
+#fe-unlocks-screen .unlock-owned .fe-buy .unlock-status::before{display:none}
+#fe-unlocks-screen .unlock-check{width:32px;height:32px;flex:none;fill:none;stroke:#63f398;stroke-width:6;stroke-linecap:square;stroke-linejoin:miter;filter:drop-shadow(0 0 5px #42e98755)}
+#fe-unlocks-screen .unlock-owned .fe-buy>button{grid-column:2}
+#fe-unlocks-screen .arm-foot button{display:flex;align-items:center;justify-content:space-evenly;gap:16px}
+#fe-unlocks-screen .arm-foot kbd{padding:4px 7px;border:1px solid #e9d4a1;border-radius:3px;background:#162633;font:700 15px ClothBody,sans-serif;color:#fff0d5;box-shadow:inset 0 0 0 2px #050e18}
+/* Coordinates measured from the 1672 × 941 user image. Panel origin: (111,52.5). */
+@media(min-width:900px){
+ #fe-unlocks-screen{width:1450px;height:836px;padding:0;border:0 solid transparent;border-image:url('assets/ui/armory/artwork/panel-9slice-source.png') 80 / 44px / 4px stretch;background:linear-gradient(#04152720,#04152720),url('assets/ui/unlocks/pack/panels/modal.png') center/100% 100% no-repeat}
+ #fe-unlocks-screen .arm-head{position:absolute;left:38px;top:24px;width:1376px;height:132px;padding:0;display:block;background-image:url('assets/ui/unlocks/pack/ornaments/separator_horizontal.png');background-size:100% 8px}
+ #fe-unlocks-screen .arm-head::after{content:'';position:absolute;left:340px;bottom:-1px;width:11px;height:11px;border:2px solid #e4b654;background:#0a2032;transform:rotate(45deg);box-shadow:0 0 0 5px #0a2032}
+ #fe-unlocks-screen .arm-head h2{position:absolute;left:18px;top:10px;font-size:88px;line-height:1;transform:scaleX(1.13636);transform-origin:left top}
+ #fe-unlocks-screen .arm-sub{position:absolute;left:24px;top:89px;margin:0;font-size:22px;line-height:28px}
+ #fe-unlocks-screen .arm-wallet{position:absolute;right:0;top:16px;margin:0}
+ #fe-unlocks-screen .arm-gold{width:200px;height:86px}
+ #fe-unlocks-screen .arm-gold b{font:700 38px ClothSerif,serif;color:#ffda7c}
+ #fe-unlocks-list{position:absolute;left:38px;top:176px;width:1376px;height:566px;display:grid;grid-template-columns:348px minmax(0,1fr);gap:26px;margin:0;padding:0;flex:none}
+ #fe-unlocks-screen .unlock-nav{gap:10px;padding:0 22px 0 0}
+ #fe-unlocks-screen .unlock-nav button{height:78px;isolation:isolate;padding-left:104px;padding-right:18px}
+ #fe-unlocks-screen .unlock-nav button::before{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;background:inherit;background-size:100% 135%;clip-path:inset(0 0 0 23%)}
+ #fe-unlocks-screen .unlock-nav button::after{content:'◇';position:absolute;right:20px;top:50%;transform:translateY(-50%);font:700 23px ClothSerif,serif;color:#e8bc6b;text-shadow:0 1px 2px #000}
+ #fe-unlocks-screen .unlock-nav strong{position:relative;font-size:24px;max-width:205px;line-height:1.05}
+ #fe-unlocks-screen .unlock-nav-crest{left:52px;top:39px;width:82px;height:82px}
+ #fe-unlocks-screen .unlock-nav-crest svg{width:46px;height:46px}
+ #fe-unlocks-screen .unlock-nav [data-category=future]{filter:saturate(.15)}
+ #fe-unlocks-screen .unlock-content{position:relative;padding-right:6px;display:block}
+ #fe-unlocks-screen .unlock-class-tabs{height:76px;gap:16px;margin:0 0 14px}
+ #fe-unlocks-screen .unlock-class-tabs button{height:76px;background-size:102% 114%;padding:10px 24px;gap:20px}
+ #fe-unlocks-screen .unlock-class-tabs strong{font-size:26px}
+ #fe-unlocks-screen .unlock-class-tabs svg{width:40px;height:40px}
+ #fe-unlocks-screen .unlock-class-tabs span{font-size:22px}
+ #fe-unlocks-screen .unlock-group[data-category=paths]{position:absolute;left:0;right:6px;top:90px;height:476px;display:block;margin:0;min-height:0}
+ #fe-unlocks-screen [data-category=paths] .arm-section{height:46px;margin:0;font-size:40px;line-height:46px;gap:14px}
+ #fe-unlocks-screen [data-category=paths] .arm-section small{font-size:20px;line-height:26px}
+ #fe-unlocks-screen [data-category=paths] .unlock-cards{position:absolute;left:0;right:0;top:54px;height:418px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(2,201px);gap:16px 18px;min-height:0}
+ #fe-unlocks-screen [data-category=paths] .fe-shop-row{position:relative;display:block;min-height:0;padding:0;border:0;background:url('assets/ui/unlocks/pack/cards/path_normal.png') center/100% 100% no-repeat}
+ #fe-unlocks-screen [data-category=paths] .fe-shop-row::after{content:'';position:absolute;inset:0;border:0 solid transparent;border-image:url('assets/ui/armory/artwork/panel-9slice-source.png') 80 / 36px stretch;pointer-events:none}
+ #fe-unlocks-screen [data-category=paths] .fe-shop-row:hover{background-image:url('assets/ui/unlocks/pack/cards/path_hover.png')}
+ #fe-unlocks-screen [data-category=paths] .fe-shop-row.unlock-owned{background-image:url('assets/ui/unlocks/pack/cards/path_unlocked.png');filter:drop-shadow(0 0 2px #e98818)}
+ #fe-unlocks-screen [data-category=paths] .unlock-crest{position:absolute;left:22px;top:20px;width:110px;height:110px}
+ #fe-unlocks-screen [data-category=paths] .arm-text{position:absolute;left:154px;top:22px;right:22px}
+ #fe-unlocks-screen [data-category=paths] .arm-name b{font-size:35px;line-height:1.1}
+ #fe-unlocks-screen [data-category=paths] .arm-text>small{font-size:20px;line-height:24px;margin-top:6px}
+ #fe-unlocks-screen [data-category=paths]:not([data-class=Mage]) .arm-text>small{font-size:18px;line-height:21px}
+ #fe-unlocks-screen [data-category=paths] .fe-buy{position:absolute;left:28px;right:28px;bottom:18px;height:50px;min-height:0;display:grid;grid-template-columns:214px minmax(0,1fr);gap:26px;align-items:center}
+ #fe-unlocks-screen [data-category=paths] .fe-buy button{width:214px;height:50px;min-width:0;min-height:0;margin:0;font-size:24px;color:#ffe5a6}
+ #fe-unlocks-screen [data-category=paths] .fe-buy .unlock-afford{font-size:18px;line-height:24px;white-space:nowrap}
+ #fe-unlocks-screen [data-category=paths] .unlock-price::before{width:27px;height:27px}
+ #fe-unlocks-screen [data-category=paths] .unlock-owned .fe-buy{display:flex}
+ #fe-unlocks-screen [data-category=paths] .unlock-owned .fe-buy .unlock-status{display:flex;width:100%;height:50px;min-height:50px;padding:0 20px;gap:22px;font:700 24px ClothSerif,serif}
+ #fe-unlocks-screen .arm-foot{position:absolute;left:38px;top:754px;width:1376px;height:66px;padding:0 8px;display:flex;align-items:center;font-size:18px}
+ #fe-unlocks-screen .arm-foot button{position:absolute;right:2px;top:14px;min-width:186px;height:48px;padding:4px 14px;font-size:25px;border:0 solid transparent;border-image:url('assets/ui/armory/artwork/panel-9slice-source.png') 32 / 12px stretch}
+}
+
+@media(min-width:900px){#fe-unlocks-screen [data-category=paths] .fe-buy button:disabled{background-image:url('assets/ui/unlocks/pack/buttons/blank/purchase_normal.png')}}
+/* The decorative frame's cloth edge must sit beneath live content. */
+@media(min-width:900px){#fe-unlocks-screen [data-category=paths] .fe-shop-row::after{z-index:0}#fe-unlocks-screen [data-category=paths] .fe-shop-row> *{z-index:1}}
+/* Card cloth now belongs to the surrounding panel; cards have solid blue interiors. */
+#fe-unlocks-screen{background:#0b2134 url('assets/ui/unlocks/pack/cards/path_normal.png') center/110% 120% no-repeat;border-image-slice:80}
+#fe-unlocks-screen .fe-shop-row{background:#12324c;border-image-slice:48;border-image-width:12px}
+@media(min-width:900px){
+ #fe-unlocks-screen [data-category=paths] .fe-shop-row,
+ #fe-unlocks-screen [data-category=paths] .fe-shop-row:hover,
+ #fe-unlocks-screen [data-category=paths] .fe-shop-row.unlock-owned{background:#12324c}
+ #fe-unlocks-screen [data-category=paths] .fe-shop-row::after{border-image:url('assets/ui/unlocks/pack/cards/path_normal.png') 48 / 12px stretch}
+ #fe-unlocks-screen [data-category=paths] .fe-shop-row:hover::after{border-image-source:url('assets/ui/unlocks/pack/cards/path_hover.png')}
+ #fe-unlocks-screen [data-category=paths] .fe-shop-row.unlock-owned::after{border-image-source:url('assets/ui/unlocks/pack/cards/path_unlocked.png')}
+}
+/* Rune ownership and equip actions share one compact row. */
+#fe-unlocks-screen .unlock-equippable .fe-buy{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:stretch}
+#fe-unlocks-screen .unlock-equippable .fe-buy .unlock-status{grid-column:1;grid-row:1;min-width:0;gap:10px;padding:6px 12px;font-size:20px}
+#fe-unlocks-screen .unlock-equippable .fe-buy .unlock-equip{grid-column:2;grid-row:1;min-width:110px;min-height:46px;padding:6px 16px;font-size:20px;white-space:nowrap}
+#fe-unlocks-screen .unlock-equip[aria-pressed=true]{color:#83ffc0;box-shadow:inset 0 0 0 1px #63d99488}
+#fe-unlocks-screen .unlock-price{display:inline-flex;align-items:center;justify-content:center;gap:6px}
+#fe-unlocks-screen .unlock-price::before{flex:none;margin:0 3px 0 0;vertical-align:0}
+#fe-unlocks-screen .unlock-price-amount{font-size:25px;line-height:1;font-variant-numeric:tabular-nums}
+#fe-unlocks-screen .unlock-price-unit{font-size:18px}
+#fe-unlocks-screen .fe-buy .unlock-afford{display:inline-flex;align-items:center;gap:7px;padding:6px 9px;border:1px solid #d6717166;border-radius:4px;background:#431e2bc9;color:#ffb5b5;font:700 13px/1.2 ClothBody,sans-serif}
+#fe-unlocks-screen .unlock-afford::before{content:'!';display:grid;place-items:center;flex:none;width:16px;height:16px;margin:0;border:1px solid currentColor;border-radius:50%;font:800 12px/1 ClothBody,sans-serif}
+#fe-unlocks-screen .unlock-unaffordable .fe-buy .unlock-price{color:#ff9696}
+#fe-unlocks-screen .unlock-unaffordable .unlock-price::before{filter:saturate(.7)}
+@media(min-width:900px){
+ #fe-unlocks-screen .arm-gold b{font-size:42px}
+ #fe-unlocks-screen [data-category=paths] .unlock-price-amount{font-size:28px}
+ #fe-unlocks-screen [data-category=paths] .unlock-price-unit{font-size:21px}
+ #fe-unlocks-screen [data-category=paths] .fe-buy .unlock-afford{font-size:15px;line-height:20px;white-space:nowrap}
+}
+@media(max-width:899px){
+ #fe-unlocks-screen .unlock-equippable .fe-buy .unlock-status{font-size:17px;gap:7px;padding:6px 8px}
+ #fe-unlocks-screen .unlock-equippable .fe-buy .unlock-equip{min-width:90px;padding:6px 10px;font-size:18px}
+ #fe-unlocks-screen .unlock-equippable .unlock-check{width:25px;height:25px}
+}

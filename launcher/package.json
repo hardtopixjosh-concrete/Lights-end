@@ -1,0 +1,22 @@
+{
+  "name": "veyrath-launcher",
+  "version": "0.1.2",
+  "private": true,
+  "description": "VEYRATH alpha launcher: loads the live Sites build and adds Steam lobbies/networking (Spacewar 480 for testing).",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-packager . LightsEnd --platform=win32 --arch=x64 --out=out --overwrite --prune=true --asar.unpack=**/*.{node,dll} --ignore=^/out --ignore=Start launcher.cmd"
+  },
+  "devDependencies": {
+    "@electron/packager": "^20.3.0",
+    "electron": "^33.4.11"
+  },
+  "dependencies": {
+    "steamworks.js": "^0.4.0"
+  },
+  "allowScripts": {
+    "electron@33.4.11": true
+  },
+  "productName": "Light's End"
+}

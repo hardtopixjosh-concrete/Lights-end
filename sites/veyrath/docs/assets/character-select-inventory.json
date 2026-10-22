@@ -1,0 +1,226 @@
+{
+  "archive": "Visuals/UI/Veyrath-Character-Select-UI-Kit.zip",
+  "selected": [
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/buttons/blank/amber_disabled.svg",
+      "runtime": "assets/ui/character-select/buttons/blank/amber_disabled.svg",
+      "bytes": 558
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/buttons/blank/amber_focus.svg",
+      "runtime": "assets/ui/character-select/buttons/blank/amber_focus.svg",
+      "bytes": 654
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/buttons/blank/amber_hover.svg",
+      "runtime": "assets/ui/character-select/buttons/blank/amber_hover.svg",
+      "bytes": 558
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/buttons/blank/amber_normal.svg",
+      "runtime": "assets/ui/character-select/buttons/blank/amber_normal.svg",
+      "bytes": 558
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/buttons/blank/amber_pressed.svg",
+      "runtime": "assets/ui/character-select/buttons/blank/amber_pressed.svg",
+      "bytes": 558
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/buttons/blank/blue_disabled.svg",
+      "runtime": "assets/ui/character-select/buttons/blank/blue_disabled.svg",
+      "bytes": 558
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/buttons/blank/blue_focus.svg",
+      "runtime": "assets/ui/character-select/buttons/blank/blue_focus.svg",
+      "bytes": 654
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/buttons/blank/blue_hover.svg",
+      "runtime": "assets/ui/character-select/buttons/blank/blue_hover.svg",
+      "bytes": 558
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/buttons/blank/blue_normal.svg",
+      "runtime": "assets/ui/character-select/buttons/blank/blue_normal.svg",
+      "bytes": 558
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/buttons/blank/blue_pressed.svg",
+      "runtime": "assets/ui/character-select/buttons/blank/blue_pressed.svg",
+      "bytes": 558
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/buttons/blank/neutral_disabled.svg",
+      "runtime": "assets/ui/character-select/buttons/blank/neutral_disabled.svg",
+      "bytes": 558
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/buttons/blank/neutral_focus.svg",
+      "runtime": "assets/ui/character-select/buttons/blank/neutral_focus.svg",
+      "bytes": 654
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/buttons/blank/neutral_hover.svg",
+      "runtime": "assets/ui/character-select/buttons/blank/neutral_hover.svg",
+      "bytes": 558
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/buttons/blank/neutral_normal.svg",
+      "runtime": "assets/ui/character-select/buttons/blank/neutral_normal.svg",
+      "bytes": 558
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/buttons/blank/neutral_pressed.svg",
+      "runtime": "assets/ui/character-select/buttons/blank/neutral_pressed.svg",
+      "bytes": 558
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/controls/invite_normal.svg",
+      "runtime": "assets/ui/character-select/controls/invite_normal.svg",
+      "bytes": 415
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/controls/path_row_hover.svg",
+      "runtime": "assets/ui/character-select/controls/path_row_hover.svg",
+      "bytes": 216
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/controls/path_row_normal.svg",
+      "runtime": "assets/ui/character-select/controls/path_row_normal.svg",
+      "bytes": 217
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/controls/path_row_selected.svg",
+      "runtime": "assets/ui/character-select/controls/path_row_selected.svg",
+      "bytes": 216
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/frames/portrait_backplate.svg",
+      "runtime": "assets/ui/character-select/frames/portrait_backplate.svg",
+      "bytes": 307
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/frames/portrait_focus.svg",
+      "runtime": "assets/ui/character-select/frames/portrait_focus.svg",
+      "bytes": 585
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/frames/portrait_hover.svg",
+      "runtime": "assets/ui/character-select/frames/portrait_hover.svg",
+      "bytes": 486
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/frames/portrait_normal.svg",
+      "runtime": "assets/ui/character-select/frames/portrait_normal.svg",
+      "bytes": 486
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/frames/portrait_selected.svg",
+      "runtime": "assets/ui/character-select/frames/portrait_selected.svg",
+      "bytes": 604
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/frames/rune_focus.svg",
+      "runtime": "assets/ui/character-select/frames/rune_focus.svg",
+      "bytes": 567
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/frames/rune_hover.svg",
+      "runtime": "assets/ui/character-select/frames/rune_hover.svg",
+      "bytes": 470
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/frames/rune_normal.svg",
+      "runtime": "assets/ui/character-select/frames/rune_normal.svg",
+      "bytes": 470
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/frames/rune_selected.svg",
+      "runtime": "assets/ui/character-select/frames/rune_selected.svg",
+      "bytes": 586
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/frames/safe_pocket_focus.svg",
+      "runtime": "assets/ui/character-select/frames/safe_pocket_focus.svg",
+      "bytes": 567
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/frames/safe_pocket_hover.svg",
+      "runtime": "assets/ui/character-select/frames/safe_pocket_hover.svg",
+      "bytes": 470
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/frames/safe_pocket_normal.svg",
+      "runtime": "assets/ui/character-select/frames/safe_pocket_normal.svg",
+      "bytes": 470
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/frames/safe_pocket_selected.svg",
+      "runtime": "assets/ui/character-select/frames/safe_pocket_selected.svg",
+      "bytes": 586
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/frames/spell_backplate.svg",
+      "runtime": "assets/ui/character-select/frames/spell_backplate.svg",
+      "bytes": 301
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/frames/spell_focus.svg",
+      "runtime": "assets/ui/character-select/frames/spell_focus.svg",
+      "bytes": 567
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/frames/spell_hover.svg",
+      "runtime": "assets/ui/character-select/frames/spell_hover.svg",
+      "bytes": 470
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/frames/spell_normal.svg",
+      "runtime": "assets/ui/character-select/frames/spell_normal.svg",
+      "bytes": 470
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/frames/spell_selected.svg",
+      "runtime": "assets/ui/character-select/frames/spell_selected.svg",
+      "bytes": 586
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/frames/weapon_focus.svg",
+      "runtime": "assets/ui/character-select/frames/weapon_focus.svg",
+      "bytes": 583
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/frames/weapon_hover.svg",
+      "runtime": "assets/ui/character-select/frames/weapon_hover.svg",
+      "bytes": 484
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/frames/weapon_normal.svg",
+      "runtime": "assets/ui/character-select/frames/weapon_normal.svg",
+      "bytes": 484
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/frames/weapon_selected.svg",
+      "runtime": "assets/ui/character-select/frames/weapon_selected.svg",
+      "bytes": 602
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/panels/class_banner.png",
+      "runtime": "assets/ui/character-select/panels/class_banner.png",
+      "bytes": 2298941
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/panels/footer.svg",
+      "runtime": "assets/ui/character-select/panels/footer.svg",
+      "bytes": 1568,
+      "adaptation": "preserveAspectRatio=none so the scalable footer fills the viewport width at every aspect ratio."
+    },
+    {
+      "source": "Veyrath-Character-Select-UI-Kit/panels/loadout_banner.png",
+      "runtime": "assets/ui/character-select/panels/loadout_banner.png",
+      "bytes": 2265900
+    }
+  ]
+}

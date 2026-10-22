@@ -1,0 +1,106 @@
+@font-face{font-family:VeyrathSerif;src:url('assets/ui/crest-cloth/fonts/SourceSerif4-Variable.ttf') format('truetype');font-weight:200 900;font-display:swap}
+@font-face{font-family:VeyrathBody;src:url('assets/ui/crest-cloth/fonts/Nunito-Variable.ttf') format('truetype');font-weight:200 1000;font-display:swap}
+.v-settings,.v-settings *{box-sizing:border-box}
+.v-settings{position:fixed;inset:0;z-index:10000;overflow:hidden;background:rgba(5,10,13,.7);color:#fff6e6;font:800 23px/1.3 VeyrathBody,sans-serif}
+.v-settings[hidden]{display:none!important}
+.v-board{position:absolute;left:50%;top:50%;margin-left:-724px;margin-top:-543px;width:1448px;height:1086px;transform-origin:center center;outline:none}
+.v-backplate{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.v-crest{position:absolute;width:160px;height:160px;left:644px;top:8px;pointer-events:none}
+.v-title{position:absolute;top:160px;left:300px;width:848px;height:88px;margin:0;font:900 74px/1.15 VeyrathSerif,serif;text-align:center;color:#fff7e8;text-shadow:0 3px 1px #07131d}
+.v-section{position:absolute;top:280px}
+.v-display{left:145px;width:590px}.v-effects{left:795px;width:505px}
+.v-heading{display:flex;align-items:center;gap:17px;margin:0 0 16px;font:700 41px/1.35 VeyrathSerif,serif;color:#f1cc83;white-space:nowrap}
+.v-heading:before{content:'';width:2px;height:35px;background:#b99451}
+.v-heading:after{content:'';height:1px;flex:1;background:linear-gradient(90deg,#d9b66f,transparent)}
+.v-row{height:70px;margin-bottom:8px;display:flex;gap:12px;align-items:center;padding:0 18px;background:rgba(5,17,25,.4);border:1.5px solid rgba(141,156,163,.35);border-radius:3px}
+.v-label{width:183px;flex:none;font-weight:800;font-size:22px}
+.v-range{appearance:none;-webkit-appearance:none;flex:1;min-width:0;height:42px;background:transparent;cursor:pointer;border:0;padding:0;margin:0;border-radius:4px;outline:none}
+.v-range::-webkit-slider-runnable-track{height:10px;border:1px solid #9da09c;border-radius:8px;background:linear-gradient(to right,#edb64d 0 var(--fill),#243741 var(--fill) 100%);box-shadow:inset 0 1px 1px #fff4}
+.v-range::-moz-range-track{height:8px;border:1px solid #9da09c;border-radius:8px;background:linear-gradient(to right,#edb64d 0 var(--fill),#243741 var(--fill) 100%)}
+.v-range::-webkit-slider-thumb{appearance:none;width:36px;height:36px;margin-top:-14px;border:0;background:url('assets/ui/settings/controls/slider/thumb_normal.svg') center/contain no-repeat}
+.v-range::-moz-range-thumb{width:36px;height:36px;border:0;border-radius:0;background:url('assets/ui/settings/controls/slider/thumb_normal.svg') center/contain no-repeat}
+.v-range:hover::-webkit-slider-thumb{background-image:url('assets/ui/settings/controls/slider/thumb_hover.svg')}.v-range:active::-webkit-slider-thumb{background-image:url('assets/ui/settings/controls/slider/thumb_pressed.svg')}
+.v-range:focus-visible{outline:2px solid #ffedb4;outline-offset:5px}
+.v-range:disabled{opacity:.4;cursor:not-allowed}
+.v-value{flex:none;width:62px;text-align:right;font:800 21px VeyrathBody,sans-serif;color:#cad8df}
+.v-select{position:relative;min-width:0;flex:1}
+.v-select select{appearance:none;-webkit-appearance:none;width:100%;height:52px;padding:0 42px 0 16px;background:#102633 url('assets/ui/settings/icons/chevron_down.svg') right 10px center/28px no-repeat;border:1.5px solid #d4ac62;border-radius:3px;color:#fff6e6;font:800 23px VeyrathBody,sans-serif;cursor:pointer;outline:none}
+.v-select select:hover{border-color:#fff0b8}.v-select select:focus-visible{outline:2px solid #fff0b8;outline-offset:4px}
+.v-auto{font-size:17px;color:#a8bdc9;min-width:55px;text-align:right}
+.v-effects .v-row{height:62px}.v-effects .v-label{width:auto;flex:1;font-size:22px}
+.v-check{appearance:none;-webkit-appearance:none;display:block;width:44px;height:44px;flex:none;margin:0;border:0;border-radius:4px;background:url('assets/ui/settings/controls/checkbox/unchecked_normal.svg') center/contain no-repeat;cursor:pointer;outline:none}
+.v-check:checked{background-image:url('assets/ui/settings/controls/checkbox/checked_normal.svg')}
+.v-check:hover{background-image:url('assets/ui/settings/controls/checkbox/unchecked_hover.svg')}.v-check:checked:hover{background-image:url('assets/ui/settings/controls/checkbox/checked_hover.svg')}
+.v-check:focus-visible{background-image:url('assets/ui/settings/controls/checkbox/unchecked_focus.svg')}.v-check:checked:focus-visible{background-image:url('assets/ui/settings/controls/checkbox/checked_focus.svg')}
+.v-check:disabled{background-image:url('assets/ui/settings/controls/checkbox/unchecked_disabled.svg');cursor:not-allowed}.v-check:checked:disabled{background-image:url('assets/ui/settings/controls/checkbox/checked_disabled.svg')}
+.v-key{font:850 19px/1 VeyrathBody,sans-serif;display:inline-flex;align-items:center;justify-content:center;min-width:48px;height:39px;padding:0 10px;color:#fff3db;background:#101c24;border:1.5px solid #d1ad60;border-radius:3px;box-shadow:inset 0 2px 1px #fff1,0 2px 3px #0006;white-space:nowrap}
+.v-vline{position:absolute;left:755px;top:284px;width:24px;height:470px}
+.v-hline{position:absolute;left:220px;top:764px;width:1008px;height:24px}
+.v-controls{position:absolute;top:790px;left:145px;width:1156px;text-align:center;font:700 19px/1.75 VeyrathBody,sans-serif;color:#b9cbd6;white-space:nowrap}
+.v-actions{position:absolute;top:875px;left:145px;width:1156px;display:grid;grid-template-columns:260px 240px 335px 249px;gap:24px}
+.v-btn{--button-normal:url('assets/ui/settings/buttons/blank/neutral_normal.svg?v=fit1');--button-hover:url('assets/ui/settings/buttons/blank/neutral_hover.svg?v=fit1');--button-pressed:url('assets/ui/settings/buttons/blank/neutral_pressed.svg?v=fit1');--button-focus:url('assets/ui/settings/buttons/blank/neutral_focus.svg?v=fit1');position:relative;height:72px;border:0;padding:0 22px 5px;display:flex;align-items:center;justify-content:space-between;gap:16px;color:#fff6e6;background:var(--button-normal) center/100% 100% no-repeat;font:700 26px VeyrathSerif,serif;cursor:pointer;outline:none;white-space:nowrap}
+.v-btn:hover{background-image:var(--button-hover)}.v-btn:active{background-image:var(--button-pressed);padding-top:2px}.v-btn:focus-visible{background-image:var(--button-focus);outline:2px solid #fff0b8;outline-offset:3px;border-radius:5px}
+.v-btn:disabled{background-image:url('assets/ui/settings/buttons/blank/neutral_disabled.svg?v=fit1');color:#8f9697;cursor:not-allowed;outline:none}.v-btn:disabled .v-key{opacity:.5}
+.v-amber{--button-normal:url('assets/ui/settings/buttons/blank/amber_normal.svg?v=fit1');--button-hover:url('assets/ui/settings/buttons/blank/amber_hover.svg?v=fit1');--button-pressed:url('assets/ui/settings/buttons/blank/amber_pressed.svg?v=fit1');--button-focus:url('assets/ui/settings/buttons/blank/amber_focus.svg?v=fit1')}
+.v-blue{--button-normal:url('assets/ui/settings/buttons/blank/blue_normal.svg?v=fit1');--button-hover:url('assets/ui/settings/buttons/blank/blue_hover.svg?v=fit1');--button-pressed:url('assets/ui/settings/buttons/blank/blue_pressed.svg?v=fit1');--button-focus:url('assets/ui/settings/buttons/blank/blue_focus.svg?v=fit1')}
+.v-danger{--button-normal:url('assets/ui/settings/buttons/blank/danger_normal.svg?v=fit1');--button-hover:url('assets/ui/settings/buttons/blank/danger_hover.svg?v=fit1');--button-pressed:url('assets/ui/settings/buttons/blank/danger_pressed.svg?v=fit1');--button-focus:url('assets/ui/settings/buttons/blank/danger_focus.svg?v=fit1')}
+.v-copy{width:430px;height:60px;margin:14px auto 0;justify-content:center;font-size:24px}
+.v-status{position:absolute;left:145px;top:988px;width:1156px;text-align:center;font:700 17px VeyrathBody,sans-serif;color:#dbcdab;min-height:24px}
+/* Integrate kit presentation with existing game controls and confirmation states. */
+#menu.v-settings{display:block;padding:0;backdrop-filter:none;-webkit-backdrop-filter:none;zoom:1}
+#menu[hidden]{display:none!important}
+#menu .v-board{box-sizing:border-box;padding:0;border:0;background:none;box-shadow:none;max-height:none;overflow:visible;color:#fff6e6}
+#menu .v-title{letter-spacing:normal}
+#menu .v-row{box-sizing:border-box}
+#menu .v-label{line-height:1.15}
+#menu .v-effects .v-row .v-label{font-size:21px}
+#menu .v-select select{box-sizing:border-box}
+#menu .v-copy{width:460px;height:60px;margin:14px auto 0;font-size:23px;padding:0 18px;justify-content:center}
+#menu .v-actions .v-btn{margin:0;box-shadow:none;border-radius:0;letter-spacing:normal}
+#menu .v-actions .v-btn:not(:has(kbd)){font-size:20px;justify-content:center}
+#menu kbd{font:850 19px/1 VeyrathBody,sans-serif;display:inline-flex;align-items:center;justify-content:center;min-width:48px;height:39px;padding:0 10px;margin:0;color:#fff3db;background:#101c24;border:1.5px solid #d1ad60;border-radius:3px;box-shadow:inset 0 2px 1px #fff1,0 2px 3px #0006;white-space:nowrap}
+#menu .v-controls{margin:0;font-size:18px;line-height:1.7;white-space:normal}
+body.touch #menu .v-display .v-row{height:58px;margin-bottom:6px}
+#menu.fe-settings-mode #abandon-run{display:none}
+#menu.fe-settings-mode .v-actions{display:flex;justify-content:center}
+#menu.fe-settings-mode #resume{width:300px}
+#menu .settings-credits{position:absolute;left:145px;top:970px;width:1156px;font:600 12px/1.3 VeyrathBody,sans-serif;text-align:center;color:#a9bcc8;margin:0}
+#menu #dev-section{position:absolute;z-index:3;left:145px;top:1004px;width:1156px;border:0;margin:0;padding:0;font:700 16px VeyrathBody,sans-serif}
+#menu .settings-dev-details>summary{text-align:center;cursor:pointer;color:#f1cc83}
+#menu .settings-dev-details[open]{position:absolute;bottom:0;width:100%;max-height:660px;overflow:auto;padding:20px;background:#102633;border:2px solid #c9a25b;border-radius:6px}
+#menu .settings-dev-details button{font:700 18px VeyrathBody,sans-serif;padding:10px}
+#menu .settings-dev-details .ui-row{font:700 18px VeyrathBody,sans-serif}
+
+/* Compact footer controls stay well inside the cloth's stitched edge. */
+#menu .v-actions{left:284px;top:865px;width:880px;grid-template-columns:180px 180px 260px 200px;gap:20px}
+#menu .v-actions .v-btn{height:50px;padding:0 12px 2px;font-size:20px}
+#menu .v-actions kbd{height:27px;min-width:34px;font-size:14px;padding:0 6px}
+#menu .settings-credits{display:none}
+#menu .v-actions .v-btn:not(:has(kbd)){font-size:16px;white-space:normal;line-height:1.1}
+/* Keep every button state fitted; global button:hover must not reset background-size. */
+#menu .v-btn{background:var(--button-normal) center/100% 100% no-repeat;border:0;transform:none;transition:none}
+#menu .v-btn:hover:not(:disabled){background:var(--button-hover) center/100% 100% no-repeat}
+#menu .v-btn:focus-visible{background:var(--button-focus) center/100% 100% no-repeat;outline:2px solid #fff0b8;outline-offset:-2px;border-radius:3px}
+#menu .v-btn:active:not(:disabled){background:var(--button-pressed) center/100% 100% no-repeat}
+#menu .v-btn:disabled{background:url('assets/ui/settings/buttons/blank/neutral_disabled.svg?v=fit1') center/100% 100% no-repeat}
+#menu .v-actions .v-btn:active{padding:0 12px 2px}
+
+/* Oct 18 (user): Display / Visual effects / Audio tabs; one category shows at a time. */
+#menu .v-heading,#menu .v-vline{display:none}
+#menu .v-tabs{position:absolute;top:262px;left:304px;width:840px;display:flex;justify-content:center;gap:18px}
+#menu .v-tab{width:250px;height:56px;padding:0 0 2px;justify-content:center;font:700 22px VeyrathSerif,serif}
+#menu .v-pane{top:340px;left:304px;width:840px}
+#menu .v-pane[hidden]{display:none!important}
+#menu .v-pane .v-row{height:56px;margin-bottom:8px}
+#menu .v-pane .v-label{width:230px;font-size:22px}
+#menu .v-effects .v-row{height:50px;margin-bottom:6px}
+#menu .v-effects .v-row .v-label{width:auto}
+#menu .v-effects .v-copy{height:52px;margin-top:8px}
+#menu .v-pane .v-select select{height:46px;font-size:21px}
+/* UI scale (Display tab): in-game HUD pieces grow or shrink from their screen anchor. */
+.hudbar,#minimap-wrap,#boss-hud,#world-status,.hud-menu,#build-panel,#banner{scale:var(--ui-scale,1)}
+/* The orb HUD folds UI scale into its own transform so translateX(-50%) stays centred; other centred pieces scale from their left edge (= screen centre). */
+.hudbar.orb-hud{scale:none}
+#minimap-wrap{transform-origin:top right}
+#boss-hud,#banner{transform-origin:0 0}
+#world-status,.hud-menu,#build-panel{transform-origin:top left}

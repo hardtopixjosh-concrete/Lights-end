@@ -1,0 +1,25 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import * as W from '../dist/weapons.js';
+import {recoverAccount} from '../dist/progression.js';
+const code=fs.readFileSync(new URL('../dist/game.js',import.meta.url),'utf8');
+const functions=['loadArmory','stripRemovedWeapons','persistArmory'].map(name=>code.split('\n').find(s=>s.startsWith('function '+name+'('))).join('\n');
+const initial=W.migrateArmory(W.createArmory(4321));
+const legacy=initial.weapons.find(w=>w.id==='starter-path-alchemist-v1');legacy.family=12;legacy.name='Treasured Bow';legacy.favorite=true;
+initial.starterGrants['alchemist@23']=true; // Also repair a grant marker saved by the broken migration.
+initial.revision=17;
+const raw=JSON.stringify(initial),records=new Map([['veyrath-armory-v1',raw]]);
+const storage={getItem:k=>records.get(k)??null,setItem:(k,v)=>records.set(k,v),removeItem:k=>records.delete(k)};
+assert.equal(W.validArmory(initial),false,'reproduces retired Bow invalidating the original on-disk save');
+const boot=()=>new Function('localStorage','recoverAccount','savedGold','noteFound',...Object.keys(W),functions+';let armory=loadArmory();return {get:()=>armory,commit:next=>{persistArmory(next);armory=next}}')(storage,recoverAccount,()=>0,()=>{},...Object.values(W));
+let game=boot(),a=game.get();
+assert.equal(a.gold,4321);assert.equal(a.revision,18);assert.equal(records.get('veyrath-armory-before-progression-v7'),raw);
+assert.equal(a.weapons.find(w=>w.id===legacy.id).family,14);assert.equal(a.weapons.find(w=>w.id===legacy.id).favorite,true);
+assert.equal(a.weapons.find(w=>w.id===a.pathEquipped.alchemist).family,23);
+assert.equal(new Set(a.weapons.map(w=>w.id)).size,a.weapons.length);
+assert.ok(W.validArmory(JSON.parse(records.get('veyrath-armory-v1'))));
+const r=W.transactArmory(a,'favorite',a.equipped,{},game.commit);assert.ok(r.next,r.error);assert.equal(r.next.gold,4321);
+const ids=r.next.weapons.map(w=>w.id);game=boot();assert.deepEqual(game.get().weapons.map(w=>w.id),ids);
+const changed=JSON.parse(records.get('veyrath-armory-v1'));changed.revision++;storage.setItem('veyrath-armory-v1',JSON.stringify(changed));
+assert.throws(()=>game.commit(game.get()),/Stale save/,'real concurrent revision changes remain blocked');
+console.log('PASS: retired Bow save boots, gold/items/favorite/backup preserved, legal Alchemist starter, first transaction persists, reload stable, concurrent writes rejected');

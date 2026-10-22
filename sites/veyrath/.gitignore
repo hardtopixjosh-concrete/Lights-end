@@ -1,0 +1,10 @@
+node_modules/
+.openai/local/
+*.tar.gz
+*.tar
+*.log
+
+# Original model-builder backups stay local.
+*.bak-oct19
+
+.sites-runtime/
